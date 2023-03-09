@@ -49,6 +49,7 @@ class loginMessage {
                         self.sendMessage('guestLogin', result, client);
                     }
                 });
+                break;
             default:
                 break;
         }
@@ -89,7 +90,7 @@ class loginMessage {
                                     headid: headid,
                                     roomid: roomid,
                                 }
-                                console.log('注册游客成功！:', data)
+                                console.log('注册游客成功！用户名:', data.nickname);
                                 callback(data);
                                 return;
                             }

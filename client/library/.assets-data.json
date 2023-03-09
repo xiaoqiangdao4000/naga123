@@ -39,9 +39,7 @@
   },
   "67b9bcb8-ceb3-44af-9acd-de07568db849": {
     "url": "db://assets/resources/image/login/bg.png",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "67b9bcb8-ceb3-44af-9acd-de07568db849@6c48a": {
     "url": "db://assets/resources/image/login/bg.png@6c48a",
@@ -57,9 +55,7 @@
   },
   "1db8da1d-8fe6-48b2-8eaa-e07519a70a71": {
     "url": "db://assets/resources/image/login/btn.png",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "1db8da1d-8fe6-48b2-8eaa-e07519a70a71@6c48a": {
     "url": "db://assets/resources/image/login/btn.png@6c48a",
@@ -127,5 +123,139 @@
   "48539681-ca40-4831-8f58-745151da171b": {
     "url": "db://assets/script/hall",
     "value": {}
+  },
+  "b18a3a46-2bbe-4ac9-b493-f81768f58c88": {
+    "url": "db://assets/scene/hall",
+    "value": {}
+  },
+  "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f": {
+    "url": "db://assets/resources/image/hall/dating_bg.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f@6c48a": {
+    "url": "db://assets/resources/image/hall/dating_bg.jpg@6c48a",
+    "value": {
+      "depends": [
+        "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f"
+      ]
+    }
+  },
+  "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f@f9941": {
+    "url": "db://assets/resources/image/hall/dating_bg.jpg@f9941",
+    "value": {
+      "depends": [
+        "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f@6c48a"
+      ]
+    }
+  },
+  "a8ad7f69-a958-40fa-a267-65418a35e04b": {
+    "url": "db://assets/resources/image/login/bg.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "a8ad7f69-a958-40fa-a267-65418a35e04b@6c48a": {
+    "url": "db://assets/resources/image/login/bg.jpg@6c48a",
+    "value": {
+      "depends": [
+        "a8ad7f69-a958-40fa-a267-65418a35e04b"
+      ]
+    }
+  },
+  "a8ad7f69-a958-40fa-a267-65418a35e04b@f9941": {
+    "url": "db://assets/resources/image/login/bg.jpg@f9941",
+    "value": {
+      "depends": [
+        "a8ad7f69-a958-40fa-a267-65418a35e04b@6c48a"
+      ]
+    }
+  },
+  "67714774-9334-4931-b97a-730035ee51f6": {
+    "url": "db://assets/resources/image/login/btn_weixin.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "67714774-9334-4931-b97a-730035ee51f6@6c48a": {
+    "url": "db://assets/resources/image/login/btn_weixin.png@6c48a",
+    "value": {
+      "depends": [
+        "67714774-9334-4931-b97a-730035ee51f6"
+      ]
+    }
+  },
+  "d4823e35-aa97-465a-b965-6c92bfc3ade6": {
+    "url": "db://assets/resources/image/login/btn_guest.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d4823e35-aa97-465a-b965-6c92bfc3ade6@6c48a": {
+    "url": "db://assets/resources/image/login/btn_guest.png@6c48a",
+    "value": {
+      "depends": [
+        "d4823e35-aa97-465a-b965-6c92bfc3ade6"
+      ]
+    }
+  },
+  "d4823e35-aa97-465a-b965-6c92bfc3ade6@f9941": {
+    "url": "db://assets/resources/image/login/btn_guest.png@f9941",
+    "value": {
+      "depends": [
+        "d4823e35-aa97-465a-b965-6c92bfc3ade6@6c48a"
+      ]
+    }
+  },
+  "67714774-9334-4931-b97a-730035ee51f6@f9941": {
+    "url": "db://assets/resources/image/login/btn_weixin.png@f9941",
+    "value": {
+      "depends": [
+        "67714774-9334-4931-b97a-730035ee51f6@6c48a"
+      ]
+    }
+  },
+  "36e9cf68-add7-4498-982e-b2f1479c2c0e": {
+    "url": "db://assets/resources/image/login/background.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "36e9cf68-add7-4498-982e-b2f1479c2c0e@6c48a": {
+    "url": "db://assets/resources/image/login/background.jpg@6c48a",
+    "value": {
+      "depends": [
+        "36e9cf68-add7-4498-982e-b2f1479c2c0e"
+      ]
+    }
+  },
+  "78a1d86a-0759-4398-aa0f-40b7a4d4ad23": {
+    "url": "db://assets/resources/image/login/BG_dating.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@6c48a": {
+    "url": "db://assets/resources/image/login/BG_dating.png@6c48a",
+    "value": {
+      "depends": [
+        "78a1d86a-0759-4398-aa0f-40b7a4d4ad23"
+      ]
+    }
+  },
+  "49196178-48ae-40d7-8f57-e483397d329e": {
+    "url": "db://assets/resources/image/login/bggg.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "49196178-48ae-40d7-8f57-e483397d329e@6c48a": {
+    "url": "db://assets/resources/image/login/bggg.jpg@6c48a",
+    "value": {
+      "depends": [
+        "49196178-48ae-40d7-8f57-e483397d329e"
+      ]
+    }
   }
 }
