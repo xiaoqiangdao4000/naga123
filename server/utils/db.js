@@ -28,8 +28,7 @@ var mysql = require("mysql");
 
 class db {
     pool = null;
-
-    constructor(){};
+    constructor() { };
 
     nop(a, b, c, d, e, f, g) { };
 
@@ -79,8 +78,9 @@ class db {
     };
 
     //获取用户id
-    getUserId_for_db(callback) {
+    createrUserId(callback) {
         var sql = 'SELECT * FROM t_userid limit 1';
+        var self = this;
         this.query(sql, function (err, rows, fields) {
             if (err) {
                 if (err.code == 'ER_DUP_ENTRY') {
@@ -93,10 +93,9 @@ class db {
             else {
                 if (rows.length > 0) {
                     let userid = rows[0].userid;
-                    callback(userid);
-                    //delUserId(userid, function () {
-                    //    callback(userid);
-                   // });
+                    self.delUserId(userid, function () {
+                        callback(userid);
+                    });
                 }
                 else {
                     callback(0);

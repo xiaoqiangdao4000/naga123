@@ -1,4 +1,7 @@
 import { _decorator, Component, Node, Button } from 'cc';
+import { userMgr } from '../utils/userMgr';
+globalThis.userMgr = userMgr.getInstance();
+
 const { ccclass, property } = _decorator;
 
 const eventTarget = new EventTarget();
@@ -11,17 +14,12 @@ export class login extends Component {
 
     }
 
-    onBtnClick(event, customEventData) {
-        const node = event.target as Node;
-        const button = node.getComponent(Button);
-        switch(customEventData)
-        {
+    onBtnClick(event: any, customEventData: any) {
+        switch (customEventData) {
             case 'guest':
-                let aa = globalThis.userMgr.getAccount();
-                console.log('aaa = ', aa);
-                globalThis.loginMessage.SendMssage('login','guest_123');
-
-                console.log('发送登录请求login')
+                let account = globalThis.userMgr.getAccount();
+                globalThis.loginMessage.SendMssage('guestLogin', account);
+                console.log('发送登录请求login = ', account);
                 break;
             default:
                 break;

@@ -16,13 +16,11 @@ class loginMessage {
     createServer(port) {
         let websocket = ws.createServer((client) => {
             client.on('text', (result) => {
-                console.log('客户端发来了消息:', result);
-                let str = JSON.stringify(result);
+                let str = JSON.parse(result);
                 let type = str.type;
                 let data = str.data;
-                this.onMessage(type, data);
-
-                this.sendMessage('login', '我是服务器', client);
+                this.onMessage(type, data, client);
+                //this.sendMessage('login', '我是服务器', client);
             });
 
             client.on('error', (result) => {
@@ -38,10 +36,19 @@ class loginMessage {
         console.log('登录服务器启动--成功，监听端口:', port);
     };
 
-    onMessage(type, data) {
+    onMessage(type, data, client) {
+        var self = this;
         switch (type) {
-            case 'login':
-                console.log('客户端发来消息:', data);
+            case 'guestLogin':
+                this.onGuestLogin(data, function (result) {
+                    if (result == 0) {
+                        self.sendMessage('guestLogin', 0, client);
+                    }
+                    else {
+
+                        self.sendMessage('guestLogin', result, client);
+                    }
+                });
             default:
                 break;
         }
@@ -55,7 +62,56 @@ class loginMessage {
         client.send(JSON.stringify(msg));
     }
 
+    //游客登陆
+    onGuestLogin(nickname, callback) {
+        console.log('游客请求登陆:', nickname);
+        global.loginBb.getUserInfo(nickname, function (userinfo) {
+            //游客用户不存在，创建游客
+            if (userinfo == 0) {
+                global.loginBb.createrUserId(function (id) {
+                    if (id == 0) {
+                        console.log('创建游客失败! = ', userid);
+                        return;
+                    }
+                    else {
+                        let userid = id;
+                        let nickname = 'guest_' + id;
+                        let score = 10000;
+                        let headid = 0;
+                        let roomid = 0;
+                        global.loginBb.registGuest(userid, nickname, score, headid, roomid, function (result) {
+                            if (result != 0) {
+                                let data =
+                                {
+                                    userid: userid,
+                                    nickname: nickname,
+                                    score: score,
+                                    headid: headid,
+                                    roomid: roomid,
+                                }
+                                console.log('注册游客成功！:', data)
+                                callback(data);
+                                return;
+                            }
+                            else {
+                                console.log('注册游客失败！:', result)
+                                callback(0);
+                                return;
+                            }
+                        });
+                    }
+                })
+            }
+            else {  //游客存在，直接登陆
+                console.log('游客存在，直接登陆:', userinfo)
+                callback(userinfo);
+                return;
+            }
+        });
+
+    }
+
 }
 
-global.loginMessage = loginMessage.getInstance()
+global.loginMessage = loginMessage.getInstance();
 module.exports = loginMessage;

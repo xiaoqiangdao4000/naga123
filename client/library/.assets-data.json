@@ -104,5 +104,28 @@
   "e5c0b781-5133-4e67-bed1-33cf2159fe68": {
     "url": "db://assets/script/utils/userMgr.ts",
     "value": {}
+  },
+  "91b2d9a3-eac3-46d6-8123-7438680bb19f": {
+    "url": "db://assets/script/utils/messageData.ts",
+    "value": {}
+  },
+  "83e9dede-f858-4cb6-b836-f4ad3c15c1fe": {
+    "url": "db://assets/scene/hallScene.scene",
+    "value": {
+      "depends": [
+        "83e9dede-f858-4cb6-b836-f4ad3c15c1fe",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ]
+    }
+  },
+  "cec2b25e-890b-4a88-9e07-6ed366287126": {
+    "url": "db://assets/resources/image/hall",
+    "value": {}
+  },
+  "48539681-ca40-4831-8f58-745151da171b": {
+    "url": "db://assets/script/hall",
+    "value": {}
   }
 }

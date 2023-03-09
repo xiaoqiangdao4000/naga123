@@ -1,29 +1,24 @@
 import { _decorator, Component, Node, sys } from 'cc';
 const { ccclass, property } = _decorator;
-globalThis.userMgr = null;
 @ccclass('userMgr')
 export class userMgr extends Component {
 
     public account = null;  //账号
-    public userId = 0;      //用户id
-    public nickName = '';   //昵称
-    public userScore = 0;   //分数
+    public userid = 0;      //用户id
+    public nickname = '';   //昵称
+    public score = 0;   //分数
     public sign = 0;        //标志
     public ip = '';         //ip
     public sex = 0;         //性别 
-    public roomData = null; //房间数据
-    public OldRoomId = null;//已创房间号
+    public roomid = null; //房间数据
     static instance = null;
 
-    public static getInstance()
-    {
-        if(userMgr.instance == null)
-        {
+    public static getInstance() {
+        if (userMgr.instance == null) {
             userMgr.instance = new userMgr();
             return userMgr.instance;
         }
-        else
-        {
+        else {
             return userMgr.instance;
         }
     }
@@ -33,17 +28,27 @@ export class userMgr extends Component {
         globalThis.userMgr = userMgr.getInstance();
     }
 
-    getAccount()
-    {
-        let account = sys.localStorage.getItem('account');
-        if(account == null){
-            console.log('Date.now() = ', Date.now());
-            this.account = 'guest'+ Date.now(); //date
+    //获取账号信息
+    getAccount() {
+        let userData = sys.localStorage.getItem('account');
+        let account = JSON.parse(userData);
+        if (account == null) {
+            account = 'guest'
+            return account;
+        }
+        else {
+            console.log('获取到本地账户:', account);
+            return account;
         }
     }
 
+    //保存账号信息
+    saveAccount(account: any) {
+        sys.localStorage.setItem('account', JSON.stringify(account));
+    }
+
     update(deltaTime: number) {
-        
+
     }
 }
 

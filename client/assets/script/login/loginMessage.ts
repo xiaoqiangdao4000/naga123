@@ -31,10 +31,22 @@ export class loginMessage extends Component {
     }
 
     onMessage(type, data) {
-        console.log('接受到服务器消息:' + type + ',数据:' + data);
+        switch (type) {
+            case 'guestLogin':
+                if (data == 0) { console.log('游客登陆失败！'); }
+                globalThis.userMgr.userid = data.userid;
+                globalThis.userMgr.nickname = data.nickname;
+                globalThis.userMgr.score = data.score;
+                globalThis.userMgr.saveAccount(data.nickname);
+                console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                break;
+            default:
+                break;
+        }
+        // console.log('接受到服务器消息:' + type + ',数据:' + data);
     }
 
-    SendMssage(type:any, data:any) {
+    SendMssage(type: any, data: any) {
         let msg = {
             type: type,
             data: data,
