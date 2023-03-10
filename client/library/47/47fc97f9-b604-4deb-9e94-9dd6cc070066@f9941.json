@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dating_di",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 2,
+      "width": 1463,
+      "height": 77
+    },
+    "offset": {
+      "x": 0,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 1463,
+      "height": 79
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -731.5,
+        -38.5,
+        0,
+        731.5,
+        -38.5,
+        0,
+        -731.5,
+        38.5,
+        0,
+        731.5,
+        38.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        77,
+        1463,
+        77,
+        0,
+        0,
+        1463,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9746835443037974,
+        1,
+        0.9746835443037974
+      ],
+      "minPos": {
+        "x": -731.5,
+        "y": -38.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 731.5,
+        "y": 38.5,
+        "z": 0
+      }
+    },
+    "texture": "47fc97f9-b604-4deb-9e94-9dd6cc070066@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
