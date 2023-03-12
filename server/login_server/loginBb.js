@@ -15,9 +15,9 @@ class loginBb extends db {
         super();
     }
 
-    //获取用户信息　
-    getUserInfo(nickname, callback) {
-        var sql = 'SELECT * FROM t_userinfo WHERE nickname = "' + nickname + '"';
+    //获取用户信息data{nickname,password}
+    getUserInfo(data, callback) {
+        var sql = 'SELECT * FROM t_userinfo WHERE nickname = "' + data.nickname + '"';
         this.query(sql, function (err, rows, fields) {
             if (err) {
                 if (err.code == 'ER_DUP_ENTRY') {
@@ -39,9 +39,9 @@ class loginBb extends db {
     }
 
     //注册游客用户
-    registGuest(userid, nickname, score, headid, roomid, callback) {
-        var sql = 'INSERT INTO t_userinfo(userid,nickname,score,headid,roomid) VALUES({0}, "{1}",{2},{3},{4})';
-        sql = sql.format(userid, nickname, score, headid, roomid);
+    registGuest(userid, nickname,password, score, headid, roomid, callback) {
+        var sql = 'INSERT INTO t_userinfo(userid,nickname,password,score,headid,roomid) VALUES({0}, "{1}","{2}",{3},{4},{5})';
+        sql = sql.format(userid, nickname,password, score, headid, roomid);
         this.query(sql, function (err, rows, fields) {
             if (err) {
                 if (err.code == 'ER_DUP_ENTRY') {

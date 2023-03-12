@@ -24,7 +24,7 @@ class loginMessage {
             });
 
             client.on('error', (result) => {
-                console.log('连接出现错误:', result);
+                //console.log('连接出现错误:', result);
             });
 
             client.on('close', () => {
@@ -36,17 +36,18 @@ class loginMessage {
         console.log('登录服务器启动--成功，监听端口:', port);
     };
 
+    //处理客户端发来的消息
     onMessage(type, data, client) {
         var self = this;
         switch (type) {
             case 'guestLogin':
                 this.onGuestLogin(data, function (result) {
                     if (result == 0) {
-                        self.sendMessage('guestLogin', 0, client);
+                        self.sendMessage('guestLogin', 0, client); //发送登录成功
                     }
                     else {
 
-                        self.sendMessage('guestLogin', result, client);
+                        self.sendMessage('guestLogin', result, client); //发送登录失败
                     }
                 });
                 break;
@@ -64,9 +65,9 @@ class loginMessage {
     }
 
     //游客登陆
-    onGuestLogin(nickname, callback) {
-        console.log('游客请求登陆:', nickname);
-        global.loginBb.getUserInfo(nickname, function (userinfo) {
+    onGuestLogin(data, callback) {
+        console.log('游客请求登陆:', data);
+        global.loginBb.getUserInfo(data, function (userinfo) {
             //游客用户不存在，创建游客
             if (userinfo == 0) {
                 global.loginBb.createrUserId(function (id) {
@@ -77,10 +78,11 @@ class loginMessage {
                     else {
                         let userid = id;
                         let nickname = 'guest_' + id;
+                        let password = null;
                         let score = 10000;
                         let headid = 0;
                         let roomid = 0;
-                        global.loginBb.registGuest(userid, nickname, score, headid, roomid, function (result) {
+                        global.loginBb.registGuest(userid, nickname,password, score, headid, roomid, function (result) {
                             if (result != 0) {
                                 let data =
                                 {

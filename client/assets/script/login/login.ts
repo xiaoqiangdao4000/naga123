@@ -16,7 +16,7 @@ export class login extends Component {
 
     onBtnClick(event: any, customEventData: any) {
         switch (customEventData) {
-            case 'guest':
+            case 'guestLogin':
                 let account = globalThis.userMgr.getAccount();
                 globalThis.loginMessage.SendMssage('guestLogin', account);
                 console.log('发送登录请求login = ', account);
@@ -25,7 +25,6 @@ export class login extends Component {
                 break;
         }
     }
-
 
     update(deltaTime: number) {
 

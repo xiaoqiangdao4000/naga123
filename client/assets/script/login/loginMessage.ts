@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, director } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('loginMessage')
@@ -19,7 +19,7 @@ export class loginMessage extends Component {
         const ws = new WebSocket('ws://127.0.0.1:3000')
         this._ws = ws;
         ws.onopen = () => {
-            console.log('连接服务器成功！');
+            console.log('连接--登录服务器--成功！');
         }
 
         ws.onmessage = (result) => {
@@ -37,8 +37,11 @@ export class loginMessage extends Component {
                 globalThis.userMgr.userid = data.userid;
                 globalThis.userMgr.nickname = data.nickname;
                 globalThis.userMgr.score = data.score;
-                globalThis.userMgr.saveAccount(data.nickname);
+                globalThis.userMgr.saveAccount(data.nickname,data.password);
+                globalThis.userMgr.roomid = data.roomid;
                 console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                this._ws.close();
+                director.loadScene('hallScene');
                 break;
             default:
                 break;

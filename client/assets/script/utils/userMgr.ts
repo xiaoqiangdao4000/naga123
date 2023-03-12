@@ -30,21 +30,33 @@ export class userMgr extends Component {
 
     //获取账号信息
     getAccount() {
-        let userData = sys.localStorage.getItem('account');
-        let account = JSON.parse(userData);
-        if (account == null) {
-            account = 'guest'
-            return account;
+        let userData = sys.localStorage.getItem('userinfo');
+        let data = JSON.parse(userData);
+        let userinfo = {
+            account: null,
+            password: null
+        };
+        if (data == null) {
+            userinfo.account = 'guest'
+            userinfo.password = null;
+            console.log('获取到本地账户:null');
         }
         else {
-            console.log('获取到本地账户:', account);
-            return account;
+
+            userinfo.account = data.account;
+            userinfo.password = data.password;
+            console.log('获取到本地账户:', userinfo);
         }
+        return userinfo;
     }
 
     //保存账号信息
-    saveAccount(account: any) {
-        sys.localStorage.setItem('account', JSON.stringify(account));
+    saveAccount(account: any, password: any) {
+        let data = {
+            account: account,
+            password: password,
+        }
+        sys.localStorage.setItem('userinfo', JSON.stringify(data));
     }
 
     update(deltaTime: number) {
