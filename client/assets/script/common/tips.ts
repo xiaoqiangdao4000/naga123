@@ -15,7 +15,7 @@ export class tips extends Component {
 
     }
 
-    show(text: string) {
+    onShow(text: string) {
         this.tips_lb.string = text;
     }
 }

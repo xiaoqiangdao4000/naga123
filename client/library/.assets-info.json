@@ -125,12 +125,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene": {
-    "time": 1678547775241.843,
+    "time": 1678716577156.3708,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script": {
-    "time": 1678616654936.9182,
+    "time": 1678716577157.3687,
     "uuid": "79da60a6-9dc5-4b8c-88cd-71294e684c53",
     "missing": false
   },
@@ -140,7 +140,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login": {
-    "time": 1678370360508.1335,
+    "time": 1678716577161.3574,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
@@ -150,22 +150,22 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\login": {
-    "time": 1678624437600.5554,
+    "time": 1678716577132.4353,
     "uuid": "d449c8f5-e50b-4e96-9b7e-c04a1f0b7935",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login.ts": {
-    "time": 1678615392948.1226,
+    "time": 1678725341287.7808,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\loginMessage.ts": {
-    "time": 1678615583127.204,
+    "time": 1678720905947.907,
     "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\userMgr.ts": {
-    "time": 1678615263336.2615,
+    "time": 1678720992223.74,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -200,12 +200,12 @@
     "time": 1678288451347.9053
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\hallScene.scene": {
-    "time": 1678624296296.4993,
+    "time": 1678721966958.1033,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\loginScene.scene": {
-    "time": 1678605662684.2979,
+    "time": 1678716577156.3708,
     "uuid": "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
     "missing": false
   },
@@ -227,7 +227,7 @@
     "time": 1678370360506.151
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall": {
-    "time": 1678547787458.2344,
+    "time": 1678716577159.3628,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -456,12 +456,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab": {
-    "time": 1678616203959.073,
+    "time": 1678716577150.4033,
     "uuid": "e1db39ee-8d6e-478b-b085-57483a1e88c6",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common": {
-    "time": 1678624437600.5554,
+    "time": 1678716577154.3767,
     "uuid": "8915f1c9-689c-482d-8d34-667cd5e30766",
     "missing": false
   },
@@ -472,8 +472,8 @@
     "time": 1678531242776.5706
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\bind_account.prefab": {
-    "time": 1678612520188.8096,
-    "uuid": "8a984612-dca6-4f74-803a-8f49659797a7",
+    "time": 1678716577147.3943,
+    "uuid": "7b168003-98fd-44aa-842f-e5796a6b94f6",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\common_btn.png": {
@@ -519,10 +519,10 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\login\\login_accountList_btn_ljdl.png": {
     "time": 1678531242803.4983,
     "uuid": "721b1d28-7086-438d-bd35-815dc70296ac",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\bind_account.prefab.meta": {
-    "time": 1678531242775.5642
+    "time": 1678716577148.3928
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\common_btn.png.meta": {
     "time": 1678531242783.5432
@@ -691,7 +691,7 @@
     "time": 1678547787467.2395
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall.ts": {
-    "time": 1678617324752.473,
+    "time": 1678722135949.2085,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -701,13 +701,13 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\modify_nickname.prefab": {
     "time": 1678617115297.1592,
     "uuid": "5f088cb5-f277-47c9-80a3-f2fc972bd61b",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common.meta": {
     "time": 1678616654942.9238
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common": {
-    "time": 1678616676341.5654,
+    "time": 1678716577158.3655,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
@@ -717,7 +717,7 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\modify_nickname.ts": {
     "time": 1678617231402.9111,
     "uuid": "9c42dd0d-7910-46de-be75-7ffc794eb3ef",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\regist_bg.png.meta": {
     "time": 1678531242807.4807
@@ -982,5 +982,61 @@
     "time": 1678701822402.6428,
     "uuid": "8372cb78-001f-418e-a819-aca98ad53268",
     "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\bind_account.ts": {
+    "time": 1678722146406.657,
+    "uuid": "1a96740b-42dc-4330-9448-d95f0970a056",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\tips.ts": {
+    "time": 1678722772361.7441,
+    "uuid": "8d67232a-029a-4aea-bd5e-7657614517af",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_account.ts": {
+    "time": 1678722096007.6587,
+    "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\bind_account.ts.meta": {
+    "time": 1678716577157.3687
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\tips.ts.meta": {
+    "time": 1678716577158.3655
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_account.ts.meta": {
+    "time": 1678716577161.3574
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\login_account.prefab": {
+    "time": 1678721906690.8965,
+    "uuid": "8a984612-dca6-4f74-803a-8f49659797a7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\tips.prefab": {
+    "time": 1678722876234.1653,
+    "uuid": "8372cb78-001f-418e-a819-aca98ad53268",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\btn_close.png": {
+    "time": 1678716577152.3816,
+    "uuid": "56144dc6-053b-4f6b-88ca-14da074e2c45",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\yydb_btn_1.png": {
+    "time": 1678716577153.3916,
+    "uuid": "0c7fe597-b309-4df7-a643-1ee0e1c5e189",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\login_account.prefab.meta": {
+    "time": 1678716577149.4084
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\tips.prefab.meta": {
+    "time": 1678716577151.3855
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\btn_close.png.meta": {
+    "time": 1678716577152.3816
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\yydb_btn_1.png.meta": {
+    "time": 1678716577154.3767
   }
 }

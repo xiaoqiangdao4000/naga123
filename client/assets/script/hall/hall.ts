@@ -2,12 +2,9 @@ import { _decorator, Component, Node, Prefab, EventTarget, Label, director } fro
 import { userMgr } from '../utils/userMgr';
 const { ccclass, property } = _decorator;
 
-const eventTarget = new EventTarget();
-// if (globalThis.eventTarget == null) {
-//     const eventTarget = new EventTarget();
-//     globalThis.eventTarget = eventTarget;
-//     console.log(' globalThis.eventTarget --- = ', globalThis.eventTarget)
-// }
+if (globalThis.eventTargets == null) {
+    globalThis.eventTargets = new EventTarget();
+}
 
 
 @ccclass('hall')
@@ -36,15 +33,18 @@ export class hall extends Component {
     }
 
     onEnable() {
-        eventTarget.on('nickname', this._sayHello, this);
+        globalThis.eventTargets.on('hall_chick_nickname', this.addTops, this);
+        globalThis.eventTargets.on('hall_chick_password', this.addTops, this);
+        
     }
 
     onDisable() {
-        eventTarget.off('nickname', this._sayHello, this);
+        globalThis.eventTargets.off('hall_chick_nickname', this.addTops, this);
+        globalThis.eventTargets.on('hall_chick_password', this.addTops, this);
     }
 
-    _sayHello() {
-        console.log('Hello World');
+    addTops(arg1) {
+        console.log('Hello World = ', arg1);
     }
 
     update(deltaTime: number) {

@@ -33,17 +33,17 @@ export class userMgr extends Component {
         let userData = sys.localStorage.getItem('userinfo');
         let data = JSON.parse(userData);
         let userinfo = {
-            account: null,
+            nickname: null,
             password: null
         };
         if (data == null) {
-            userinfo.account = 'guest'
+            userinfo.nickname = 'guest'
             userinfo.password = null;
             console.log('获取到本地账户:null');
         }
         else {
 
-            userinfo.account = data.account;
+            userinfo.nickname = data.nickname;
             userinfo.password = data.password;
             console.log('获取到本地账户:', userinfo);
         }
@@ -51,9 +51,9 @@ export class userMgr extends Component {
     }
 
     //保存账号信息
-    saveAccount(account: any, password: any) {
+    saveAccount(nickname: any, password: any) {
         let data = {
-            account: account,
+            nickname: nickname,
             password: password,
         }
         sys.localStorage.setItem('userinfo', JSON.stringify(data));

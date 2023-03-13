@@ -10,6 +10,15 @@ export class login_account extends Component {
     password_editbox;
 
     start() {
+        let account_data = globalThis.userMgr.getAccount();
+        if (account_data != null && account_data.password != null && account_data.password != '') {
+            this.nickname_editbox.string = account_data.nickname;
+            this.password_editbox.string = account_data.password;
+        }
+        else {
+            this.nickname_editbox.string = '';
+            this.password_editbox.string = '';
+        }
     }
 
     update(deltaTime: number) {
@@ -22,7 +31,14 @@ export class login_account extends Component {
                 {
                     let nickname = this.nickname_editbox.string;
                     let password = this.password_editbox.string;
-                    let account = globalThis.userMgr.getAccount();
+                    if (nickname == '') {
+                        globalThis.eventTargets.emit('login_chick_nickname', '用户名不能为空！');
+                        return;
+                    }
+                    if (password == '') {
+                        globalThis.eventTargets.emit('login_chick_password', '密码不能为空！');
+                        return;
+                    }
                     let data = {
                         nickname: nickname,
                         password: password,
