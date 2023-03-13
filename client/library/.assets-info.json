@@ -1,49 +1,49 @@
 {
   "/Users/zzx/Desktop/naga123/client/assets/script.meta": {
-    "time": 1678344443451.9685
+    "time": 1678689417108.1653
   },
   "/Users/zzx/Desktop/naga123/client/assets/script": {
-    "time": 1678365545342.1401,
+    "time": 1678689417110.8967,
     "uuid": "79da60a6-9dc5-4b8c-88cd-71294e684c53",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene.meta": {
-    "time": 1678344443451.4585
+    "time": 1678689417106.7605
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene": {
-    "time": 1678450774600.0686,
+    "time": 1678689417107.9016,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources.meta": {
-    "time": 1678344443449.7666
+    "time": 1678689417085.5552
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources": {
-    "time": 1678344443450.0554,
+    "time": 1678689417085.8333,
     "uuid": "7232cace-27c2-4337-a092-7ad9d461fb16",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image.meta": {
-    "time": 1678344443449.9802
+    "time": 1678689417085.766
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image": {
-    "time": 1678442191878.9302,
+    "time": 1678689417104.6226,
     "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/loginScene.scene.meta": {
-    "time": 1678344443451.8489
+    "time": 1678689417107.9763
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/loginScene.scene": {
-    "time": 1678452546598.222,
+    "time": 1678702519355.6719,
     "uuid": "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login.meta": {
-    "time": 1678344443450.1775
+    "time": 1678689417104.5264
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login": {
-    "time": 1678442209731.2944,
+    "time": 1678690151214.332,
     "uuid": "d449c8f5-e50b-4e96-9b7e-c04a1f0b7935",
     "missing": false
   },
@@ -64,60 +64,60 @@
     "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login.meta": {
-    "time": 1678344443452.1646
+    "time": 1678689417109.848
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login": {
-    "time": 1678344443452.714,
+    "time": 1678691709455.8728,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.meta": {
-    "time": 1678344443452.5022
+    "time": 1678689417110.2512
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts": {
-    "time": 1678364897631.2703,
+    "time": 1678713018597.5784,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login/loginMessage.ts.meta": {
-    "time": 1678344443452.7615
+    "time": 1678689417110.6152
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login/loginMessage.ts": {
-    "time": 1678364951989.1604,
+    "time": 1678699554938.9219,
     "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils.meta": {
-    "time": 1678344443452.8787
+    "time": 1678689417110.7979
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.meta": {
-    "time": 1678344443453.2004
+    "time": 1678689417111.3274
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils": {
-    "time": 1678347260205.5513,
+    "time": 1678689417111.2515,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": {
-    "time": 1678365256525.0754,
+    "time": 1678689417111.1255,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall.meta": {
-    "time": 1678365532051.931
+    "time": 1678689417090.9736
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall": {
-    "time": 1678454775832.8557,
+    "time": 1678689417104.2544,
     "uuid": "cec2b25e-890b-4a88-9e07-6ed366287126",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall.meta": {
-    "time": 1678365545342.779
+    "time": 1678689417109.292
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall": {
-    "time": 1678365545341.3237,
+    "time": 1678689417109.6265,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
-    "missing": true
+    "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources": {
     "time": 1678318954015.7544,
@@ -258,22 +258,22 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/dating_bg.jpg": {
     "time": 1678430872721.8025,
     "uuid": "c8dcba6f-67a5-47aa-bd1f-a7df0eedd67f",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/BG_dating.png": {
-    "time": 1678430872723.1367,
+    "time": 1678689417105.8125,
     "uuid": "78a1d86a-0759-4398-aa0f-40b7a4d4ad23",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/background.jpg": {
     "time": 1678430872724.16,
     "uuid": "36e9cf68-add7-4498-982e-b2f1479c2c0e",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/bg.jpg": {
     "time": 1678430872726.2046,
     "uuid": "a8ad7f69-a958-40fa-a267-65418a35e04b",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/bggg.jpg": {
     "time": 1678430872727.666,
@@ -281,7 +281,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/BG_dating.png.meta": {
-    "time": 1678433575690.2795
+    "time": 1678689417106.112
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/bggg.jpg.meta": {
     "time": 1678433549679.8452
@@ -298,18 +298,10 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/login_accountList_btn_zczh.png.meta": {
     "time": 1678433739125.6743
   },
-  "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/login_accountList_btn_ljdl.png.meta": {
-    "time": 1678433720384.5847
-  },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/login_accountList_btn_zczh.png": {
     "time": 1678433708237.5486,
     "uuid": "862e3d79-afb0-4553-9b4a-431475103d9f",
-    "missing": false
-  },
-  "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/login_accountList_btn_ljdl.png": {
-    "time": 1678433708237.5625,
-    "uuid": "721b1d28-7086-438d-bd35-815dc70296ac",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/login/regist_mask.png.meta": {
     "time": 1678434769076.1782
@@ -336,82 +328,74 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common.meta": {
-    "time": 1678442191879.5115
+    "time": 1678689417085.945
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common": {
-    "time": 1678454932634.8293,
+    "time": 1678691523246.0898,
     "uuid": "8915f1c9-689c-482d-8d34-667cd5e30766",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_btn.png.meta": {
-    "time": 1678442216047.71
+    "time": 1678689417088.0457
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_btn.png": {
-    "time": 1678442175968.6372,
+    "time": 1678689417087.9097,
     "uuid": "17ffba45-a6e2-4d92-ad7c-c8861df6135f",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene.meta": {
-    "time": 1678450774604.119
+    "time": 1678689417107.4746
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene": {
-    "time": 1678454949293.1567,
+    "time": 1678712848225.5068,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/prefab.meta": {
-    "time": 1678451491731.885
+    "time": 1678689417084.6533
   },
   "/Users/zzx/Desktop/naga123/client/assets/prefab": {
-    "time": 1678451507396.0898,
+    "time": 1678701822401.3657,
     "uuid": "e1db39ee-8d6e-478b-b085-57483a1e88c6",
     "missing": false
   },
-  "/Users/zzx/Desktop/naga123/client/assets/prefab/bind_account.prefab.meta": {
-    "time": 1678451507400.4578
-  },
-  "/Users/zzx/Desktop/naga123/client/assets/prefab/bind_account.prefab": {
-    "time": 1678451507398.1978,
-    "uuid": "8a984612-dca6-4f74-803a-8f49659797a7",
-    "missing": false
-  },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/dating_di.png.meta": {
-    "time": 1678451723053.812
+    "time": 1678689417091.423
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/dating_di.png": {
-    "time": 1678451669970.5613,
+    "time": 1678689417091.2805,
     "uuid": "47fc97f9-b604-4deb-9e94-9dd6cc070066",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_titlebg.png.meta": {
-    "time": 1678452027021.8152
+    "time": 1678689417088.538
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_titlebg.png": {
-    "time": 1678451977227.9226,
+    "time": 1678689417088.4275,
     "uuid": "2c84d170-0f60-4117-a253-42b440be6442",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_headbg.png.meta": {
-    "time": 1678452978999.3757
+    "time": 1678689417088.305
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/common_headbg.png": {
-    "time": 1678452944509.516,
+    "time": 1678689417088.1826,
     "uuid": "d7fe66eb-ca70-4bd3-a21a-81de36563121",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_Head_mask.png.meta": {
-    "time": 1678453181864.0957
+    "time": 1678689417087.043
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_Head_mask.png": {
-    "time": 1678453152806.4534,
+    "time": 1678689417086.914,
     "uuid": "f9cae322-2ba2-4a0e-919e-68af76d4ba9e",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_head1.png.meta": {
-    "time": 1678453338758.9
+    "time": 1678689417087.7893
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_head1.png": {
-    "time": 1678453319265.9624,
+    "time": 1678689417087.6624,
     "uuid": "469505ca-e7c2-4911-a9f1-ef84796dc3ca",
     "missing": false
   },
@@ -421,7 +405,7 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/icon_dou.png": {
     "time": 1678454723625.0215,
     "uuid": "9066f771-26d1-4010-b098-d459a62f01e4",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/plaza_tgpd.png.meta": {
     "time": 1678454809504.0771
@@ -438,36 +422,36 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/plaza_tgpd.png": {
     "time": 1678454775830.188,
     "uuid": "1d73b4b6-4ba4-4352-aec4-4ca7db34cd37",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/plaza_jxlw.png": {
     "time": 1678454775830.2644,
     "uuid": "291dca0e-e236-4677-98c1-2cc77edb3c79",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/plaza_dfdc.png": {
     "time": 1678454775830.796,
     "uuid": "4d7d2be3-989f-40ab-8f67-0450239fc27e",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/plaza_csd.png": {
     "time": 1678454775830.855,
     "uuid": "c2e7c924-dd97-4215-9fe9-6fa769cd6c6b",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/dating_guangbo.png.meta": {
-    "time": 1678454945295.8452
+    "time": 1678689417088.7688
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/dating_guangbo.png": {
-    "time": 1678454879321.0042,
+    "time": 1678689417088.6558,
     "uuid": "f49b65e6-66cd-481d-a554-cf1bc4e7ab78",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_gonggao_di.png.meta": {
-    "time": 1678454938285.9624
+    "time": 1678689417087.5425
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_gonggao_di.png": {
-    "time": 1678454915512.212,
+    "time": 1678689417087.4204,
     "uuid": "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d",
     "missing": false
   },
@@ -757,6 +741,246 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\regist_mask.png": {
     "time": 1678531242808.479,
     "uuid": "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common": {
+    "time": 1678701206083.958,
+    "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts": {
+    "time": 1678712840384.518,
+    "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common.meta": {
+    "time": 1678689417108.527
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.meta": {
+    "time": 1678689417109.7007
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_16.png": {
+    "time": 1678689417086.128,
+    "uuid": "42a61433-62ed-4136-98ad-3383f8d1337b",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_34.png": {
+    "time": 1678689417086.4067,
+    "uuid": "728eab92-c9a2-4aca-a73c-f32ac983735a",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/board_4.png": {
+    "time": 1678689417086.674,
+    "uuid": "0ac80040-6b41-471d-99bb-cd044c5da025",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_edit_bg.png": {
+    "time": 1678689417087.1775,
+    "uuid": "c2173766-5545-4f63-8474-78bbac08556b",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/jinbi.png": {
+    "time": 1678689417088.88,
+    "uuid": "59d8fbe8-2e70-416c-87d4-372fd0630453",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/more_03.png": {
+    "time": 1678689417089.1228,
+    "uuid": "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/more_09.png": {
+    "time": 1678689417089.357,
+    "uuid": "73d0725f-b274-4cbd-8eb4-19c13cc3da00",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_bg.png": {
+    "time": 1678689417089.9204,
+    "uuid": "d6011ec3-03c8-4196-b0e6-dcc0c862b604",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_eidtbg.png": {
+    "time": 1678689417090.2698,
+    "uuid": "3feed150-bf6f-4808-b92b-2f3125f69527",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_mask.png": {
+    "time": 1678689417090.5703,
+    "uuid": "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/hall_bg.jpg": {
+    "time": 1678689417092.691,
+    "uuid": "49196178-48ae-40d7-8f57-e483397d329e",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg1.png": {
+    "time": 1678689417093.7952,
+    "uuid": "7f7fd075-b89d-4339-99b7-84f0eadc6e7a",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg1_nn.png": {
+    "time": 1678689417095.3923,
+    "uuid": "720815fc-6ae7-4f65-abfe-493cd2f9d757",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg2.png": {
+    "time": 1678689417096.251,
+    "uuid": "db96521b-2950-4aa7-a505-8c8a2fae94d1",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg2_nn.png": {
+    "time": 1678689417097.6133,
+    "uuid": "cd28f7cc-4b7d-4750-a8ef-362444163d8c",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg3.png": {
+    "time": 1678689417098.5986,
+    "uuid": "b67b1ae1-575f-41a1-bddf-9633fa51ed20",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg3_nn.png": {
+    "time": 1678689417099.947,
+    "uuid": "3a5b12ff-edeb-4ca5-a684-ddb678396fde",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg4.png": {
+    "time": 1678689417101.0964,
+    "uuid": "369250e5-9287-40f1-8a74-f024373d3c68",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg4_nn.png": {
+    "time": 1678689417102.8298,
+    "uuid": "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/renwu.png": {
+    "time": 1678689417104.0906,
+    "uuid": "a5fd1ce6-e348-45fc-b410-35127596eb8b",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_16.png.meta": {
+    "time": 1678689417086.291
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/board_4.png.meta": {
+    "time": 1678689417086.793
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_34.png.meta": {
+    "time": 1678689417086.5266
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/c_edit_bg.png.meta": {
+    "time": 1678689417087.301
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/more_03.png.meta": {
+    "time": 1678689417089.247
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/more_09.png.meta": {
+    "time": 1678689417089.4636
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/jinbi.png.meta": {
+    "time": 1678689417089.0051
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_eidtbg.png.meta": {
+    "time": 1678689417090.417
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_mask.png.meta": {
+    "time": 1678689417090.7825
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/regist_bg.png.meta": {
+    "time": 1678689417090.0967
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/hall_bg.jpg.meta": {
+    "time": 1678689417092.9468
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg1_nn.png.meta": {
+    "time": 1678689417095.5898
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg1.png.meta": {
+    "time": 1678689417094.0107
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg2.png.meta": {
+    "time": 1678689417096.418
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg2_nn.png.meta": {
+    "time": 1678689417097.856
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg3.png.meta": {
+    "time": 1678689417098.794
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg3_nn.png.meta": {
+    "time": 1678689417100.2017
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg4_nn.png.meta": {
+    "time": 1678689417103.3818
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/item_bg4.png.meta": {
+    "time": 1678689417101.2817
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/hall/renwu.png.meta": {
+    "time": 1678689417104.3342
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/yydb_btn_1.png.meta": {
+    "time": 1678690133249.2068
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/yydb_btn_1.png": {
+    "time": 1678690118977.2322,
+    "uuid": "0c7fe597-b309-4df7-a643-1ee0e1c5e189",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/bind_account.prefab.meta": {
+    "time": 1678690969494.7305
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/bind_account.prefab": {
+    "time": 1678710585747.6184,
+    "uuid": "7b168003-98fd-44aa-842f-e5796a6b94f6",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/login_account.prefab.meta": {
+    "time": 1678690982167.4888
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/login_account.prefab": {
+    "time": 1678699667806.631,
+    "uuid": "8a984612-dca6-4f74-803a-8f49659797a7",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/btn_close.png.meta": {
+    "time": 1678691541783.1934
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/btn_close.png": {
+    "time": 1678691523244.5977,
+    "uuid": "56144dc6-053b-4f6b-88ca-14da074e2c45",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.meta": {
+    "time": 1678691709457.0608
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts": {
+    "time": 1678699189421.8992,
+    "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common/bind_account.ts.meta": {
+    "time": 1678699895964.0005
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common/bind_account.ts": {
+    "time": 1678713297615.1614,
+    "uuid": "1a96740b-42dc-4330-9448-d95f0970a056",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.meta": {
+    "time": 1678701206084.9287
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts": {
+    "time": 1678701781814.9746,
+    "uuid": "8d67232a-029a-4aea-bd5e-7657614517af",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/tips.prefab.meta": {
+    "time": 1678701822403.7578
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/prefab/tips.prefab": {
+    "time": 1678701822402.6428,
+    "uuid": "8372cb78-001f-418e-a819-aca98ad53268",
     "missing": false
   }
 }

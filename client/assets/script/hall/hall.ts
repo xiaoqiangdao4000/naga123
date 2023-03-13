@@ -1,6 +1,14 @@
-import { _decorator, Component, Node, Prefab, Label, director } from 'cc';
+import { _decorator, Component, Node, Prefab, EventTarget, Label, director } from 'cc';
 import { userMgr } from '../utils/userMgr';
 const { ccclass, property } = _decorator;
+
+const eventTarget = new EventTarget();
+// if (globalThis.eventTarget == null) {
+//     const eventTarget = new EventTarget();
+//     globalThis.eventTarget = eventTarget;
+//     console.log(' globalThis.eventTarget --- = ', globalThis.eventTarget)
+// }
+
 
 @ccclass('hall')
 export class hall extends Component {
@@ -25,6 +33,18 @@ export class hall extends Component {
         this.nickname_lb.string = globalThis.userMgr.nickname;
         this.userid_lb.string = globalThis.userMgr.userid;
         this.score_lb.string = globalThis.userMgr.score;
+    }
+
+    onEnable() {
+        eventTarget.on('nickname', this._sayHello, this);
+    }
+
+    onDisable() {
+        eventTarget.off('nickname', this._sayHello, this);
+    }
+
+    _sayHello() {
+        console.log('Hello World');
     }
 
     update(deltaTime: number) {

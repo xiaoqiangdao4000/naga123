@@ -21,9 +21,13 @@
       "depends": [
         "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
         "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@f9941",
-        "721b1d28-7086-438d-bd35-815dc70296ac@f9941",
-        "721b1d28-7086-438d-bd35-815dc70296ac@f9941",
+        "0c7fe597-b309-4df7-a643-1ee0e1c5e189@f9941",
+        "0c7fe597-b309-4df7-a643-1ee0e1c5e189@f9941",
         "2c84d170-0f60-4117-a253-42b440be6442@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "8a984612-dca6-4f74-803a-8f49659797a7",
+        "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
@@ -272,9 +276,7 @@
   },
   "721b1d28-7086-438d-bd35-815dc70296ac": {
     "url": "db://assets/resources/image/login/login_accountList_btn_ljdl.png",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "721b1d28-7086-438d-bd35-815dc70296ac@6c48a": {
     "url": "db://assets/resources/image/login/login_accountList_btn_ljdl.png@6c48a",
@@ -497,7 +499,7 @@
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "8a984612-dca6-4f74-803a-8f49659797a7",
+        "7b168003-98fd-44aa-842f-e5796a6b94f6",
         "47c5810d-f119-4a39-82bd-8f7595fa752f",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -510,19 +512,20 @@
     "value": {}
   },
   "8a984612-dca6-4f74-803a-8f49659797a7": {
-    "url": "db://assets/prefab/bind_account.prefab",
+    "url": "db://assets/prefab/login_account.prefab",
     "value": {
       "depends": [
         "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
         "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
         "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
         "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941"
       ]
     }
   },
@@ -1222,18 +1225,7 @@
   },
   "5f088cb5-f277-47c9-80a3-f2fc972bd61b": {
     "url": "db://assets/prefab/modify_nickname.prefab",
-    "value": {
-      "depends": [
-        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
-        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
-      ]
-    }
+    "value": {}
   },
   "2ba1424f-0186-49a5-9b3b-685bfb5f7a63": {
     "url": "db://assets/script/common",
@@ -1242,5 +1234,92 @@
   "9c42dd0d-7910-46de-be75-7ffc794eb3ef": {
     "url": "db://assets/script/common/modify_nickname.ts",
     "value": {}
+  },
+  "0c7fe597-b309-4df7-a643-1ee0e1c5e189": {
+    "url": "db://assets/resources/image/common/yydb_btn_1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0c7fe597-b309-4df7-a643-1ee0e1c5e189@6c48a": {
+    "url": "db://assets/resources/image/common/yydb_btn_1.png@6c48a",
+    "value": {
+      "depends": [
+        "0c7fe597-b309-4df7-a643-1ee0e1c5e189"
+      ]
+    }
+  },
+  "0c7fe597-b309-4df7-a643-1ee0e1c5e189@f9941": {
+    "url": "db://assets/resources/image/common/yydb_btn_1.png@f9941",
+    "value": {
+      "depends": [
+        "0c7fe597-b309-4df7-a643-1ee0e1c5e189@6c48a"
+      ]
+    }
+  },
+  "7b168003-98fd-44aa-842f-e5796a6b94f6": {
+    "url": "db://assets/prefab/bind_account.prefab",
+    "value": {
+      "depends": [
+        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
+        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941"
+      ]
+    }
+  },
+  "56144dc6-053b-4f6b-88ca-14da074e2c45": {
+    "url": "db://assets/resources/image/common/btn_close.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "56144dc6-053b-4f6b-88ca-14da074e2c45@6c48a": {
+    "url": "db://assets/resources/image/common/btn_close.png@6c48a",
+    "value": {
+      "depends": [
+        "56144dc6-053b-4f6b-88ca-14da074e2c45"
+      ]
+    }
+  },
+  "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941": {
+    "url": "db://assets/resources/image/common/btn_close.png@f9941",
+    "value": {
+      "depends": [
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@6c48a"
+      ]
+    }
+  },
+  "b4f7be58-aac0-4920-be22-e276699f5c4f": {
+    "url": "db://assets/script/login/login_account",
+    "value": {}
+  },
+  "0c1fb87c-f018-4d49-bf71-c842bb79e7a2": {
+    "url": "db://assets/script/login/login_account.ts",
+    "value": {}
+  },
+  "1a96740b-42dc-4330-9448-d95f0970a056": {
+    "url": "db://assets/script/common/bind_account.ts",
+    "value": {}
+  },
+  "8d67232a-029a-4aea-bd5e-7657614517af": {
+    "url": "db://assets/script/common/tips.ts",
+    "value": {}
+  },
+  "8372cb78-001f-418e-a819-aca98ad53268": {
+    "url": "db://assets/prefab/tips.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ]
+    }
   }
 }

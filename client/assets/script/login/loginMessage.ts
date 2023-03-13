@@ -33,16 +33,31 @@ export class loginMessage extends Component {
     onMessage(type, data) {
         switch (type) {
             case 'guestLogin':
-                if (data == 0) { console.log('游客登陆失败！'); }
-                globalThis.userMgr.userid = data.userid;
-                globalThis.userMgr.nickname = data.nickname;
-                globalThis.userMgr.score = data.score;
-                globalThis.userMgr.saveAccount(data.nickname,data.password);
-                globalThis.userMgr.roomid = data.roomid;
-                console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
-                this._ws.close();
-                director.loadScene('hallScene');
-                break;
+                {
+                    if (data == 0) { console.log('游客登陆失败！'); break; }
+                    globalThis.userMgr.userid = data.userid;
+                    globalThis.userMgr.nickname = data.nickname;
+                    globalThis.userMgr.score = data.score;
+                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    globalThis.userMgr.roomid = data.roomid;
+                    console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                    this._ws.close();
+                    director.loadScene('hallScene');
+                    break;
+                }
+            case 'accountLogin':
+                {
+                    if (data == 0) { console.log('登陆失败--用户不存在或密码错误--'); break; }
+                    globalThis.userMgr.userid = data.userid;
+                    globalThis.userMgr.nickname = data.nickname;
+                    globalThis.userMgr.score = data.score;
+                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    globalThis.userMgr.roomid = data.roomid;
+                    console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                    this._ws.close();
+                    director.loadScene('hallScene');
+                    break;
+                }
             default:
                 break;
         }
