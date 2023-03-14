@@ -14,3 +14,9 @@ exports.loginServer_config = function(){
 		port:3000,
 	}
 }
+
+exports.hallServer_config = function(){
+	return {
+		port:3001,
+	}
+}

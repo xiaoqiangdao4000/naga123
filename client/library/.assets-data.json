@@ -26,8 +26,17 @@
         "2c84d170-0f60-4117-a253-42b440be6442@f9941",
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "8a984612-dca6-4f74-803a-8f49659797a7",
-        "8372cb78-001f-418e-a819-aca98ad53268",
+        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
+        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
         "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -88,7 +97,7 @@
     "value": {}
   },
   "f3681f01-2915-49c8-b4de-1eee0283c7d1": {
-    "url": "db://assets/script/login/loginMessage.ts",
+    "url": "db://assets/script/login/login_message.ts",
     "value": {}
   },
   "c3abdf94-9ffd-408e-87d6-96d16aaff81c": {
@@ -500,8 +509,18 @@
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "7b168003-98fd-44aa-842f-e5796a6b94f6",
-        "8372cb78-001f-418e-a819-aca98ad53268",
+        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
+        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
+        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
         "47c5810d-f119-4a39-82bd-8f7595fa752f",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -515,21 +534,7 @@
   },
   "8a984612-dca6-4f74-803a-8f49659797a7": {
     "url": "db://assets/resources/prefab/login_account.prefab",
-    "value": {
-      "depends": [
-        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
-        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
-        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941"
-      ]
-    }
+    "value": {}
   },
   "47fc97f9-b604-4deb-9e94-9dd6cc070066": {
     "url": "db://assets/resources/image/hall/dating_di.png",
@@ -1261,22 +1266,7 @@
   },
   "7b168003-98fd-44aa-842f-e5796a6b94f6": {
     "url": "db://assets/resources/prefab/bind_account.prefab",
-    "value": {
-      "depends": [
-        "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
-        "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "3feed150-bf6f-4808-b92b-2f3125f69527@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941",
-        "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941"
-      ]
-    }
+    "value": {}
   },
   "56144dc6-053b-4f6b-88ca-14da074e2c45": {
     "url": "db://assets/resources/image/common/btn_close.png",
@@ -1309,7 +1299,7 @@
     "value": {}
   },
   "1a96740b-42dc-4330-9448-d95f0970a056": {
-    "url": "db://assets/script/common/bind_account.ts",
+    "url": "db://assets/script/hall/hall_bind_account.ts",
     "value": {}
   },
   "8d67232a-029a-4aea-bd5e-7657614517af": {
@@ -1323,5 +1313,13 @@
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
       ]
     }
+  },
+  "39935816-9fc3-40fd-bfe6-57133efbd1f0": {
+    "url": "db://assets/script/hall/hall_message.ts",
+    "value": {}
+  },
+  "bf5026b4-1a0e-40f0-9442-06d15765c0b6": {
+    "url": "db://assets/script/login/loginMessage.ts",
+    "value": {}
   }
 }

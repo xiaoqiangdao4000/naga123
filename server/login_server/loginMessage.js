@@ -119,8 +119,8 @@ class loginMessage {
                         let score = 10000;
                         let headid = 0;
                         let roomid = 0;
-                        let bind_account = 0;
-                        global.loginBb.registGuest(userid, nickname, password, score, headid, roomid, bind_account, function (result) {
+                        let bindaccount = 0;
+                        global.loginBb.registGuest(userid, nickname, password, score, headid, roomid, bindaccount, function (result) {
                             if (result != 0) {
                                 let data =
                                 {
@@ -130,7 +130,7 @@ class loginMessage {
                                     score: score,
                                     headid: headid,
                                     roomid: roomid,
-                                    bind_account: bind_account,
+                                    bindaccount: bindaccount,
                                 }
                                 console.log('游客注册成功！用户名:', data.nickname);
                                 callback(data);

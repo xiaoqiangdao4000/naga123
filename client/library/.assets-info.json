@@ -120,12 +120,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources": {
-    "time": 1678318954015.7544,
+    "time": 1678802152018.3684,
     "uuid": "7232cace-27c2-4337-a092-7ad9d461fb16",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene": {
-    "time": 1678716577156.3708,
+    "time": 1678802152026.3474,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
@@ -140,12 +140,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login": {
-    "time": 1678716577161.3574,
+    "time": 1678811897873.7717,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils": {
-    "time": 1678370360509.1301,
+    "time": 1678802152033.327,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
@@ -155,17 +155,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login.ts": {
-    "time": 1678725341287.7808,
+    "time": 1678813046639.3965,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\loginMessage.ts": {
-    "time": 1678720905947.907,
-    "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
-    "missing": false
-  },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\userMgr.ts": {
-    "time": 1678720992223.74,
+    "time": 1678820938360.355,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -193,19 +188,16 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login.ts.meta": {
     "time": 1678286499978.7583
   },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\loginMessage.ts.meta": {
-    "time": 1678286500010.0295
-  },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\userMgr.ts.meta": {
     "time": 1678288451347.9053
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\hallScene.scene": {
-    "time": 1678721966958.1033,
+    "time": 1678821133977.068,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\loginScene.scene": {
-    "time": 1678716577156.3708,
+    "time": 1678821559089.6772,
     "uuid": "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
     "missing": false
   },
@@ -227,7 +219,7 @@
     "time": 1678370360506.151
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall": {
-    "time": 1678716577159.3628,
+    "time": 1678811819706.8064,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -683,7 +675,7 @@
     "time": 1678547787467.2395
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall.ts": {
-    "time": 1678722135949.2085,
+    "time": 1678812338038.9978,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -699,7 +691,7 @@
     "time": 1678616654942.9238
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common": {
-    "time": 1678716577158.3655,
+    "time": 1678805460928.7375,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
@@ -951,23 +943,15 @@
     "uuid": "8d67232a-029a-4aea-bd5e-7657614517af",
     "missing": false
   },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\bind_account.ts": {
-    "time": 1678722146406.657,
-    "uuid": "1a96740b-42dc-4330-9448-d95f0970a056",
-    "missing": false
-  },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\tips.ts": {
-    "time": 1678722772361.7441,
+    "time": 1678802152029.3384,
     "uuid": "8d67232a-029a-4aea-bd5e-7657614517af",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_account.ts": {
-    "time": 1678722096007.6587,
+    "time": 1678813076289.802,
     "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2",
     "missing": false
-  },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\bind_account.ts.meta": {
-    "time": 1678716577157.3687
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\tips.ts.meta": {
     "time": 1678716577158.3655
@@ -1037,6 +1021,46 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/prefab/bind_account.prefab": {
     "time": 1678710585747.6184,
     "uuid": "7b168003-98fd-44aa-842f-e5796a6b94f6",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\prefab": {
+    "time": 1678805917795.7754,
+    "uuid": "e1db39ee-8d6e-478b-b085-57483a1e88c6",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\prefab.meta": {
+    "time": 1678802152017.4048
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\prefab\\tips.prefab": {
+    "time": 1678802152023.356,
+    "uuid": "8372cb78-001f-418e-a819-aca98ad53268",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\prefab\\tips.prefab.meta": {
+    "time": 1678802152023.356
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_bind_account.ts.meta": {
+    "time": 1678716577157.3687
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_bind_account.ts": {
+    "time": 1678814019758.7495,
+    "uuid": "1a96740b-42dc-4330-9448-d95f0970a056",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_message.ts.meta": {
+    "time": 1678811794067.689
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_message.ts": {
+    "time": 1678820474633.647,
+    "uuid": "39935816-9fc3-40fd-bfe6-57133efbd1f0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_message.ts.meta": {
+    "time": 1678286500010.0295
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_message.ts": {
+    "time": 1678821547814.7737,
+    "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
     "missing": false
   }
 }

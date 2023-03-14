@@ -8,14 +8,12 @@ globalThis.eventTargets = new EventTarget();
 
 @ccclass('login')
 export class login extends Component {
+
     @property(Node)
-    accountLoginNode: Node;
+    login_account_node: Node;
 
     @property(Node)
     tips_node: Node;
-
-    @property(Node)
-    tips_prefab: Node;
 
     onLoad() {
 
@@ -36,32 +34,26 @@ export class login extends Component {
 
     //arg1:弹窗内容
     addTops(arg1: string) {
-        let t_tips_pre = instantiate(this.tips_prefab);
-        t_tips_pre.active = true;
-        this.tips_node.addChild(t_tips_pre);
-        let tipsScript = t_tips_pre.getComponent("tips");
-        tipsScript.onShow(arg1);
+        resources.load("prefab/tips", Prefab, (err, prefab) => {
+            let t_fb = instantiate(prefab);
+            this.tips_node.addChild(t_fb);
+            let t_script = t_fb.getComponent("tips");
+            t_script.onShow(arg1);
+        });
     }
-
 
     onBtnClick(event: any, customEventData: any) {
         switch (customEventData) {
             case 'guestLogin':
                 {
                     let account = globalThis.userMgr.getAccount();
-                    globalThis.loginMessage.SendMssage('guestLogin', account);
+                    globalThis.login_message.sendMssage('guestLogin', account);
                     console.log('发送游客登录请求login = ', account);
                     break;
                 }
             case 'accountLogin':
                 {
-                    resources.load("prefab/login_account", Prefab, (err, prefab) => {
-                        let newNode = instantiate(prefab);
-                        this.node.addChild(newNode);
-                        console.log('prefab加载完毕');
-                    });
-
-                    //this.accountLoginNode.active = true;
+                    this.login_account_node.active = true;
                 }
             default:
                 break;

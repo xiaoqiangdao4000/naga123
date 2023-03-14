@@ -10,6 +10,22 @@ export class login_account extends Component {
     password_editbox;
 
     start() {
+
+    }
+
+    onEnable() {
+        this.initData();
+    }
+
+    onDisable() {
+    }
+
+    update(deltaTime: number) {
+
+    }
+    
+    //初始化数据
+    initData() {
         let account_data = globalThis.userMgr.getAccount();
         if (account_data != null && account_data.password != null && account_data.password != '') {
             this.nickname_editbox.string = account_data.nickname;
@@ -19,10 +35,6 @@ export class login_account extends Component {
             this.nickname_editbox.string = '';
             this.password_editbox.string = '';
         }
-    }
-
-    update(deltaTime: number) {
-
     }
 
     onBtnClick(event: any, customEventData: any) {
@@ -43,7 +55,7 @@ export class login_account extends Component {
                         nickname: nickname,
                         password: password,
                     };
-                    globalThis.loginMessage.SendMssage('accountLogin', data);
+                    globalThis.login_message.sendMssage('accountLogin', data);
                     console.log('发送账号登录请求login = ', data);
                     break;
                 }

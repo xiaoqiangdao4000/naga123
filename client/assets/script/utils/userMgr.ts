@@ -12,7 +12,7 @@ export class userMgr extends Component {
     public ip = '';         //ip
     public sex = 0;         //性别 
     public roomid = null;   //房间数据
-    public bind_account = 0;    //绑定账号
+    public bindaccount = 0;    //绑定账号
     static instance = null;
 
     public static getInstance() {

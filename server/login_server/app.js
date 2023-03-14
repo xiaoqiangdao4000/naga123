@@ -1,4 +1,4 @@
-
+//登录服务器启动文件
 var configs = require('../configs.js');
 var loginBb = require('./loginBb')
 var loginMessage = require('./loginMessage')
