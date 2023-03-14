@@ -1,10 +1,9 @@
-import { _decorator, Component, Node, Prefab, EventTarget, Label, director } from 'cc';
+import { _decorator, Component, Node, Prefab, EventTarget, Label, director, instantiate } from 'cc';
 import { userMgr } from '../utils/userMgr';
 const { ccclass, property } = _decorator;
 
-if (globalThis.eventTargets == null) {
-    globalThis.eventTargets = new EventTarget();
-}
+
+globalThis.eventTargets = new EventTarget();
 
 
 @ccclass('hall')
@@ -21,6 +20,11 @@ export class hall extends Component {
     @property(Label)
     score_lb: Label;
 
+    @property(Node)
+    tips_node: Node;
+
+    @property(Node)
+    tips_prefab: Node;
 
     start() {
         this.init();
@@ -33,20 +37,22 @@ export class hall extends Component {
     }
 
     onEnable() {
-        globalThis.eventTargets.on('hall_chick_nickname', this.addTops, this);
-        globalThis.eventTargets.on('hall_chick_password', this.addTops, this);
-        
+        globalThis.eventTargets.on('hall_popTips', this.addTops, this);
+
     }
 
     onDisable() {
-        globalThis.eventTargets.off('hall_chick_nickname', this.addTops, this);
-        globalThis.eventTargets.on('hall_chick_password', this.addTops, this);
+        globalThis.eventTargets.off('hall_popTips', this.addTops, this);
     }
 
-    addTops(arg1) {
-        console.log('Hello World = ', arg1);
+    //arg1:弹窗内容
+    addTops(arg1: string) {
+        let t_tips_pre = instantiate(this.tips_prefab);
+        t_tips_pre.active = true;
+        this.tips_node.addChild(t_tips_pre);
+        let tipsScript = t_tips_pre.getComponent("tips");
+        tipsScript.onShow(arg1);
     }
-
     update(deltaTime: number) {
 
     }

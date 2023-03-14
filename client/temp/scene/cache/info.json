@@ -1,13 +1,12 @@
 {
     "systemInfo": {
         "arch": "x64",
-        "cpu": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
-        "version": "Windows 10 Pro"
+        "cpu": "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
+        "version": "Darwin Kernel Version 22.3.0: Mon Jan 30 20:42:11 PST 2023; root:xnu-8792.81.3~2/RELEASE_X86_64"
     },
     "sceneListMap": {
-        "298f539d-cbb1-4e55-8abd-a8120b42a0a2": "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\loginScene.scene",
-        "47c5810d-f119-4a39-82bd-8f7595fa752f": "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene",
-        "8a984612-dca6-4f74-803a-8f49659797a7": "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\prefab\\login_account.prefab"
+        "298f539d-cbb1-4e55-8abd-a8120b42a0a2": "/Users/zzx/Desktop/naga123/client/assets/scene/loginScene.scene",
+        "47c5810d-f119-4a39-82bd-8f7595fa752f": "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene"
     },
-    "deviceMd5": "0ecca3da10c3669e4ed29c0d4f1886f9"
+    "deviceMd5": "4bd1f0f5462dcb2d3b6e4063b033bae3"
 }

@@ -89,7 +89,7 @@ class loginMessage {
                 callback(0);
             }
             else {  //账号存在，判断账号密码
-                if (userinfo.nickname != data.nickname || userinfo.password != data.password) {
+                if (userinfo.nickname != data.nickname || userinfo.password == '' || userinfo.password != data.password) {
                     console.log('账号不存在或密码错误！');
                     callback(0);
                     return;
@@ -115,21 +115,24 @@ class loginMessage {
                     else {
                         let userid = id;
                         let nickname = 'guest_' + id;
-                        let password = null;
+                        let password = '';
                         let score = 10000;
                         let headid = 0;
                         let roomid = 0;
-                        global.loginBb.registGuest(userid, nickname, password, score, headid, roomid, function (result) {
+                        let bind_account = 0;
+                        global.loginBb.registGuest(userid, nickname, password, score, headid, roomid, bind_account, function (result) {
                             if (result != 0) {
                                 let data =
                                 {
                                     userid: userid,
                                     nickname: nickname,
+                                    password: password,
                                     score: score,
                                     headid: headid,
                                     roomid: roomid,
+                                    bind_account: bind_account,
                                 }
-                                console.log('注册游客成功！用户名:', data.nickname);
+                                console.log('游客注册成功！用户名:', data.nickname);
                                 callback(data);
                                 return;
                             }

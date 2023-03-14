@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, EventTarget,Button, director, instantiate, Prefab, resources } from 'cc';
+import { _decorator, Component, Node, EventTarget, Button, director, instantiate, Prefab, resources } from 'cc';
 import { userMgr } from '../utils/userMgr';
 globalThis.userMgr = userMgr.getInstance();
 
@@ -17,8 +17,7 @@ export class login extends Component {
     @property(Node)
     tips_prefab: Node;
 
-    onLoad()
-    {
+    onLoad() {
 
     }
 
@@ -27,22 +26,21 @@ export class login extends Component {
     }
 
     onEnable() {
-        globalThis.eventTargets.on('login_chick_nickname', this.addTops, this);
-        globalThis.eventTargets.on('login_chick_password', this.addTops, this);
-        
+        globalThis.eventTargets.on('login_popTips', this.addTops, this);
+
     }
 
     onDisable() {
-        globalThis.eventTargets.off('login_chick_nickname', this.addTops, this);
-        globalThis.eventTargets.on('login_chick_password', this.addTops, this);
+        globalThis.eventTargets.off('login_popTips', this.addTops, this);
     }
 
-    addTops(arg1) {
+    //arg1:弹窗内容
+    addTops(arg1: string) {
         let t_tips_pre = instantiate(this.tips_prefab);
+        t_tips_pre.active = true;
         this.tips_node.addChild(t_tips_pre);
         let tipsScript = t_tips_pre.getComponent("tips");
         tipsScript.onShow(arg1);
-        console.log('Hello World = ', this.tips_node.children);
     }
 
 
@@ -57,17 +55,22 @@ export class login extends Component {
                 }
             case 'accountLogin':
                 {
-                    this.accountLoginNode.active = true;
+                    resources.load("prefab/login_account", Prefab, (err, prefab) => {
+                        let newNode = instantiate(prefab);
+                        this.node.addChild(newNode);
+                        console.log('prefab加载完毕');
+                    });
+
+                    //this.accountLoginNode.active = true;
                 }
             default:
                 break;
         }
     }
 
-
-
     update(deltaTime: number) {
-
     }
+
+
 }
 

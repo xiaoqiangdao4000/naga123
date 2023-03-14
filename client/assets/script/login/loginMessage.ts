@@ -34,27 +34,39 @@ export class loginMessage extends Component {
         switch (type) {
             case 'guestLogin':
                 {
-                    if (data == 0) { console.log('游客登陆失败！'); break; }
+                    if (data == 0) {
+                        globalThis.eventTargets.emit('login_popTips', '游客登陆失败！');
+                        break;
+                    }
                     globalThis.userMgr.userid = data.userid;
                     globalThis.userMgr.nickname = data.nickname;
                     globalThis.userMgr.score = data.score;
-                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    globalThis.userMgr.password = data.password;
                     globalThis.userMgr.roomid = data.roomid;
-                    console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                    globalThis.userMgr.bind_account = data.bind_account;
+                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bind_account);
                     this._ws.close();
+                    console.log('---开始切换场景：主动关闭登陆连接---');
                     director.loadScene('hallScene');
                     break;
                 }
             case 'accountLogin':
                 {
-                    if (data == 0) { console.log('登陆失败--用户不存在或密码错误--'); break; }
+                    if (data == 0) {
+                        globalThis.eventTargets.emit('login_popTips', '账号登陆失败:用户不存在或密码错误!');
+                        break;
+                    }
                     globalThis.userMgr.userid = data.userid;
                     globalThis.userMgr.nickname = data.nickname;
                     globalThis.userMgr.score = data.score;
-                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    globalThis.userMgr.password = data.password;
                     globalThis.userMgr.roomid = data.roomid;
-                    console.log('登陆成功--ID:' + data.userid + ' --名字:' + data.nickname + ' --分数:' + data.score);
+                    globalThis.userMgr.bind_account = data.bind_account;
+                    globalThis.userMgr.saveAccount(data.nickname, data.password);
+                    console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bind_account);
                     this._ws.close();
+                    console.log('---开始切换场景：主动关闭登陆连接---');
                     director.loadScene('hallScene');
                     break;
                 }

@@ -1,596 +1,504 @@
-2023-03-13T14:11:08.397Z - verbose: Arguments:
-2023-03-13T14:11:08.397Z - verbose:   C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\CocosCreator.exe: true
-2023-03-13T14:11:08.397Z - verbose:   project: C:\Users\zzx\Desktop\naga123\client
-2023-03-13T14:11:08.397Z - verbose:   dev: false
-2023-03-13T14:11:08.397Z - verbose:   home: C:\Users\zzx\.CocosCreator
-2023-03-13T14:11:08.397Z - verbose:  
-2023-03-13T14:11:13.074Z - verbose: [Package] menu@1.0.0 enable
-2023-03-13T14:11:13.078Z - verbose: [Package] profile@1.0.0 enable
-2023-03-13T14:11:13.102Z - verbose: [Package] project@1.0.4 enable
-2023-03-13T14:11:13.112Z - verbose: [Package] messages@1.0.0 enable
-2023-03-13T14:11:13.161Z - verbose: [Package] program@1.0.3 enable
-2023-03-13T14:11:13.171Z - verbose: [Package] tester@1.0.0 enable
-2023-03-13T14:11:13.175Z - verbose: [Package] information@1.0.0 enable
-2023-03-13T14:11:13.184Z - verbose: [Package] preferences@1.0.0 enable
-2023-03-13T14:11:17.007Z - log: Load engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine
-2023-03-13T14:11:17.139Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:11:17.308Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:11:19.245Z - log: Register native engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine\native
-2023-03-13T14:11:19.247Z - verbose: [Package] engine@1.0.7 enable
-2023-03-13T14:11:20.842Z - verbose: [Package] programming@1.0.0 enable
-2023-03-13T14:11:20.857Z - verbose: [Package] device@1.0.1 enable
-2023-03-13T14:11:20.869Z - verbose: [Package] ui-kit@1.0.1 enable
-2023-03-13T14:11:21.205Z - verbose: [Package] asset-db@1.0.0 enable
-2023-03-13T14:11:21.268Z - verbose: [Package] scene@1.0.0 enable
-2023-03-13T14:11:21.452Z - verbose: [Package] server@1.0.0 enable
-2023-03-13T14:11:21.542Z - verbose: [Package] utils@1.0.0 enable
-2023-03-13T14:11:33.676Z - verbose: [Package] preview@1.0.1 enable
-2023-03-13T14:11:33.713Z - verbose: [Package] animator@1.0.0 enable
-2023-03-13T14:11:33.989Z - verbose: [Build-plugin] register pkg scene: 2ms
-2023-03-13T14:11:33.990Z - verbose: Builder PluginManager init: 3ms
-2023-03-13T14:11:34.028Z - verbose: [Package] builder@1.3.4 enable
-2023-03-13T14:11:34.069Z - verbose: [Package] shortcuts@1.0.1 enable
-2023-03-13T14:11:34.107Z - verbose: [Package] animation-graph@1.0.0 enable
-2023-03-13T14:11:34.141Z - verbose: [Package] about@1.0.0 enable
-2023-03-13T14:11:34.180Z - verbose: [Package] assets@1.0.0 enable
-2023-03-13T14:11:34.212Z - verbose: [Package] console@1.0.0 enable
-2023-03-13T14:11:34.697Z - verbose: [Package] crash-reporter@1.0.0 enable
-2023-03-13T14:11:35.209Z - verbose: [Package] extension@3.1.0 enable
-2023-03-13T14:11:35.242Z - verbose: [Package] hierarchy@1.0.0 enable
-2023-03-13T14:11:35.278Z - verbose: [Package] inspector@1.0.0 enable
-2023-03-13T14:11:35.309Z - verbose: [Package] light-probe@1.0.4 enable
-2023-03-13T14:11:35.349Z - verbose: [Package] lightmap@1.0.4 enable
-2023-03-13T14:11:35.381Z - verbose: [Package] node-library@1.0.1 enable
-2023-03-13T14:11:35.406Z - verbose: [Package] package-asset@1.0.1 enable
-2023-03-13T14:11:35.441Z - verbose: [Package] process@1.0.0 enable
-2023-03-13T14:11:35.476Z - verbose: [Package] reference-image@1.0.0 enable
-2023-03-13T14:11:35.510Z - verbose: [Package] reflection-probe@1.0.4 enable
-2023-03-13T14:11:35.535Z - verbose: [Package] engine-extends@1.0.0 enable
-2023-03-13T14:11:35.559Z - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-03-13T14:11:35.583Z - verbose: [Package] android@1.0.1 enable
-2023-03-13T14:11:35.658Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-03-13T14:11:35.687Z - verbose: [Package] certificate@1.0.0 enable
-2023-03-13T14:11:35.711Z - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-03-13T14:11:35.735Z - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-03-13T14:11:35.765Z - verbose: [Package] huawei-agc@1.0.0 enable
-2023-03-13T14:11:35.793Z - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-03-13T14:11:35.825Z - verbose: [Package] ios@1.0.0 enable
-2023-03-13T14:11:35.854Z - verbose: [Package] linux@1.0.0 enable
-2023-03-13T14:11:35.879Z - verbose: [Package] mac@1.0.0 enable
-2023-03-13T14:11:35.986Z - verbose: [Package] native@1.0.2 enable
-2023-03-13T14:11:36.088Z - verbose: [Build-plugin] register pkg native: 102ms
-2023-03-13T14:11:36.091Z - verbose: [Package] ohos@1.0.0 enable
-2023-03-13T14:11:36.119Z - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-03-13T14:11:36.143Z - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-03-13T14:11:36.171Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-03-13T14:11:36.195Z - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-03-13T14:11:36.225Z - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-03-13T14:11:36.279Z - verbose: [Package] web-desktop@1.0.1 enable
-2023-03-13T14:11:36.319Z - verbose: [Package] web-mobile@1.0.1 enable
-2023-03-13T14:11:36.356Z - verbose: [Package] wechatgame@1.0.2 enable
-2023-03-13T14:11:36.388Z - verbose: [Package] windows@1.0.1 enable
-2023-03-13T14:11:36.416Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-03-13T14:11:36.744Z - verbose: [Package] cocos-service@3.0.5 enable
-2023-03-13T14:11:36.840Z - verbose: [Build-plugin] register pkg cocos-service: 93ms
-2023-03-13T14:11:37.122Z - verbose: [Package] im-plugin@3.0.10 enable
-2023-03-13T14:11:37.151Z - verbose: [Package] placeholder@1.0.0 enable
-2023-03-13T14:11:37.847Z - verbose: [Build-plugin] register pkg fb-instant-games: 2111ms
-2023-03-13T14:11:37.870Z - verbose: [Build-plugin] register pkg ios: 2045ms
-2023-03-13T14:11:38.018Z - verbose: [Build-plugin] register pkg huawei-agc: 2253ms
-2023-03-13T14:11:38.228Z - verbose: [Build-plugin] register pkg wechatgame: 1872ms
-2023-03-13T14:11:38.233Z - verbose: [Build-plugin] register pkg ohos: 2142ms
-2023-03-13T14:11:38.237Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 1821ms
-2023-03-13T14:11:38.241Z - verbose: [Build-plugin] register pkg web-mobile: 1922ms
-2023-03-13T14:11:38.246Z - verbose: [Build-plugin] register pkg windows: 1858ms
-2023-03-13T14:11:38.259Z - verbose: [Build-plugin] register pkg vivo-mini-game: 2034ms
-2023-03-13T14:11:38.362Z - verbose: [Build-plugin] register pkg web-desktop: 2082ms
-2023-03-13T14:11:38.938Z - verbose: [Build-plugin] register pkg android: 3355ms
-2023-03-13T14:11:39.018Z - verbose: asset-db is ready!
-2023-03-13T14:11:39.110Z - verbose: [Build-plugin] register pkg oppo-mini-game: 2967ms
-2023-03-13T14:11:39.550Z - verbose: [Build-plugin] register pkg huawei-quick-game: 3757ms
-2023-03-13T14:11:40.262Z - verbose: [Build-plugin] register pkg taobao-creative-app: 4067ms
-2023-03-13T14:11:40.778Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 5120ms
-2023-03-13T14:11:40.809Z - verbose: [Build-plugin] register pkg mac: 4930ms
-2023-03-13T14:11:41.737Z - verbose: [Package] cocos-service@3.0.5 disable
-2023-03-13T14:11:42.938Z - verbose: [Package] cocos-service@3.0.6 enable
-2023-03-13T14:11:43.046Z - verbose: [Build-plugin] register pkg cocos-service: 106ms
-2023-03-13T14:11:45.785Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-03-13T14:11:45.799Z - info: [Scene] [PHYSICS]: using builtin.
-2023-03-13T14:11:46.021Z - log: [Scene] Cocos Creator v3.7.1
-2023-03-13T14:11:46.021Z - info: [Scene] Forward render pipeline initialized.
-2023-03-13T14:11:46.219Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-03-13T14:11:46.278Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-03-13T14:12:11.209Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:15:02.739Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:15:13.209Z - error: [Preview]globalThis.eventTarget.on is not a functionerrorInfo.stack ? '/n TypeError: globalThis.eventTarget.on is not a function
-    at hall.onEnable (http://localhost:7456/scripting/x/chunks/85/8544703c4de4e880c2e3e7f45c06c1ae31de39ee.js:65:34)
-    at OneOffInvoker.invokeOnEnable [as _invoke] (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:44225:18)
-    at OneOffInvoker.invoke (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:44095:16)
-    at NodeActivator.activateNode (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:46109:27)
-    at Scene._activate (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:52579:44)
-    at Director.runSceneImmediate (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:18647:17)
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:18726:24
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135876:15
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:143074:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:180351:9' : ''
-2023-03-13T14:16:38.656Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:16:38.669Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:16:38.720Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:22:08.512Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:22:09.559Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:27:08.426Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:27:08.435Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:32:08.498Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:32:08.562Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:37:08.448Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:37:08.463Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:42:08.482Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:42:08.485Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:47:08.466Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:47:08.467Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:52:08.440Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:52:08.621Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:57:08.447Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T14:57:08.470Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:02:08.491Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:02:08.509Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:07:08.576Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:07:08.577Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:12:08.468Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:12:08.469Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:17:08.591Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:17:08.594Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:22:08.461Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:22:08.474Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:27:08.479Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:27:08.480Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:32:08.469Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:32:08.470Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:37:08.477Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:42:08.482Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:42:08.483Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:47:08.503Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:47:08.505Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:52:08.487Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:52:08.496Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:52:08.505Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:57:08.489Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T15:57:08.492Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:02:08.603Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:02:08.630Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:07:08.559Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:07:08.563Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:12:08.503Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:12:08.516Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:17:08.552Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:17:08.554Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:22:08.548Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:22:08.549Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:27:08.522Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:32:08.562Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:32:08.569Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:32:08.571Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:37:08.526Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:37:08.531Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:42:08.544Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:42:08.553Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:47:08.658Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:47:09.552Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:52:08.561Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T16:57:08.571Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:02:08.549Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:07:08.679Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:12:08.577Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:17:08.558Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:22:08.599Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:27:08.573Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:08.581Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:08.587Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:11.106Z - warn: Metrics: no valid info
-2023-03-13T17:32:11.240Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:11.242Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:11.243Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-13T17:32:11.247Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-14T06:33:02.218Z - verbose: Arguments:
+2023-03-14T06:33:02.218Z - verbose:   /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/MacOS/CocosCreator: true
+2023-03-14T06:33:02.218Z - verbose:   project: /Users/zzx/Desktop/naga123/client
+2023-03-14T06:33:02.218Z - verbose:   dev: false
+2023-03-14T06:33:02.218Z - verbose:   home: /Users/zzx/.CocosCreator
+2023-03-14T06:33:02.218Z - verbose:  
+2023-03-14T06:33:07.046Z - verbose: [Package] menu@1.0.0 enable
+2023-03-14T06:33:07.049Z - verbose: [Package] profile@1.0.0 enable
+2023-03-14T06:33:07.061Z - verbose: [Package] project@1.0.4 enable
+2023-03-14T06:33:07.068Z - verbose: [Package] messages@1.0.0 enable
+2023-03-14T06:33:07.090Z - verbose: [Package] program@1.0.3 enable
+2023-03-14T06:33:07.096Z - verbose: [Package] tester@1.0.0 enable
+2023-03-14T06:33:07.098Z - verbose: [Package] information@1.0.0 enable
+2023-03-14T06:33:07.105Z - verbose: [Package] preferences@1.0.0 enable
+2023-03-14T06:33:10.667Z - log: Load engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+2023-03-14T06:33:11.152Z - log: Register native engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2023-03-14T06:33:11.154Z - verbose: [Package] engine@1.0.7 enable
+2023-03-14T06:33:11.937Z - verbose: [Package] programming@1.0.0 enable
+2023-03-14T06:33:11.946Z - verbose: [Package] device@1.0.1 enable
+2023-03-14T06:33:11.955Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-03-14T06:33:12.088Z - verbose: [Package] asset-db@1.0.0 enable
+2023-03-14T06:33:12.129Z - verbose: [Package] scene@1.0.0 enable
+2023-03-14T06:33:12.259Z - verbose: [Package] server@1.0.0 enable
+2023-03-14T06:33:12.286Z - verbose: [Package] utils@1.0.0 enable
+2023-03-14T06:33:17.546Z - verbose: [Package] preview@1.0.1 enable
+2023-03-14T06:33:17.579Z - verbose: [Package] animator@1.0.0 enable
+2023-03-14T06:33:17.745Z - verbose: [Build-plugin] register pkg scene: 2ms
+2023-03-14T06:33:17.745Z - verbose: Builder PluginManager init: 2ms
+2023-03-14T06:33:17.752Z - verbose: [Package] builder@1.3.4 enable
+2023-03-14T06:33:17.783Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-03-14T06:33:17.813Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-03-14T06:33:17.841Z - verbose: [Package] about@1.0.0 enable
+2023-03-14T06:33:17.870Z - verbose: [Package] assets@1.0.0 enable
+2023-03-14T06:33:17.898Z - verbose: [Package] console@1.0.0 enable
+2023-03-14T06:33:18.148Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-03-14T06:33:18.391Z - verbose: [Package] extension@3.1.0 enable
+2023-03-14T06:33:18.428Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-03-14T06:33:18.458Z - verbose: [Package] inspector@1.0.0 enable
+2023-03-14T06:33:18.487Z - verbose: [Package] light-probe@1.0.4 enable
+2023-03-14T06:33:18.519Z - verbose: [Package] lightmap@1.0.4 enable
+2023-03-14T06:33:18.549Z - verbose: [Package] node-library@1.0.1 enable
+2023-03-14T06:33:18.575Z - verbose: [Package] package-asset@1.0.1 enable
+2023-03-14T06:33:18.607Z - verbose: [Package] process@1.0.0 enable
+2023-03-14T06:33:18.635Z - verbose: [Package] reference-image@1.0.0 enable
+2023-03-14T06:33:18.663Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-03-14T06:33:18.686Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-03-14T06:33:18.708Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-03-14T06:33:18.732Z - verbose: [Package] android@1.0.1 enable
+2023-03-14T06:33:18.798Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-03-14T06:33:18.823Z - verbose: [Package] certificate@1.0.0 enable
+2023-03-14T06:33:18.848Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-03-14T06:33:18.871Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-03-14T06:33:18.900Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-03-14T06:33:18.931Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-03-14T06:33:19.386Z - verbose: [Package] ios@1.0.0 enable
+2023-03-14T06:33:19.412Z - verbose: [Package] linux@1.0.0 enable
+2023-03-14T06:33:19.434Z - verbose: [Package] mac@1.0.0 enable
+2023-03-14T06:33:19.544Z - verbose: [Package] native@1.0.2 enable
+2023-03-14T06:33:19.600Z - verbose: [Build-plugin] register pkg native: 55ms
+2023-03-14T06:33:19.607Z - verbose: [Package] ohos@1.0.0 enable
+2023-03-14T06:33:19.636Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-03-14T06:33:19.663Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-03-14T06:33:19.694Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-03-14T06:33:19.717Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-03-14T06:33:19.742Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-03-14T06:33:19.788Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-03-14T06:33:19.820Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-03-14T06:33:19.847Z - verbose: [Build-plugin] register pkg android: 1115ms
+2023-03-14T06:33:19.855Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-03-14T06:33:19.879Z - verbose: [Package] windows@1.0.1 enable
+2023-03-14T06:33:19.906Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-03-14T06:33:20.175Z - verbose: [Package] cocos-service@3.0.5 enable
+2023-03-14T06:33:20.225Z - verbose: [Build-plugin] register pkg cocos-service: 48ms
+2023-03-14T06:33:20.228Z - verbose: [Build-plugin] register pkg fb-instant-games: 1357ms
+2023-03-14T06:33:20.230Z - verbose: [Build-plugin] register pkg huawei-agc: 1330ms
+2023-03-14T06:33:20.232Z - verbose: [Build-plugin] register pkg huawei-quick-game: 1301ms
+2023-03-14T06:33:20.234Z - verbose: [Build-plugin] register pkg ios: 847ms
+2023-03-14T06:33:20.235Z - verbose: [Build-plugin] register pkg mac: 801ms
+2023-03-14T06:33:20.237Z - verbose: [Build-plugin] register pkg ohos: 629ms
+2023-03-14T06:33:20.237Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 1439ms
+2023-03-14T06:33:20.549Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-03-14T06:33:20.553Z - verbose: [Build-plugin] register pkg taobao-creative-app: 836ms
+2023-03-14T06:33:20.584Z - verbose: [Package] placeholder@1.0.0 enable
+2023-03-14T06:33:20.608Z - verbose: [Build-plugin] register pkg oppo-mini-game: 944ms
+2023-03-14T06:33:20.764Z - verbose: [Build-plugin] register pkg vivo-mini-game: 1022ms
+2023-03-14T06:33:20.897Z - verbose: [Build-plugin] register pkg web-mobile: 1076ms
+2023-03-14T06:33:20.916Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 1010ms
+2023-03-14T06:33:20.929Z - verbose: [Build-plugin] register pkg wechatgame: 1074ms
+2023-03-14T06:33:21.069Z - verbose: [Build-plugin] register pkg web-desktop: 1281ms
+2023-03-14T06:33:21.242Z - verbose: [Build-plugin] register pkg windows: 1363ms
+2023-03-14T06:33:21.379Z - verbose: asset-db is ready!
+2023-03-14T06:33:22.211Z - verbose: [Package] cocos-service@3.0.5 disable
+2023-03-14T06:33:22.434Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-03-14T06:33:22.486Z - verbose: [Build-plugin] register pkg cocos-service: 51ms
+2023-03-14T06:33:24.094Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-14T06:33:24.105Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-14T06:33:24.211Z - log: [Scene] Cocos Creator v3.7.1
+2023-03-14T06:33:24.212Z - info: [Scene] Forward render pipeline initialized.
+2023-03-14T06:33:24.339Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-03-14T06:33:24.381Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-03-14T07:14:01.867Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:01.869Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:06.627Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:06.627Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:32.344Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:32.344Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:37.867Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:37.868Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:40.458Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:40.458Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:40.647Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:40.647Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:41.564Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:41.564Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:41.763Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:41.763Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:43.230Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:43.230Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:43.429Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:43.430Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:44.324Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:44.324Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:44.330Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:44.330Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:45.231Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:45.232Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:45.430Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:45.430Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:45.629Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:45.630Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:47.986Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:47.987Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:47.996Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:47.996Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:14:50.292Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:14:50.292Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:15:18.283Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:15:18.283Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:15:18.554Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:15:18.554Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T07:15:40.032Z - warn: [Scene] Value dump failed.Error: [Scene] Value dump failed.
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:242)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:2088
+2023-03-14T07:15:40.032Z - warn: [Scene] Cannot read property 'constructor' of undefinedTypeError: Cannot read property 'constructor' of undefined
+    at Parser.parseObjField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:6718)
+    at Parser.parse (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:3641)
+    at serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/parser.ccc:1:10807)
+    at Object.serialize (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/serialize/index.ccc:1:510)
+    at ValueTypeDump.encode (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/value-type-dump.ccc:1:154)
+    at _encodeByType (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:5485)
+    at encodeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:7670)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4122
+    at Array.forEach (<anonymous>)
+    at encodeComponent (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/encode.ccc:1:4055)
+2023-03-14T10:17:25.035Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-03-14T10:17:25.036Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-03-14T13:11:35.912Z - error: [Window] Invalid URLError: Invalid URL
+    at HTMLDocument.<anonymous> (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator/static/windows/script/public/polyfill.ccc:36:15)
+2023-03-14T13:13:25.588Z - warn: Metrics: no valid info

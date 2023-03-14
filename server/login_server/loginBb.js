@@ -39,9 +39,9 @@ class loginBb extends db {
     }
 
     //注册游客用户
-    registGuest(userid, nickname,password, score, headid, roomid, callback) {
-        var sql = 'INSERT INTO t_userinfo(userid,nickname,password,score,headid,roomid) VALUES({0}, "{1}","{2}",{3},{4},{5})';
-        sql = sql.format(userid, nickname,password, score, headid, roomid);
+    registGuest(userid, nickname, password, score, headid, roomid, bind_account, callback) {
+        var sql = 'INSERT INTO t_userinfo(userid,nickname,password,score,headid,roomid,bind_account) VALUES({0}, "{1}","{2}",{3},{4},{5},{6})';
+        sql = sql.format(userid, nickname, password, score, headid, roomid, bind_account);
         this.query(sql, function (err, rows, fields) {
             if (err) {
                 if (err.code == 'ER_DUP_ENTRY') {

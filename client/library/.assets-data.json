@@ -27,6 +27,7 @@
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941",
         "8a984612-dca6-4f74-803a-8f49659797a7",
+        "8372cb78-001f-418e-a819-aca98ad53268",
         "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -500,6 +501,7 @@
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "7b168003-98fd-44aa-842f-e5796a6b94f6",
+        "8372cb78-001f-418e-a819-aca98ad53268",
         "47c5810d-f119-4a39-82bd-8f7595fa752f",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
@@ -508,11 +510,11 @@
     }
   },
   "e1db39ee-8d6e-478b-b085-57483a1e88c6": {
-    "url": "db://assets/prefab",
+    "url": "db://assets/resources/prefab",
     "value": {}
   },
   "8a984612-dca6-4f74-803a-8f49659797a7": {
-    "url": "db://assets/prefab/login_account.prefab",
+    "url": "db://assets/resources/prefab/login_account.prefab",
     "value": {
       "depends": [
         "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
@@ -1258,7 +1260,7 @@
     }
   },
   "7b168003-98fd-44aa-842f-e5796a6b94f6": {
-    "url": "db://assets/prefab/bind_account.prefab",
+    "url": "db://assets/resources/prefab/bind_account.prefab",
     "value": {
       "depends": [
         "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941",
@@ -1315,7 +1317,7 @@
     "value": {}
   },
   "8372cb78-001f-418e-a819-aca98ad53268": {
-    "url": "db://assets/prefab/tips.prefab",
+    "url": "db://assets/resources/prefab/tips.prefab",
     "value": {
       "depends": [
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
