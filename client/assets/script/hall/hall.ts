@@ -7,7 +7,7 @@ globalThis.eventTargets = new EventTarget();
 @ccclass('hall')
 export class hall extends Component {
     @property(Node)
-    bindAccount_prefab: Node;
+    bindaccount_node: Node;
 
     @property(Label)
     nickname_lb: Label;
@@ -49,7 +49,7 @@ export class hall extends Component {
             t_script.onShow(arg1);
         });
     }
-    
+
     update(deltaTime: number) {
 
     }
@@ -58,17 +58,34 @@ export class hall extends Component {
         switch (customEventData) {
             case 'bindaccount':
                 {
-                    this.bindAccount_prefab.active = true;
+                    this.bindaccount_node.active = true;
                     break;
                 }
             case 'rank':
                 {
-                    director.loadScene('loginScene');
+                    this.getNoticeMsg();
+                    break;
+                    // director.loadScene('loginScene');
+                }
+            case 'seting':
+                {
+                    globalThis.hall_message.printWebSocket();
+                    break;
                 }
             default:
                 break;
 
         }
+    }
+    
+    //获取公告信息
+    getNoticeMsg()
+    {
+        let data = 
+        {
+            token:''
+        }
+        globalThis.hall_message.sendMssage('hall_notice_msg', data);
     }
 }
 

@@ -41,7 +41,7 @@ class hallBb extends db {
     //绑定用户账号
     bandUserAccount(nickname, userid, password, callback) {
        // var sql = 'UPDATE t_userinfo SET password = password +' + password + ' WHERE userid = ' + userid;
-        var sql = 'UPDATE t_userinfo SET nicknam="{0}",password="{1}",bandaccount={2} WHERE userid={3}';
+        var sql = 'UPDATE t_userinfo SET nickname="{0}",password="{1}",bindaccount={2} WHERE userid={3}';
         sql = sql.format(nickname,password,1,userid);
         this.query(sql, function (err, rows, fields) {
             if (err) {
@@ -87,6 +87,37 @@ class hallBb extends db {
                 return;
             }
         });
+    }
+
+    //获取大厅公告
+    getHallNotice(callback)
+    {
+        var sql = 'SELECT * FROM t_message order by id desc LIMIT 10';
+        this.query(sql, function (err, rows, fields) {
+            if (err) {
+                if (err.code == 'ER_DUP_ENTRY') {
+                    callback(0);
+                    return;
+                }
+                callback(0);
+                throw err;
+            }
+            else {
+                if (rows.length == 0) {
+                    callback(0);
+                    return;
+                }
+                
+                let data = []
+                for(let i = 0; i < rows.length; i++)
+                {
+                    data.push({type:rows[i].type, msg:rows[i].msg})
+                }
+                console.log('获取大厅通知--db--:', data);
+                callback(data);
+                return;
+            }
+        });  
     }
 }
 

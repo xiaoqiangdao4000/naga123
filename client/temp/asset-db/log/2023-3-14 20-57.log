@@ -5341,3 +5341,15 @@
 2023-3-15 02:21:51-debug: asset-db:worker-effect-data-processing (275ms)
 2023-3-15 02:21:52-debug: refresh db assets success
 2023-3-15 02:21:52-debug: asset-db:refresh-all-database (378ms)
+2023-3-15 12:56:21-debug: refresh db internal success
+2023-3-15 12:56:21-debug: asset-db:worker-effect-data-processing (190ms)
+2023-3-15 12:56:21-debug: refresh db assets success
+2023-3-15 12:56:21-debug: asset-db:refresh-all-database (289ms)
+2023-3-15 12:56:23-debug: refresh db internal success
+2023-3-15 12:56:23-debug: asset-db:worker-effect-data-processing (174ms)
+2023-3-15 12:56:23-debug: refresh db assets success
+2023-3-15 12:56:23-debug: asset-db:refresh-all-database (268ms)
+2023-3-15 12:59:37-debug: refresh db internal success
+2023-3-15 12:59:37-debug: asset-db:worker-effect-data-processing (212ms)
+2023-3-15 12:59:37-debug: refresh db assets success
+2023-3-15 12:59:37-debug: asset-db:refresh-all-database (328ms)

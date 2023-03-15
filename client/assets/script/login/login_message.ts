@@ -43,11 +43,11 @@ export class login_message extends Component {
                     globalThis.userMgr.score = data.score;
                     globalThis.userMgr.password = data.password;
                     globalThis.userMgr.roomid = data.roomid;
-                    globalThis.userMgr.bind_account = data.bind_account;
+                    globalThis.userMgr.bindaccount = data.bindaccount;
                     globalThis.userMgr.saveAccount(data.nickname, data.password);
-                    console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bind_account);
+                    console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
                     this._ws.close();
-                    console.log('---开始切换场景：主动关闭登陆连接---');
+                    console.log('---开始切换场景：主动关闭登陆连接---this._ws = ', this._ws);
                     director.loadScene('hallScene');
                     break;
                 }
@@ -62,9 +62,9 @@ export class login_message extends Component {
                     globalThis.userMgr.score = data.score;
                     globalThis.userMgr.password = data.password;
                     globalThis.userMgr.roomid = data.roomid;
-                    globalThis.userMgr.bind_account = data.bind_account;
+                    globalThis.userMgr.bindaccount = data.bindaccount;
                     globalThis.userMgr.saveAccount(data.nickname, data.password);
-                    console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bind_account);
+                    console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
                     this._ws.close();
                     console.log('---开始切换场景：主动关闭登陆连接---');
                     director.loadScene('hallScene');

@@ -1,675 +1,704 @@
-2023-03-14T13:57:20.267Z - verbose: Arguments:
-2023-03-14T13:57:20.267Z - verbose:   C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\CocosCreator.exe: true
-2023-03-14T13:57:20.267Z - verbose:   project: C:\Users\zzx\Desktop\naga123\client
-2023-03-14T13:57:20.267Z - verbose:   dev: false
-2023-03-14T13:57:20.267Z - verbose:   home: C:\Users\zzx\.CocosCreator
-2023-03-14T13:57:20.267Z - verbose:  
-2023-03-14T13:57:27.231Z - verbose: [Package] menu@1.0.0 enable
-2023-03-14T13:57:27.235Z - verbose: [Package] profile@1.0.0 enable
-2023-03-14T13:57:27.259Z - verbose: [Package] project@1.0.4 enable
-2023-03-14T13:57:27.270Z - verbose: [Package] messages@1.0.0 enable
-2023-03-14T13:57:27.320Z - verbose: [Package] program@1.0.3 enable
-2023-03-14T13:57:27.331Z - verbose: [Package] tester@1.0.0 enable
-2023-03-14T13:57:27.336Z - verbose: [Package] information@1.0.0 enable
-2023-03-14T13:57:27.347Z - verbose: [Package] preferences@1.0.0 enable
-2023-03-14T13:57:31.511Z - log: Load engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine
-2023-03-14T13:57:31.639Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T13:57:31.644Z - error: certificate has expiredError: certificate has expired
-    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket._finishInit (_tls_wrap.js:932:8)
-    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T13:57:33.797Z - log: Register native engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine\native
-2023-03-14T13:57:33.800Z - verbose: [Package] engine@1.0.7 enable
-2023-03-14T13:57:35.440Z - verbose: [Package] programming@1.0.0 enable
-2023-03-14T13:57:35.459Z - verbose: [Package] device@1.0.1 enable
-2023-03-14T13:57:35.472Z - verbose: [Package] ui-kit@1.0.1 enable
-2023-03-14T13:57:35.821Z - verbose: [Package] asset-db@1.0.0 enable
-2023-03-14T13:57:35.876Z - verbose: [Package] scene@1.0.0 enable
-2023-03-14T13:57:36.099Z - verbose: [Package] server@1.0.0 enable
-2023-03-14T13:57:36.191Z - verbose: [Package] utils@1.0.0 enable
-2023-03-14T13:57:48.106Z - verbose: [Package] preview@1.0.1 enable
-2023-03-14T13:57:48.147Z - verbose: [Package] animator@1.0.0 enable
-2023-03-14T13:57:48.425Z - verbose: [Build-plugin] register pkg scene: 4ms
-2023-03-14T13:57:48.425Z - verbose: Builder PluginManager init: 4ms
-2023-03-14T13:57:48.475Z - verbose: [Package] builder@1.3.4 enable
-2023-03-14T13:57:48.511Z - verbose: [Package] shortcuts@1.0.1 enable
-2023-03-14T13:57:48.550Z - verbose: [Package] animation-graph@1.0.0 enable
-2023-03-14T13:57:48.587Z - verbose: [Package] about@1.0.0 enable
-2023-03-14T13:57:48.622Z - verbose: [Package] assets@1.0.0 enable
-2023-03-14T13:57:48.654Z - verbose: [Package] console@1.0.0 enable
-2023-03-14T13:57:49.306Z - verbose: [Package] crash-reporter@1.0.0 enable
-2023-03-14T13:57:49.904Z - verbose: [Package] extension@3.1.0 enable
-2023-03-14T13:57:49.943Z - verbose: [Package] hierarchy@1.0.0 enable
-2023-03-14T13:57:49.985Z - verbose: [Package] inspector@1.0.0 enable
-2023-03-14T13:57:50.023Z - verbose: [Package] light-probe@1.0.4 enable
-2023-03-14T13:57:50.068Z - verbose: [Package] lightmap@1.0.4 enable
-2023-03-14T13:57:50.104Z - verbose: [Package] node-library@1.0.1 enable
-2023-03-14T13:57:50.129Z - verbose: [Package] package-asset@1.0.1 enable
-2023-03-14T13:57:50.171Z - verbose: [Package] process@1.0.0 enable
-2023-03-14T13:57:50.212Z - verbose: [Package] reference-image@1.0.0 enable
-2023-03-14T13:57:50.245Z - verbose: [Package] reflection-probe@1.0.4 enable
-2023-03-14T13:57:50.270Z - verbose: [Package] engine-extends@1.0.0 enable
-2023-03-14T13:57:50.294Z - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-03-14T13:57:50.318Z - verbose: [Package] android@1.0.1 enable
-2023-03-14T13:57:50.404Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-03-14T13:57:50.433Z - verbose: [Package] certificate@1.0.0 enable
-2023-03-14T13:57:50.456Z - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-03-14T13:57:50.480Z - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-03-14T13:57:50.511Z - verbose: [Package] huawei-agc@1.0.0 enable
-2023-03-14T13:57:50.538Z - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-03-14T13:57:50.570Z - verbose: [Package] ios@1.0.0 enable
-2023-03-14T13:57:50.600Z - verbose: [Package] linux@1.0.0 enable
-2023-03-14T13:57:50.624Z - verbose: [Package] mac@1.0.0 enable
-2023-03-14T13:57:50.744Z - verbose: [Package] native@1.0.2 enable
-2023-03-14T13:57:50.850Z - verbose: [Build-plugin] register pkg native: 106ms
-2023-03-14T13:57:50.852Z - verbose: [Package] ohos@1.0.0 enable
-2023-03-14T13:57:50.880Z - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-03-14T13:57:50.903Z - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-03-14T13:57:50.935Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-03-14T13:57:50.957Z - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-03-14T13:57:50.986Z - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-03-14T13:57:51.040Z - verbose: [Package] web-desktop@1.0.1 enable
-2023-03-14T13:57:51.079Z - verbose: [Package] web-mobile@1.0.1 enable
-2023-03-14T13:57:51.117Z - verbose: [Package] wechatgame@1.0.2 enable
-2023-03-14T13:57:51.146Z - verbose: [Package] windows@1.0.1 enable
-2023-03-14T13:57:51.175Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-03-14T13:57:55.634Z - verbose: [Package] cocos-service@3.0.6 enable
-2023-03-14T13:57:55.756Z - verbose: [Build-plugin] register pkg cocos-service: 107ms
-2023-03-14T13:57:56.039Z - verbose: [Package] im-plugin@3.0.10 enable
-2023-03-14T13:57:56.069Z - verbose: [Package] placeholder@1.0.0 enable
-2023-03-14T13:57:56.812Z - verbose: [Build-plugin] register pkg huawei-agc: 6301ms
-2023-03-14T13:57:56.850Z - verbose: [Build-plugin] register pkg ohos: 5997ms
-2023-03-14T13:57:56.883Z - verbose: [Build-plugin] register pkg mac: 6259ms
-2023-03-14T13:57:57.149Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 5974ms
-2023-03-14T13:57:57.170Z - verbose: [Build-plugin] register pkg ios: 6600ms
-2023-03-14T13:57:57.175Z - verbose: [Build-plugin] register pkg fb-instant-games: 6695ms
-2023-03-14T13:57:57.179Z - verbose: [Build-plugin] register pkg huawei-quick-game: 6641ms
-2023-03-14T13:57:57.310Z - verbose: [Build-plugin] register pkg windows: 6163ms
-2023-03-14T13:57:57.466Z - verbose: asset-db is ready!
-2023-03-14T13:57:57.596Z - verbose: [Build-plugin] register pkg android: 7277ms
-2023-03-14T13:57:57.635Z - verbose: [Build-plugin] register pkg oppo-mini-game: 6732ms
-2023-03-14T13:57:58.011Z - verbose: [Build-plugin] register pkg wechatgame: 6894ms
-2023-03-14T13:57:58.281Z - verbose: [Build-plugin] register pkg taobao-creative-app: 7324ms
-2023-03-14T13:57:58.360Z - verbose: [Build-plugin] register pkg web-mobile: 7280ms
-2023-03-14T13:57:58.756Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 8351ms
-2023-03-14T13:57:59.204Z - verbose: [Build-plugin] register pkg vivo-mini-game: 8218ms
-2023-03-14T13:57:59.502Z - verbose: [Build-plugin] register pkg web-desktop: 8462ms
-2023-03-14T13:58:02.709Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-03-14T13:58:02.723Z - info: [Scene] [PHYSICS]: using builtin.
-2023-03-14T13:58:02.946Z - log: [Scene] Cocos Creator v3.7.1
-2023-03-14T13:58:02.947Z - info: [Scene] Forward render pipeline initialized.
-2023-03-14T13:58:03.128Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-03-14T13:58:03.192Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-03-14T13:59:47.534Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:35:48.550Z - verbose: Arguments:
+2023-03-15T11:35:48.551Z - verbose:   C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\CocosCreator.exe: true
+2023-03-15T11:35:48.551Z - verbose:   project: C:\Users\zzx\Desktop\naga123\client
+2023-03-15T11:35:48.551Z - verbose:   dev: false
+2023-03-15T11:35:48.551Z - verbose:   home: C:\Users\zzx\.CocosCreator
+2023-03-15T11:35:48.551Z - verbose:  
+2023-03-15T11:35:52.381Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T11:35:52.384Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T11:35:53.008Z - verbose: [Package] menu@1.0.0 enable
+2023-03-15T11:35:53.013Z - verbose: [Package] profile@1.0.0 enable
+2023-03-15T11:35:53.033Z - verbose: [Package] project@1.0.4 enable
+2023-03-15T11:35:53.042Z - verbose: [Package] messages@1.0.0 enable
+2023-03-15T11:35:53.090Z - verbose: [Package] program@1.0.3 enable
+2023-03-15T11:35:53.099Z - verbose: [Package] tester@1.0.0 enable
+2023-03-15T11:35:53.103Z - verbose: [Package] information@1.0.0 enable
+2023-03-15T11:35:53.111Z - verbose: [Package] preferences@1.0.0 enable
+2023-03-15T11:35:57.304Z - log: Load engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine
+2023-03-15T11:35:59.460Z - log: Register native engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine\native
+2023-03-15T11:35:59.463Z - verbose: [Package] engine@1.0.7 enable
+2023-03-15T11:36:01.069Z - verbose: [Package] programming@1.0.0 enable
+2023-03-15T11:36:01.083Z - verbose: [Package] device@1.0.1 enable
+2023-03-15T11:36:01.094Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-03-15T11:36:01.443Z - verbose: [Package] asset-db@1.0.0 enable
+2023-03-15T11:36:01.496Z - verbose: [Package] scene@1.0.0 enable
+2023-03-15T11:36:01.722Z - verbose: [Package] server@1.0.0 enable
+2023-03-15T11:36:01.814Z - verbose: [Package] utils@1.0.0 enable
+2023-03-15T11:36:14.035Z - verbose: [Package] preview@1.0.1 enable
+2023-03-15T11:36:14.080Z - verbose: [Package] animator@1.0.0 enable
+2023-03-15T11:36:14.460Z - verbose: [Build-plugin] register pkg scene: 2ms
+2023-03-15T11:36:14.460Z - verbose: Builder PluginManager init: 2ms
+2023-03-15T11:36:14.469Z - verbose: [Package] builder@1.3.4 enable
+2023-03-15T11:36:14.506Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-03-15T11:36:14.543Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-03-15T11:36:14.572Z - verbose: [Package] about@1.0.0 enable
+2023-03-15T11:36:14.604Z - verbose: [Package] assets@1.0.0 enable
+2023-03-15T11:36:14.636Z - verbose: [Package] console@1.0.0 enable
+2023-03-15T11:36:15.059Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-03-15T11:36:15.523Z - verbose: [Package] extension@3.1.0 enable
+2023-03-15T11:36:15.556Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-03-15T11:36:15.592Z - verbose: [Package] inspector@1.0.0 enable
+2023-03-15T11:36:15.624Z - verbose: [Package] light-probe@1.0.4 enable
+2023-03-15T11:36:15.665Z - verbose: [Package] lightmap@1.0.4 enable
+2023-03-15T11:36:15.706Z - verbose: [Package] node-library@1.0.1 enable
+2023-03-15T11:36:15.731Z - verbose: [Package] package-asset@1.0.1 enable
+2023-03-15T11:36:15.769Z - verbose: [Package] process@1.0.0 enable
+2023-03-15T11:36:15.802Z - verbose: [Package] reference-image@1.0.0 enable
+2023-03-15T11:36:15.834Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-03-15T11:36:15.857Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-03-15T11:36:15.880Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-03-15T11:36:15.906Z - verbose: [Package] android@1.0.1 enable
+2023-03-15T11:36:15.992Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-03-15T11:36:16.022Z - verbose: [Package] certificate@1.0.0 enable
+2023-03-15T11:36:16.047Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-03-15T11:36:16.070Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-03-15T11:36:16.099Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-03-15T11:36:16.129Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-03-15T11:36:16.163Z - verbose: [Package] ios@1.0.0 enable
+2023-03-15T11:36:16.192Z - verbose: [Package] linux@1.0.0 enable
+2023-03-15T11:36:16.216Z - verbose: [Package] mac@1.0.0 enable
+2023-03-15T11:36:16.345Z - verbose: [Package] native@1.0.2 enable
+2023-03-15T11:36:16.445Z - verbose: [Build-plugin] register pkg native: 100ms
+2023-03-15T11:36:16.449Z - verbose: [Package] ohos@1.0.0 enable
+2023-03-15T11:36:16.476Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-03-15T11:36:16.500Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-03-15T11:36:16.530Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-03-15T11:36:16.553Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-03-15T11:36:16.583Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-03-15T11:36:16.640Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-03-15T11:36:16.682Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-03-15T11:36:16.718Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-03-15T11:36:21.316Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-03-15T11:36:21.440Z - verbose: [Build-plugin] register pkg cocos-service: 107ms
+2023-03-15T11:36:21.443Z - verbose: [Package] windows@1.0.1 enable
+2023-03-15T11:36:21.470Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-03-15T11:36:21.825Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-03-15T11:36:21.847Z - verbose: [Build-plugin] register pkg huawei-quick-game: 5718ms
+2023-03-15T11:36:21.848Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 5855ms
+2023-03-15T11:36:21.858Z - verbose: [Build-plugin] register pkg android: 5952ms
+2023-03-15T11:36:21.866Z - verbose: [Package] placeholder@1.0.0 enable
+2023-03-15T11:36:21.890Z - verbose: [Build-plugin] register pkg ios: 5727ms
+2023-03-15T11:36:22.237Z - verbose: [Build-plugin] register pkg mac: 6021ms
+2023-03-15T11:36:22.266Z - verbose: [Build-plugin] register pkg huawei-agc: 6167ms
+2023-03-15T11:36:22.570Z - verbose: [Build-plugin] register pkg web-mobile: 5888ms
+2023-03-15T11:36:22.586Z - verbose: [Build-plugin] register pkg oppo-mini-game: 6085ms
+2023-03-15T11:36:22.591Z - verbose: [Build-plugin] register pkg fb-instant-games: 6521ms
+2023-03-15T11:36:22.595Z - verbose: [Build-plugin] register pkg web-desktop: 5954ms
+2023-03-15T11:36:22.638Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 1168ms
+2023-03-15T11:36:22.652Z - verbose: [Build-plugin] register pkg vivo-mini-game: 6069ms
+2023-03-15T11:36:22.711Z - verbose: [Build-plugin] register pkg taobao-creative-app: 6158ms
+2023-03-15T11:36:22.727Z - verbose: [Build-plugin] register pkg ohos: 6278ms
+2023-03-15T11:36:23.040Z - verbose: [Build-plugin] register pkg windows: 1597ms
+2023-03-15T11:36:23.533Z - verbose: asset-db is ready!
+2023-03-15T11:36:24.127Z - verbose: [Build-plugin] register pkg wechatgame: 7409ms
+2023-03-15T11:36:28.355Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-15T11:36:28.369Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-15T11:36:28.574Z - log: [Scene] Cocos Creator v3.7.1
+2023-03-15T11:36:28.574Z - info: [Scene] Forward render pipeline initialized.
+2023-03-15T11:36:28.884Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-03-15T11:36:28.937Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-03-15T11:36:33.886Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:02:58.079Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:41:24.002Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:02:58.107Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:41:24.011Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:02:58.112Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:41:24.012Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:07:00.974Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:43:42.941Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:08:20.326Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:46:48.574Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:08:20.422Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:46:48.576Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:13:20.472Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:51:48.606Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:13:20.544Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:51:48.609Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:18:20.357Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:53:18.117Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:18:20.364Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:56:48.594Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:23:20.320Z - error: certificate has expiredError: certificate has expired
+2023-03-15T11:56:48.601Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:23:20.329Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:01:48.565Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:28:20.359Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:01:48.572Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:28:20.687Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:01:48.574Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:33:20.342Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:06:48.577Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:33:20.345Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:06:48.588Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:33:20.615Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:11:48.589Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:38:03.408Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:11:48.598Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:38:20.536Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:12:47.724Z - error: [Preview]Cannot set properties of undefined (setting 'active')errorInfo.stack ? '/n TypeError: Cannot set properties of undefined (setting 'active')
+    at bind_account.onEnable (http://localhost:7456/scripting/x/chunks/49/490195fbb8aa0535eb342e60634d4ec5a65cad9e.js:64:42)
+    at OneOffInvoker.invokeOnEnable [as _invoke] (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:44225:18)
+    at OneOffInvoker.invoke (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:44095:16)
+    at NodeActivator.activateNode (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:46109:27)
+    at Scene._activate (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:52579:44)
+    at Director.runSceneImmediate (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:18647:17)
+    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:18726:24
+    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135876:15
+    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:143074:9
+    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:180351:9' : ''
+2023-03-15T12:16:48.583Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:38:20.539Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:16:48.585Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:43:20.735Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:18:12.056Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:43:20.797Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:19:40.170Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:48:20.336Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:21:48.614Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:48:20.342Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:21:48.618Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:50:47.525Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-2023-03-14T14:50:47.525Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
-https://github.com/highlightjs/highlight.js/issues/2277
-2023-03-14T14:53:20.398Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:26:48.593Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:53:21.451Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:26:48.604Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:54:51.020Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:31:48.611Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:58:20.356Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:36:48.601Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T14:58:20.611Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:41:48.615Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:03:20.409Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:46:48.613Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:03:20.430Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:51:48.602Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:08:20.359Z - error: certificate has expiredError: certificate has expired
+2023-03-15T12:56:48.611Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:13:20.350Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:01:48.634Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:18:20.342Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:06:48.648Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:23:20.346Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:11:48.619Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:28:20.361Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:16:48.629Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:33:20.362Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:21:48.638Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:33:20.383Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:26:48.847Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:38:20.372Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:31:48.632Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:38:20.381Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:36:48.630Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:43:20.376Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:41:48.663Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:43:20.379Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:46:48.866Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:48:20.386Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:51:49.754Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:53:20.395Z - error: certificate has expiredError: certificate has expired
+2023-03-15T13:56:48.649Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T15:58:20.380Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:01:48.797Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:03:20.418Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:03:26.209Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:08:20.392Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:06:48.699Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:13:20.472Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:06:48.858Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:18:20.409Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:11:48.685Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:23:20.385Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:11:48.946Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:28:20.419Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:16:48.707Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:33:20.408Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:21:48.683Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:38:20.421Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:21:48.684Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:38:20.433Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:26:48.683Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:43:20.415Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:26:48.954Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:43:20.417Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:31:48.829Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:48:20.400Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:36:48.701Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:53:20.448Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:36:48.721Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:58:20.433Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:41:48.733Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:58:20.435Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:41:48.799Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T16:59:55.358Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:46:48.712Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:01:38.221Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:46:48.717Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:02:00.842Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:51:48.719Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:03:20.571Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:51:49.007Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:03:20.575Z - error: certificate has expiredError: certificate has expired
+2023-03-15T14:56:48.705Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:08:20.427Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:01:48.989Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:08:20.428Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:06:48.820Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:13:20.419Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:11:48.741Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:13:20.424Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:16:48.725Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:18:20.443Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:21:48.710Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:23:20.429Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:26:48.740Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:23:20.434Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:31:48.750Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:28:20.451Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:36:48.749Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:28:20.465Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:41:48.731Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:28:51.225Z - error: [Preview]Cannot read properties of undefined (reading 'userid')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'userid')
-    at hall_message.onMessage (http://localhost:7456/scripting/x/chunks/de/de8948d590f632a6fa92512874b1ed5ae15541dc.js:64:50)
-    at ws.onmessage (http://localhost:7456/scripting/x/chunks/de/de8948d590f632a6fa92512874b1ed5ae15541dc.js:51:18)' : ''
-2023-03-14T17:32:54.266Z - error: [Preview]Cannot read properties of undefined (reading 'userid')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'userid')
-    at hall_message.onMessage (http://localhost:7456/scripting/x/chunks/03/0347fbdc9bbb7fced04aae5ed2d2892d3628aa25.js:65:50)
-    at ws.onmessage (http://localhost:7456/scripting/x/chunks/03/0347fbdc9bbb7fced04aae5ed2d2892d3628aa25.js:51:18)' : ''
-2023-03-14T17:33:20.437Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:46:48.741Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:33:20.442Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:51:48.742Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:36:14.006Z - error: certificate has expiredError: certificate has expired
+2023-03-15T15:56:48.748Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:37:15.588Z - error: [Preview]Cannot read properties of undefined (reading 'userid')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'userid')
-    at hall_message.onMessage (http://localhost:7456/scripting/x/chunks/03/0347fbdc9bbb7fced04aae5ed2d2892d3628aa25.js:65:50)
-    at ws.onmessage (http://localhost:7456/scripting/x/chunks/03/0347fbdc9bbb7fced04aae5ed2d2892d3628aa25.js:51:18)' : ''
-2023-03-14T17:38:20.489Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:01:48.756Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:38:20.497Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:06:48.792Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:43:20.439Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:11:48.760Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:43:20.442Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:16:48.851Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:48:20.535Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:16:48.920Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T17:53:20.458Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:21:48.759Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T18:58:21.076Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:21:48.760Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:04:20.288Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:26:48.907Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:04:20.292Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:31:48.774Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:09:20.286Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:31:48.780Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:14:20.277Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:36:48.758Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:14:20.282Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:36:48.780Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:19:20.330Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:41:48.812Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:19:20.337Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:46:48.777Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)
     at TLSSocket._finishInit (_tls_wrap.js:932:8)
     at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
-2023-03-14T19:19:20.768Z - error: certificate has expiredError: certificate has expired
+2023-03-15T16:51:48.783Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.emit (domain.js:467:12)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T16:56:48.790Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.emit (domain.js:467:12)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T17:01:48.786Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.emit (domain.js:467:12)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T17:06:48.799Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.emit (domain.js:467:12)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T17:11:48.786Z - error: certificate has expiredError: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.emit (domain.js:467:12)
+    at TLSSocket._finishInit (_tls_wrap.js:932:8)
+    at TLSWrap.onhandshakedone (_tls_wrap.js:706:12)
+2023-03-15T17:16:48.789Z - error: certificate has expiredError: certificate has expired
     at TLSSocket.onConnectSecure (_tls_wrap.js:1497:34)
     at TLSSocket.emit (events.js:315:20)
     at TLSSocket.emit (domain.js:467:12)

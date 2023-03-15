@@ -52,6 +52,14 @@ class hallMessage {
                     });
                     break;
                 }
+            case 'hall_notice_msg': //获取大厅公告
+                {
+                    this.getHallNotice(function (result) {
+                        //console.log('获取大厅通知--msg--:', result);
+                        self.sendMessage('hall_notice_msg', result, client);
+                    })
+                    break;
+                }
             default:
                 break;
         }
@@ -81,26 +89,32 @@ class hallMessage {
                     return;
                 }
                 //开始绑定userid, password, callback
-                global.hallBb.bandUserAccount(data.nickname,data.userid, data.password, function (info) {
+                let ret = {
+                    nickname: data.nickname,
+                    userid: userinfo.userid,
+                    password: data.password,
+                    bindaccount: 1
+                }
+                global.hallBb.bandUserAccount(data.nickname, data.userid, data.password, function (info) {
                     if (info == 0) {
                         console.log('用户绑定失败');
                         callback(0);
                     }
                     else {
-                        let data = {
-                            nickname:data.nickname,
-                            userid:userinfo.userid,
-                            password:data.password,
-                            bandaccount:1
-                        }
                         console.log('用户绑定成功!');
-                        callback(data);
+                        callback(ret);
                     }
                 })
                 return;
             }
         });
+    }
 
+    //获取大厅通知
+    getHallNotice(callback) {
+        global.hallBb.getHallNotice(function(result){
+            callback(result);
+        })
     }
 }
 
