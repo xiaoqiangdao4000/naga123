@@ -33,11 +33,13 @@ export class hall extends Component {
 
     onEnable() {
         globalThis.eventTargets.on('hall_popTips', this.addTops, this);
+        globalThis.eventTargets.on('hall_bindAccountSuc', this.hall_bindAccountSuc, this);
 
     }
 
     onDisable() {
         globalThis.eventTargets.off('hall_popTips', this.addTops, this);
+        globalThis.eventTargets.off('hall_bindAccountSuc', this.hall_bindAccountSuc, this);
     }
 
     //arg1:弹窗内容
@@ -50,8 +52,20 @@ export class hall extends Component {
         });
     }
 
-    update(deltaTime: number) {
+    hall_bindAccountSuc(arg1:string, arg2:string)
+    {
+        this.nickname_lb.string = arg1;
+        this.bindaccount_node.active = false;
+        resources.load("prefab/tips", Prefab, (err, prefab) => {
+            let t_fb = instantiate(prefab);
+            this.tips_node.addChild(t_fb);
+            let t_script = t_fb.getComponent("tips");
+            t_script.onShow(arg2);
+        });
+    }
 
+    update(deltaTime: number) {
+        
     }
 
     onBtnClick(event: any, customEventData: any) {
@@ -78,6 +92,7 @@ export class hall extends Component {
         }
     }
     
+
     //获取公告信息
     getNoticeMsg()
     {

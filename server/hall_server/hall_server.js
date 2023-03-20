@@ -23,7 +23,7 @@ function send(res, ret) {
 
 //绑定账号
 app.get('/hall_bind_account', function (req, res) {
-
+    res_addhead(res)
     var userid = req.query.userid;
     var nickname = req.query.nickname;
     var password = req.query.password;

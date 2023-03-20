@@ -1,9 +1,7 @@
 import { sys } from "cc";
 
 export default class HTTP {
-    public Url = 'http://127.0.0.1:3000';
-    public url = this.Url;
-    public master_url = this.Url;
+    public url = 'http://127.0.0.1:3000';
     public token = null;
 
     public static instance = null;
@@ -18,6 +16,12 @@ export default class HTTP {
         }
     }
 
+    setUrl(ip, port)
+    {
+        this.url = 'http://' + ip+':'+ port;
+        console.log('设置新的http地址=', this.url);
+    }
+
     sendRequest(path, data, handler, extraUrl) {
         var xhr = new XMLHttpRequest();
         xhr.timeout = 5000;
@@ -27,7 +31,7 @@ export default class HTTP {
         }
         if (extraUrl == null) {
             extraUrl = this.url;
-            // console.log("修改后的extraUrl", extraUrl);
+            console.log("修改后的extraUrl", extraUrl);
         }
 
         //解析请求路由以及格式化请求参数

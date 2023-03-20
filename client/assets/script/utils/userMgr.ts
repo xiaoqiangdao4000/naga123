@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, sys, director } from 'cc';
+import HTTP from './HTTP';
 const { ccclass, property } = _decorator;
 @ccclass('userMgr')
 export class userMgr extends Component {
@@ -13,6 +14,8 @@ export class userMgr extends Component {
     public sex = 0;         //性别 
     public roomid = null;   //房间数据
     public bindaccount = 0;    //绑定账号
+    public hallip = '';     //大厅ip
+    public hallport = 0;    //大厅端口
     static instance = null;
 
     public static getInstance() {
@@ -74,6 +77,9 @@ export class userMgr extends Component {
             globalThis.userMgr.password = data.password;
             globalThis.userMgr.roomid = data.roomid;
             globalThis.userMgr.bindaccount = data.bindaccount;
+            globalThis.userMgr.hallip = data.hallip;
+            globalThis.userMgr.hallport = data.hallport;
+            HTTP.getInstance().setUrl(data.hallip, data.hallport);
             globalThis.userMgr.saveAccount(data.nickname, data.password);
             console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
             console.log('---开始切换场景---');
@@ -93,6 +99,9 @@ export class userMgr extends Component {
         globalThis.userMgr.password = data.password;
         globalThis.userMgr.roomid = data.roomid;
         globalThis.userMgr.bindaccount = data.bindaccount;
+        globalThis.userMgr.hallip = data.hallip;
+        globalThis.userMgr.hallport = data.hallport;
+        HTTP.getInstance().setUrl(data.hallip, data.hallport);
         globalThis.userMgr.saveAccount(data.nickname, data.password);
         console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
         console.log('---开始切换场景---');
@@ -108,9 +117,11 @@ export class userMgr extends Component {
         globalThis.userMgr.userid = data.userid;
         globalThis.userMgr.nickname = data.nickname;
         globalThis.userMgr.password = data.password;
-        globalThis.userMgr.bind_account = data.bind_account;
+        globalThis.userMgr.bindaccount = data.bindaccount;
         globalThis.userMgr.saveAccount(data.nickname, data.password);
-        console.log('绑定账号成功!:' + data.userid + ' ,' + data.nickname + ' ,' + data.password + ' ,' + data.bind_account);
+        globalThis.eventTargets.emit('hall_bindAccountSuc',data.nickname, '绑定账号成功!');
+        
+        console.log('绑定账号成功!:' + data.userid + ' ,' + data.nickname + ' ,' + data.password + ' ,' + data.bindaccount);
     }
 }
 

@@ -85,7 +85,7 @@
   "/Users/zzx/Desktop/naga123/client/assets/script/login/loginMessage.ts": {
     "time": 1678785034185.5918,
     "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils.meta": {
     "time": 1678883923679.3425
@@ -125,7 +125,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene": {
-    "time": 1678802152026.3474,
+    "time": 1679320287070.1807,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
@@ -140,12 +140,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login": {
-    "time": 1678811897873.7717,
+    "time": 1679320287073.1392,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils": {
-    "time": 1678802152033.327,
+    "time": 1679320287075.134,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
@@ -155,12 +155,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login.ts": {
-    "time": 1678813046639.3965,
+    "time": 1679320287072.1472,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\userMgr.ts": {
-    "time": 1678881178307.8408,
+    "time": 1679326331108.6748,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -192,12 +192,12 @@
     "time": 1678288451347.9053
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\hallScene.scene": {
-    "time": 1678890984631.149,
+    "time": 1679327037752.0005,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\loginScene.scene": {
-    "time": 1678881243689.8213,
+    "time": 1679331891534.7388,
     "uuid": "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
     "missing": false
   },
@@ -219,7 +219,7 @@
     "time": 1678370360506.151
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall": {
-    "time": 1678811819706.8064,
+    "time": 1679320287071.1443,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -445,7 +445,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common": {
-    "time": 1678716577154.3767,
+    "time": 1679327935773.3423,
     "uuid": "8915f1c9-689c-482d-8d34-667cd5e30766",
     "missing": false
   },
@@ -637,9 +637,6 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\more_09.png.meta": {
     "time": 1678546850560.8376
   },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\Entrance_01_16.png.meta": {
-    "time": 1678546870514.7073
-  },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\Entrance_01_34.png.meta": {
     "time": 1678546864697.935
   },
@@ -651,11 +648,6 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\more_09.png": {
     "time": 1463660658031.4395,
     "uuid": "73d0725f-b274-4cbd-8eb4-19c13cc3da00",
-    "missing": false
-  },
-  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\Entrance_01_16.png": {
-    "time": 1463660657378.402,
-    "uuid": "42a61433-62ed-4136-98ad-3383f8d1337b",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\Entrance_01_34.png": {
@@ -675,7 +667,7 @@
     "time": 1678547787467.2395
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall.ts": {
-    "time": 1678896792856.5469,
+    "time": 1679326232688.6223,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -691,7 +683,7 @@
     "time": 1678616654942.9238
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common": {
-    "time": 1678805460928.7375,
+    "time": 1679328519465.214,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
@@ -746,7 +738,7 @@
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_16.png": {
     "time": 1678883923630.034,
     "uuid": "42a61433-62ed-4136-98ad-3383f8d1337b",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/Entrance_01_34.png": {
     "time": 1678883923630.5042,
@@ -949,7 +941,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_account.ts": {
-    "time": 1678813076289.802,
+    "time": 1679320287073.1392,
     "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2",
     "missing": false
   },
@@ -1043,7 +1035,7 @@
     "time": 1678716577157.3687
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_bind_account.ts": {
-    "time": 1678890104918.2202,
+    "time": 1679324961181.013,
     "uuid": "1a96740b-42dc-4330-9448-d95f0970a056",
     "missing": false
   },
@@ -1053,7 +1045,7 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall_message.ts": {
     "time": 1678898091371.5635,
     "uuid": "39935816-9fc3-40fd-bfe6-57133efbd1f0",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_message.ts.meta": {
     "time": 1678286500010.0295
@@ -1061,7 +1053,7 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_message.ts": {
     "time": 1678889364185.0664,
     "uuid": "f3681f01-2915-49c8-b4de-1eee0283c7d1",
-    "missing": false
+    "missing": true
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts": {
     "time": 1679318779613.7898,
@@ -1077,6 +1069,38 @@
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts": {
     "time": 1679314278132.9944,
     "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\HTTP.ts": {
+    "time": 1679324920141.954,
+    "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\HTTP.ts.meta": {
+    "time": 1679320287074.1501
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\waiting.png.meta": {
+    "time": 1679327727039.726
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\pop_frame.png.meta": {
+    "time": 1679327994100.0718
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\waiting.png": {
+    "time": 1475239067458.8916,
+    "uuid": "bb90cfd0-7e47-4d39-b622-21232f4442df",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\common\\pop_frame.png": {
+    "time": 1475239067521.2915,
+    "uuid": "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\loading.ts.meta": {
+    "time": 1679328519478.1787
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\loading.ts": {
+    "time": 1679331876314.6455,
+    "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2",
     "missing": false
   }
 }

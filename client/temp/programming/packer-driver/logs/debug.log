@@ -1,11 +1,11 @@
-debug: Mon, 20 Mar 2023 06:55:42 GMT
-debug: Project: /Users/zzx/Desktop/naga123/client
+debug: Mon, 20 Mar 2023 17:01:38 GMT
+debug: Project: C:\Users\zzx\Desktop\naga123\client
 debug: Targets: editor,preview
 debug: Incremental file seems great.
-debug: Engine path: /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+debug: Engine path: C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 4.009942054748535ms.
+debug: Loading cache costs 4.231499969959259ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 2.551814079284668ms.
+debug: Loading cache costs 3.7623000144958496ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -24,34 +24,34 @@ debug: Sync engine features: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,g
 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
-    "physical": "/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
+    "physical": "C:\\CocosDashboard_1.2.2\\resources\\.editors\\Creator\\3.7.1\\resources\\resources\\3d\\engine\\editor\\assets"
   },
   {
     "root": "db://assets/",
-    "physical": "/Users/zzx/Desktop/naga123/client/assets"
+    "physical": "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets"
   }
 ]
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/zzx/Desktop/naga123/client/assets/"
+    "db://internal/": "file:///C:/CocosDashboard_1.2.2/resources/.editors/Creator/3.7.1/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/zzx/Desktop/naga123/client/assets/"
   }
 }
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/zzx/Desktop/naga123/client/assets/"
+    "db://internal/": "file:///C:/CocosDashboard_1.2.2/resources/.editors/Creator/3.7.1/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/zzx/Desktop/naga123/client/assets/"
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 288.30663776397705ms.
+debug: Fetch asset-db cost: 37.088100016117096ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 8
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:06 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:14 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:10 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,47 +82,54 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 02:22:18 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:51:06 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:11 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 15 2023 19:41:51 GMT+0700 (印度支那时间), Current mtime: Mon Mar 20 2023 13:55:35 GMT+0700 (印度支那时间)
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Mar 20 2023 20:52:51 GMT+0700 (印度支那时间), Current mtime: Tue Mar 21 2023 00:01:27 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 110.8767638206482ms.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/userMgr from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve ./HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(editor) ends with cost 169.2257999777794ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:06 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:14 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:10 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -152,753 +159,116 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 02:22:18 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:51:06 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:11 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Mar 15 2023 19:41:51 GMT+0700 (印度支那时间), Current mtime: Mon Mar 20 2023 13:55:35 GMT+0700 (印度支那时间)
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Mar 20 2023 20:52:51 GMT+0700 (印度支那时间), Current mtime: Tue Mar 21 2023 00:01:27 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 95.65388774871826ms.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/userMgr from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
+debug: Resolve ./HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
+debug: Resolve ../utils/HTTP from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(preview) ends with cost 199.2098000049591ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 1886.2602429389954ms.
+debug: Fetch asset-db cost: 2748.505999982357ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 8
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:12 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:11 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:18 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 28.24336290359497ms.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(editor) ends with cost 63.561699986457825ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:07 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:12 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:11 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:00:18 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 23.646652698516846ms.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(preview) ends with cost 155.00339996814728ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:12 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:18 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:03:10 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1, Current mtime: Mon Mar 20 2023 16:17:24 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 202.8322229385376ms.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Detected change: file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts. Last mtime: Mon Mar 20 2023 23:43:55 GMT+0700 (印度支那时间)@9c87b422-9683-4cf3-abd0-b51b50c9f8d2, Current mtime: Tue Mar 21 2023 00:04:36 GMT+0700 (印度支那时间)@9c87b422-9683-4cf3-abd0-b51b50c9f8d2
+debug: Inspect file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(editor) ends with cost 255.93270003795624ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:12 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:18 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 07:03:11 GMT+0700 (印度支那时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1, Current mtime: Mon Mar 20 2023 16:17:24 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 130.6008071899414ms.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 26.23325538635254ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 25.54957103729248ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:34:14 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 16:29:41 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts. Last mtime: Mon Mar 20 2023 16:17:24 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1, Current mtime: Mon Mar 20 2023 16:26:21 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 159.37692785263062ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:22 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 09:34:14 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 16:29:41 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts. Last mtime: Mon Mar 20 2023 16:17:24 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1, Current mtime: Mon Mar 20 2023 16:26:21 GMT+0700 (印度支那时间)@f3681f01-2915-49c8-b4de-1eee0283c7d1
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 103.14539194107056ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:34:14 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 10:22:34 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 16:29:41 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 16:59:56 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 16:17:12 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 17:17:52 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 121.02659511566162ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:34:14 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 10:22:34 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 16:29:41 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 16:59:56 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 16:17:12 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 17:17:52 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 210.2139401435852ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:34 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 11:52:19 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 16:59:56 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:47:49 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 17:17:52 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 18:46:01 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 81.9500298500061ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:22:34 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 11:52:19 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 16:59:56 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:47:49 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 17:17:52 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 18:46:01 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 88.73656988143921ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:52:19 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 11:56:44 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:47:49 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:50:23 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 18:46:01 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 18:52:11 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 84.76823997497559ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:52:19 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 11:56:44 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:47:49 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:50:23 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 18:46:01 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 18:52:11 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 101.05069017410278ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:56:44 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:02:58 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:50:23 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:58:32 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 57.99998664855957ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:56:44 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:02:59 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:50:23 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 18:58:32 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 61.79322099685669ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:02:58 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:14:49 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:58:32 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 19:10:11 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:10:20 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 82.77980709075928ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:02:59 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:14:49 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 18:58:32 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 19:10:11 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:10:20 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 86.25779914855957ms.
-debug: Dispatch build request for time accumulated 3 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 3
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:14:49 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:22:43 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:10:20 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:18:15 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 18:52:11 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 19:11:18 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2, Current mtime: Mon Mar 20 2023 19:15:38 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 100.69822025299072ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:14:49 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:22:43 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:10:20 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:18:15 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts. Last mtime: Mon Mar 20 2023 18:52:11 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca, Current mtime: Mon Mar 20 2023 19:11:18 GMT+0700 (印度支那时间)@65198fef-a3e7-4c23-8907-bcfe540bf7ca
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2, Current mtime: Mon Mar 20 2023 19:15:38 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 131.07178115844727ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:22:43 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:35:20 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:18:15 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:26:18 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 105.94865703582764ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:22:43 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 12:35:20 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:18:15 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 19:26:18 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 80.553307056427ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:35:20 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:16:03 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 19:10:11 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 19:46:10 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 78.14689874649048ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:35:20 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts. Last mtime: Mon Mar 20 2023 19:10:11 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98, Current mtime: Mon Mar 20 2023 19:46:10 GMT+0700 (印度支那时间)@5a660fdb-030d-4ad6-9ad3-96ef63b9fa98
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/userMgr from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Target(preview) ends with cost 70.76550626754761ms.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:16:03 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 22.281877994537354ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_message.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 29.218925952911377ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:30:59 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@0c5cf730-05ad-4d0f-a576-b3490de9f0eb, Current mtime: Mon Mar 20 2023 20:26:30 GMT+0700 (印度支那时间)@0c5cf730-05ad-4d0f-a576-b3490de9f0eb
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@1a96740b-42dc-4330-9448-d95f0970a056, Current mtime: Mon Mar 20 2023 20:26:19 GMT+0700 (印度支那时间)@1a96740b-42dc-4330-9448-d95f0970a056
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:26:18 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 20:23:58 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts. Last mtime: Mon Mar 20 2023 19:15:38 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2, Current mtime: Mon Mar 20 2023 20:22:31 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Dispatch build request for time accumulated 4 asset changes.
-debug: Target(editor) ends with cost 171.72915601730347ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:16:04 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:30:59 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@0c5cf730-05ad-4d0f-a576-b3490de9f0eb, Current mtime: Mon Mar 20 2023 20:26:30 GMT+0700 (印度支那时间)@0c5cf730-05ad-4d0f-a576-b3490de9f0eb
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts. Last mtime: Wed Mar 15 2023 19:38:43 GMT+0700 (印度支那时间)@1a96740b-42dc-4330-9448-d95f0970a056, Current mtime: Mon Mar 20 2023 20:26:19 GMT+0700 (印度支那时间)@1a96740b-42dc-4330-9448-d95f0970a056
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts. Last mtime: Mon Mar 20 2023 19:26:18 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68, Current mtime: Mon Mar 20 2023 20:23:58 GMT+0700 (印度支那时间)@e5c0b781-5133-4e67-bed1-33cf2159fe68
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Detected change: file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts. Last mtime: Mon Mar 20 2023 19:15:38 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2, Current mtime: Mon Mar 20 2023 20:22:31 GMT+0700 (印度支那时间)@0c1fb87c-f018-4d49-bf71-c842bb79e7a2
-debug: Inspect file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as cce:/internal/x/cc.
-debug: Resolve ../utils/HTTP from file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 192.21933221817017ms.
-debug: Build iteration starts.
-Number of accumulated asset changes: 4
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:30:59 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:30:59 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(editor) ends with cost 20.138521194458008ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:30:59 GMT+0700 (印度支那时间), Current mtime: Thu Jan 01 1970 13:31:00 GMT+0700 (印度支那时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
-debug: Resolve file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
-debug: Target(preview) ends with cost 26.419461727142334ms.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts.
+debug: Detected change: file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts. Last mtime: Mon Mar 20 2023 23:43:55 GMT+0700 (印度支那时间)@9c87b422-9683-4cf3-abd0-b51b50c9f8d2, Current mtime: Tue Mar 21 2023 00:04:36 GMT+0700 (印度支那时间)@9c87b422-9683-4cf3-abd0-b51b50c9f8d2
+debug: Inspect file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts as cce:/internal/x/cc.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts.
+debug: Resolve file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts.
+debug: Target(preview) ends with cost 183.73769998550415ms.

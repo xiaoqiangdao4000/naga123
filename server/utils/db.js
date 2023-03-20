@@ -101,7 +101,7 @@ exports.getUserInfoByNickName = function (nickname, callback) {
 //获取用户信息data{userid,nickname,password,score,headid,roomid,bindaccount}
 exports.getUserInfoByUserID = function (userid, callback) {
     var sql = 'SELECT * FROM t_userinfo WHERE userid = "' + userid + '"';
-    this.query(sql, function (err, rows, fields) {
+    query(sql, function (err, rows, fields) {
         if (err) {
             if (err.code == 'ER_DUP_ENTRY') {
                 console.log(err);
@@ -176,7 +176,7 @@ exports.bandUserAccount = function (userid, nickname, password, callback) {
     // var sql = 'UPDATE t_userinfo SET password = password +' + password + ' WHERE userid = ' + userid;
     var sql = 'UPDATE t_userinfo SET nickname="{0}",password="{1}",bindaccount={2} WHERE userid={3}';
     sql = sql.format(nickname, password, 1, userid);
-    this.query(sql, function (err, rows, fields) {
+    query(sql, function (err, rows, fields) {
         if (err) {
             if (err.code == 'ER_DUP_ENTRY') {
                 callback(0);
@@ -186,11 +186,11 @@ exports.bandUserAccount = function (userid, nickname, password, callback) {
             throw err;
         }
         else {
+            //绑定账号成功！
             if (rows.affectedRows == 0) {
                 callback(0);
                 return;
             }
-            console.log('绑定账号成功！');
             callback(1);
             return;
         }

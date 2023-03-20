@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, EventTarget, EditBox } from 'cc';
+import { _decorator, Component, Node, EventTarget, EditBox, Label } from 'cc';
 import HTTP from '../utils/HTTP';
 const { ccclass, property } = _decorator;
 
@@ -91,7 +91,6 @@ export class bind_account extends Component {
                         nickname: nickname,
                         password: password,
                     };
-                    globalThis.hall_message.sendMssage('hall_bind_account', data);
                     HTTP.getInstance().sendRequest("/hall_bind_account", data, globalThis.userMgr.onBindAccount)
                     break;
                 }

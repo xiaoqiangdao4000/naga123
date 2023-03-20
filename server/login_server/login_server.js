@@ -1,6 +1,8 @@
 var db = require('../utils/db');
 var express = require('express');
 var app = express();
+var hallip = '';
+var hallport = 0;
 
 res_addhead = function (res) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -13,6 +15,8 @@ res_addhead = function (res) {
 exports.start = function (cfg) {
     config = cfg;
     hallAddr = config.HALL_IP + ":" + config.HALL_CLIENT_PORT;
+    hallip = config.HALL_IP;
+    hallport = config.HALLL_PORT;
     app.listen(config.CLIENT_PORT);
     console.log("登陆服务器开启，监听 " + config.CLIENT_PORT);
 }
@@ -24,7 +28,7 @@ function send(res, ret) {
 
 //游客登陆:不存在直接创建并登陆，存在直接登陆
 app.get('/guest', function (req, res) {
-    console.log('游客登陆请求:', res.query.nickname);
+    console.log('游客登陆请求:', req.query.nickname);
     res_addhead(res)
     var nickname = req.query.nickname;
     let data =
@@ -36,6 +40,8 @@ app.get('/guest', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
+        hallip:hallip,
+        hallport:hallport,
     }
     //获取用户信息
     db.getUserInfoByNickName(nickname, function (userinfo) {
@@ -50,7 +56,6 @@ app.get('/guest', function (req, res) {
                 else {
                     db.registGuest(id, 'guest_' + id, data.password, data.score, data.headid, data.roomid, data.bindaccount, function (result) {
                         if (result != 0) {
-                            console.log('游客注册成功！用户名:', data.nickname);
                             data.userid = id;
                             data.nickname = 'guest_' + id;
                             data.password = '';
@@ -58,11 +63,13 @@ app.get('/guest', function (req, res) {
                             data.headid = 0;
                             data.roomid = 0;
                             data.bindaccount = 0;
+                            console.log('游客注册成功！用户名:', data.nickname);
                             send(res, data);
                             return;
                         }
                         else {
-                            console.log('注册游客失败！:', result)
+                            console.log('注册游客失败！');
+                            data.userid = 0;
                             send(res, data);
                             return;
                         }
@@ -71,8 +78,15 @@ app.get('/guest', function (req, res) {
             })
         }
         else {  //游客存在，直接登陆
-            console.log('游客存在，直接登陆:', userinfo)
-            send(res, userinfo);
+            data.userid = userinfo.userid;
+            data.nickname = userinfo.nickname;
+            data.password = userinfo.password;
+            data.score = userinfo.score;
+            data.headid = userinfo.headid;
+            data.roomid = userinfo.roomid;
+            data.bindaccount = userinfo.bindaccount;
+            console.log('游客存在，直接登陆:', data)
+            send(res, data);
             return;
         }
     });
@@ -92,6 +106,8 @@ app.get('/accountLogin', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
+        hallip:hallip,
+        hallport:hallport,
     }
 
     db.getUserInfoByNickName(nickname, function (userinfo) {
@@ -107,7 +123,14 @@ app.get('/accountLogin', function (req, res) {
                 send(res, data);
                 return;
             }
-            console.log('账号存在，直接登陆:', userinfo);
+            data.userid = userinfo.userid;
+            data.nickname = userinfo.nickname;
+            data.password = userinfo.password;
+            data.score = userinfo.score;
+            data.headid = userinfo.headid;
+            data.roomid = userinfo.roomid;
+            data.bindaccount = userinfo.bindaccount;            
+            console.log('账号存在，直接登陆:', data);
             send(res, userinfo);
             return;
         }

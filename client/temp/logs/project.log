@@ -1,196 +1,97 @@
-2023-03-20T06:55:25.618Z - verbose: Arguments:
-2023-03-20T06:55:25.619Z - verbose:   /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/MacOS/CocosCreator: true
-2023-03-20T06:55:25.619Z - verbose:   project: /Users/zzx/Desktop/naga123/client
-2023-03-20T06:55:25.619Z - verbose:   dev: false
-2023-03-20T06:55:25.619Z - verbose:   home: /Users/zzx/.CocosCreator
-2023-03-20T06:55:25.619Z - verbose:  
-2023-03-20T06:55:30.531Z - verbose: [Package] menu@1.0.0 enable
-2023-03-20T06:55:30.533Z - verbose: [Package] profile@1.0.0 enable
-2023-03-20T06:55:30.545Z - verbose: [Package] project@1.0.4 enable
-2023-03-20T06:55:30.552Z - verbose: [Package] messages@1.0.0 enable
-2023-03-20T06:55:30.581Z - verbose: [Package] program@1.0.3 enable
-2023-03-20T06:55:30.588Z - verbose: [Package] tester@1.0.0 enable
-2023-03-20T06:55:30.590Z - verbose: [Package] information@1.0.0 enable
-2023-03-20T06:55:30.596Z - verbose: [Package] preferences@1.0.0 enable
-2023-03-20T06:55:34.527Z - log: Load engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
-2023-03-20T06:55:35.035Z - log: Register native engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-2023-03-20T06:55:35.037Z - verbose: [Package] engine@1.0.7 enable
-2023-03-20T06:55:35.890Z - verbose: [Package] programming@1.0.0 enable
-2023-03-20T06:55:35.897Z - verbose: [Package] device@1.0.1 enable
-2023-03-20T06:55:35.904Z - verbose: [Package] ui-kit@1.0.1 enable
-2023-03-20T06:55:36.022Z - verbose: [Package] asset-db@1.0.0 enable
-2023-03-20T06:55:36.065Z - verbose: [Package] scene@1.0.0 enable
-2023-03-20T06:55:36.235Z - verbose: [Package] server@1.0.0 enable
-2023-03-20T06:55:36.269Z - verbose: [Package] utils@1.0.0 enable
-2023-03-20T06:55:42.380Z - verbose: [Package] preview@1.0.1 enable
-2023-03-20T06:55:42.413Z - verbose: [Package] animator@1.0.0 enable
-2023-03-20T06:55:42.659Z - verbose: [Build-plugin] register pkg scene: 2ms
-2023-03-20T06:55:42.659Z - verbose: Builder PluginManager init: 2ms
-2023-03-20T06:55:42.665Z - verbose: [Package] builder@1.3.4 enable
-2023-03-20T06:55:42.697Z - verbose: [Package] shortcuts@1.0.1 enable
-2023-03-20T06:55:42.727Z - verbose: [Package] animation-graph@1.0.0 enable
-2023-03-20T06:55:42.754Z - verbose: [Package] about@1.0.0 enable
-2023-03-20T06:55:42.783Z - verbose: [Package] assets@1.0.0 enable
-2023-03-20T06:55:42.812Z - verbose: [Package] console@1.0.0 enable
-2023-03-20T06:55:43.081Z - verbose: [Package] crash-reporter@1.0.0 enable
-2023-03-20T06:55:43.397Z - verbose: [Package] extension@3.1.0 enable
-2023-03-20T06:55:43.433Z - verbose: [Package] hierarchy@1.0.0 enable
-2023-03-20T06:55:43.463Z - verbose: [Package] inspector@1.0.0 enable
-2023-03-20T06:55:43.492Z - verbose: [Package] light-probe@1.0.4 enable
-2023-03-20T06:55:43.525Z - verbose: [Package] lightmap@1.0.4 enable
-2023-03-20T06:55:43.555Z - verbose: [Package] node-library@1.0.1 enable
-2023-03-20T06:55:43.579Z - verbose: [Package] package-asset@1.0.1 enable
-2023-03-20T06:55:43.612Z - verbose: [Package] process@1.0.0 enable
-2023-03-20T06:55:43.640Z - verbose: [Package] reference-image@1.0.0 enable
-2023-03-20T06:55:43.668Z - verbose: [Package] reflection-probe@1.0.4 enable
-2023-03-20T06:55:43.691Z - verbose: [Package] engine-extends@1.0.0 enable
-2023-03-20T06:55:43.714Z - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-03-20T06:55:43.739Z - verbose: [Package] android@1.0.1 enable
-2023-03-20T06:55:43.803Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-03-20T06:55:43.829Z - verbose: [Package] certificate@1.0.0 enable
-2023-03-20T06:55:43.857Z - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-03-20T06:55:43.882Z - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-03-20T06:55:43.906Z - verbose: [Package] huawei-agc@1.0.0 enable
-2023-03-20T06:55:43.932Z - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-03-20T06:55:44.436Z - verbose: [Package] ios@1.0.0 enable
-2023-03-20T06:55:44.686Z - verbose: [Package] cocos-service@3.0.6 enable
-2023-03-20T06:55:44.746Z - verbose: [Build-plugin] register pkg cocos-service: 59ms
-2023-03-20T06:55:44.748Z - verbose: [Package] linux@1.0.0 enable
-2023-03-20T06:55:44.755Z - verbose: [Build-plugin] register pkg android: 1016ms
-2023-03-20T06:55:44.782Z - verbose: [Package] mac@1.0.0 enable
-2023-03-20T06:55:44.893Z - verbose: [Package] native@1.0.2 enable
-2023-03-20T06:55:44.950Z - verbose: [Build-plugin] register pkg native: 57ms
-2023-03-20T06:55:44.954Z - verbose: [Package] ohos@1.0.0 enable
-2023-03-20T06:55:44.960Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 1156ms
-2023-03-20T06:55:44.981Z - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-03-20T06:55:45.004Z - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-03-20T06:55:45.033Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-03-20T06:55:45.057Z - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-03-20T06:55:45.084Z - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-03-20T06:55:45.128Z - verbose: [Package] web-desktop@1.0.1 enable
-2023-03-20T06:55:45.160Z - verbose: [Package] web-mobile@1.0.1 enable
-2023-03-20T06:55:45.166Z - verbose: [Build-plugin] register pkg huawei-agc: 1260ms
-2023-03-20T06:55:45.169Z - verbose: [Build-plugin] register pkg fb-instant-games: 1287ms
-2023-03-20T06:55:45.192Z - verbose: [Package] wechatgame@1.0.2 enable
-2023-03-20T06:55:45.200Z - verbose: [Build-plugin] register pkg huawei-quick-game: 1268ms
-2023-03-20T06:55:45.219Z - verbose: [Package] windows@1.0.1 enable
-2023-03-20T06:55:45.225Z - verbose: [Build-plugin] register pkg mac: 443ms
-2023-03-20T06:55:45.245Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-03-20T06:55:45.542Z - verbose: [Package] im-plugin@3.0.10 enable
-2023-03-20T06:55:45.547Z - verbose: [Build-plugin] register pkg ohos: 593ms
-2023-03-20T06:55:45.550Z - verbose: [Build-plugin] register pkg taobao-creative-app: 493ms
-2023-03-20T06:55:45.553Z - verbose: [Build-plugin] register pkg vivo-mini-game: 469ms
-2023-03-20T06:55:45.556Z - verbose: [Build-plugin] register pkg ios: 1120ms
-2023-03-20T06:55:45.559Z - verbose: [Build-plugin] register pkg oppo-mini-game: 555ms
-2023-03-20T06:55:45.589Z - verbose: [Package] placeholder@1.0.0 enable
-2023-03-20T06:55:45.695Z - verbose: [Build-plugin] register pkg web-desktop: 567ms
-2023-03-20T06:55:45.727Z - verbose: asset-db is ready!
-2023-03-20T06:55:45.784Z - verbose: [Build-plugin] register pkg web-mobile: 624ms
-2023-03-20T06:55:45.786Z - verbose: [Build-plugin] register pkg wechatgame: 594ms
-2023-03-20T06:55:45.789Z - verbose: [Build-plugin] register pkg windows: 570ms
-2023-03-20T06:55:45.792Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 547ms
-2023-03-20T06:55:49.128Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-03-20T06:55:49.140Z - info: [Scene] [PHYSICS]: using builtin.
-2023-03-20T06:55:49.274Z - log: [Scene] Cocos Creator v3.7.1
-2023-03-20T06:55:49.274Z - info: [Scene] Forward render pipeline initialized.
-2023-03-20T06:55:49.436Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-03-20T06:55:49.525Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-03-20T06:57:00.005Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-2023-03-20T06:57:00.006Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
-https://github.com/highlightjs/highlight.js/issues/2277
-2023-03-20T13:11:39.673Z - warn: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fRError: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fR
-    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
-    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
-2023-03-20T13:11:39.731Z - error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-Error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-
-    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-2023-03-20T13:11:39.806Z - warn: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fRError: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fR
-    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
-    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
-2023-03-20T13:11:39.810Z - error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-Error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-
-    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-2023-03-20T13:26:35.401Z - warn: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fRError: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fR
-    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
-    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
-2023-03-20T13:26:35.406Z - error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-Error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-
-    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-2023-03-20T13:26:35.616Z - warn: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fRError: [Scene] Missing class: f36818BKRVJyLTeHu4Cg8fR
-    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
-    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
-    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
-2023-03-20T13:26:35.620Z - error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-Error: [Scene] Script "f36818BKRVJyLTeHu4Cg8fR" attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "f3681f01-2915-49c8-b4de-1eee0283c7d1"
-Class ID: "f36818BKRVJyLTeHu4Cg8fR"
-
-    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+2023-03-20T17:01:19.047Z - verbose: Arguments:
+2023-03-20T17:01:19.047Z - verbose:   C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\CocosCreator.exe: true
+2023-03-20T17:01:19.047Z - verbose:   project: C:\Users\zzx\Desktop\naga123\client
+2023-03-20T17:01:19.047Z - verbose:   dev: false
+2023-03-20T17:01:19.047Z - verbose:   home: C:\Users\zzx\.CocosCreator
+2023-03-20T17:01:19.047Z - verbose:  
+2023-03-20T17:01:23.341Z - verbose: [Package] menu@1.0.0 enable
+2023-03-20T17:01:23.345Z - verbose: [Package] profile@1.0.0 enable
+2023-03-20T17:01:23.365Z - verbose: [Package] project@1.0.4 enable
+2023-03-20T17:01:23.376Z - verbose: [Package] messages@1.0.0 enable
+2023-03-20T17:01:23.413Z - verbose: [Package] program@1.0.3 enable
+2023-03-20T17:01:23.422Z - verbose: [Package] tester@1.0.0 enable
+2023-03-20T17:01:23.426Z - verbose: [Package] information@1.0.0 enable
+2023-03-20T17:01:23.434Z - verbose: [Package] preferences@1.0.0 enable
+2023-03-20T17:01:27.086Z - log: Load engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine
+2023-03-20T17:01:27.790Z - log: Register native engine in C:\CocosDashboard_1.2.2\resources\.editors\Creator\3.7.1\resources\resources\3d\engine\native
+2023-03-20T17:01:27.793Z - verbose: [Package] engine@1.0.7 enable
+2023-03-20T17:01:29.413Z - verbose: [Package] programming@1.0.0 enable
+2023-03-20T17:01:29.429Z - verbose: [Package] device@1.0.1 enable
+2023-03-20T17:01:29.439Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-03-20T17:01:29.633Z - verbose: [Package] asset-db@1.0.0 enable
+2023-03-20T17:01:29.695Z - verbose: [Package] scene@1.0.0 enable
+2023-03-20T17:01:29.894Z - verbose: [Package] server@1.0.0 enable
+2023-03-20T17:01:29.935Z - verbose: [Package] utils@1.0.0 enable
+2023-03-20T17:01:38.861Z - verbose: [Package] preview@1.0.1 enable
+2023-03-20T17:01:38.902Z - verbose: [Package] animator@1.0.0 enable
+2023-03-20T17:01:39.219Z - verbose: [Build-plugin] register pkg scene: 2ms
+2023-03-20T17:01:39.219Z - verbose: Builder PluginManager init: 2ms
+2023-03-20T17:01:39.243Z - verbose: [Package] builder@1.3.4 enable
+2023-03-20T17:01:39.289Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-03-20T17:01:39.326Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-03-20T17:01:39.357Z - verbose: [Package] about@1.0.0 enable
+2023-03-20T17:01:39.392Z - verbose: [Package] assets@1.0.0 enable
+2023-03-20T17:01:39.423Z - verbose: [Package] console@1.0.0 enable
+2023-03-20T17:01:39.857Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-03-20T17:01:40.214Z - verbose: [Package] extension@3.1.0 enable
+2023-03-20T17:01:40.251Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-03-20T17:01:40.288Z - verbose: [Package] inspector@1.0.0 enable
+2023-03-20T17:01:40.320Z - verbose: [Package] light-probe@1.0.4 enable
+2023-03-20T17:01:40.359Z - verbose: [Package] lightmap@1.0.4 enable
+2023-03-20T17:01:40.391Z - verbose: [Package] node-library@1.0.1 enable
+2023-03-20T17:01:40.417Z - verbose: [Package] package-asset@1.0.1 enable
+2023-03-20T17:01:40.453Z - verbose: [Package] process@1.0.0 enable
+2023-03-20T17:01:40.486Z - verbose: [Package] reference-image@1.0.0 enable
+2023-03-20T17:01:40.518Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-03-20T17:01:40.543Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-03-20T17:01:40.567Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-03-20T17:01:40.591Z - verbose: [Package] android@1.0.1 enable
+2023-03-20T17:01:40.671Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-03-20T17:01:40.699Z - verbose: [Package] certificate@1.0.0 enable
+2023-03-20T17:01:40.723Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-03-20T17:01:40.748Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-03-20T17:01:40.777Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-03-20T17:01:40.805Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-03-20T17:01:40.837Z - verbose: [Package] ios@1.0.0 enable
+2023-03-20T17:01:40.864Z - verbose: [Package] linux@1.0.0 enable
+2023-03-20T17:01:40.888Z - verbose: [Package] mac@1.0.0 enable
+2023-03-20T17:01:40.904Z - verbose: [Build-plugin] register pkg android: 313ms
+2023-03-20T17:01:41.007Z - verbose: [Package] native@1.0.2 enable
+2023-03-20T17:01:41.111Z - verbose: [Build-plugin] register pkg native: 104ms
+2023-03-20T17:01:41.114Z - verbose: [Package] ohos@1.0.0 enable
+2023-03-20T17:01:41.130Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 459ms
+2023-03-20T17:01:41.135Z - verbose: [Build-plugin] register pkg fb-instant-games: 387ms
+2023-03-20T17:01:41.139Z - verbose: [Build-plugin] register pkg huawei-agc: 362ms
+2023-03-20T17:01:41.142Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-03-20T17:01:41.161Z - verbose: [Build-plugin] register pkg huawei-quick-game: 356ms
+2023-03-20T17:01:41.167Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-03-20T17:01:41.176Z - verbose: [Build-plugin] register pkg ios: 338ms
+2023-03-20T17:01:41.196Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-03-20T17:01:41.220Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-03-20T17:01:41.249Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-03-20T17:01:41.313Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-03-20T17:01:41.325Z - verbose: [Build-plugin] register pkg mac: 437ms
+2023-03-20T17:01:41.329Z - verbose: [Build-plugin] register pkg ohos: 215ms
+2023-03-20T17:01:41.353Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-03-20T17:01:41.364Z - verbose: [Build-plugin] register pkg oppo-mini-game: 197ms
+2023-03-20T17:01:41.388Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-03-20T17:01:41.877Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-03-20T17:01:41.968Z - verbose: [Build-plugin] register pkg cocos-service: 89ms
+2023-03-20T17:01:41.973Z - verbose: [Package] windows@1.0.1 enable
+2023-03-20T17:01:41.987Z - verbose: [Build-plugin] register pkg taobao-creative-app: 766ms
+2023-03-20T17:01:41.997Z - verbose: [Build-plugin] register pkg vivo-mini-game: 748ms
+2023-03-20T17:01:42.002Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-03-20T17:01:42.386Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-03-20T17:01:42.400Z - verbose: [Build-plugin] register pkg web-mobile: 1046ms
+2023-03-20T17:01:42.404Z - verbose: [Build-plugin] register pkg wechatgame: 1016ms
+2023-03-20T17:01:42.408Z - verbose: [Build-plugin] register pkg web-desktop: 1094ms
+2023-03-20T17:01:42.419Z - verbose: [Package] placeholder@1.0.0 enable
+2023-03-20T17:01:42.547Z - verbose: [Build-plugin] register pkg windows: 574ms
+2023-03-20T17:01:42.554Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 552ms
+2023-03-20T17:01:43.234Z - verbose: asset-db is ready!
+2023-03-20T17:01:48.785Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-20T17:01:48.799Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-20T17:01:48.989Z - log: [Scene] Cocos Creator v3.7.1
+2023-03-20T17:01:48.989Z - info: [Scene] Forward render pipeline initialized.
+2023-03-20T17:01:49.262Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-03-20T17:01:49.319Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
