@@ -1321,5 +1321,25 @@
   "bf5026b4-1a0e-40f0-9442-06d15765c0b6": {
     "url": "db://assets/script/login/loginMessage.ts",
     "value": {}
+  },
+  "8b807b58-b55b-46c8-b9ac-8dd769b528d0": {
+    "url": "db://assets/script/common/HTTP.js",
+    "value": {}
+  },
+  "a4b5a262-aacf-4ef1-863a-a7e97c2d7420": {
+    "url": "db://assets/script/common/HTTP.ts",
+    "value": {}
+  },
+  "debd0bd5-e94f-4dda-823c-35449a3b67c9": {
+    "url": "db://assets/script/common/http.ts",
+    "value": {}
+  },
+  "8f2721cf-44e9-4c40-85c3-0f07c250d7d7": {
+    "url": "db://assets/script/common/xmlHttRequest.ts",
+    "value": {}
+  },
+  "65198fef-a3e7-4c23-8907-bcfe540bf7ca": {
+    "url": "db://assets/script/utils/HTTP.ts",
+    "value": {}
   }
 }

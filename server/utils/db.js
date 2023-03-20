@@ -25,86 +25,174 @@ String.prototype.format = function (args) {
 };
 
 var mysql = require("mysql");
-
-class db {
-    pool = null;
-    constructor() { };
-
-    nop(a, b, c, d, e, f, g) { };
-
-    init(config) {
-        this.pool = mysql.createPool({
-            host: config.HOST,
-            user: config.USER,
-            password: config.PSWD,
-            database: config.DB,
-            port: config.PORT,
-        });
-    };
-
-    query(sql, callback) {
-        this.pool.getConnection(function (err, conn) {
-            if (err) {
-                callback(err, null, null);
-            } else {
-                conn.query(sql, function (qerr, vals, fields) {
-                    //释放连接  
-                    conn.release();
-                    //事件驱动回调  
-                    callback(qerr, vals, fields);
-                });
-            }
-        });
-    };
-
-    //删除用户id
-    delUserId(userid, callback) {
-        var sql = "DELETE FROM t_userid WHERE userid = '{0}'";
-        sql = sql.format(userid);
-        this.query(sql, function (err, rows, fields) {
-            if (err) {
-                if (err.code == 'ER_DUP_ENTRY') {
-                    console.log(err);
-                    return;
-                }
-                throw err;
-            }
-            else {
-                callback();
-                console.log('删除成功！');
-                return;
-            }
-        });
-    };
-
-    //获取用户id
-    createrUserId(callback) {
-        var sql = 'SELECT * FROM t_userid limit 1';
-        var self = this;
-        this.query(sql, function (err, rows, fields) {
-            if (err) {
-                if (err.code == 'ER_DUP_ENTRY') {
-                    callback(0);
-                    console.log(err);
-                    return;
-                }
-                throw err;
-            }
-            else {
-                if (rows.length > 0) {
-                    let userid = rows[0].userid;
-                    self.delUserId(userid, function () {
-                        callback(userid);
-                    });
-                }
-                else {
-                    callback(0);
-                }
-
-            }
-        });
-    }
-
+var pool = null;
+function nop(a, b, c, d, e, f, g) {
 }
 
-module.exports = db;
+function query(sql, callback) {
+    pool.getConnection(function (err, conn) {
+        if (err) {
+            callback(err, null, null);
+        } else {
+            //console.log('yyyyyy = ', sql)
+            conn.query(sql, function (qerr, vals, fields) {
+                //释放连接  
+                conn.release();
+                //事件驱动回调  
+                callback(qerr, vals, fields);
+            });
+        }
+    });
+};
+
+exports.init = function (config) {
+    pool = mysql.createPool({
+        host: config.HOST,
+        user: config.USER,
+        password: config.PSWD,
+        database: config.DB,
+        port: config.PORT,
+    });
+};
+
+//删除用过了的用户id 表t_userid
+function delUserId(userid, callback) {
+    var sql = "DELETE FROM t_userid WHERE userid = '{0}'";
+    sql = sql.format(userid);
+    query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                console.log(err);
+                return;
+            }
+            throw err;
+        }
+        else {
+            callback();
+            console.log('删除成功！');
+            return;
+        }
+    });
+};
+
+//获取用户信息 data{nickname,password}
+exports.getUserInfoByNickName = function (nickname, callback) {
+    var sql = 'SELECT * FROM t_userinfo WHERE nickname = "' + nickname + '"';
+    query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                console.log(err);
+                callback(0);
+                return;
+            }
+            throw err;
+        }
+        else {
+            if (rows.length == 0) {
+                callback(0);
+                return;
+            }
+            callback(rows[0]);
+            return;
+        }
+    });
+};
+
+//获取用户信息data{userid,nickname,password,score,headid,roomid,bindaccount}
+exports.getUserInfoByUserID = function (userid, callback) {
+    var sql = 'SELECT * FROM t_userinfo WHERE userid = "' + userid + '"';
+    this.query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                console.log(err);
+                callback(0);
+                return;
+            }
+            throw err;
+        }
+        else {
+            if (rows.length == 0) {
+                callback(0);
+                return;
+            }
+            callback(rows[0]);
+            return;
+        }
+    });
+};
+
+//创建userid t_userid
+exports.createrUserId = function (callback) {
+    var sql = 'SELECT * FROM t_userid limit 1';
+    query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                callback(0);
+                console.log(err);
+                return;
+            }
+            throw err;
+        }
+        else {
+            if (rows.length > 0) {
+                let userid = rows[0].userid;
+                delUserId(userid, function () {
+                    callback(userid);
+                });
+            }
+            else {
+                callback(0);
+            }
+        }
+    });
+};
+
+//注册游客用户
+exports.registGuest = function (userid, nickname, password, score, headid, roomid, bindaccount, callback) {
+    var sql = 'INSERT INTO t_userinfo(userid,nickname,password,score,headid,roomid,bindaccount) VALUES({0}, "{1}","{2}",{3},{4},{5},{6})';
+    sql = sql.format(userid, nickname, password, score, headid, roomid, bindaccount);
+    query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                callback(0);
+                return;
+            }
+            callback(0);
+            throw err;
+        }
+        else {
+            if (rows.length == 0) {
+                callback(0);
+                return;
+            }
+            callback(1);
+            return;
+        }
+    });
+};
+
+//绑定用户账号
+exports.bandUserAccount = function (userid, nickname, password, callback) {
+    // var sql = 'UPDATE t_userinfo SET password = password +' + password + ' WHERE userid = ' + userid;
+    var sql = 'UPDATE t_userinfo SET nickname="{0}",password="{1}",bindaccount={2} WHERE userid={3}';
+    sql = sql.format(nickname, password, 1, userid);
+    this.query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                callback(0);
+                return;
+            }
+            callback(0);
+            throw err;
+        }
+        else {
+            if (rows.affectedRows == 0) {
+                callback(0);
+                return;
+            }
+            console.log('绑定账号成功！');
+            callback(1);
+            return;
+        }
+    });
+};

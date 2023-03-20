@@ -1,4 +1,5 @@
-import { _decorator, Component, Node, EventTarget, EditBox, Label } from 'cc';
+import { _decorator, Component, Node, EventTarget, EditBox } from 'cc';
+import HTTP from '../utils/HTTP';
 const { ccclass, property } = _decorator;
 
 if (globalThis.eventTargets == null) {
@@ -86,12 +87,12 @@ export class bind_account extends Component {
                         break;
                     }
                     let data = {
+                        userid: globalThis.userMgr.userid,
                         nickname: nickname,
-                        userid:globalThis.userMgr.userid,
                         password: password,
                     };
                     globalThis.hall_message.sendMssage('hall_bind_account', data);
-                    this.node.active = false;
+                    HTTP.getInstance().sendRequest("/hall_bind_account", data, globalThis.userMgr.onBindAccount)
                     break;
                 }
             case 'btn_close':

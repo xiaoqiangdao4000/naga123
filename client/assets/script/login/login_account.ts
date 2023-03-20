@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, EditBox, input, EventTouch, Input } from 'cc';
+import HTTP from '../utils/HTTP';
 const { ccclass, property } = _decorator;
 
 @ccclass('login_account')
@@ -23,7 +24,7 @@ export class login_account extends Component {
     update(deltaTime: number) {
 
     }
-    
+
     //初始化数据
     initData() {
         let account_data = globalThis.userMgr.getAccount();
@@ -55,7 +56,7 @@ export class login_account extends Component {
                         nickname: nickname,
                         password: password,
                     };
-                    globalThis.login_message.sendMssage('accountLogin', data);
+                    HTTP.getInstance().sendRequest("/accountLogin", data, globalThis.userMgr.onAccountLogin)
                     console.log('发送账号登录请求login = ', data);
                     break;
                 }

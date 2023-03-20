@@ -1,5 +1,7 @@
 import { _decorator, Component, Node, EventTarget, Button, director, instantiate, Prefab, resources } from 'cc';
 import { userMgr } from '../utils/userMgr';
+import HTTP from '../utils/HTTP';
+
 globalThis.userMgr = userMgr.getInstance();
 
 const { ccclass, property } = _decorator;
@@ -42,16 +44,17 @@ export class login extends Component {
         });
     }
 
+    //按钮事件
     onBtnClick(event: any, customEventData: any) {
         switch (customEventData) {
-            case 'guestLogin':
+            case 'guestLogin':  //游客登陆
                 {
-                    let account = globalThis.userMgr.getAccount();
-                    globalThis.login_message.sendMssage('guestLogin', account);
-                    console.log('发送游客登录请求login = ', account);
+                    let userinfo = globalThis.userMgr.getAccount();
+                    HTTP.getInstance().sendRequest("/guest", { nickname: userinfo.nickname }, globalThis.userMgr.onGuest)
+                    console.log('发送游客登录请求/guest = ', userinfo);
                     break;
                 }
-            case 'accountLogin':
+            case 'accountLogin'://账号登陆
                 {
                     this.login_account_node.active = true;
                 }
@@ -62,6 +65,7 @@ export class login extends Component {
 
     update(deltaTime: number) {
     }
+
 
 
 }
