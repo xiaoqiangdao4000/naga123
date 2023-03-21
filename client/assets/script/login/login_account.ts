@@ -58,6 +58,7 @@ export class login_account extends Component {
                     };
                     HTTP.getInstance().sendRequest("/accountLogin", data, globalThis.userMgr.onAccountLogin)
                     console.log('发送账号登录请求login = ', data);
+                    globalThis.eventTargets.emit('login_poploading', 'show', '账号登陆中，请稍等!');
                     break;
                 }
             case 'btn_close':

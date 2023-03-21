@@ -81,3 +81,17 @@ app.get('/hall_bind_account', function (req, res) {
     });
 
 });
+
+//获取大厅公告
+app.get('/get_message', function (req, res) {
+    res_addhead(res)
+    //数据校验
+    db.getHallNotice(function (data) {
+        if (data != null) {
+            send(res, data);
+        }
+        else {
+            send(res, 0);
+        }
+    });
+});

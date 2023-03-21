@@ -5,53 +5,56 @@ const { ccclass, property } = _decorator;
 export class loading extends Component {
 
     @property(Sprite)
-    loading_spr:Sprite;
+    loading_spr: Sprite;
 
+    @property(Label)
+    tips_lb: Label;
+
+    public ex = 0
+    public ey = 0;
+    public ez = 360;
+    public speed = 3;
+    public startR = true;
 
     start() {
-        console.log('开始旋转！');
-        var sprnode = this.loading_spr.node
-        let quat1 = new Quat();
-        let r = sprnode.getRotation(quat1);
-        r.y += 0.002;
-        if(r.y > 2)
-        {
-            r.y = 0;
-        }
-        sprnode.setRotation(r);
-        // tween(sprnode)
-        // .by(1, { rotaton(): r })
-        // .repeatForever()
-        // .start()
 
-        
     }
 
-    onEnable()
-    {
-        // tween(this.loading_spr.node)
-        // .to(1, { rotation: 360})
-        // .repeatForever()
-        // .start()    
+    setTips(type, tips, deltaTime = 0) {
+        this.tips_lb.string = tips;
 
-        // tween(this.node)
-        // .by(1, { scale: 1 })
-        // .repeatForever()
-        // .start()
+        if (type == 'show') this.node.active = true;
+        else if (type == 'hide') {
 
-       
+            if (deltaTime == 0) this.node.active = false;
+            else {
+                let tweenDuration = deltaTime;
+                let nodec = this.node;
+                tween(this.node)
+                    .delay(tweenDuration)
+                    .call(function () {
+                        nodec.active = false;
+                    })
+                    .start()
+            }
+        }
+
+        // function cc() {
+        //     this.node.active = false;
+        // }
     }
 
     update(deltaTime: number) {
-        var sprnode = this.loading_spr.node
-        let quat1 = new Quat();
-        let r = sprnode.getRotation(quat1);
-        r.y += 0.002;
-        if(r.y > 2)
-        {
-            r.y = 0;
+
+        if (this.startR) {
+            var sprnode = this.loading_spr.node;
+            this.ex = this.ex + this.speed;
+            this.ey = this.ey + this.speed;
+            this.ez = this.ez - this.speed;
+            sprnode.setRotationFromEuler(0, 0, this.ez);
+            if (this.ez < 0) this.ez = 360;
         }
-        sprnode.setRotation(r);
+
     }
 }
 

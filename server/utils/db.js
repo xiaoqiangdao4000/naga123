@@ -196,3 +196,32 @@ exports.bandUserAccount = function (userid, nickname, password, callback) {
         }
     });
 };
+
+//获取大厅公告
+exports.getHallNotice = function (callback) {
+    var sql = 'SELECT * FROM t_message order by id desc LIMIT 10';
+    query(sql, function (err, rows, fields) {
+        if (err) {
+            if (err.code == 'ER_DUP_ENTRY') {
+                callback(0);
+                return;
+            }
+            callback(0);
+            throw err;
+        }
+        else {
+            if (rows.length == 0) {
+                callback(0);
+                return;
+            }
+
+            let data = []
+            for (let i = 0; i < rows.length; i++) {
+                data.push({ type: rows[i].type, msg: rows[i].msg })
+            }
+            console.log('获取大厅通知--db--:', data);
+            callback(data);
+            return;
+        }
+    });
+}

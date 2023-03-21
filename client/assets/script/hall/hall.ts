@@ -1,4 +1,5 @@
-import { _decorator, Component, Node, Prefab, EventTarget, Label, director, instantiate, resources } from 'cc';
+import { _decorator, Component, Node, Prefab, EventTarget, Label, director, instantiate, resources, Vec3 } from 'cc';
+import HTTP from '../utils/HTTP';
 import { userMgr } from '../utils/userMgr';
 const { ccclass, property } = _decorator;
 
@@ -21,6 +22,9 @@ export class hall extends Component {
     @property(Node)
     tips_node: Node;
 
+    @property(Label)
+    notice_lb;
+
     start() {
         this.init();
     }
@@ -29,6 +33,9 @@ export class hall extends Component {
         this.nickname_lb.string = globalThis.userMgr.nickname;
         this.userid_lb.string = globalThis.userMgr.userid;
         this.score_lb.string = globalThis.userMgr.score;
+
+        //获取公告
+        // this.notice_lb.string = globalThis.userMgr.noticemsg
     }
 
     onEnable() {
@@ -52,8 +59,7 @@ export class hall extends Component {
         });
     }
 
-    hall_bindAccountSuc(arg1:string, arg2:string)
-    {
+    hall_bindAccountSuc(arg1: string, arg2: string) {
         this.nickname_lb.string = arg1;
         this.bindaccount_node.active = false;
         resources.load("prefab/tips", Prefab, (err, prefab) => {
@@ -62,10 +68,6 @@ export class hall extends Component {
             let t_script = t_fb.getComponent("tips");
             t_script.onShow(arg2);
         });
-    }
-
-    update(deltaTime: number) {
-        
     }
 
     onBtnClick(event: any, customEventData: any) {
@@ -77,7 +79,7 @@ export class hall extends Component {
                 }
             case 'rank':
                 {
-                    this.getNoticeMsg();
+                    this.refreshNotice();
                     break;
                     // director.loadScene('loginScene');
                 }
@@ -91,17 +93,35 @@ export class hall extends Component {
 
         }
     }
-    
 
     //获取公告信息
-    getNoticeMsg()
-    {
-        let data = 
-        {
-            token:''
+    refreshNotice() {
+        var self = this;
+        var onGet = function (ret) {
+            if (ret != 0) {
+                for (let i = 0; i < ret.length; i++) {
+                    console.log('收到服务器发来的公告消息=', ret[i].msg);
+                    globalThis.userMgr.noticemsg.push(ret[i].msg);
+                }
+            }
         }
-        globalThis.hall_message.sendMssage('hall_notice_msg', data);
+
+        var data = {
+            userid: globalThis.userMgr.userid,
+            //sign: cc.vv.userMgr.sign,
+            type: "notice",
+        };
+        HTTP.getInstance().sendRequest("/get_message", data, onGet.bind(this));
     }
+
+    update(deltaTime: number) {
+        let pos = this.notice_lb.node.getPosition();
+        let x = pos.x;
+        x -= 1.2;
+        if (x < -1100) {
+            x = 300;
+        }
+        this.notice_lb.node.setPosition(x, pos.y, pos.z);
+    }
+
 }
-
-

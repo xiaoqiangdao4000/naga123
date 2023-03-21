@@ -16,15 +16,24 @@ export default class HTTP {
         }
     }
 
-    setUrl(ip, port)
-    {
-        this.url = 'http://' + ip+':'+ port;
+    setUrl(ip, port) {
+        this.url = 'http://' + ip + ':' + port;
         console.log('设置新的http地址=', this.url);
     }
 
     sendRequest(path, data, handler, extraUrl) {
         var xhr = new XMLHttpRequest();
         xhr.timeout = 5000;
+
+        xhr.ontimeout = function () {
+            console.log('连接超时，请检查网络!');
+            globalThis.eventTargets.emit('login_poploading', 'hide', '连接超时，请检查网络!', 1);
+        }
+
+        xhr.onerror = function () {
+            console.log('网络连接错误!');
+            globalThis.eventTargets.emit('login_poploading', 'hide', '连接超时，请检查网络!', 1);
+        }
 
         if (data == null) {
             data = {};

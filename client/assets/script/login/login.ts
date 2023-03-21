@@ -17,6 +17,9 @@ export class login extends Component {
     @property(Node)
     tips_node: Node;
 
+    @property(Node)
+    loading_node: Node;
+
     onLoad() {
 
     }
@@ -24,14 +27,17 @@ export class login extends Component {
     start() {
 
     }
+    update(deltaTime: number) {
+    }
 
     onEnable() {
         globalThis.eventTargets.on('login_popTips', this.addTops, this);
-
+        globalThis.eventTargets.on('login_poploading', this.addLoadingTips, this);
     }
 
     onDisable() {
         globalThis.eventTargets.off('login_popTips', this.addTops, this);
+        globalThis.eventTargets.off('login_poploading', this.addLoadingTips, this);
     }
 
     //arg1:弹窗内容
@@ -44,6 +50,13 @@ export class login extends Component {
         });
     }
 
+    //连接提示
+    addLoadingTips(type: string, tipsText: string, deltaTime: number = 0) {
+        console.log(type, tipsText, deltaTime)
+        let t_script = this.loading_node.getComponent("loading");
+        t_script.setTips(type, tipsText, deltaTime);
+    }
+
     //按钮事件
     onBtnClick(event: any, customEventData: any) {
         switch (customEventData) {
@@ -52,6 +65,7 @@ export class login extends Component {
                     let userinfo = globalThis.userMgr.getAccount();
                     HTTP.getInstance().sendRequest("/guest", { nickname: userinfo.nickname }, globalThis.userMgr.onGuest)
                     console.log('发送游客登录请求/guest = ', userinfo);
+                    globalThis.eventTargets.emit('login_poploading', 'show', '游客登陆中，请稍等!');
                     break;
                 }
             case 'accountLogin'://账号登陆
@@ -63,8 +77,7 @@ export class login extends Component {
         }
     }
 
-    update(deltaTime: number) {
-    }
+
 
 
 

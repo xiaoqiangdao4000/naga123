@@ -203,7 +203,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 416.0835509138381,
+    "_orthoHeight": 388.3817427385892,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -5449,7 +5449,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 11.854,
+      "x": 118,
       "y": 0,
       "z": 0
     },
@@ -5492,7 +5492,7 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0,
       "y": 0.5
     },
     "_id": "9eeVWVjWtCWpUiYqXW/Uzw"
@@ -9239,6 +9239,9 @@
     },
     "tips_node": {
       "__id__": 242
+    },
+    "notice_lb": {
+      "__id__": 141
     },
     "_id": "09pMgp/0VKpo1p/GSPY/hz"
   },

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 10923.600600004196,
+      "mTimestamp": 6604.730443954468,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,11 +619,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 190841.43019998074,
+      "mTimestamp": 26466099.757616997,
       "chunkId": "0a9720cd6802460e9ee754bdc90c884642eb8e69",
       "imports": [
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -632,105 +632,105 @@
             },
             "end": {
               "line": 5,
-              "column": 112
+              "column": 109
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
-              "column": 128
+              "column": 125
             },
             "end": {
               "line": 5,
-              "column": 202
+              "column": 196
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 218
+              "column": 212
             },
             "end": {
               "line": 5,
-              "column": 290
+              "column": 281
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 306
+              "column": 297
             },
             "end": {
               "line": 5,
-              "column": 391
+              "column": 379
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 407
+              "column": 395
             },
             "end": {
               "line": 5,
-              "column": 481
+              "column": 466
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 497
+              "column": 482
             },
             "end": {
               "line": 5,
-              "column": 579
+              "column": 561
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 595
+              "column": 577
             },
             "end": {
               "line": 5,
-              "column": 668
+              "column": 647
             }
           }
         },
         {
-          "value": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 684
+              "column": 663
             },
             "end": {
               "line": 5,
-              "column": 760
+              "column": 736
             }
           }
         }
@@ -740,56 +740,56 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/common/tips.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts"
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts"
           },
           "messages": []
         }
@@ -797,10 +797,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts": {
       "mTimestamp": {
-        "mtime": 1679316370873.7356,
+        "mtime": 1679402472806.68,
         "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98"
       },
-      "chunkId": "2d67535912210967e841c2136a4da7d68e414c18",
+      "chunkId": "ef58cf8fb40eaae22e27f518df89a91586a979b5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -954,11 +954,15 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": {
       "mTimestamp": {
-        "mtime": 1679318638859.9155,
+        "mtime": 1679402213387.3176,
         "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68"
       },
-      "chunkId": "b8a7e9d6601a919fcfade6efbeb1b5beac4cac31",
+      "chunkId": "88422a34cd0bb2e1e06bee586d431874fd25e9fc",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -977,6 +981,20 @@
               "column": 63
             }
           }
+        },
+        {
+          "value": "./HTTP",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 17
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
         }
       ],
       "type": "esm",
@@ -984,7 +1002,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -999,6 +1017,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts"
           },
           "messages": []
         }
@@ -1013,8 +1045,8 @@
       "chunkId": "ea5a7943f2bd413bf241b39e8e53ab8df1786df6"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1679331687920,
-      "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
+      "mTimestamp": 1679379240571,
+      "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
       "resolutions": []
@@ -1470,11 +1502,15 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts": {
       "mTimestamp": {
-        "mtime": 1679318790520.6572,
+        "mtime": 1679405705091.5981,
         "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb"
       },
-      "chunkId": "7210af9f7aa91ace9303b7ba0f1e87ebd3b24f1e",
+      "chunkId": "153365178f7073a9d0c3a627105b05c119953b7f",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1486,11 +1522,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 106
+              "column": 112
             },
             "end": {
               "line": 1,
-              "column": 110
+              "column": 116
+            }
+          }
+        },
+        {
+          "value": "../utils/HTTP",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 17
+            },
+            "end": {
+              "line": 2,
+              "column": 32
             }
           }
         }
@@ -1500,7 +1550,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1515,6 +1565,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts"
           },
           "messages": []
         }
@@ -1522,10 +1586,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts": {
       "mTimestamp": {
-        "mtime": 1679318551726.8274,
+        "mtime": 1679385992699.842,
         "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2"
       },
-      "chunkId": "ead204ff10307b4c418ac910f23f0ae043614a9c",
+      "chunkId": "d978830ad179cfe3dfdc639f427a2499526ede45",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2190,10 +2254,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall_bind_account.ts": {
       "mTimestamp": {
-        "mtime": 1679318779613.7898,
+        "mtime": 1679379034690.8276,
         "uuid": "1a96740b-42dc-4330-9448-d95f0970a056"
       },
-      "chunkId": "a7d83882ed0759731db0b96366dfeeac78d39a36",
+      "chunkId": "60456c7dae78e8d6472fd5db04d2fe7e86d67fd8",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2210,11 +2274,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 66
+              "column": 73
             },
             "end": {
               "line": 1,
-              "column": 70
+              "column": 77
             }
           }
         },
@@ -2729,10 +2793,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts": {
       "mTimestamp": {
-        "mtime": 1679314278132.9944,
+        "mtime": 1679385894791.7087,
         "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca"
       },
-      "chunkId": "debae4a3f1624d971f38978d8140471d5e9a3299",
+      "chunkId": "e47b901a34e881829bdf3614022f55048a8179d6",
       "imports": [
         {
           "value": "cc"
@@ -2837,6 +2901,58 @@
         "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2"
       },
       "chunkId": "17977f61e70fb60eb7149f23fe6f657c598f87a1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts": {
+      "mTimestamp": {
+        "mtime": 1679385595846.3616,
+        "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2"
+      },
+      "chunkId": "bef6ce3b27700e7d6d44b19a4d9356e48112c17d",
       "imports": [
         {
           "value": "cc"

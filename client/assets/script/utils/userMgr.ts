@@ -16,6 +16,7 @@ export class userMgr extends Component {
     public bindaccount = 0;    //绑定账号
     public hallip = '';     //大厅ip
     public hallport = 0;    //大厅端口
+    public noticemsg = [];  //消息公告
     static instance = null;
 
     public static getInstance() {
@@ -81,6 +82,7 @@ export class userMgr extends Component {
             globalThis.userMgr.hallport = data.hallport;
             HTTP.getInstance().setUrl(data.hallip, data.hallport);
             globalThis.userMgr.saveAccount(data.nickname, data.password);
+            globalThis.eventTargets.emit('login_poploading', 'hide', '游客登陆中，请稍等!');
             console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
             console.log('---开始切换场景---');
             director.loadScene('hallScene');
@@ -103,6 +105,7 @@ export class userMgr extends Component {
         globalThis.userMgr.hallport = data.hallport;
         HTTP.getInstance().setUrl(data.hallip, data.hallport);
         globalThis.userMgr.saveAccount(data.nickname, data.password);
+        globalThis.eventTargets.emit('login_poploading', 'hide', '游客登陆中，请稍等!');
         console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
         console.log('---开始切换场景---');
         director.loadScene('hallScene');
@@ -119,8 +122,8 @@ export class userMgr extends Component {
         globalThis.userMgr.password = data.password;
         globalThis.userMgr.bindaccount = data.bindaccount;
         globalThis.userMgr.saveAccount(data.nickname, data.password);
-        globalThis.eventTargets.emit('hall_bindAccountSuc',data.nickname, '绑定账号成功!');
-        
+        globalThis.eventTargets.emit('hall_bindAccountSuc', data.nickname, '绑定账号成功!');
+        globalThis.eventTargets.emit('login_poploading', 'hide', '绑定账号成功!');
         console.log('绑定账号成功!:' + data.userid + ' ,' + data.nickname + ' ,' + data.password + ' ,' + data.bindaccount);
     }
 }
