@@ -1429,5 +1429,9 @@
   "9c87b422-9683-4cf3-abd0-b51b50c9f8d2": {
     "url": "db://assets/script/common/loading.ts",
     "value": {}
+  },
+  "ec5d815a-3bc7-405c-8bd0-effd8e1038a3": {
+    "url": "db://assets/resources/image/jxlw",
+    "value": {}
   }
 }

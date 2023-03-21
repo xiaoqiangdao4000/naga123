@@ -38,14 +38,9 @@ export class loading extends Component {
                     .start()
             }
         }
-
-        // function cc() {
-        //     this.node.active = false;
-        // }
     }
 
     update(deltaTime: number) {
-
         if (this.startR) {
             var sprnode = this.loading_spr.node;
             this.ex = this.ex + this.speed;

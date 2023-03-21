@@ -125,7 +125,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene": {
-    "time": 1679320287070.1807,
+    "time": 1679410995827.644,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
@@ -135,17 +135,17 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image": {
-    "time": 1678531242777.5586,
+    "time": 1679413187615.974,
     "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login": {
-    "time": 1679320287073.1392,
+    "time": 1679410995831.6348,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils": {
-    "time": 1679320287075.134,
+    "time": 1679410995833.6265,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
@@ -155,12 +155,12 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login.ts": {
-    "time": 1679320287072.1472,
+    "time": 1679410995831.6348,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\userMgr.ts": {
-    "time": 1679326331108.6748,
+    "time": 1679410995834.624,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -192,12 +192,12 @@
     "time": 1678288451347.9053
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\hallScene.scene": {
-    "time": 1679327037752.0005,
+    "time": 1679413969271.0674,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\loginScene.scene": {
-    "time": 1679331891534.7388,
+    "time": 1679410995827.644,
     "uuid": "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
     "missing": false
   },
@@ -219,7 +219,7 @@
     "time": 1678370360506.151
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall": {
-    "time": 1679320287071.1443,
+    "time": 1679410995830.6365,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -667,7 +667,7 @@
     "time": 1678547787467.2395
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall.ts": {
-    "time": 1679326232688.6223,
+    "time": 1679410995830.6365,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -683,7 +683,7 @@
     "time": 1678616654942.9238
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common": {
-    "time": 1679328519465.214,
+    "time": 1679410995828.6396,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
@@ -941,7 +941,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login\\login_account.ts": {
-    "time": 1679320287073.1392,
+    "time": 1679410995832.63,
     "uuid": "0c1fb87c-f018-4d49-bf71-c842bb79e7a2",
     "missing": false
   },
@@ -1072,7 +1072,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\HTTP.ts": {
-    "time": 1679324920141.954,
+    "time": 1679410995833.6265,
     "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca",
     "missing": false
   },
@@ -1099,7 +1099,7 @@
     "time": 1679328519478.1787
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\common\\loading.ts": {
-    "time": 1679331876314.6455,
+    "time": 1679411861526.3154,
     "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2",
     "missing": false
   },
@@ -1126,5 +1126,13 @@
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image/common/pop_frame.png.meta": {
     "time": 1679379034688.1975
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw.meta": {
+    "time": 1679413187625.9517
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw": {
+    "time": 1679413187613.9795,
+    "uuid": "ec5d815a-3bc7-405c-8bd0-effd8e1038a3",
+    "missing": false
   }
 }
