@@ -78,9 +78,9 @@ export class userMgr extends Component {
             globalThis.userMgr.password = data.password;
             globalThis.userMgr.roomid = data.roomid;
             globalThis.userMgr.bindaccount = data.bindaccount;
-            globalThis.userMgr.hallip = data.hallip;
-            globalThis.userMgr.hallport = data.hallport;
-            HTTP.getInstance().setUrl(data.hallip, data.hallport);
+            // globalThis.userMgr.hallip = data.hallip;
+            // globalThis.userMgr.hallport = data.hallport;
+            // HTTP.getInstance().setUrl(data.hallip, data.hallport);
             globalThis.userMgr.saveAccount(data.nickname, data.password);
             globalThis.eventTargets.emit('login_poploading', 'hide', '游客登陆中，请稍等!');
             console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
@@ -101,9 +101,9 @@ export class userMgr extends Component {
         globalThis.userMgr.password = data.password;
         globalThis.userMgr.roomid = data.roomid;
         globalThis.userMgr.bindaccount = data.bindaccount;
-        globalThis.userMgr.hallip = data.hallip;
-        globalThis.userMgr.hallport = data.hallport;
-        HTTP.getInstance().setUrl(data.hallip, data.hallport);
+        // globalThis.userMgr.hallip = data.hallip;
+        // globalThis.userMgr.hallport = data.hallport;
+        // HTTP.getInstance().setUrl(data.hallip, data.hallport);
         globalThis.userMgr.saveAccount(data.nickname, data.password);
         globalThis.eventTargets.emit('login_poploading', 'hide', '游客登陆中，请稍等!');
         console.log('账号登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);

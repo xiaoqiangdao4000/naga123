@@ -1,9 +1,8 @@
 var db = require('../utils/db');
 var express = require('express');
+var http = require('../utils/http');
 var app = express();
-var hallip = '';
-var hallport = 0;
-
+var serverMap = {};
 res_addhead = function (res) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
@@ -14,17 +13,57 @@ res_addhead = function (res) {
 
 exports.start = function (cfg) {
     config = cfg;
-    hallAddr = config.HALL_IP + ":" + config.HALL_CLIENT_PORT;
-    hallip = config.HALL_IP;
-    hallport = config.HALLL_PORT;
-    app.listen(config.CLIENT_PORT);
-    console.log("登陆服务器开启，监听 " + config.CLIENT_PORT);
+    app.listen(config.center_port);
+    console.log("中心服务器开启成功，开始监听 客户端、游戏服 发来的消息:" + config.center_port);
 }
 
 function send(res, ret) {
     var str = JSON.stringify(ret);
     res.send(str)
 }
+
+//游戏注册，保存游戏列表
+app.get('/register_gs', function (req, res) {
+    res_addhead(res);
+    var ip = req.ip;
+    var name = req.query.name;
+    var clientip = req.query.clientip;
+    var clientport = req.query.clientport;
+    var httpPort = req.query.httpPort;
+    var load = req.query.load;
+    var id = clientip + ":" + clientport;
+
+    if (serverMap[id]) {
+        var info = serverMap[id];
+        if (info.clientport != clientport
+            || info.httpPort != httpPort
+            || info.ip != ip
+        ) {
+            console.log("duplicate gsid:" + id + ",addr:" + ip + "(" + httpPort + ")");
+            http.send(res, 1, "duplicate gsid:" + id);
+            return;
+        }
+        info.load = load;
+        http.send(res, 0, "ok", { ip: ip });
+        return;
+    }
+    serverMap[id] = {
+        ip: ip,
+        id: id,
+        clientip: clientip,
+        clientport: clientport,
+        httpPort: httpPort,
+        load: load
+    };
+    http.send(res, 0, "ok", { ip: ip });
+    // console.log("游戏注册成功！.\n\tid:" + id + "\n\taddr:" + ip + "\n\thttp port:" + httpPort + "\n\tsocket clientport:" + clientport);
+    console.log('游戏:' + name + '注册成功:')
+    console.log('\tid:' + id);
+    console.log('\t游戏ip:' + clientip);
+    console.log('\t游戏端口:' + clientport);
+});
+
+
 
 //游客登陆:不存在直接创建并登陆，存在直接登陆
 app.get('/guest', function (req, res) {
@@ -40,8 +79,6 @@ app.get('/guest', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
-        hallip:hallip,
-        hallport:hallport,
     }
     //获取用户信息
     db.getUserInfoByNickName(nickname, function (userinfo) {
@@ -106,8 +143,6 @@ app.get('/accountLogin', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
-        hallip:hallip,
-        hallport:hallport,
     }
 
     db.getUserInfoByNickName(nickname, function (userinfo) {
@@ -129,10 +164,85 @@ app.get('/accountLogin', function (req, res) {
             data.score = userinfo.score;
             data.headid = userinfo.headid;
             data.roomid = userinfo.roomid;
-            data.bindaccount = userinfo.bindaccount;            
+            data.bindaccount = userinfo.bindaccount;
             console.log('账号存在，直接登陆:', data);
             send(res, userinfo);
             return;
         }
     });
 })
+
+//绑定账号
+app.get('/hall_bind_account', function (req, res) {
+    res_addhead(res)
+    var userid = req.query.userid;
+    var nickname = req.query.nickname;
+    var password = req.query.password;
+    let data =
+    {
+        userid: 0,
+        nickname: '',
+        password: '',
+        score: 10000,
+        headid: 0,
+        roomid: 0,
+        bindaccount: 0,
+    }
+    //获取用户信息
+    db.getUserInfoByUserID(userid, function (userinfo) {
+        //用户不存在
+        if (userinfo == 0) {
+            console.log('用户不存在！');
+            send(res, data);
+            return;
+        }
+        else {  //用户存在，是否已经绑定
+            data.userid = userinfo.userid;
+            data.nickname = userinfo.nickname;
+            data.password = userinfo.password;
+            data.score = userinfo.score;
+            data.headid = userinfo.headid;
+            data.roomid = userinfo.roomid;
+            data.bindaccount = userinfo.bindaccount;
+            if (userinfo.bindaccount == 1) {
+                console.log('用户已经绑定账号');
+                send(res, data);
+                return;
+            }
+            //开始绑定userid, password, callback
+            db.bandUserAccount(data.userid, nickname, password, function (info) {
+                if (info == 0) {
+                    console.log('用户绑定失败');
+                    data.userid = 0;
+                    data.bindaccount = 0;
+                    send(res, data);
+                    return;
+                }
+                else {
+                    data.userid = userid;
+                    data.nickname = nickname;
+                    data.password = password;
+                    data.bindaccount = 1;
+                    console.log('用户绑定成功!');
+                    send(res, data);
+                    return;
+                }
+            })
+        }
+    });
+
+});
+
+//获取大厅公告
+app.get('/get_message', function (req, res) {
+    res_addhead(res)
+    //数据校验
+    db.getHallNotice(function (data) {
+        if (data != null) {
+            send(res, data);
+        }
+        else {
+            send(res, 0);
+        }
+    });
+});

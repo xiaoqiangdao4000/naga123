@@ -1,8 +1,9 @@
 
-var CLIENT_IP = '127.0.0.1'
-var CLIENT_PORT = 3000
-var HALL_IP = '127.0.0.1'
-var HALLL_PORT = '3001'
+
+var center_ip = '127.0.0.1'
+var center_port = 3000
+
+var http_game_port = 3001
 
 exports.mysql_config = function () {
 	return {
@@ -14,19 +15,34 @@ exports.mysql_config = function () {
 	}
 }
 
-exports.loginServer_config = function () {
+//中心服务器
+exports.centerServer_config = function () {
 	return {
-		CLIENT_PORT: CLIENT_PORT,
-		HALL_IP: HALL_IP,
-		HALLL_PORT: HALLL_PORT,
+		//http监听客户端、游戏服务器消息 
+		center_ip: center_ip,
+		center_port: center_port,
+
+		http_game_port: http_game_port,
 	}
 }
 
-//大厅服配置
-exports.hallServer_config = function () {
+//游戏服配置
+exports.game_server = function () {
 	return {
-		CLIENT_PORT: HALLL_PORT,
-		HALL_IP: HALL_IP,
-		HALLL_PORT: HALLL_PORT,
+		server: "001",
+		name: 'jxlw',
+
+		//http监听中心服务器
+		http_game_port: http_game_port,
+		http_game_ip: center_ip,
+
+		//http连接中心服务器
+		http_center_ip: center_ip,
+		http_center_port: center_port,
+
+		//websocke 监听客户端
+		client_ip: '127.0.0.1',
+		client_port: 10000,
+
 	};
-};
+}

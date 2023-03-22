@@ -11,7 +11,7 @@
     "time": 1678883923679.596
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene": {
-    "time": 1679379034690.02,
+    "time": 1679467392525.6252,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
@@ -27,7 +27,7 @@
     "time": 1678883923674.0247
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image": {
-    "time": 1678883923672.896,
+    "time": 1679467392525.0205,
     "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
     "missing": false
   },
@@ -99,7 +99,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": {
-    "time": 1679402213387.3176,
+    "time": 1679472833387.1394,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -339,7 +339,7 @@
     "time": 1678883923675.0374
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene": {
-    "time": 1679404665989.638,
+    "time": 1679477355046.8398,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
@@ -720,12 +720,12 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/common": {
-    "time": 1679379034690.3206,
+    "time": 1679467392525.9397,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts": {
-    "time": 1679405705091.5981,
+    "time": 1679477504342.1782,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -1067,7 +1067,7 @@
     "time": 1679303877678.5542
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts": {
-    "time": 1679385894791.7087,
+    "time": 1679472846723.4526,
     "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca",
     "missing": false
   },
@@ -1104,7 +1104,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts": {
-    "time": 1679385595846.3616,
+    "time": 1679467392525.9873,
     "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2",
     "missing": false
   },
@@ -1133,6 +1133,6 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw": {
     "time": 1679413187613.9795,
     "uuid": "ec5d815a-3bc7-405c-8bd0-effd8e1038a3",
-    "missing": false
+    "missing": true
   }
 }

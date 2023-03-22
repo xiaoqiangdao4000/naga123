@@ -85,7 +85,22 @@ export class hall extends Component {
                 }
             case 'seting':
                 {
-                    globalThis.hall_message.printWebSocket();
+                    // globalThis.hall_message.printWebSocket();
+                    break;
+                }
+            case 'jxlw':
+                {
+                    console.log('九线拉王');
+                    break;
+                }
+            case 'brnn':
+                {
+                    console.log('百人牛牛');
+                    break;
+                }
+            case 'sgj':
+                {
+                    console.log('水果机');
                     break;
                 }
             default:
