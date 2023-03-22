@@ -35,7 +35,7 @@ class socketServer {
 
         })
         websocket.listen(port, ip);
-        console.log('游戏服务器启动--成功，监听端口:', port, ip);
+        console.log('游戏服务器启动--成功，监听端口:', ip, port);
     };
 
     //处理客户端发来的消息

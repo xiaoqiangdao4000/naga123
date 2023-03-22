@@ -50,6 +50,7 @@ app.get('/register_gs', function (req, res) {
     serverMap[id] = {
         ip: ip,
         id: id,
+        name: name,
         clientip: clientip,
         clientport: clientport,
         httpPort: httpPort,
@@ -63,12 +64,23 @@ app.get('/register_gs', function (req, res) {
     console.log('\t游戏端口:' + clientport);
 });
 
-
+//获取服务器信息,游戏信息游戏名称、服务器地址、
+app.get('/getGameServerInfo', function (req, res) {
+    res_addhead(res);
+    console.log('map = ', serverMap);
+})
 
 //游客登陆:不存在直接创建并登陆，存在直接登陆
 app.get('/guest', function (req, res) {
     console.log('游客登陆请求:', req.query.nickname);
+    console.log('map = ', serverMap);
     res_addhead(res)
+
+    for(let i = 0; i< serverMap.lenght; i++)
+    {
+        console.log('aaaa = ', serverMap[i]);
+    }
+
     var nickname = req.query.nickname;
     let data =
     {
@@ -79,6 +91,7 @@ app.get('/guest', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
+        serverMap: serverMap,
     }
     //获取用户信息
     db.getUserInfoByNickName(nickname, function (userinfo) {
@@ -143,6 +156,7 @@ app.get('/accountLogin', function (req, res) {
         headid: 0,
         roomid: 0,
         bindaccount: 0,
+        serverMap: serverMap,
     }
 
     db.getUserInfoByNickName(nickname, function (userinfo) {

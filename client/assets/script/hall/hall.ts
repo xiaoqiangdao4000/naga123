@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Prefab, EventTarget, Label, director, instantiate, resources, Vec3 } from 'cc';
 import HTTP from '../utils/HTTP';
 import { userMgr } from '../utils/userMgr';
+import { websocket } from '../utils/websocket';
 const { ccclass, property } = _decorator;
 
 globalThis.eventTargets = new EventTarget();
@@ -91,16 +92,34 @@ export class hall extends Component {
             case 'jxlw':
                 {
                     console.log('九线拉王');
+                    let game = globalThis.userMgr.getGameInfo('jxlw');
+                    if (game == null) {
+                        globalThis.eventTargets.emit('hall_popTips', '游戏服务器没有开放，请稍后！');
+                        break;
+                    }
+                    websocket.getInstance().connectServer(game.clientip, game.clientport);
                     break;
                 }
             case 'brnn':
                 {
                     console.log('百人牛牛');
+                    let game = globalThis.userMgr.getGameInfo('brnn');
+                    if (game == null) {
+                        globalThis.eventTargets.emit('hall_popTips', '游戏服务器没有开放，请稍后！');
+                        break;
+                    }
+                    websocket.getInstance().connectServer(game.clientip, game.clientport);
                     break;
                 }
             case 'sgj':
                 {
                     console.log('水果机');
+                    let game = globalThis.userMgr.getGameInfo('sgj');
+                    if (game == null) {
+                        globalThis.eventTargets.emit('hall_popTips', '游戏服务器没有开放，请稍后！');
+                        break;
+                    }
+                    websocket.getInstance().connectServer(game.clientip, game.clientport);
                     break;
                 }
             default:

@@ -46,3 +46,25 @@ exports.game_server = function () {
 
 	};
 }
+
+// var serverMap = {}
+
+// serverMap['id'] = {
+// 	ip: '100',
+// 	name:'qqq'
+// };
+
+// serverMap['id1'] = {
+// 	ip: '200',
+// 	name:'aaaaaa'
+// };
+
+// for(var s in serverMap){
+// 	var info = serverMap[s];
+// 	console.log('aaa = ', info);
+// }	
+
+
+// serverMap = [];
+// serverMap.push('111')
+// console.log('cccc = ', serverMap);

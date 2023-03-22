@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, sys, director } from 'cc';
+import { _decorator, Component, Node, sys, director, game } from 'cc';
 import HTTP from './HTTP';
 const { ccclass, property } = _decorator;
 @ccclass('userMgr')
@@ -17,6 +17,8 @@ export class userMgr extends Component {
     public hallip = '';     //大厅ip
     public hallport = 0;    //大厅端口
     public noticemsg = [];  //消息公告
+    public serverMap = [];
+
     static instance = null;
 
     public static getInstance() {
@@ -78,11 +80,17 @@ export class userMgr extends Component {
             globalThis.userMgr.password = data.password;
             globalThis.userMgr.roomid = data.roomid;
             globalThis.userMgr.bindaccount = data.bindaccount;
+            globalThis.userMgr.saveAccount(data.nickname, data.password);
+            globalThis.userMgr.serverMap = [];
+            for(var s in data.serverMap){
+                var info = data.serverMap[s];
+                globalThis.userMgr.serverMap.push(info)
+            }	
             // globalThis.userMgr.hallip = data.hallip;
             // globalThis.userMgr.hallport = data.hallport;
             // HTTP.getInstance().setUrl(data.hallip, data.hallport);
-            globalThis.userMgr.saveAccount(data.nickname, data.password);
-            globalThis.eventTargets.emit('login_poploading', 'hide', '游客登陆中，请稍等!');
+            
+            globalThis.eventTargets.emit('login_poploading', 'hide', '游客登完毕!');
             console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
             console.log('---开始切换场景---');
             director.loadScene('hallScene');
@@ -101,6 +109,11 @@ export class userMgr extends Component {
         globalThis.userMgr.password = data.password;
         globalThis.userMgr.roomid = data.roomid;
         globalThis.userMgr.bindaccount = data.bindaccount;
+        globalThis.userMgr.serverMap = [];
+        for(var s in data.serverMap){
+            var info = data.serverMap[s];
+            globalThis.userMgr.serverMap.push(info)
+        }	
         // globalThis.userMgr.hallip = data.hallip;
         // globalThis.userMgr.hallport = data.hallport;
         // HTTP.getInstance().setUrl(data.hallip, data.hallport);
@@ -125,6 +138,19 @@ export class userMgr extends Component {
         globalThis.eventTargets.emit('hall_bindAccountSuc', data.nickname, '绑定账号成功!');
         globalThis.eventTargets.emit('login_poploading', 'hide', '绑定账号成功!');
         console.log('绑定账号成功!:' + data.userid + ' ,' + data.nickname + ' ,' + data.password + ' ,' + data.bindaccount);
+    }
+
+    //获取当前游戏的数据
+    getGameInfo(gamename)
+    {
+        for(let i = 0; i < globalThis.userMgr.serverMap.length; i++)
+        {
+            if(globalThis.userMgr.serverMap[i].name == gamename)
+            {
+                return globalThis.userMgr.serverMap[i];
+            }
+        }
+        return null;
     }
 }
 

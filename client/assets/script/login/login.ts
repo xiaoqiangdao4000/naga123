@@ -64,7 +64,7 @@ export class login extends Component {
                 {
                     let userinfo = globalThis.userMgr.getAccount();
                     HTTP.getInstance().sendRequest("/guest", { nickname: userinfo.nickname }, globalThis.userMgr.onGuest)
-                    console.log('发送游客登录请求/guest = ', userinfo);
+                    console.log('发送游客登录请求/guest = ', userinfo); 
                     globalThis.eventTargets.emit('login_poploading', 'show', '游客登陆中，请稍等!');
                     break;
                 }

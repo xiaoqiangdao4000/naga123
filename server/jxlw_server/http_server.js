@@ -24,9 +24,11 @@ exports.start = function (cfg) {
         load: 0,
     };
     //setInterval(update, 1000);
-    update();
+   
     app.listen(config.http_game_port, config.http_game_ip);
-    console.log("监听中心服务器成功! = " + config.http_game_port + ":" + config.http_game_ip);
+    console.log("监听中心服务器成功! = " + config.http_game_ip + ":" + config.http_game_port);
+
+    update();
 }
 
 function send(res, ret) {

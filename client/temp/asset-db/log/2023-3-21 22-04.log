@@ -277,3 +277,13 @@
 2023-3-21 22:52:49-debug: start refresh asset from C:\Users\zzx\Desktop\naga123\client\assets\scene\hallScene.scene...
 2023-3-21 22:52:49-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\scene\hallScene.scenebackground: #aaff85; color: #000;color: #000;
 2023-3-21 22:52:49-debug: refresh asset C:\Users\zzx\Desktop\naga123\client\assets\scene\hallScene.scene success
+2023-3-22 21:28:26-debug: refresh db internal success
+2023-3-22 21:28:26-debug: asset-db:worker-effect-data-processing (188ms)
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\scenebackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\script\hallbackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\script\utilsbackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\scene\hallScene.scenebackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\script\hall\hall.tsbackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: %cImport%c: C:\Users\zzx\Desktop\naga123\client\assets\script\utils\userMgr.tsbackground: #aaff85; color: #000;color: #000;
+2023-3-22 21:28:26-debug: refresh db assets success
+2023-3-22 21:28:26-debug: asset-db:refresh-all-database (337ms)
