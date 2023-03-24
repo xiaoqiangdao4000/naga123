@@ -5,6 +5,7 @@ const { ccclass, property } = _decorator;
 export class websocket extends Component {
     public static instance = null;
     _ws: any = null;
+    onmessage_callback = null;
 
     static getInstance() {
         if (this.instance == null) {
@@ -16,16 +17,20 @@ export class websocket extends Component {
         }
     }
 
+    constructor() {
+        super();
+    }
+
     start() {
+        console.log('websocket onstart')
     }
 
     update(deltaTime: number) {
     }
 
     connectServer(ip, port) {
-        console.log('连接前:', ip,port);
-        let addr = 'ws://'+ip+':'+port;     //'ws://127.0.0.1:3000'
-        console.log('连接后addr:', addr);
+        //'ws://127.0.0.1:3000'
+        let addr = 'ws://' + ip + ':' + port;
         const ws = new WebSocket(addr);
         this._ws = ws;
         ws.onopen = () => {
@@ -44,12 +49,12 @@ export class websocket extends Component {
         switch (type) {
             case 'guestLogin':
                 {
-                  
+
                     break;
                 }
             case 'accountLogin':
                 {
-                   
+
                     break;
                 }
             default:

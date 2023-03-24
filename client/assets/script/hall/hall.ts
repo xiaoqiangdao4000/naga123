@@ -87,6 +87,7 @@ export class hall extends Component {
             case 'seting':
                 {
                     // globalThis.hall_message.printWebSocket();
+                    //director.loadScene('loginScene');
                     break;
                 }
             case 'jxlw':

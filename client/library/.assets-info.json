@@ -3,7 +3,7 @@
     "time": 1678883923679.7102
   },
   "/Users/zzx/Desktop/naga123/client/assets/script": {
-    "time": 1678883923679.295,
+    "time": 1679553635513.8987,
     "uuid": "79da60a6-9dc5-4b8c-88cd-71294e684c53",
     "missing": false
   },
@@ -11,7 +11,7 @@
     "time": 1678883923679.596
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene": {
-    "time": 1679379034690.02,
+    "time": 1679554861313.5288,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
@@ -27,7 +27,7 @@
     "time": 1678883923674.0247
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/image": {
-    "time": 1678883923672.896,
+    "time": 1679467392525.0205,
     "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
     "missing": false
   },
@@ -67,7 +67,7 @@
     "time": 1678883923679.2004
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login": {
-    "time": 1679319046539.5964,
+    "time": 1679552748977.98,
     "uuid": "1cd1f82b-3fe2-40c2-ac5c-3a1d5a29d998",
     "missing": false
   },
@@ -75,7 +75,7 @@
     "time": 1678883923677.818
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/login/login.ts": {
-    "time": 1679402472806.68,
+    "time": 1679552748978.0295,
     "uuid": "5a660fdb-030d-4ad6-9ad3-96ef63b9fa98",
     "missing": false
   },
@@ -94,12 +94,12 @@
     "time": 1678883923678.8071
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils": {
-    "time": 1679379034691.898,
+    "time": 1679552748979.0627,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": {
-    "time": 1679402213387.3176,
+    "time": 1679552748978.8042,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -115,7 +115,7 @@
     "time": 1678883923679.0396
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall": {
-    "time": 1679379034690.7773,
+    "time": 1679552748977.683,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -339,7 +339,7 @@
     "time": 1678883923675.0374
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/hallScene.scene": {
-    "time": 1679404665989.638,
+    "time": 1679553143677.1956,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
@@ -720,12 +720,12 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/common": {
-    "time": 1679379034690.3206,
+    "time": 1679467392525.9397,
     "uuid": "2ba1424f-0186-49a5-9b3b-685bfb5f7a63",
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts": {
-    "time": 1679405705091.5981,
+    "time": 1679650631717.3066,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -1067,7 +1067,7 @@
     "time": 1679303877678.5542
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts": {
-    "time": 1679385894791.7087,
+    "time": 1679472846723.4526,
     "uuid": "65198fef-a3e7-4c23-8907-bcfe540bf7ca",
     "missing": false
   },
@@ -1104,7 +1104,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts": {
-    "time": 1679385595846.3616,
+    "time": 1679467392525.9873,
     "uuid": "9c87b422-9683-4cf3-abd0-b51b50c9f8d2",
     "missing": false
   },
@@ -1133,7 +1133,7 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw": {
     "time": 1679413187613.9795,
     "uuid": "ec5d815a-3bc7-405c-8bd0-effd8e1038a3",
-    "missing": false
+    "missing": true
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\websocket.ts.meta": {
     "time": 1679508463591.3704
@@ -1141,6 +1141,38 @@
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\websocket.ts": {
     "time": 1679509652995.343,
     "uuid": "1e854ac3-5073-42ac-bf23-48df0cd7b6e3",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts": {
+    "time": 1679650497746.1902,
+    "uuid": "1e854ac3-5073-42ac-bf23-48df0cd7b6e3",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts.meta": {
+    "time": 1679552748979.1135
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/jxlw.meta": {
+    "time": 1679553635514.5627
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/jxlw": {
+    "time": 1679553686839.709,
+    "uuid": "90b1bf5e-8147-4ad0-b67e-40982e32ace8",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/jxlw/game_jxlw.ts.meta": {
+    "time": 1679553686840.7698
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/jxlw/game_jxlw.ts": {
+    "time": 1679553686838.921,
+    "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/scene/jxlw_scene.scene.meta": {
+    "time": 1679554861318.5828
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/scene/jxlw_scene.scene": {
+    "time": 1679554926068.1255,
+    "uuid": "83cd3398-9700-486c-8a83-6e5c9b215096",
     "missing": false
   }
 }

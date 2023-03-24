@@ -1437,5 +1437,26 @@
   "1e854ac3-5073-42ac-bf23-48df0cd7b6e3": {
     "url": "db://assets/script/utils/websocket.ts",
     "value": {}
+  },
+  "90b1bf5e-8147-4ad0-b67e-40982e32ace8": {
+    "url": "db://assets/script/jxlw",
+    "value": {}
+  },
+  "716e6ca3-3d23-4020-a9e0-786243b79b38": {
+    "url": "db://assets/script/jxlw/game_jxlw.ts",
+    "value": {}
+  },
+  "83cd3398-9700-486c-8a83-6e5c9b215096": {
+    "url": "db://assets/scene/jxlw_scene.scene",
+    "value": {
+      "depends": [
+        "83cd3398-9700-486c-8a83-6e5c9b215096",
+        "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@f9941",
+        "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ]
+    }
   }
 }
