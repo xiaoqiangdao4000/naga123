@@ -1,0 +1,363 @@
+
+ldgame_logo.png
+size: 772,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ldgame_lgchengxing
+  rotate: false
+  xy: 2, 558
+  size: 213, 212
+  orig: 213, 212
+  offset: 0, 0
+  index: -1
+ldgame_lgdian
+  rotate: false
+  xy: 2, 11
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+ldgame_lgfenxing
+  rotate: false
+  xy: 660, 555
+  size: 105, 105
+  orig: 107, 107
+  offset: 1, 1
+  index: -1
+ldgame_lglanxing
+  rotate: true
+  xy: 688, 82
+  size: 80, 81
+  orig: 82, 83
+  offset: 1, 1
+  index: -1
+ldgame_lglanxing1
+  rotate: false
+  xy: 652, 436
+  size: 118, 117
+  orig: 120, 119
+  offset: 1, 1
+  index: -1
+ldgame_lglanzixing
+  rotate: false
+  xy: 89, 167
+  size: 80, 81
+  orig: 82, 83
+  offset: 1, 1
+  index: -1
+ldgame_lglvlingdang
+  rotate: false
+  xy: 643, 298
+  size: 124, 136
+  orig: 125, 138
+  offset: 0, 1
+  index: -1
+ldgame_lglvxing
+  rotate: true
+  xy: 103, 251
+  size: 98, 96
+  orig: 100, 98
+  offset: 1, 1
+  index: -1
+ldgame_lgninmeng
+  rotate: false
+  xy: 639, 164
+  size: 131, 132
+  orig: 133, 134
+  offset: 1, 1
+  index: -1
+ldgame_lgpingguo
+  rotate: true
+  xy: 368, 626
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+ldgame_lgshilanxing
+  rotate: false
+  xy: 2, 164
+  size: 85, 84
+  orig: 87, 86
+  offset: 1, 1
+  index: -1
+ldgame_lgxulanxing
+  rotate: false
+  xy: 2, 250
+  size: 99, 99
+  orig: 101, 101
+  offset: 1, 1
+  index: -1
+ldgame_lgzixing
+  rotate: true
+  xy: 660, 662
+  size: 108, 110
+  orig: 110, 112
+  offset: 1, 1
+  index: -1
+ldgame_lgzixing2
+  rotate: false
+  xy: 217, 623
+  size: 149, 147
+  orig: 151, 149
+  offset: 1, 1
+  index: -1
+ldgame_logolg0
+  rotate: false
+  xy: 493, 149
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg1
+  rotate: false
+  xy: 351, 144
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg10
+  rotate: false
+  xy: 2, 420
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg11
+  rotate: false
+  xy: 2, 351
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg12
+  rotate: false
+  xy: 213, 485
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg13
+  rotate: false
+  xy: 355, 419
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg14
+  rotate: false
+  xy: 213, 416
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg15
+  rotate: false
+  xy: 497, 355
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg16
+  rotate: false
+  xy: 355, 350
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg17
+  rotate: false
+  xy: 497, 286
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg18
+  rotate: true
+  xy: 2, 22
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg19
+  rotate: false
+  xy: 518, 702
+  size: 140, 68
+  orig: 140, 68
+  offset: 0, 0
+  index: -1
+ldgame_logolg2
+  rotate: false
+  xy: 209, 141
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg20
+  rotate: false
+  xy: 518, 632
+  size: 140, 68
+  orig: 140, 68
+  offset: 0, 0
+  index: -1
+ldgame_logolg21
+  rotate: false
+  xy: 518, 562
+  size: 140, 68
+  orig: 140, 68
+  offset: 0, 0
+  index: -1
+ldgame_logolg22
+  rotate: true
+  xy: 71, 22
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg23
+  rotate: true
+  xy: 140, 22
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg24
+  rotate: false
+  xy: 209, 347
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg25
+  rotate: false
+  xy: 351, 281
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg26
+  rotate: false
+  xy: 209, 278
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg27
+  rotate: false
+  xy: 493, 217
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg28
+  rotate: false
+  xy: 351, 212
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg29
+  rotate: false
+  xy: 209, 209
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg3
+  rotate: false
+  xy: 368, 557
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg30
+  rotate: true
+  xy: 351, 2
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg31
+  rotate: false
+  xy: 209, 73
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg32
+  rotate: false
+  xy: 209, 5
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg33
+  rotate: true
+  xy: 419, 2
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg34
+  rotate: true
+  xy: 487, 2
+  size: 140, 66
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg35
+  rotate: true
+  xy: 555, 7
+  size: 140, 65
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg36
+  rotate: true
+  xy: 622, 7
+  size: 140, 64
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg4
+  rotate: false
+  xy: 510, 493
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg5
+  rotate: false
+  xy: 217, 554
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg6
+  rotate: false
+  xy: 359, 488
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg7
+  rotate: false
+  xy: 501, 424
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg8
+  rotate: false
+  xy: 2, 489
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1
+ldgame_logolg9
+  rotate: true
+  xy: 144, 416
+  size: 140, 67
+  orig: 140, 68
+  offset: 0, 1
+  index: -1

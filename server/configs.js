@@ -68,3 +68,15 @@ exports.game_server = function () {
 // serverMap = [];
 // serverMap.push('111')
 // console.log('cccc = ', serverMap);
+var str = '10'
+let len = str.length;
+console.log('str =', str[1])
+
+
+
+
+// let st = Number(str[len - 1]);
+// console.log('st = ', st);
+
+
+

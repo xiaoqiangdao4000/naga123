@@ -1,126 +1,282 @@
-2023-03-24T09:35:03.739Z - verbose: Arguments:
-2023-03-24T09:35:03.739Z - verbose:   /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/MacOS/CocosCreator: true
-2023-03-24T09:35:03.739Z - verbose:   project: /Users/zzx/Desktop/naga123/client
-2023-03-24T09:35:03.739Z - verbose:   dev: false
-2023-03-24T09:35:03.739Z - verbose:   home: /Users/zzx/.CocosCreator
-2023-03-24T09:35:03.739Z - verbose:  
-2023-03-24T09:35:10.875Z - verbose: [Package] menu@1.0.0 enable
-2023-03-24T09:35:10.877Z - verbose: [Package] profile@1.0.0 enable
-2023-03-24T09:35:10.887Z - verbose: [Package] project@1.0.4 enable
-2023-03-24T09:35:10.893Z - verbose: [Package] messages@1.0.0 enable
-2023-03-24T09:35:10.920Z - verbose: [Package] program@1.0.3 enable
-2023-03-24T09:35:10.927Z - verbose: [Package] tester@1.0.0 enable
-2023-03-24T09:35:10.929Z - verbose: [Package] information@1.0.0 enable
-2023-03-24T09:35:10.938Z - verbose: [Package] preferences@1.0.0 enable
-2023-03-24T09:35:14.948Z - log: Load engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
-2023-03-24T09:35:15.454Z - log: Register native engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-2023-03-24T09:35:15.456Z - verbose: [Package] engine@1.0.7 enable
-2023-03-24T09:35:16.262Z - verbose: [Package] programming@1.0.0 enable
-2023-03-24T09:35:16.268Z - verbose: [Package] device@1.0.1 enable
-2023-03-24T09:35:16.274Z - verbose: [Package] ui-kit@1.0.1 enable
-2023-03-24T09:35:16.394Z - verbose: [Package] asset-db@1.0.0 enable
-2023-03-24T09:35:16.436Z - verbose: [Package] scene@1.0.0 enable
-2023-03-24T09:35:16.606Z - verbose: [Package] server@1.0.0 enable
-2023-03-24T09:35:16.638Z - verbose: [Package] utils@1.0.0 enable
-2023-03-24T09:35:22.748Z - verbose: [Package] preview@1.0.1 enable
-2023-03-24T09:35:22.781Z - verbose: [Package] animator@1.0.0 enable
-2023-03-24T09:35:23.021Z - verbose: [Build-plugin] register pkg scene: 1ms
-2023-03-24T09:35:23.021Z - verbose: Builder PluginManager init: 2ms
-2023-03-24T09:35:23.028Z - verbose: [Package] builder@1.3.4 enable
-2023-03-24T09:35:23.066Z - verbose: [Package] shortcuts@1.0.1 enable
-2023-03-24T09:35:23.101Z - verbose: [Package] animation-graph@1.0.0 enable
-2023-03-24T09:35:23.137Z - verbose: [Package] about@1.0.0 enable
-2023-03-24T09:35:23.169Z - verbose: [Package] assets@1.0.0 enable
-2023-03-24T09:35:23.197Z - verbose: [Package] console@1.0.0 enable
-2023-03-24T09:35:23.488Z - verbose: [Package] crash-reporter@1.0.0 enable
-2023-03-24T09:35:23.790Z - verbose: [Package] extension@3.1.0 enable
-2023-03-24T09:35:23.828Z - verbose: [Package] hierarchy@1.0.0 enable
-2023-03-24T09:35:23.861Z - verbose: [Package] inspector@1.0.0 enable
-2023-03-24T09:35:23.891Z - verbose: [Package] light-probe@1.0.4 enable
-2023-03-24T09:35:23.926Z - verbose: [Package] lightmap@1.0.4 enable
-2023-03-24T09:35:23.964Z - verbose: [Package] node-library@1.0.1 enable
-2023-03-24T09:35:23.989Z - verbose: [Package] package-asset@1.0.1 enable
-2023-03-24T09:35:24.023Z - verbose: [Package] process@1.0.0 enable
-2023-03-24T09:35:24.051Z - verbose: [Package] reference-image@1.0.0 enable
-2023-03-24T09:35:24.079Z - verbose: [Package] reflection-probe@1.0.4 enable
-2023-03-24T09:35:24.103Z - verbose: [Package] engine-extends@1.0.0 enable
-2023-03-24T09:35:24.125Z - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-03-24T09:35:24.153Z - verbose: [Package] android@1.0.1 enable
-2023-03-24T09:35:24.220Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-03-24T09:35:24.244Z - verbose: [Package] certificate@1.0.0 enable
-2023-03-24T09:35:24.268Z - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-03-24T09:35:24.292Z - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-03-24T09:35:24.317Z - verbose: [Package] huawei-agc@1.0.0 enable
-2023-03-24T09:35:24.343Z - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-03-24T09:35:24.823Z - verbose: [Package] ios@1.0.0 enable
-2023-03-24T09:35:24.852Z - verbose: [Package] linux@1.0.0 enable
-2023-03-24T09:35:24.875Z - verbose: [Package] mac@1.0.0 enable
-2023-03-24T09:35:25.026Z - verbose: [Package] native@1.0.2 enable
-2023-03-24T09:35:25.082Z - verbose: [Build-plugin] register pkg native: 56ms
-2023-03-24T09:35:25.085Z - verbose: [Package] ohos@1.0.0 enable
-2023-03-24T09:35:25.110Z - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-03-24T09:35:25.134Z - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-03-24T09:35:25.163Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-03-24T09:35:25.185Z - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-03-24T09:35:25.212Z - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-03-24T09:35:25.257Z - verbose: [Package] web-desktop@1.0.1 enable
-2023-03-24T09:35:25.289Z - verbose: [Package] web-mobile@1.0.1 enable
-2023-03-24T09:35:25.321Z - verbose: [Package] wechatgame@1.0.2 enable
-2023-03-24T09:35:25.347Z - verbose: [Package] windows@1.0.1 enable
-2023-03-24T09:35:25.376Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-03-24T09:35:25.637Z - verbose: [Package] cocos-service@3.0.6 enable
-2023-03-24T09:35:25.687Z - verbose: [Build-plugin] register pkg cocos-service: 49ms
-2023-03-24T09:35:25.954Z - verbose: [Package] im-plugin@3.0.10 enable
-2023-03-24T09:35:25.988Z - verbose: [Package] placeholder@1.0.0 enable
-2023-03-24T09:35:26.399Z - verbose: asset-db is ready!
-2023-03-24T09:35:29.355Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-03-24T09:35:29.365Z - info: [Scene] [PHYSICS]: using builtin.
-2023-03-24T09:35:29.491Z - log: [Scene] Cocos Creator v3.7.1
-2023-03-24T09:35:29.491Z - info: [Scene] Forward render pipeline initialized.
-2023-03-24T09:35:29.636Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-03-24T09:35:29.680Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-03-24T09:35:31.569Z - verbose: [Build-plugin] register pkg fb-instant-games: 7277ms
-2023-03-24T09:35:41.694Z - verbose: [Build-plugin] register pkg wechatgame: 16373ms
-2023-03-24T09:35:42.523Z - verbose: [Build-plugin] register pkg web-desktop: 17265ms
-2023-03-24T09:35:43.279Z - verbose: [Build-plugin] register pkg ios: 18456ms
-2023-03-24T09:35:43.442Z - verbose: [Build-plugin] register pkg taobao-creative-app: 18257ms
-2023-03-24T09:35:43.482Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 19262ms
-2023-03-24T09:35:44.411Z - verbose: [Build-plugin] register pkg android: 20258ms
-2023-03-24T09:35:44.593Z - verbose: [Build-plugin] register pkg huawei-quick-game: 20250ms
-2023-03-24T09:35:45.853Z - error: timeoutError: timeout
-    at process.<anonymous> (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/user/dist/platform/child.ccc:1:2278)
-    at process.emit (events.js:315:20)
-    at process.emit (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/loader.js:4979:21)
-    at emit (internal/child_process.js:903:12)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-2023-03-24T09:35:46.560Z - verbose: [Build-plugin] register pkg ohos: 21475ms
-2023-03-24T09:35:46.594Z - verbose: [Build-plugin] register pkg windows: 21247ms
-2023-03-24T09:35:47.513Z - verbose: [Build-plugin] register pkg vivo-mini-game: 22301ms
-2023-03-24T09:35:47.576Z - verbose: [Build-plugin] register pkg huawei-agc: 23259ms
-2023-03-24T09:35:47.704Z - verbose: [Build-plugin] register pkg web-mobile: 22415ms
-2023-03-24T09:35:47.833Z - verbose: [Build-plugin] register pkg oppo-mini-game: 22699ms
-2023-03-24T09:35:49.997Z - verbose: [Build-plugin] register pkg mac: 25122ms
-2023-03-24T09:36:00.723Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 35347ms
-2023-03-24T09:36:21.199Z - error: [Window] timeoutError: timeout
-    at process.<anonymous> (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/user/dist/platform/child.ccc:1:2278)
-    at process.emit (events.js:315:20)
-    at process.emit (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/loader.js:4979:21)
-    at emit (internal/child_process.js:903:12)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-2023-03-24T09:36:21.202Z - error: [Window] timeoutError: timeout
-    at process.<anonymous> (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/user/dist/platform/child.ccc:1:2278)
-    at process.emit (events.js:315:20)
-    at process.emit (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/loader.js:4979:21)
-    at emit (internal/child_process.js:903:12)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-2023-03-24T09:36:29.465Z - error: Client network socket disconnected before secure TLS connection was establishedError: Client network socket disconnected before secure TLS connection was established
-    at Function.from (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/extension-sdk/node_modules/axios/lib/core/AxiosError.js:89:14)
-    at RedirectableRequest.handleRequestError (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/extension-sdk/node_modules/axios/lib/adapters/http.js:533:25)
-    at RedirectableRequest.emit (events.js:327:22)
-    at RedirectableRequest.emit (domain.js:467:12)
-    at ClientRequest.<anonymous> (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/extension-sdk/node_modules/follow-redirects/index.js:14:24)
-    at ClientRequest.emit (events.js:315:20)
-    at ClientRequest.emit (domain.js:467:12)
-    at TLSSocket.socketErrorListener (_http_client.js:469:9)
-    at TLSSocket.emit (events.js:315:20)
-    at TLSSocket.emit (domain.js:467:12)
+2023-03-28T12:31:55.802Z - verbose: Arguments:
+2023-03-28T12:31:55.802Z - verbose:   /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/MacOS/CocosCreator: true
+2023-03-28T12:31:55.802Z - verbose:   project: /Users/zzx/Desktop/naga123/client
+2023-03-28T12:31:55.802Z - verbose:   dev: false
+2023-03-28T12:31:55.802Z - verbose:   home: /Users/zzx/.CocosCreator
+2023-03-28T12:31:55.802Z - verbose:  
+2023-03-28T12:32:00.628Z - verbose: [Package] menu@1.0.0 enable
+2023-03-28T12:32:00.630Z - verbose: [Package] profile@1.0.0 enable
+2023-03-28T12:32:00.640Z - verbose: [Package] project@1.0.4 enable
+2023-03-28T12:32:00.646Z - verbose: [Package] messages@1.0.0 enable
+2023-03-28T12:32:00.668Z - verbose: [Package] program@1.0.3 enable
+2023-03-28T12:32:00.674Z - verbose: [Package] tester@1.0.0 enable
+2023-03-28T12:32:00.675Z - verbose: [Package] information@1.0.0 enable
+2023-03-28T12:32:00.681Z - verbose: [Package] preferences@1.0.0 enable
+2023-03-28T12:32:03.577Z - log: Load engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+2023-03-28T12:32:04.063Z - log: Register native engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2023-03-28T12:32:04.066Z - verbose: [Package] engine@1.0.7 enable
+2023-03-28T12:32:04.887Z - verbose: [Package] programming@1.0.0 enable
+2023-03-28T12:32:04.892Z - verbose: [Package] device@1.0.1 enable
+2023-03-28T12:32:04.901Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-03-28T12:32:04.994Z - verbose: [Package] asset-db@1.0.0 enable
+2023-03-28T12:32:05.031Z - verbose: [Package] scene@1.0.0 enable
+2023-03-28T12:32:05.162Z - verbose: [Package] server@1.0.0 enable
+2023-03-28T12:32:05.191Z - verbose: [Package] utils@1.0.0 enable
+2023-03-28T12:32:10.656Z - verbose: [Package] preview@1.0.1 enable
+2023-03-28T12:32:10.687Z - verbose: [Package] animator@1.0.0 enable
+2023-03-28T12:32:10.860Z - verbose: [Build-plugin] register pkg scene: 2ms
+2023-03-28T12:32:10.860Z - verbose: Builder PluginManager init: 2ms
+2023-03-28T12:32:10.874Z - verbose: [Package] builder@1.3.4 enable
+2023-03-28T12:32:10.904Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-03-28T12:32:10.937Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-03-28T12:32:10.967Z - verbose: [Package] about@1.0.0 enable
+2023-03-28T12:32:11.001Z - verbose: [Package] assets@1.0.0 enable
+2023-03-28T12:32:11.029Z - verbose: [Package] console@1.0.0 enable
+2023-03-28T12:32:11.291Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-03-28T12:32:11.543Z - verbose: [Package] extension@3.1.0 enable
+2023-03-28T12:32:11.572Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-03-28T12:32:11.603Z - verbose: [Package] inspector@1.0.0 enable
+2023-03-28T12:32:11.631Z - verbose: [Package] light-probe@1.0.4 enable
+2023-03-28T12:32:11.664Z - verbose: [Package] lightmap@1.0.4 enable
+2023-03-28T12:32:11.695Z - verbose: [Package] node-library@1.0.1 enable
+2023-03-28T12:32:11.723Z - verbose: [Package] package-asset@1.0.1 enable
+2023-03-28T12:32:11.756Z - verbose: [Package] process@1.0.0 enable
+2023-03-28T12:32:11.785Z - verbose: [Package] reference-image@1.0.0 enable
+2023-03-28T12:32:11.812Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-03-28T12:32:11.838Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-03-28T12:32:11.863Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-03-28T12:32:11.887Z - verbose: [Package] android@1.0.1 enable
+2023-03-28T12:32:11.946Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-03-28T12:32:11.973Z - verbose: [Package] certificate@1.0.0 enable
+2023-03-28T12:32:11.995Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-03-28T12:32:12.022Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-03-28T12:32:12.047Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-03-28T12:32:12.074Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-03-28T12:32:12.537Z - verbose: [Package] ios@1.0.0 enable
+2023-03-28T12:32:12.708Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-03-28T12:32:12.763Z - verbose: [Build-plugin] register pkg cocos-service: 54ms
+2023-03-28T12:32:12.764Z - verbose: [Package] linux@1.0.0 enable
+2023-03-28T12:32:12.776Z - verbose: [Build-plugin] register pkg android: 889ms
+2023-03-28T12:32:12.788Z - verbose: [Package] mac@1.0.0 enable
+2023-03-28T12:32:12.871Z - verbose: [Package] native@1.0.2 enable
+2023-03-28T12:32:12.925Z - verbose: [Build-plugin] register pkg native: 54ms
+2023-03-28T12:32:12.928Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 982ms
+2023-03-28T12:32:12.930Z - verbose: [Package] ohos@1.0.0 enable
+2023-03-28T12:32:12.956Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-03-28T12:32:12.981Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-03-28T12:32:13.006Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-03-28T12:32:13.029Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-03-28T12:32:13.054Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-03-28T12:32:13.073Z - verbose: [Build-plugin] register pkg huawei-agc: 1026ms
+2023-03-28T12:32:13.075Z - verbose: [Build-plugin] register pkg fb-instant-games: 1053ms
+2023-03-28T12:32:13.095Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-03-28T12:32:13.127Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-03-28T12:32:13.157Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-03-28T12:32:13.162Z - verbose: [Build-plugin] register pkg huawei-quick-game: 1088ms
+2023-03-28T12:32:13.164Z - verbose: [Build-plugin] register pkg ios: 627ms
+2023-03-28T12:32:13.169Z - verbose: [Build-plugin] register pkg mac: 381ms
+2023-03-28T12:32:13.181Z - verbose: [Package] windows@1.0.1 enable
+2023-03-28T12:32:13.206Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-03-28T12:32:13.247Z - verbose: [Build-plugin] register pkg ohos: 317ms
+2023-03-28T12:32:13.437Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-03-28T12:32:13.440Z - verbose: [Build-plugin] register pkg oppo-mini-game: 458ms
+2023-03-28T12:32:13.443Z - verbose: [Build-plugin] register pkg taobao-creative-app: 414ms
+2023-03-28T12:32:13.445Z - verbose: [Build-plugin] register pkg vivo-mini-game: 391ms
+2023-03-28T12:32:13.466Z - verbose: [Package] placeholder@1.0.0 enable
+2023-03-28T12:32:13.588Z - verbose: [Build-plugin] register pkg web-desktop: 492ms
+2023-03-28T12:32:13.593Z - verbose: [Build-plugin] register pkg web-mobile: 465ms
+2023-03-28T12:32:13.596Z - verbose: [Build-plugin] register pkg wechatgame: 439ms
+2023-03-28T12:32:13.675Z - verbose: [Build-plugin] register pkg windows: 494ms
+2023-03-28T12:32:13.690Z - verbose: asset-db is ready!
+2023-03-28T12:32:13.883Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 677ms
+2023-03-28T12:32:16.889Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-28T12:32:16.899Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-28T12:32:17.009Z - log: [Scene] Cocos Creator v3.7.1
+2023-03-28T12:32:17.010Z - info: [Scene] Forward render pipeline initialized.
+2023-03-28T12:32:17.140Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-03-28T12:32:17.181Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-03-28T12:33:52.677Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-03-28T12:33:52.677Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-03-28T12:45:29.563Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-03-28T13:04:16.325Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts: Unexpected token (122:12)
+
+  120 |                 }
+  121 |                 case 
+> 122 |             default:
+      |             ^
+  123 |                 break;
+  124 |         }
+  125 |     }
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/28/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fgame_sgj.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fgame_sgj.ts%3A%20Unexpected%20token%20(122%3A12)%0A%0A%20%20120%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20121%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20case%20%0A%3E%20122%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20default%3A%0A%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%20123%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20break%3B%0A%20%20124%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%20125%20%7C%20%20%20%20%20%7D%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/71/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/71/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts: Unexpected token (122:12)
+
+  120 |                 }
+  121 |                 case 
+> 122 |             default:
+  125 |     }
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/28/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fgame_sgj.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fgame_sgj.ts%3A%20Unexpected%20token%20(122%3A12)%0A%0A%20%20120%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20121%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20case%20%0A%3E%20122%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20default%3A%0A%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%20123%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20break%3B%0A%20%20124%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%20125%20%7C%20%20%20%20%20%7D%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/71/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/71/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+2023-03-28T13:04:16.346Z - warn: [Scene] Missing class: 716e6yjPSNAIKngeGJDt5s4Error: [Scene] Missing class: 716e6yjPSNAIKngeGJDt5s4
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
+2023-03-28T13:04:16.435Z - error: [Scene] Script "716e6yjPSNAIKngeGJDt5s4" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "716e6ca3-3d23-4020-a9e0-786243b79b38"
+Class ID: "716e6yjPSNAIKngeGJDt5s4"
+Error: [Scene] Script "716e6yjPSNAIKngeGJDt5s4" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "716e6ca3-3d23-4020-a9e0-786243b79b38"
+Class ID: "716e6yjPSNAIKngeGJDt5s4"
+
+    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+2023-03-29T08:41:56.770Z - warn: [Scene] Missing class: 1863adQmSVDWIVEune31YzrError: [Scene] Missing class: 1863adQmSVDWIVEune31Yzr
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
+2023-03-29T08:41:56.789Z - error: [Scene] Script "1863adQmSVDWIVEune31Yzr" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "1863a750-9925-4358-8544-ba77b7d58ceb"
+Class ID: "1863adQmSVDWIVEune31Yzr"
+Error: [Scene] Script "1863adQmSVDWIVEune31Yzr" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "1863a750-9925-4358-8544-ba77b7d58ceb"
+Class ID: "1863adQmSVDWIVEune31Yzr"
+
+    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+2023-03-29T08:41:57.140Z - warn: [Scene] Missing class: 1863adQmSVDWIVEune31YzrError: [Scene] Missing class: 1863adQmSVDWIVEune31Yzr
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
+2023-03-29T08:41:57.154Z - error: [Scene] Script "1863adQmSVDWIVEune31Yzr" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "1863a750-9925-4358-8544-ba77b7d58ceb"
+Class ID: "1863adQmSVDWIVEune31Yzr"
+Error: [Scene] Script "1863adQmSVDWIVEune31Yzr" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "1863a750-9925-4358-8544-ba77b7d58ceb"
+Class ID: "1863adQmSVDWIVEune31Yzr"
+
+    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+2023-03-29T12:53:43.086Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts: Unexpected token (26:27)
+
+  24 |
+  25 |     updateMask() {
+> 26 |         if(this.curIndex > )
+     |                            ^
+  27 |         this.curIndex =;
+  28 |         for (let i = 0; i < 24; i++) {
+  29 |             if (i % 6 == this.curIndex) {
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/e1/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fsgj_normal.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fsgj_normal.ts%3A%20Unexpected%20token%20(26%3A27)%0A%0A%20%2024%20%7C%0A%20%2025%20%7C%20%20%20%20%20updateMask()%20%7B%0A%3E%2026%20%7C%20%20%20%20%20%20%20%20%20if(this.curIndex%20%3E%20)%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2027%20%7C%20%20%20%20%20%20%20%20%20this.curIndex%20%3D%3B%0A%20%2028%20%7C%20%20%20%20%20%20%20%20%20for%20(let%20i%20%3D%200%3B%20i%20%3C%2024%3B%20i%2B%2B)%20%7B%0A%20%2029%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20if%20(i%20%25%206%20%3D%3D%20this.curIndex)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts: Unexpected token (26:27)
+
+  24 |
+  25 |     updateMask() {
+> 26 |         if(this.curIndex > )
+  29 |             if (i % 6 == this.curIndex) {
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/e1/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fsgj_normal.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fzzx%2FDesktop%2Fnaga123%2Fclient%2Fassets%2Fscript%2Fsgj%2Fsgj_normal.ts%3A%20Unexpected%20token%20(26%3A27)%0A%0A%20%2024%20%7C%0A%20%2025%20%7C%20%20%20%20%20updateMask()%20%7B%0A%3E%2026%20%7C%20%20%20%20%20%20%20%20%20if(this.curIndex%20%3E%20)%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2027%20%7C%20%20%20%20%20%20%20%20%20this.curIndex%20%3D%3B%0A%20%2028%20%7C%20%20%20%20%20%20%20%20%20for%20(let%20i%20%3D%200%3B%20i%20%3C%2024%3B%20i%2B%2B)%20%7B%0A%20%2029%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20if%20(i%20%25%206%20%3D%3D%20this.curIndex)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/zzx/Desktop/naga123/client/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+2023-03-29T12:53:43.105Z - warn: [Scene] Missing class: 0e776xYUI1Iv72stGOFv1M8Error: [Scene] Missing class: 0e776xYUI1Iv72stGOFv1M8
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:126351:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38012:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37953:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:38161:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37987:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:37959:29)
+2023-03-29T12:53:43.120Z - error: [Scene] Script "0e776xYUI1Iv72stGOFv1M8" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "0e776c58-508d-48bf-bdac-b46385bf533c"
+Class ID: "0e776xYUI1Iv72stGOFv1M8"
+Error: [Scene] Script "0e776xYUI1Iv72stGOFv1M8" attached to "root" is missing or invalid. Detailed information:
+Node path: "Canvas/root"
+Script UUID: "0e776c58-508d-48bf-bdac-b46385bf533c"
+Class ID: "0e776xYUI1Iv72stGOFv1M8"
+
+    at report (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+2023-03-29T13:17:03.334Z - warn: Metrics: no valid info

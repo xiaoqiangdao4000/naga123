@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7183.046220779419,
+      "mTimestamp": 6489.110218048096,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 117938.05971574783,
-      "chunkId": "7176464a031bb56808bece8fa9be69582126f600",
+      "mTimestamp": 89094571.23028517,
+      "chunkId": "d2a469b18dd3806af6b4b4f47a791d61efe03601",
       "imports": [
         {
           "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/common/loading.ts",
@@ -679,7 +679,7 @@
           }
         },
         {
-          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/jxlw/game_jxlw.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -688,59 +688,59 @@
             },
             "end": {
               "line": 5,
-              "column": 469
-            }
-          }
-        },
-        {
-          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 485
-            },
-            "end": {
-              "line": 5,
-              "column": 556
+              "column": 466
             }
           }
         },
         {
           "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 482
+            },
+            "end": {
+              "line": 5,
+              "column": 561
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 572
+              "column": 577
             },
             "end": {
               "line": 5,
-              "column": 651
+              "column": 649
             }
           }
         },
         {
-          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 667
+              "column": 665
             },
             "end": {
               "line": 5,
-              "column": 737
+              "column": 736
             }
           }
         },
         {
-          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 753
+              "column": 752
             },
             "end": {
               "line": 5,
@@ -749,7 +749,7 @@
           }
         },
         {
-          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts",
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -758,7 +758,63 @@
             },
             "end": {
               "line": 5,
-              "column": 917
+              "column": 913
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 929
+            },
+            "end": {
+              "line": 5,
+              "column": 1001
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1017
+            },
+            "end": {
+              "line": 5,
+              "column": 1087
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1103
+            },
+            "end": {
+              "line": 5,
+              "column": 1176
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1192
+            },
+            "end": {
+              "line": 5,
+              "column": 1267
             }
           }
         }
@@ -796,13 +852,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/jxlw/game_jxlw.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts"
           },
           "messages": []
@@ -811,6 +860,41 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts"
           },
           "messages": []
         },
@@ -1055,7 +1139,7 @@
       "chunkId": "ea5a7943f2bd413bf241b39e8e53ab8df1786df6"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1679650515595,
+      "mTimestamp": 1680006724199,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -1533,10 +1617,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/hall/hall.ts": {
       "mTimestamp": {
-        "mtime": 1679650631717.3066,
+        "mtime": 1679992708673.5596,
         "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb"
       },
-      "chunkId": "bc2c672b08326a83f50d30839fc9f19f6a294859",
+      "chunkId": "e130cbe0c4ca767d24405b2a7810c8a31a7be3bc",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3105,10 +3189,10 @@
     },
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts": {
       "mTimestamp": {
-        "mtime": 1679650497746.1902,
+        "mtime": 1679650853975.9866,
         "uuid": "1e854ac3-5073-42ac-bf23-48df0cd7b6e3"
       },
-      "chunkId": "31c7d5c8521f8d04ffaede29b5c66e00d0962a42",
+      "chunkId": "c7cba240546192f8bff8d407f2e1130b8ac821ff",
       "imports": [
         {
           "value": "cc"
@@ -3178,6 +3262,422 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_jxlw.ts": {
+      "mTimestamp": {
+        "mtime": 1679553686838.921,
+        "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38"
+      },
+      "chunkId": "ca68b79bc8e737e77c6ee57967e58ac7cb5220e6",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": {
+      "mTimestamp": {
+        "mtime": 1680078499399.6968,
+        "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38"
+      },
+      "chunkId": "ab0786dfaa2774dc11af1cb63f4c23548926a44d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 97
+            },
+            "end": {
+              "line": 1,
+              "column": 101
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": {
+      "mTimestamp": {
+        "mtime": 1680082818380.468,
+        "uuid": "342eed35-d409-4d69-867c-c3255d9f4dde"
+      },
+      "chunkId": "1c22db7ecdcffd536fe7148b0421c8df78afcbc8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_sprite.ts": {
+      "mTimestamp": {
+        "mtime": 1680077628865.6658,
+        "uuid": "1863a750-9925-4358-8544-ba77b7d58ceb"
+      },
+      "chunkId": "6fe066c0e0753856d5b6a7957a3484b2704cca25",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 97
+            },
+            "end": {
+              "line": 1,
+              "column": 101
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": {
+      "mTimestamp": {
+        "mtime": 1680083772238.1987,
+        "uuid": "c4efbba6-046c-431c-b934-99b32d891066"
+      },
+      "chunkId": "877978aff7ba7f8432dea1b59b49f1778bd8fbf8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 97
+            },
+            "end": {
+              "line": 1,
+              "column": 101
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": {
+      "mTimestamp": {
+        "mtime": 1680095262576.222,
+        "uuid": "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9"
+      },
+      "chunkId": "061e127299e9a1d01a4514cfde3f9a2022247799",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_nomarl.ts": {
+      "mTimestamp": {
+        "mtime": 1680092377063.6504,
+        "uuid": "0e776c58-508d-48bf-bdac-b46385bf533c"
+      },
+      "chunkId": "7bc8628e7839f9394b52eef6089e3a68e7f22687",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts": {
+      "mTimestamp": {
+        "mtime": 1680095816091.3123,
+        "uuid": "0e776c58-508d-48bf-bdac-b46385bf533c"
+      },
+      "chunkId": "281ea8f7fad7b0f9e80a1fbf447a435e375e8f2f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
             }
           }
         }

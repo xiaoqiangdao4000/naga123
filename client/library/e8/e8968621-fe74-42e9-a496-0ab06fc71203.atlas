@@ -1,0 +1,20 @@
+
+ldgame_lightkuang.png
+size: 363,148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangtiao
+  rotate: true
+  xy: 319, 31
+  size: 115, 42
+  orig: 115, 42
+  offset: 0, 0
+  index: -1
+ldgame_lightkuang
+  rotate: false
+  xy: 2, 2
+  size: 315, 144
+  orig: 315, 144
+  offset: 0, 0
+  index: -1

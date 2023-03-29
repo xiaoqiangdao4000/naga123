@@ -1,0 +1,2993 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ldgame_logo",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "txiWnAakljM9Hvdnh3AfpIVz174",
+      "spine": "3.6.37",
+      "width": 864.46,
+      "height": 1316.49,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "hip",
+        "parent": "root"
+      },
+      {
+        "name": "lizi",
+        "parent": "hip"
+      },
+      {
+        "name": "ldgame_lgchengxing",
+        "parent": "lizi",
+        "rotation": 121.03,
+        "x": 346.75,
+        "y": -614.09
+      },
+      {
+        "name": "ldgame_lgdian",
+        "parent": "lizi",
+        "rotation": -98.86,
+        "x": 236.66,
+        "y": 78.07
+      },
+      {
+        "name": "ldgame_lgdian2",
+        "parent": "lizi",
+        "rotation": -99.3,
+        "x": 176.21,
+        "y": 231.12,
+        "scaleX": 0.643,
+        "scaleY": 0.643
+      },
+      {
+        "name": "ldgame_lgdian3",
+        "parent": "lizi",
+        "rotation": -114.33,
+        "x": 297.08,
+        "y": 329.92,
+        "scaleX": 0.643,
+        "scaleY": 0.643
+      },
+      {
+        "name": "ldgame_lgdian4",
+        "parent": "lizi",
+        "rotation": -93.75,
+        "x": 30.92,
+        "y": 292.14,
+        "scaleX": 0.586,
+        "scaleY": 0.586
+      },
+      {
+        "name": "ldgame_lgdian5",
+        "parent": "lizi",
+        "rotation": -109.74,
+        "x": 242.69,
+        "y": 467.87,
+        "scaleX": 0.408,
+        "scaleY": 0.408
+      },
+      {
+        "name": "ldgame_lgdian6",
+        "parent": "lizi",
+        "rotation": -117.09,
+        "x": 266.91,
+        "y": 465.2,
+        "scaleX": 0.408,
+        "scaleY": 0.408
+      },
+      {
+        "name": "ldgame_lgdian7",
+        "parent": "lizi",
+        "rotation": -41.32,
+        "x": -292.01,
+        "y": 187.89,
+        "scaleX": 0.408,
+        "scaleY": 0.408
+      },
+      {
+        "name": "ldgame_lgdian8",
+        "parent": "lizi",
+        "rotation": -39.46,
+        "x": -346.31,
+        "y": 232.06,
+        "scaleX": 0.408,
+        "scaleY": 0.408
+      },
+      {
+        "name": "ldgame_lgdian9",
+        "parent": "lizi",
+        "rotation": 107.1,
+        "x": 295.14,
+        "y": -135.76,
+        "scaleX": 0.581,
+        "scaleY": 0.581
+      },
+      {
+        "name": "ldgame_lgdian10",
+        "parent": "lizi",
+        "rotation": 107.56,
+        "x": 297.85,
+        "y": -303.97,
+        "scaleX": 0.449,
+        "scaleY": 0.449
+      },
+      {
+        "name": "ldgame_lgdian11",
+        "parent": "lizi",
+        "rotation": 94.2,
+        "x": 116.26,
+        "y": -301.99,
+        "scaleX": 0.566,
+        "scaleY": 0.566
+      },
+      {
+        "name": "ldgame_lgdian12",
+        "parent": "lizi",
+        "rotation": 88.86,
+        "x": 42.75,
+        "y": -398.93,
+        "scaleX": 0.433,
+        "scaleY": 0.433
+      },
+      {
+        "name": "ldgame_lgdian13",
+        "parent": "lizi",
+        "rotation": 58.28,
+        "x": -331.3,
+        "y": -292.18,
+        "scaleX": 0.59,
+        "scaleY": 0.59
+      },
+      {
+        "name": "ldgame_lgdian14",
+        "parent": "lizi",
+        "rotation": -67.89,
+        "x": -336.87,
+        "y": 78.27,
+        "scaleX": 0.59,
+        "scaleY": 0.59
+      },
+      {
+        "name": "ldgame_lgfenxing",
+        "parent": "lizi",
+        "rotation": -109.23,
+        "x": 273.61,
+        "y": 178.2
+      },
+      {
+        "name": "ldgame_lglanxing",
+        "parent": "lizi",
+        "rotation": -116.78,
+        "x": 121.1,
+        "y": 248.03
+      },
+      {
+        "name": "ldgame_lglanxing1",
+        "parent": "lizi",
+        "rotation": 118.17,
+        "x": 251.6,
+        "y": -145.07
+      },
+      {
+        "name": "ldgame_lglanzixing",
+        "parent": "lizi",
+        "rotation": 64.44,
+        "x": -170.65,
+        "y": -204.09
+      },
+      {
+        "name": "ldgame_lglvlingdang",
+        "parent": "lizi",
+        "rotation": 59.61,
+        "x": -292.21,
+        "y": -186.87
+      },
+      {
+        "name": "ldgame_lglvxing",
+        "parent": "lizi",
+        "rotation": -51.86,
+        "x": -305.43,
+        "y": 211.32
+      },
+      {
+        "name": "ldgame_lgninmeng",
+        "parent": "lizi",
+        "rotation": -114.34,
+        "x": 273.13,
+        "y": 472.39
+      },
+      {
+        "name": "ldgame_lgpingguo",
+        "parent": "lizi",
+        "rotation": 129.5,
+        "x": 325.55,
+        "y": -212.05
+      },
+      {
+        "name": "ldgame_lgshilanxing",
+        "parent": "lizi",
+        "rotation": -65.49,
+        "x": -93.9,
+        "y": 230.81
+      },
+      {
+        "name": "ldgame_lgxulanxing",
+        "parent": "lizi",
+        "rotation": 115.7,
+        "x": 169.97,
+        "y": -303.36
+      },
+      {
+        "name": "ldgame_lgzixing",
+        "parent": "lizi",
+        "rotation": 70.3,
+        "x": -291.74,
+        "y": -363.91
+      },
+      {
+        "name": "ldgame_lgzixing2",
+        "parent": "lizi",
+        "rotation": -52.23,
+        "x": -177.81,
+        "y": 368.58
+      },
+      {
+        "name": "ldgame_logolg",
+        "parent": "hip",
+        "y": -15.37,
+        "scaleX": 4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "ldgame_logolg",
+        "bone": "ldgame_logolg",
+        "attachment": "ldgame_logolg0",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_lgchengxing",
+        "bone": "ldgame_lgchengxing",
+        "attachment": "ldgame_lgchengxing"
+      },
+      {
+        "name": "ldgame_lgfenxing",
+        "bone": "ldgame_lgfenxing",
+        "attachment": "ldgame_lgfenxing"
+      },
+      {
+        "name": "ldgame_lglanxing",
+        "bone": "ldgame_lglanxing",
+        "attachment": "ldgame_lglanxing"
+      },
+      {
+        "name": "ldgame_lglanxing1",
+        "bone": "ldgame_lglanxing1",
+        "attachment": "ldgame_lglanxing1"
+      },
+      {
+        "name": "ldgame_lglanzixing",
+        "bone": "ldgame_lglanzixing",
+        "attachment": "ldgame_lglanzixing"
+      },
+      {
+        "name": "ldgame_lglvlingdang",
+        "bone": "ldgame_lglvlingdang",
+        "attachment": "ldgame_lglvlingdang"
+      },
+      {
+        "name": "ldgame_lglvxing",
+        "bone": "ldgame_lglvxing",
+        "attachment": "ldgame_lglvxing"
+      },
+      {
+        "name": "ldgame_lgninmeng",
+        "bone": "ldgame_lgninmeng",
+        "attachment": "ldgame_lgninmeng"
+      },
+      {
+        "name": "ldgame_lgpingguo",
+        "bone": "ldgame_lgpingguo",
+        "attachment": "ldgame_lgpingguo"
+      },
+      {
+        "name": "ldgame_lgshilanxing",
+        "bone": "ldgame_lgshilanxing",
+        "attachment": "ldgame_lgshilanxing"
+      },
+      {
+        "name": "ldgame_lgxulanxing",
+        "bone": "ldgame_lgxulanxing",
+        "attachment": "ldgame_lgxulanxing"
+      },
+      {
+        "name": "ldgame_lgzixing",
+        "bone": "ldgame_lgzixing",
+        "attachment": "ldgame_lgzixing"
+      },
+      {
+        "name": "ldgame_lgzixing2",
+        "bone": "ldgame_lgzixing2",
+        "attachment": "ldgame_lgzixing2"
+      },
+      {
+        "name": "ldgame_lgdian",
+        "bone": "ldgame_lgdian",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian2",
+        "bone": "ldgame_lgdian2",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian3",
+        "bone": "ldgame_lgdian3",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian4",
+        "bone": "ldgame_lgdian4",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian5",
+        "bone": "ldgame_lgdian5",
+        "color": "ffffff80",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian6",
+        "bone": "ldgame_lgdian6",
+        "color": "ffffff80",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian7",
+        "bone": "ldgame_lgdian7",
+        "color": "ffffff80",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian8",
+        "bone": "ldgame_lgdian8",
+        "color": "ffffff80",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian9",
+        "bone": "ldgame_lgdian9",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian10",
+        "bone": "ldgame_lgdian10",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian11",
+        "bone": "ldgame_lgdian11",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian12",
+        "bone": "ldgame_lgdian12",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian13",
+        "bone": "ldgame_lgdian13",
+        "attachment": "ldgame_lgdian"
+      },
+      {
+        "name": "ldgame_lgdian14",
+        "bone": "ldgame_lgdian14",
+        "attachment": "ldgame_lgdian"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ldgame_lgchengxing": {
+          "ldgame_lgchengxing": {
+            "rotation": -121.03,
+            "width": 284,
+            "height": 282
+          }
+        },
+        "ldgame_lgdian": {
+          "ldgame_lgdian": {
+            "rotation": 98.86,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian10": {
+          "ldgame_lgdian": {
+            "rotation": -107.56,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian11": {
+          "ldgame_lgdian": {
+            "rotation": -94.2,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian12": {
+          "ldgame_lgdian": {
+            "rotation": -88.86,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian13": {
+          "ldgame_lgdian": {
+            "rotation": -58.28,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian14": {
+          "ldgame_lgdian": {
+            "rotation": 67.89,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian2": {
+          "ldgame_lgdian": {
+            "rotation": 99.3,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian3": {
+          "ldgame_lgdian": {
+            "rotation": 114.33,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian4": {
+          "ldgame_lgdian": {
+            "rotation": 93.75,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian5": {
+          "ldgame_lgdian": {
+            "rotation": 109.74,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian6": {
+          "ldgame_lgdian": {
+            "rotation": 117.09,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian7": {
+          "ldgame_lgdian": {
+            "rotation": 41.32,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian8": {
+          "ldgame_lgdian": {
+            "rotation": 39.46,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgdian9": {
+          "ldgame_lgdian": {
+            "rotation": -107.1,
+            "width": 12,
+            "height": 12
+          }
+        },
+        "ldgame_lgfenxing": {
+          "ldgame_lgfenxing": {
+            "rotation": 109.23,
+            "width": 142,
+            "height": 142
+          }
+        },
+        "ldgame_lglanxing": {
+          "ldgame_lglanxing": {
+            "rotation": 116.78,
+            "width": 109,
+            "height": 111
+          }
+        },
+        "ldgame_lglanxing1": {
+          "ldgame_lglanxing1": {
+            "rotation": -118.17,
+            "width": 160,
+            "height": 159
+          }
+        },
+        "ldgame_lglanzixing": {
+          "ldgame_lglanzixing": {
+            "rotation": -64.44,
+            "width": 109,
+            "height": 111
+          }
+        },
+        "ldgame_lglvlingdang": {
+          "ldgame_lglvlingdang": {
+            "rotation": -59.61,
+            "width": 167,
+            "height": 184
+          }
+        },
+        "ldgame_lglvxing": {
+          "ldgame_lglvxing": {
+            "rotation": 51.86,
+            "width": 133,
+            "height": 131
+          }
+        },
+        "ldgame_lgninmeng": {
+          "ldgame_lgninmeng": {
+            "rotation": 114.34,
+            "width": 177,
+            "height": 178
+          }
+        },
+        "ldgame_lgpingguo": {
+          "ldgame_lgpingguo": {
+            "rotation": -129.5,
+            "width": 192,
+            "height": 197
+          }
+        },
+        "ldgame_lgshilanxing": {
+          "ldgame_lgshilanxing": {
+            "rotation": 65.49,
+            "width": 116,
+            "height": 114
+          }
+        },
+        "ldgame_lgxulanxing": {
+          "ldgame_lgxulanxing": {
+            "rotation": -115.7,
+            "width": 134,
+            "height": 135
+          }
+        },
+        "ldgame_lgzixing": {
+          "ldgame_lgzixing": {
+            "rotation": -70.3,
+            "width": 147,
+            "height": 149
+          }
+        },
+        "ldgame_lgzixing2": {
+          "ldgame_lgzixing2": {
+            "rotation": 52.23,
+            "width": 201,
+            "height": 199
+          }
+        },
+        "ldgame_logolg": {
+          "ldgame_logolg0": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg1": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg2": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg3": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg4": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg5": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg6": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg7": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg8": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg9": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg10": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg11": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg12": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg13": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg14": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg15": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg16": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg17": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg18": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg19": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg20": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg21": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg22": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg23": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg24": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg25": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg26": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg27": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg28": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg29": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg30": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg31": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg32": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg33": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg34": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg35": {
+            "width": 187,
+            "height": 91
+          },
+          "ldgame_logolg36": {
+            "width": 187,
+            "height": 91
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "ldgame_logolg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ldgame_logolg0"
+              },
+              {
+                "time": 0.0667,
+                "name": "ldgame_logolg1"
+              },
+              {
+                "time": 0.1333,
+                "name": "ldgame_logolg2"
+              },
+              {
+                "time": 0.2,
+                "name": "ldgame_logolg3"
+              },
+              {
+                "time": 0.2667,
+                "name": "ldgame_logolg4"
+              },
+              {
+                "time": 0.3333,
+                "name": "ldgame_logolg5"
+              },
+              {
+                "time": 0.4,
+                "name": "ldgame_logolg6"
+              },
+              {
+                "time": 0.4667,
+                "name": "ldgame_logolg7"
+              },
+              {
+                "time": 0.5333,
+                "name": "ldgame_logolg8"
+              },
+              {
+                "time": 0.6,
+                "name": "ldgame_logolg9"
+              },
+              {
+                "time": 0.6667,
+                "name": "ldgame_logolg10"
+              },
+              {
+                "time": 0.7333,
+                "name": "ldgame_logolg11"
+              },
+              {
+                "time": 0.8,
+                "name": "ldgame_logolg12"
+              },
+              {
+                "time": 0.8667,
+                "name": "ldgame_logolg13"
+              },
+              {
+                "time": 0.9333,
+                "name": "ldgame_logolg14"
+              },
+              {
+                "time": 1,
+                "name": "ldgame_logolg15"
+              },
+              {
+                "time": 1.0667,
+                "name": "ldgame_logolg16"
+              },
+              {
+                "time": 1.1333,
+                "name": "ldgame_logolg17"
+              },
+              {
+                "time": 1.2,
+                "name": "ldgame_logolg18"
+              },
+              {
+                "time": 1.2667,
+                "name": "ldgame_logolg19"
+              },
+              {
+                "time": 1.3333,
+                "name": "ldgame_logolg20"
+              },
+              {
+                "time": 1.4,
+                "name": "ldgame_logolg21"
+              },
+              {
+                "time": 1.4667,
+                "name": "ldgame_logolg22"
+              },
+              {
+                "time": 1.5333,
+                "name": "ldgame_logolg23"
+              },
+              {
+                "time": 1.6,
+                "name": "ldgame_logolg24"
+              },
+              {
+                "time": 1.6667,
+                "name": "ldgame_logolg25"
+              },
+              {
+                "time": 1.7333,
+                "name": "ldgame_logolg26"
+              },
+              {
+                "time": 1.8,
+                "name": "ldgame_logolg27"
+              },
+              {
+                "time": 1.8667,
+                "name": "ldgame_logolg28"
+              },
+              {
+                "time": 1.9333,
+                "name": "ldgame_logolg29"
+              },
+              {
+                "time": 2,
+                "name": "ldgame_logolg30"
+              },
+              {
+                "time": 2.0667,
+                "name": "ldgame_logolg31"
+              },
+              {
+                "time": 2.1333,
+                "name": "ldgame_logolg32"
+              },
+              {
+                "time": 2.2,
+                "name": "ldgame_logolg33"
+              },
+              {
+                "time": 2.2667,
+                "name": "ldgame_logolg34"
+              },
+              {
+                "time": 2.3333,
+                "name": "ldgame_logolg35"
+              },
+              {
+                "time": 2.4,
+                "name": "ldgame_logolg36"
+              },
+              {
+                "time": 2.4667,
+                "name": "ldgame_logolg0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ldgame_lgzixing2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.43,
+                "y": 0.26,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4,
+                "x": -6.07,
+                "y": 3.67,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.43,
+                "y": 0.26
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgzixing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.07,
+                "y": -1.7,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6,
+                "x": 0.28,
+                "y": -7.13,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.07,
+                "y": -1.7
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgxulanxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.77,
+                "y": -2.23,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7,
+                "x": 5.2,
+                "y": -6.56,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 1.77,
+                "y": -2.23
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgshilanxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.26,
+                "y": 1.17,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5333,
+                "x": -1.49,
+                "y": 6.59,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.26,
+                "y": 1.17
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgpingguo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.8,
+                "y": -0.35,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4667,
+                "x": 6.77,
+                "y": -2.99,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.8,
+                "y": -0.35
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgninmeng": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.09,
+                "y": 1.49,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6333,
+                "x": 3.98,
+                "y": 5.46,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 1.09,
+                "y": 1.49
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lglvxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.62,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": -3,
+                "y": 6.06,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.62,
+                "y": 1.25
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lglvlingdang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -3.26,
+                "y": -0.97,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7333,
+                "x": -8.68,
+                "y": -2.58,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -3.26,
+                "y": -0.97
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lglanzixing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.21,
+                "y": -0.58,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "x": -2.26,
+                "y": -6.26,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.21,
+                "y": -0.58
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lglanxing1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.05,
+                "y": -0.24,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": -1.9,
+                "y": -8.52,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.05,
+                "y": -0.24
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lglanxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.39,
+                "y": 0.49,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "x": 4.21,
+                "y": 5.29,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.39,
+                "y": 0.49
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgfenxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.51,
+                "y": 0.86,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 3.48,
+                "y": 5.79,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.51,
+                "y": 0.86
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian14": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": -0.72,
+                "y": 3.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian13": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.26,
+                "y": -0.06,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "x": -5.33,
+                "y": -1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.26,
+                "y": -0.06
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian12": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.28,
+                "y": -0.57,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": -6.22,
+                "y": -2.74,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -1.28,
+                "y": -0.57
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian11": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": -3.66,
+                "y": -4.02,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian10": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.33,
+                "y": -0.32,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4,
+                "x": -4.6,
+                "y": -4.57,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.33,
+                "y": -0.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian9": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": 4.52,
+                "y": -2.63,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian8": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.96,
+                "y": -1.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": -6.41,
+                "y": -3.53,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -1.96,
+                "y": -1.08
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian7": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.31,
+                "y": 0.64,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4,
+                "x": 4.35,
+                "y": 9.04,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.31,
+                "y": 0.64
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.08,
+                "y": 0.19,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "x": -1.73,
+                "y": 3.92,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -0.08,
+                "y": 0.19
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian5": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.54,
+                "y": 0.14,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4667,
+                "x": 4.59,
+                "y": 1.22,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.54,
+                "y": 0.14
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.58,
+                "y": 1.03,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6,
+                "x": -6.64,
+                "y": 4.32,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -1.58,
+                "y": 1.03
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": -2.43,
+                "y": 5.77,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": 7.78,
+                "y": 3.04,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgdian": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.42,
+                "y": 1.12,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5333,
+                "x": 2.38,
+                "y": 6.33,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": 0.42,
+                "y": 1.12
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ldgame_lgchengxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -2.79,
+                "y": -5.95,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9,
+                "x": -5.04,
+                "y": -10.75,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4667,
+                "x": -2.79,
+                "y": -5.95
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "24473a26-d026-4a39-8ffe-12f0229e1d66@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "ldgame_logo.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nldgame_logo.png\nsize: 772,772\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nldgame_lgchengxing\n  rotate: false\n  xy: 2, 558\n  size: 213, 212\n  orig: 213, 212\n  offset: 0, 0\n  index: -1\nldgame_lgdian\n  rotate: false\n  xy: 2, 11\n  size: 9, 9\n  orig: 9, 9\n  offset: 0, 0\n  index: -1\nldgame_lgfenxing\n  rotate: false\n  xy: 660, 555\n  size: 105, 105\n  orig: 107, 107\n  offset: 1, 1\n  index: -1\nldgame_lglanxing\n  rotate: true\n  xy: 688, 82\n  size: 80, 81\n  orig: 82, 83\n  offset: 1, 1\n  index: -1\nldgame_lglanxing1\n  rotate: false\n  xy: 652, 436\n  size: 118, 117\n  orig: 120, 119\n  offset: 1, 1\n  index: -1\nldgame_lglanzixing\n  rotate: false\n  xy: 89, 167\n  size: 80, 81\n  orig: 82, 83\n  offset: 1, 1\n  index: -1\nldgame_lglvlingdang\n  rotate: false\n  xy: 643, 298\n  size: 124, 136\n  orig: 125, 138\n  offset: 0, 1\n  index: -1\nldgame_lglvxing\n  rotate: true\n  xy: 103, 251\n  size: 98, 96\n  orig: 100, 98\n  offset: 1, 1\n  index: -1\nldgame_lgninmeng\n  rotate: false\n  xy: 639, 164\n  size: 131, 132\n  orig: 133, 134\n  offset: 1, 1\n  index: -1\nldgame_lgpingguo\n  rotate: true\n  xy: 368, 626\n  size: 144, 148\n  orig: 144, 148\n  offset: 0, 0\n  index: -1\nldgame_lgshilanxing\n  rotate: false\n  xy: 2, 164\n  size: 85, 84\n  orig: 87, 86\n  offset: 1, 1\n  index: -1\nldgame_lgxulanxing\n  rotate: false\n  xy: 2, 250\n  size: 99, 99\n  orig: 101, 101\n  offset: 1, 1\n  index: -1\nldgame_lgzixing\n  rotate: true\n  xy: 660, 662\n  size: 108, 110\n  orig: 110, 112\n  offset: 1, 1\n  index: -1\nldgame_lgzixing2\n  rotate: false\n  xy: 217, 623\n  size: 149, 147\n  orig: 151, 149\n  offset: 1, 1\n  index: -1\nldgame_logolg0\n  rotate: false\n  xy: 493, 149\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg1\n  rotate: false\n  xy: 351, 144\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg10\n  rotate: false\n  xy: 2, 420\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg11\n  rotate: false\n  xy: 2, 351\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg12\n  rotate: false\n  xy: 213, 485\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg13\n  rotate: false\n  xy: 355, 419\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg14\n  rotate: false\n  xy: 213, 416\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg15\n  rotate: false\n  xy: 497, 355\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg16\n  rotate: false\n  xy: 355, 350\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg17\n  rotate: false\n  xy: 497, 286\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg18\n  rotate: true\n  xy: 2, 22\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg19\n  rotate: false\n  xy: 518, 702\n  size: 140, 68\n  orig: 140, 68\n  offset: 0, 0\n  index: -1\nldgame_logolg2\n  rotate: false\n  xy: 209, 141\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg20\n  rotate: false\n  xy: 518, 632\n  size: 140, 68\n  orig: 140, 68\n  offset: 0, 0\n  index: -1\nldgame_logolg21\n  rotate: false\n  xy: 518, 562\n  size: 140, 68\n  orig: 140, 68\n  offset: 0, 0\n  index: -1\nldgame_logolg22\n  rotate: true\n  xy: 71, 22\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg23\n  rotate: true\n  xy: 140, 22\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg24\n  rotate: false\n  xy: 209, 347\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg25\n  rotate: false\n  xy: 351, 281\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg26\n  rotate: false\n  xy: 209, 278\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg27\n  rotate: false\n  xy: 493, 217\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg28\n  rotate: false\n  xy: 351, 212\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg29\n  rotate: false\n  xy: 209, 209\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg3\n  rotate: false\n  xy: 368, 557\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg30\n  rotate: true\n  xy: 351, 2\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg31\n  rotate: false\n  xy: 209, 73\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg32\n  rotate: false\n  xy: 209, 5\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg33\n  rotate: true\n  xy: 419, 2\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg34\n  rotate: true\n  xy: 487, 2\n  size: 140, 66\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg35\n  rotate: true\n  xy: 555, 7\n  size: 140, 65\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg36\n  rotate: true\n  xy: 622, 7\n  size: 140, 64\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg4\n  rotate: false\n  xy: 510, 493\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg5\n  rotate: false\n  xy: 217, 554\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg6\n  rotate: false\n  xy: 359, 488\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg7\n  rotate: false\n  xy: 501, 424\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg8\n  rotate: false\n  xy: 2, 489\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\nldgame_logolg9\n  rotate: true\n  xy: 144, 416\n  size: 140, 67\n  orig: 140, 68\n  offset: 0, 1\n  index: -1\n"
+}

@@ -12,7 +12,7 @@
     "value": {}
   },
   "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf": {
-    "url": "db://assets/resources/image",
+    "url": "db://assets/image",
     "value": {}
   },
   "298f539d-cbb1-4e55-8abd-a8120b42a0a2": {
@@ -59,7 +59,7 @@
     }
   },
   "d449c8f5-e50b-4e96-9b7e-c04a1f0b7935": {
-    "url": "db://assets/resources/image/login",
+    "url": "db://assets/image/login",
     "value": {}
   },
   "1db8da1d-8fe6-48b2-8eaa-e07519a70a71": {
@@ -119,7 +119,7 @@
     "value": {}
   },
   "cec2b25e-890b-4a88-9e07-6ed366287126": {
-    "url": "db://assets/resources/image/hall",
+    "url": "db://assets/image/hall",
     "value": {}
   },
   "48539681-ca40-4831-8f58-745151da171b": {
@@ -223,13 +223,13 @@
     }
   },
   "78a1d86a-0759-4398-aa0f-40b7a4d4ad23": {
-    "url": "db://assets/resources/image/login/BG_dating.png",
+    "url": "db://assets/image/login/BG_dating.png",
     "value": {
       "depends": []
     }
   },
   "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@6c48a": {
-    "url": "db://assets/resources/image/login/BG_dating.png@6c48a",
+    "url": "db://assets/image/login/BG_dating.png@6c48a",
     "value": {
       "depends": [
         "78a1d86a-0759-4398-aa0f-40b7a4d4ad23"
@@ -237,13 +237,13 @@
     }
   },
   "49196178-48ae-40d7-8f57-e483397d329e": {
-    "url": "db://assets/resources/image/hall/hall_bg.jpg",
+    "url": "db://assets/image/hall/hall_bg.jpg",
     "value": {
       "depends": []
     }
   },
   "49196178-48ae-40d7-8f57-e483397d329e@6c48a": {
-    "url": "db://assets/resources/image/hall/hall_bg.jpg@6c48a",
+    "url": "db://assets/image/hall/hall_bg.jpg@6c48a",
     "value": {
       "depends": [
         "49196178-48ae-40d7-8f57-e483397d329e"
@@ -251,7 +251,7 @@
     }
   },
   "49196178-48ae-40d7-8f57-e483397d329e@f9941": {
-    "url": "db://assets/resources/image/hall/hall_bg.jpg@f9941",
+    "url": "db://assets/image/hall/hall_bg.jpg@f9941",
     "value": {
       "depends": [
         "49196178-48ae-40d7-8f57-e483397d329e@6c48a"
@@ -267,7 +267,7 @@
     }
   },
   "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@f9941": {
-    "url": "db://assets/resources/image/login/BG_dating.png@f9941",
+    "url": "db://assets/image/login/BG_dating.png@f9941",
     "value": {
       "depends": [
         "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@6c48a"
@@ -315,13 +315,13 @@
     }
   },
   "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9": {
-    "url": "db://assets/resources/image/common/regist_mask.png",
+    "url": "db://assets/image/common/regist_mask.png",
     "value": {
       "depends": []
     }
   },
   "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@6c48a": {
-    "url": "db://assets/resources/image/common/regist_mask.png@6c48a",
+    "url": "db://assets/image/common/regist_mask.png@6c48a",
     "value": {
       "depends": [
         "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9"
@@ -329,7 +329,7 @@
     }
   },
   "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@f9941": {
-    "url": "db://assets/resources/image/common/regist_mask.png@f9941",
+    "url": "db://assets/image/common/regist_mask.png@f9941",
     "value": {
       "depends": [
         "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9@6c48a"
@@ -337,13 +337,13 @@
     }
   },
   "d6011ec3-03c8-4196-b0e6-dcc0c862b604": {
-    "url": "db://assets/resources/image/common/regist_bg.png",
+    "url": "db://assets/image/common/regist_bg.png",
     "value": {
       "depends": []
     }
   },
   "d6011ec3-03c8-4196-b0e6-dcc0c862b604@6c48a": {
-    "url": "db://assets/resources/image/common/regist_bg.png@6c48a",
+    "url": "db://assets/image/common/regist_bg.png@6c48a",
     "value": {
       "depends": [
         "d6011ec3-03c8-4196-b0e6-dcc0c862b604"
@@ -351,7 +351,7 @@
     }
   },
   "d6011ec3-03c8-4196-b0e6-dcc0c862b604@f9941": {
-    "url": "db://assets/resources/image/common/regist_bg.png@f9941",
+    "url": "db://assets/image/common/regist_bg.png@f9941",
     "value": {
       "depends": [
         "d6011ec3-03c8-4196-b0e6-dcc0c862b604@6c48a"
@@ -379,13 +379,13 @@
     }
   },
   "3feed150-bf6f-4808-b92b-2f3125f69527": {
-    "url": "db://assets/resources/image/common/regist_eidtbg.png",
+    "url": "db://assets/image/common/regist_eidtbg.png",
     "value": {
       "depends": []
     }
   },
   "3feed150-bf6f-4808-b92b-2f3125f69527@6c48a": {
-    "url": "db://assets/resources/image/common/regist_eidtbg.png@6c48a",
+    "url": "db://assets/image/common/regist_eidtbg.png@6c48a",
     "value": {
       "depends": [
         "3feed150-bf6f-4808-b92b-2f3125f69527"
@@ -393,7 +393,7 @@
     }
   },
   "3feed150-bf6f-4808-b92b-2f3125f69527@f9941": {
-    "url": "db://assets/resources/image/common/regist_eidtbg.png@f9941",
+    "url": "db://assets/image/common/regist_eidtbg.png@f9941",
     "value": {
       "depends": [
         "3feed150-bf6f-4808-b92b-2f3125f69527@6c48a"
@@ -401,13 +401,13 @@
     }
   },
   "17ffba45-a6e2-4d92-ad7c-c8861df6135f": {
-    "url": "db://assets/resources/image/common/common_btn.png",
+    "url": "db://assets/image/common/common_btn.png",
     "value": {
       "depends": []
     }
   },
   "17ffba45-a6e2-4d92-ad7c-c8861df6135f@6c48a": {
-    "url": "db://assets/resources/image/common/common_btn.png@6c48a",
+    "url": "db://assets/image/common/common_btn.png@6c48a",
     "value": {
       "depends": [
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f"
@@ -415,11 +415,11 @@
     }
   },
   "8915f1c9-689c-482d-8d34-667cd5e30766": {
-    "url": "db://assets/resources/image/common",
+    "url": "db://assets/image/common",
     "value": {}
   },
   "17ffba45-a6e2-4d92-ad7c-c8861df6135f@f9941": {
-    "url": "db://assets/resources/image/common/common_btn.png@f9941",
+    "url": "db://assets/image/common/common_btn.png@f9941",
     "value": {
       "depends": [
         "17ffba45-a6e2-4d92-ad7c-c8861df6135f@6c48a"
@@ -539,13 +539,13 @@
     "value": {}
   },
   "47fc97f9-b604-4deb-9e94-9dd6cc070066": {
-    "url": "db://assets/resources/image/hall/dating_di.png",
+    "url": "db://assets/image/hall/dating_di.png",
     "value": {
       "depends": []
     }
   },
   "47fc97f9-b604-4deb-9e94-9dd6cc070066@6c48a": {
-    "url": "db://assets/resources/image/hall/dating_di.png@6c48a",
+    "url": "db://assets/image/hall/dating_di.png@6c48a",
     "value": {
       "depends": [
         "47fc97f9-b604-4deb-9e94-9dd6cc070066"
@@ -553,7 +553,7 @@
     }
   },
   "47fc97f9-b604-4deb-9e94-9dd6cc070066@f9941": {
-    "url": "db://assets/resources/image/hall/dating_di.png@f9941",
+    "url": "db://assets/image/hall/dating_di.png@f9941",
     "value": {
       "depends": [
         "47fc97f9-b604-4deb-9e94-9dd6cc070066@6c48a"
@@ -561,13 +561,13 @@
     }
   },
   "2c84d170-0f60-4117-a253-42b440be6442": {
-    "url": "db://assets/resources/image/common/common_titlebg.png",
+    "url": "db://assets/image/common/common_titlebg.png",
     "value": {
       "depends": []
     }
   },
   "2c84d170-0f60-4117-a253-42b440be6442@6c48a": {
-    "url": "db://assets/resources/image/common/common_titlebg.png@6c48a",
+    "url": "db://assets/image/common/common_titlebg.png@6c48a",
     "value": {
       "depends": [
         "2c84d170-0f60-4117-a253-42b440be6442"
@@ -575,7 +575,7 @@
     }
   },
   "2c84d170-0f60-4117-a253-42b440be6442@f9941": {
-    "url": "db://assets/resources/image/common/common_titlebg.png@f9941",
+    "url": "db://assets/image/common/common_titlebg.png@f9941",
     "value": {
       "depends": [
         "2c84d170-0f60-4117-a253-42b440be6442@6c48a"
@@ -583,13 +583,13 @@
     }
   },
   "d7fe66eb-ca70-4bd3-a21a-81de36563121": {
-    "url": "db://assets/resources/image/common/common_headbg.png",
+    "url": "db://assets/image/common/common_headbg.png",
     "value": {
       "depends": []
     }
   },
   "d7fe66eb-ca70-4bd3-a21a-81de36563121@6c48a": {
-    "url": "db://assets/resources/image/common/common_headbg.png@6c48a",
+    "url": "db://assets/image/common/common_headbg.png@6c48a",
     "value": {
       "depends": [
         "d7fe66eb-ca70-4bd3-a21a-81de36563121"
@@ -597,7 +597,7 @@
     }
   },
   "d7fe66eb-ca70-4bd3-a21a-81de36563121@f9941": {
-    "url": "db://assets/resources/image/common/common_headbg.png@f9941",
+    "url": "db://assets/image/common/common_headbg.png@f9941",
     "value": {
       "depends": [
         "d7fe66eb-ca70-4bd3-a21a-81de36563121@6c48a"
@@ -605,13 +605,13 @@
     }
   },
   "f9cae322-2ba2-4a0e-919e-68af76d4ba9e": {
-    "url": "db://assets/resources/image/common/c_Head_mask.png",
+    "url": "db://assets/image/common/c_Head_mask.png",
     "value": {
       "depends": []
     }
   },
   "f9cae322-2ba2-4a0e-919e-68af76d4ba9e@6c48a": {
-    "url": "db://assets/resources/image/common/c_Head_mask.png@6c48a",
+    "url": "db://assets/image/common/c_Head_mask.png@6c48a",
     "value": {
       "depends": [
         "f9cae322-2ba2-4a0e-919e-68af76d4ba9e"
@@ -619,7 +619,7 @@
     }
   },
   "f9cae322-2ba2-4a0e-919e-68af76d4ba9e@f9941": {
-    "url": "db://assets/resources/image/common/c_Head_mask.png@f9941",
+    "url": "db://assets/image/common/c_Head_mask.png@f9941",
     "value": {
       "depends": [
         "f9cae322-2ba2-4a0e-919e-68af76d4ba9e@6c48a"
@@ -627,13 +627,13 @@
     }
   },
   "469505ca-e7c2-4911-a9f1-ef84796dc3ca": {
-    "url": "db://assets/resources/image/common/c_head1.png",
+    "url": "db://assets/image/common/c_head1.png",
     "value": {
       "depends": []
     }
   },
   "469505ca-e7c2-4911-a9f1-ef84796dc3ca@6c48a": {
-    "url": "db://assets/resources/image/common/c_head1.png@6c48a",
+    "url": "db://assets/image/common/c_head1.png@6c48a",
     "value": {
       "depends": [
         "469505ca-e7c2-4911-a9f1-ef84796dc3ca"
@@ -641,7 +641,7 @@
     }
   },
   "469505ca-e7c2-4911-a9f1-ef84796dc3ca@f9941": {
-    "url": "db://assets/resources/image/common/c_head1.png@f9941",
+    "url": "db://assets/image/common/c_head1.png@f9941",
     "value": {
       "depends": [
         "469505ca-e7c2-4911-a9f1-ef84796dc3ca@6c48a"
@@ -749,13 +749,13 @@
     }
   },
   "f49b65e6-66cd-481d-a554-cf1bc4e7ab78": {
-    "url": "db://assets/resources/image/common/dating_guangbo.png",
+    "url": "db://assets/image/common/dating_guangbo.png",
     "value": {
       "depends": []
     }
   },
   "f49b65e6-66cd-481d-a554-cf1bc4e7ab78@6c48a": {
-    "url": "db://assets/resources/image/common/dating_guangbo.png@6c48a",
+    "url": "db://assets/image/common/dating_guangbo.png@6c48a",
     "value": {
       "depends": [
         "f49b65e6-66cd-481d-a554-cf1bc4e7ab78"
@@ -763,13 +763,13 @@
     }
   },
   "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d": {
-    "url": "db://assets/resources/image/common/c_gonggao_di.png",
+    "url": "db://assets/image/common/c_gonggao_di.png",
     "value": {
       "depends": []
     }
   },
   "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d@6c48a": {
-    "url": "db://assets/resources/image/common/c_gonggao_di.png@6c48a",
+    "url": "db://assets/image/common/c_gonggao_di.png@6c48a",
     "value": {
       "depends": [
         "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d"
@@ -777,7 +777,7 @@
     }
   },
   "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d@f9941": {
-    "url": "db://assets/resources/image/common/c_gonggao_di.png@f9941",
+    "url": "db://assets/image/common/c_gonggao_di.png@f9941",
     "value": {
       "depends": [
         "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d@6c48a"
@@ -785,7 +785,7 @@
     }
   },
   "f49b65e6-66cd-481d-a554-cf1bc4e7ab78@f9941": {
-    "url": "db://assets/resources/image/common/dating_guangbo.png@f9941",
+    "url": "db://assets/image/common/dating_guangbo.png@f9941",
     "value": {
       "depends": [
         "f49b65e6-66cd-481d-a554-cf1bc4e7ab78@6c48a"
@@ -813,13 +813,13 @@
     }
   },
   "0ac80040-6b41-471d-99bb-cd044c5da025": {
-    "url": "db://assets/resources/image/common/board_4.png",
+    "url": "db://assets/image/common/board_4.png",
     "value": {
       "depends": []
     }
   },
   "0ac80040-6b41-471d-99bb-cd044c5da025@6c48a": {
-    "url": "db://assets/resources/image/common/board_4.png@6c48a",
+    "url": "db://assets/image/common/board_4.png@6c48a",
     "value": {
       "depends": [
         "0ac80040-6b41-471d-99bb-cd044c5da025"
@@ -827,7 +827,7 @@
     }
   },
   "0ac80040-6b41-471d-99bb-cd044c5da025@f9941": {
-    "url": "db://assets/resources/image/common/board_4.png@f9941",
+    "url": "db://assets/image/common/board_4.png@f9941",
     "value": {
       "depends": [
         "0ac80040-6b41-471d-99bb-cd044c5da025@6c48a"
@@ -835,13 +835,13 @@
     }
   },
   "c2173766-5545-4f63-8474-78bbac08556b": {
-    "url": "db://assets/resources/image/common/c_edit_bg.png",
+    "url": "db://assets/image/common/c_edit_bg.png",
     "value": {
       "depends": []
     }
   },
   "c2173766-5545-4f63-8474-78bbac08556b@6c48a": {
-    "url": "db://assets/resources/image/common/c_edit_bg.png@6c48a",
+    "url": "db://assets/image/common/c_edit_bg.png@6c48a",
     "value": {
       "depends": [
         "c2173766-5545-4f63-8474-78bbac08556b"
@@ -849,7 +849,7 @@
     }
   },
   "c2173766-5545-4f63-8474-78bbac08556b@f9941": {
-    "url": "db://assets/resources/image/common/c_edit_bg.png@f9941",
+    "url": "db://assets/image/common/c_edit_bg.png@f9941",
     "value": {
       "depends": [
         "c2173766-5545-4f63-8474-78bbac08556b@6c48a"
@@ -897,13 +897,13 @@
     }
   },
   "a5fd1ce6-e348-45fc-b410-35127596eb8b": {
-    "url": "db://assets/resources/image/hall/renwu.png",
+    "url": "db://assets/image/hall/renwu.png",
     "value": {
       "depends": []
     }
   },
   "a5fd1ce6-e348-45fc-b410-35127596eb8b@6c48a": {
-    "url": "db://assets/resources/image/hall/renwu.png@6c48a",
+    "url": "db://assets/image/hall/renwu.png@6c48a",
     "value": {
       "depends": [
         "a5fd1ce6-e348-45fc-b410-35127596eb8b"
@@ -911,7 +911,7 @@
     }
   },
   "a5fd1ce6-e348-45fc-b410-35127596eb8b@f9941": {
-    "url": "db://assets/resources/image/hall/renwu.png@f9941",
+    "url": "db://assets/image/hall/renwu.png@f9941",
     "value": {
       "depends": [
         "a5fd1ce6-e348-45fc-b410-35127596eb8b@6c48a"
@@ -919,37 +919,37 @@
     }
   },
   "db96521b-2950-4aa7-a505-8c8a2fae94d1": {
-    "url": "db://assets/resources/image/hall/item_bg2.png",
+    "url": "db://assets/image/hall/item_bg2.png",
     "value": {
       "depends": []
     }
   },
   "cd28f7cc-4b7d-4750-a8ef-362444163d8c": {
-    "url": "db://assets/resources/image/hall/item_bg2_nn.png",
+    "url": "db://assets/image/hall/item_bg2_nn.png",
     "value": {
       "depends": []
     }
   },
   "b67b1ae1-575f-41a1-bddf-9633fa51ed20": {
-    "url": "db://assets/resources/image/hall/item_bg3.png",
+    "url": "db://assets/image/hall/item_bg3.png",
     "value": {
       "depends": []
     }
   },
   "3a5b12ff-edeb-4ca5-a684-ddb678396fde": {
-    "url": "db://assets/resources/image/hall/item_bg3_nn.png",
+    "url": "db://assets/image/hall/item_bg3_nn.png",
     "value": {
       "depends": []
     }
   },
   "369250e5-9287-40f1-8a74-f024373d3c68": {
-    "url": "db://assets/resources/image/hall/item_bg4.png",
+    "url": "db://assets/image/hall/item_bg4.png",
     "value": {
       "depends": []
     }
   },
   "db96521b-2950-4aa7-a505-8c8a2fae94d1@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg2.png@6c48a",
+    "url": "db://assets/image/hall/item_bg2.png@6c48a",
     "value": {
       "depends": [
         "db96521b-2950-4aa7-a505-8c8a2fae94d1"
@@ -957,13 +957,13 @@
     }
   },
   "7f7fd075-b89d-4339-99b7-84f0eadc6e7a": {
-    "url": "db://assets/resources/image/hall/item_bg1.png",
+    "url": "db://assets/image/hall/item_bg1.png",
     "value": {
       "depends": []
     }
   },
   "cd28f7cc-4b7d-4750-a8ef-362444163d8c@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg2_nn.png@6c48a",
+    "url": "db://assets/image/hall/item_bg2_nn.png@6c48a",
     "value": {
       "depends": [
         "cd28f7cc-4b7d-4750-a8ef-362444163d8c"
@@ -971,13 +971,13 @@
     }
   },
   "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2": {
-    "url": "db://assets/resources/image/hall/item_bg4_nn.png",
+    "url": "db://assets/image/hall/item_bg4_nn.png",
     "value": {
       "depends": []
     }
   },
   "b67b1ae1-575f-41a1-bddf-9633fa51ed20@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg3.png@6c48a",
+    "url": "db://assets/image/hall/item_bg3.png@6c48a",
     "value": {
       "depends": [
         "b67b1ae1-575f-41a1-bddf-9633fa51ed20"
@@ -985,13 +985,13 @@
     }
   },
   "720815fc-6ae7-4f65-abfe-493cd2f9d757": {
-    "url": "db://assets/resources/image/hall/item_bg1_nn.png",
+    "url": "db://assets/image/hall/item_bg1_nn.png",
     "value": {
       "depends": []
     }
   },
   "3a5b12ff-edeb-4ca5-a684-ddb678396fde@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg3_nn.png@6c48a",
+    "url": "db://assets/image/hall/item_bg3_nn.png@6c48a",
     "value": {
       "depends": [
         "3a5b12ff-edeb-4ca5-a684-ddb678396fde"
@@ -999,7 +999,7 @@
     }
   },
   "369250e5-9287-40f1-8a74-f024373d3c68@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg4.png@6c48a",
+    "url": "db://assets/image/hall/item_bg4.png@6c48a",
     "value": {
       "depends": [
         "369250e5-9287-40f1-8a74-f024373d3c68"
@@ -1007,7 +1007,7 @@
     }
   },
   "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg4_nn.png@6c48a",
+    "url": "db://assets/image/hall/item_bg4_nn.png@6c48a",
     "value": {
       "depends": [
         "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2"
@@ -1015,7 +1015,7 @@
     }
   },
   "720815fc-6ae7-4f65-abfe-493cd2f9d757@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg1_nn.png@6c48a",
+    "url": "db://assets/image/hall/item_bg1_nn.png@6c48a",
     "value": {
       "depends": [
         "720815fc-6ae7-4f65-abfe-493cd2f9d757"
@@ -1023,7 +1023,7 @@
     }
   },
   "7f7fd075-b89d-4339-99b7-84f0eadc6e7a@6c48a": {
-    "url": "db://assets/resources/image/hall/item_bg1.png@6c48a",
+    "url": "db://assets/image/hall/item_bg1.png@6c48a",
     "value": {
       "depends": [
         "7f7fd075-b89d-4339-99b7-84f0eadc6e7a"
@@ -1051,7 +1051,7 @@
     }
   },
   "7f7fd075-b89d-4339-99b7-84f0eadc6e7a@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg1.png@f9941",
+    "url": "db://assets/image/hall/item_bg1.png@f9941",
     "value": {
       "depends": [
         "7f7fd075-b89d-4339-99b7-84f0eadc6e7a@6c48a"
@@ -1059,7 +1059,7 @@
     }
   },
   "720815fc-6ae7-4f65-abfe-493cd2f9d757@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg1_nn.png@f9941",
+    "url": "db://assets/image/hall/item_bg1_nn.png@f9941",
     "value": {
       "depends": [
         "720815fc-6ae7-4f65-abfe-493cd2f9d757@6c48a"
@@ -1067,7 +1067,7 @@
     }
   },
   "db96521b-2950-4aa7-a505-8c8a2fae94d1@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg2.png@f9941",
+    "url": "db://assets/image/hall/item_bg2.png@f9941",
     "value": {
       "depends": [
         "db96521b-2950-4aa7-a505-8c8a2fae94d1@6c48a"
@@ -1075,7 +1075,7 @@
     }
   },
   "cd28f7cc-4b7d-4750-a8ef-362444163d8c@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg2_nn.png@f9941",
+    "url": "db://assets/image/hall/item_bg2_nn.png@f9941",
     "value": {
       "depends": [
         "cd28f7cc-4b7d-4750-a8ef-362444163d8c@6c48a"
@@ -1083,7 +1083,7 @@
     }
   },
   "b67b1ae1-575f-41a1-bddf-9633fa51ed20@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg3.png@f9941",
+    "url": "db://assets/image/hall/item_bg3.png@f9941",
     "value": {
       "depends": [
         "b67b1ae1-575f-41a1-bddf-9633fa51ed20@6c48a"
@@ -1091,7 +1091,7 @@
     }
   },
   "3a5b12ff-edeb-4ca5-a684-ddb678396fde@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg3_nn.png@f9941",
+    "url": "db://assets/image/hall/item_bg3_nn.png@f9941",
     "value": {
       "depends": [
         "3a5b12ff-edeb-4ca5-a684-ddb678396fde@6c48a"
@@ -1099,7 +1099,7 @@
     }
   },
   "369250e5-9287-40f1-8a74-f024373d3c68@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg4.png@f9941",
+    "url": "db://assets/image/hall/item_bg4.png@f9941",
     "value": {
       "depends": [
         "369250e5-9287-40f1-8a74-f024373d3c68@6c48a"
@@ -1107,7 +1107,7 @@
     }
   },
   "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2@f9941": {
-    "url": "db://assets/resources/image/hall/item_bg4_nn.png@f9941",
+    "url": "db://assets/image/hall/item_bg4_nn.png@f9941",
     "value": {
       "depends": [
         "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2@6c48a"
@@ -1115,13 +1115,13 @@
     }
   },
   "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4": {
-    "url": "db://assets/resources/image/common/more_03.png",
+    "url": "db://assets/image/common/more_03.png",
     "value": {
       "depends": []
     }
   },
   "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4@6c48a": {
-    "url": "db://assets/resources/image/common/more_03.png@6c48a",
+    "url": "db://assets/image/common/more_03.png@6c48a",
     "value": {
       "depends": [
         "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4"
@@ -1129,13 +1129,13 @@
     }
   },
   "73d0725f-b274-4cbd-8eb4-19c13cc3da00": {
-    "url": "db://assets/resources/image/common/more_09.png",
+    "url": "db://assets/image/common/more_09.png",
     "value": {
       "depends": []
     }
   },
   "73d0725f-b274-4cbd-8eb4-19c13cc3da00@6c48a": {
-    "url": "db://assets/resources/image/common/more_09.png@6c48a",
+    "url": "db://assets/image/common/more_09.png@6c48a",
     "value": {
       "depends": [
         "73d0725f-b274-4cbd-8eb4-19c13cc3da00"
@@ -1155,13 +1155,13 @@
     }
   },
   "728eab92-c9a2-4aca-a73c-f32ac983735a": {
-    "url": "db://assets/resources/image/common/Entrance_01_34.png",
+    "url": "db://assets/image/common/Entrance_01_34.png",
     "value": {
       "depends": []
     }
   },
   "728eab92-c9a2-4aca-a73c-f32ac983735a@6c48a": {
-    "url": "db://assets/resources/image/common/Entrance_01_34.png@6c48a",
+    "url": "db://assets/image/common/Entrance_01_34.png@6c48a",
     "value": {
       "depends": [
         "728eab92-c9a2-4aca-a73c-f32ac983735a"
@@ -1169,7 +1169,7 @@
     }
   },
   "73d0725f-b274-4cbd-8eb4-19c13cc3da00@f9941": {
-    "url": "db://assets/resources/image/common/more_09.png@f9941",
+    "url": "db://assets/image/common/more_09.png@f9941",
     "value": {
       "depends": [
         "73d0725f-b274-4cbd-8eb4-19c13cc3da00@6c48a"
@@ -1177,7 +1177,7 @@
     }
   },
   "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4@f9941": {
-    "url": "db://assets/resources/image/common/more_03.png@f9941",
+    "url": "db://assets/image/common/more_03.png@f9941",
     "value": {
       "depends": [
         "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4@6c48a"
@@ -1185,7 +1185,7 @@
     }
   },
   "728eab92-c9a2-4aca-a73c-f32ac983735a@f9941": {
-    "url": "db://assets/resources/image/common/Entrance_01_34.png@f9941",
+    "url": "db://assets/image/common/Entrance_01_34.png@f9941",
     "value": {
       "depends": [
         "728eab92-c9a2-4aca-a73c-f32ac983735a@6c48a"
@@ -1201,13 +1201,13 @@
     }
   },
   "59d8fbe8-2e70-416c-87d4-372fd0630453": {
-    "url": "db://assets/resources/image/common/jinbi.png",
+    "url": "db://assets/image/common/jinbi.png",
     "value": {
       "depends": []
     }
   },
   "59d8fbe8-2e70-416c-87d4-372fd0630453@6c48a": {
-    "url": "db://assets/resources/image/common/jinbi.png@6c48a",
+    "url": "db://assets/image/common/jinbi.png@6c48a",
     "value": {
       "depends": [
         "59d8fbe8-2e70-416c-87d4-372fd0630453"
@@ -1215,7 +1215,7 @@
     }
   },
   "59d8fbe8-2e70-416c-87d4-372fd0630453@f9941": {
-    "url": "db://assets/resources/image/common/jinbi.png@f9941",
+    "url": "db://assets/image/common/jinbi.png@f9941",
     "value": {
       "depends": [
         "59d8fbe8-2e70-416c-87d4-372fd0630453@6c48a"
@@ -1243,13 +1243,13 @@
     "value": {}
   },
   "0c7fe597-b309-4df7-a643-1ee0e1c5e189": {
-    "url": "db://assets/resources/image/common/yydb_btn_1.png",
+    "url": "db://assets/image/common/yydb_btn_1.png",
     "value": {
       "depends": []
     }
   },
   "0c7fe597-b309-4df7-a643-1ee0e1c5e189@6c48a": {
-    "url": "db://assets/resources/image/common/yydb_btn_1.png@6c48a",
+    "url": "db://assets/image/common/yydb_btn_1.png@6c48a",
     "value": {
       "depends": [
         "0c7fe597-b309-4df7-a643-1ee0e1c5e189"
@@ -1257,7 +1257,7 @@
     }
   },
   "0c7fe597-b309-4df7-a643-1ee0e1c5e189@f9941": {
-    "url": "db://assets/resources/image/common/yydb_btn_1.png@f9941",
+    "url": "db://assets/image/common/yydb_btn_1.png@f9941",
     "value": {
       "depends": [
         "0c7fe597-b309-4df7-a643-1ee0e1c5e189@6c48a"
@@ -1269,13 +1269,13 @@
     "value": {}
   },
   "56144dc6-053b-4f6b-88ca-14da074e2c45": {
-    "url": "db://assets/resources/image/common/btn_close.png",
+    "url": "db://assets/image/common/btn_close.png",
     "value": {
       "depends": []
     }
   },
   "56144dc6-053b-4f6b-88ca-14da074e2c45@6c48a": {
-    "url": "db://assets/resources/image/common/btn_close.png@6c48a",
+    "url": "db://assets/image/common/btn_close.png@6c48a",
     "value": {
       "depends": [
         "56144dc6-053b-4f6b-88ca-14da074e2c45"
@@ -1283,7 +1283,7 @@
     }
   },
   "56144dc6-053b-4f6b-88ca-14da074e2c45@f9941": {
-    "url": "db://assets/resources/image/common/btn_close.png@f9941",
+    "url": "db://assets/image/common/btn_close.png@f9941",
     "value": {
       "depends": [
         "56144dc6-053b-4f6b-88ca-14da074e2c45@6c48a"
@@ -1383,13 +1383,13 @@
     }
   },
   "bb90cfd0-7e47-4d39-b622-21232f4442df": {
-    "url": "db://assets/resources/image/common/waiting.png",
+    "url": "db://assets/image/common/waiting.png",
     "value": {
       "depends": []
     }
   },
   "bb90cfd0-7e47-4d39-b622-21232f4442df@6c48a": {
-    "url": "db://assets/resources/image/common/waiting.png@6c48a",
+    "url": "db://assets/image/common/waiting.png@6c48a",
     "value": {
       "depends": [
         "bb90cfd0-7e47-4d39-b622-21232f4442df"
@@ -1397,13 +1397,13 @@
     }
   },
   "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e": {
-    "url": "db://assets/resources/image/common/pop_frame.png",
+    "url": "db://assets/image/common/pop_frame.png",
     "value": {
       "depends": []
     }
   },
   "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e@6c48a": {
-    "url": "db://assets/resources/image/common/pop_frame.png@6c48a",
+    "url": "db://assets/image/common/pop_frame.png@6c48a",
     "value": {
       "depends": [
         "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e"
@@ -1411,7 +1411,7 @@
     }
   },
   "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e@f9941": {
-    "url": "db://assets/resources/image/common/pop_frame.png@f9941",
+    "url": "db://assets/image/common/pop_frame.png@f9941",
     "value": {
       "depends": [
         "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e@6c48a"
@@ -1419,7 +1419,7 @@
     }
   },
   "bb90cfd0-7e47-4d39-b622-21232f4442df@f9941": {
-    "url": "db://assets/resources/image/common/waiting.png@f9941",
+    "url": "db://assets/image/common/waiting.png@f9941",
     "value": {
       "depends": [
         "bb90cfd0-7e47-4d39-b622-21232f4442df@6c48a"
@@ -1439,24 +1439,4909 @@
     "value": {}
   },
   "90b1bf5e-8147-4ad0-b67e-40982e32ace8": {
-    "url": "db://assets/script/jxlw",
+    "url": "db://assets/script/sgj",
     "value": {}
   },
   "716e6ca3-3d23-4020-a9e0-786243b79b38": {
-    "url": "db://assets/script/jxlw/game_jxlw.ts",
+    "url": "db://assets/script/sgj/game_sgj.ts",
     "value": {}
   },
   "83cd3398-9700-486c-8a83-6e5c9b215096": {
-    "url": "db://assets/scene/jxlw_scene.scene",
+    "url": "db://assets/scene/sgj_scene.scene",
     "value": {
       "depends": [
         "83cd3398-9700-486c-8a83-6e5c9b215096",
-        "78a1d86a-0759-4398-aa0f-40b7a4d4ad23@f9941",
+        "17688d84-8c05-4cac-a4aa-34891d5ba674@f9941",
+        "f06211e7-e131-46e1-93b8-3d98af3f8a39@f9941",
+        "f06211e7-e131-46e1-93b8-3d98af3f8a39@f9941",
+        "f85e3a97-1a7d-43f6-a674-f4252f07d4fd@f9941",
+        "f85e3a97-1a7d-43f6-a674-f4252f07d4fd@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "b8c5b966-562d-481d-beed-0d1d06b1db49@f9941",
+        "b8c5b966-562d-481d-beed-0d1d06b1db49@f9941",
+        "4da3935f-099e-43a0-a456-ff7b80f1c87a@f9941",
+        "52aa0121-e9f4-483b-8534-8eb93b447911@f9941",
+        "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4@f9941",
+        "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4@f9941",
+        "9f4f7199-9b99-4c3c-9193-8568095d575e@f9941",
+        "b2d56148-a034-422d-87c4-156cd444731c@f9941",
+        "ca882139-3f7b-4a24-b356-38fed13d8776@f9941",
+        "ca882139-3f7b-4a24-b356-38fed13d8776@f9941",
+        "98f68a52-cf44-4c69-8f86-b689b23baa38@f9941",
+        "eeee0c44-b497-40c6-9970-efb13402c217@f9941",
+        "0256eee9-615d-4c93-a9be-92d074236144@f9941",
+        "0256eee9-615d-4c93-a9be-92d074236144@f9941",
+        "ef00d0e9-e5b9-456a-89d8-861bad4863f0@f9941",
+        "044d861a-7642-47d4-8d46-86b236a4bb28@f9941",
+        "6c1a747d-58b2-421e-85b6-731b6b2b60de@f9941",
+        "6c1a747d-58b2-421e-85b6-731b6b2b60de@f9941",
+        "0ba8d7dc-71a9-4888-9dc8-d544f49be009@f9941",
+        "47c44d8a-467c-4a5b-8f56-be3922d12760@f9941",
+        "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e@f9941",
+        "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e@f9941",
+        "76b8d44f-15e7-44eb-a67b-887626fcfb63@f9941",
+        "a9eeb1cb-59b3-409e-af4c-75dbf737f882@f9941",
+        "64cab769-ddda-4996-9411-351d11591da8@f9941",
+        "64cab769-ddda-4996-9411-351d11591da8@f9941",
+        "b73bc21e-a4d6-4445-b9e5-417abe10ecd3@f9941",
+        "57d79fbe-7cb9-4663-adf2-acbb5203e088@f9941",
+        "f0638ffe-7465-4b26-a79e-0eac1878c440@f9941",
+        "f0638ffe-7465-4b26-a79e-0eac1878c440@f9941",
+        "b24fb3ab-6bb3-410f-af02-642cf89e3e62@f9941",
+        "c473696d-51b8-41dc-bd2e-beb87b1ca0cd@f9941",
+        "e046be1c-731d-480e-ab7f-34cbef86d479@f9941",
+        "e046be1c-731d-480e-ab7f-34cbef86d479@f9941",
+        "f193b697-b3cb-4c08-9b0c-3b9e99e07780@f9941",
+        "b86c009d-8729-4c8f-9bae-ec09779be266@f9941",
+        "b86c009d-8729-4c8f-9bae-ec09779be266@f9941",
+        "38671a38-bb4f-448b-851f-a0cf5c05123c@f9941",
+        "2b2df973-be30-4283-b82e-69067d18b26d@f9941",
+        "2b2df973-be30-4283-b82e-69067d18b26d@f9941",
+        "fd1829da-9bb6-462c-8f10-592085909a2a@f9941",
+        "90e936b6-e1c5-4a0a-b533-7dbf0810ea86@f9941",
+        "90e936b6-e1c5-4a0a-b533-7dbf0810ea86@f9941",
+        "fe06f7fc-e5bd-4301-9603-fda9778b2b42@f9941",
+        "51824098-8f88-4f83-8c8d-31535d8b1443@f9941",
+        "51824098-8f88-4f83-8c8d-31535d8b1443@f9941",
+        "3842cee6-2840-4769-8925-85810a787e1a@f9941",
+        "3b854a08-b5f3-4dda-810f-ce86fcefe699@f9941",
+        "3b854a08-b5f3-4dda-810f-ce86fcefe699@f9941",
+        "43544a25-8216-495b-9aa1-eb5651723fc2@f9941",
+        "a83ec927-e37b-43e3-98b5-5ce5f02b7291@f9941",
+        "9aa1153b-49b5-4187-8e66-f3f90dca0ddd@f9941",
+        "24897dcc-8731-42bf-8a92-0455a4720f78@f9941",
+        "bbd8135d-0286-4b64-9f59-967091144031@f9941",
+        "bd258788-f8aa-41d0-ac30-e55e634e163f@f9941",
+        "a71d64d0-7622-422e-bb74-122b69cc7645@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "a9b3867d-6a31-4f1c-ae68-e0c390afd753@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941",
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941",
+        "2a78e4b2-3c29-4d4f-9ec3-15546901a699@f9941",
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941",
+        "97803200-e7fc-44f9-8af8-13d778951d4d@f9941",
+        "73351aa7-46af-44e4-ac1b-056e0273533b@f9941",
+        "a9b3867d-6a31-4f1c-ae68-e0c390afd753@f9941",
+        "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e@f9941",
+        "725490c0-a7de-478e-b65f-8551cb32396b@f9941",
+        "28136b5b-65a3-4942-92ff-f9fef78f93b4@f9941",
+        "72dabfd1-d7b4-49fd-a69d-95dc911fafdb@f9941",
+        "05f64033-c209-47ca-84b7-8f5408e5d0e5@f9941",
+        "1219e0f0-cc9b-45d8-86dd-a9f983330e6d@f9941",
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941",
+        "9eb1355b-1c2c-46fa-b454-f98212265b46@f9941",
+        "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3@f9941",
+        "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9@f9941",
+        "736232cc-8d19-4543-9210-318eeb50aade@f9941",
+        "2d48c82a-b5ec-445d-b506-78b4cd10a61f@f9941",
+        "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e@f9941",
+        "ee938073-ef44-4b9e-9ac3-56c92e1592dd@f9941",
+        "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2@f9941",
+        "f452df51-a640-4c29-ab73-eb4fe255a17b@f9941",
         "298f539d-cbb1-4e55-8abd-a8120b42a0a2",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ]
     }
+  },
+  "cca50c62-144c-4f60-8baa-e9bb57d02cd8": {
+    "url": "db://assets/image/sgj",
+    "value": {}
+  },
+  "c7ca5ab1-89a0-425d-b007-72cff97478c0": {
+    "url": "db://assets/image/sgj/spritesheet",
+    "value": {}
+  },
+  "d8d1d23f-2183-4af1-9c84-9c7d33275131": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.png",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@19902": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@19902",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@52596": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@52596",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@99135": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@99135",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@bfa65": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@bfa65",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@af1b4": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@af1b4",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@3fbd2": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@3fbd2",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.png@6c48a",
+    "value": {
+      "depends": [
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131"
+      ]
+    }
+  },
+  "a9e04a25-de5b-4b4c-9a73-42a7db88d376": {
+    "url": "db://assets/image/sgj/csb",
+    "value": {}
+  },
+  "e1de11a4-9d0d-4266-ae04-3f4596fe1a71": {
+    "url": "db://assets/image/sgj/csb/common",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@6785e": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@6785e",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "beb1cb75-9c53-4090-8258-ba32f2b6a320": {
+    "url": "db://assets/image/sgj/csb/layer",
+    "value": {}
+  },
+  "cb52d08a-b942-4e27-b768-e432bd259d5e": {
+    "url": "db://assets/image/sgj/csb/common/HHswBankerItem.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@af6e7": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@af6e7",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@bbde5": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@bbde5",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "49d0648b-771f-4a8c-be37-1411754190c5": {
+    "url": "db://assets/image/sgj/csb/common/HHswOnlineItem.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@1e9e9": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@1e9e9",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@4a8df": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@4a8df",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@4ac5e": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@4ac5e",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "2d0e0387-a72c-410e-bef2-2f8ef190f3b0": {
+    "url": "db://assets/image/sgj/csb/common/HHswOnlinePlayerGrid.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@77c0e": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@77c0e",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@09797": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@09797",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "82f198f3-2930-4185-b00f-fc05e668f02e": {
+    "url": "db://assets/image/sgj/csb/common/HHswRecordItem.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f4c41": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f4c41",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d68dc": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d68dc",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@54d7e": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@54d7e",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "6a6041fd-1a04-4967-9790-e7bd789b98ca": {
+    "url": "db://assets/image/sgj/csb/layer/Sgj.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@3839f": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@3839f",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@9a627": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@9a627",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@a5be0": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@a5be0",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "1b04922a-0df0-4c85-a828-b7d3dfdd9e07": {
+    "url": "db://assets/image/sgj/csb/layer/SgjBank.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@280a7": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@280a7",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@2a5bb": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@2a5bb",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@b39e0": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@b39e0",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "f9da6d1b-666e-4d9e-a85a-7f748a79df28": {
+    "url": "db://assets/image/sgj/csb/layer/SgjBattle.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@abb1a": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@abb1a",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@1687c": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@1687c",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f91c4": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f91c4",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "3df9f3ba-6af1-421a-8762-0be1381e6d81": {
+    "url": "db://assets/image/sgj/csb/layer/SgjLoading.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@6d245": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@6d245",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@37cd0": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@37cd0",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d9bb3": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d9bb3",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "9f9e934f-1cb3-49b1-85af-f83782e4bd71": {
+    "url": "db://assets/image/sgj/csb/layer/SgjMenu.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@1fcfa": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@1fcfa",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@c6144": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@c6144",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@827eb": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@827eb",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "19ffb654-35d7-4cd9-b3ac-edc426e36257": {
+    "url": "db://assets/image/sgj/csb/layer/SgjRoom.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@4209f": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@4209f",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@1a2da": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@1a2da",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d0187": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d0187",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "3cabcca3-d010-46c4-882e-d95b160f9082": {
+    "url": "db://assets/image/sgj/csb/layer/SgjRule.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@5d1d0": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@5d1d0",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f109c": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f109c",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "0e81e837-4567-4fbc-b25a-83e55dc056cc": {
+    "url": "db://assets/image/sgj/csb/layer/SgjSetting.csb",
+    "value": {}
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@79d85": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@79d85",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@49d38": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@49d38",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@7a4bd": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@7a4bd",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "5b62eb19-78ec-49b4-b06b-9dcffb8c6076": {
+    "url": "db://assets/image/sgj/sound",
+    "value": {}
+  },
+  "63f4cdd9-8cab-45ac-bc97-d3e9bcbe943f": {
+    "url": "db://assets/image/sgj/sound/C1.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@a3cde": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@a3cde",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d732b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d732b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@dab2f": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@dab2f",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@7510b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@7510b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@1a837": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@1a837",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@774e4": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@774e4",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@5a67f": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@5a67f",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@7aeef": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@7aeef",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@80cba": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@80cba",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@525a9": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@525a9",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d896a": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d896a",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@327c3": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@327c3",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@913b7": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@913b7",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@65bfb": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@65bfb",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@8b23a": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@8b23a",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@b28bd": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@b28bd",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f92f5": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f92f5",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "d0334414-def2-48d4-8bc6-9c1ff6290f45": {
+    "url": "db://assets/image/sgj/sound/C10.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f2b14": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f2b14",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@62e60": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@62e60",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@ac40b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@ac40b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@dd44b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@dd44b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@a2047": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@a2047",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@f79a8": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@f79a8",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@7a4ee": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@7a4ee",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "58ee704e-e5c3-4708-815f-1e68a6aaf63f": {
+    "url": "db://assets/image/sgj/sound/C2.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@3fc2b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@3fc2b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@3557b": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@3557b",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@17e62": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@17e62",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@d2447": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@d2447",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@2176f": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@2176f",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "2a84299b-a025-48b3-9db9-503baf12447d": {
+    "url": "db://assets/image/sgj/sound/C3.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@98e29": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@98e29",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@8dd4d": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@8dd4d",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "cf438b4c-f529-49ae-98d6-5dbd78a3b374@bf985": {
+    "url": "db://assets/image/sgj/spritesheet/SgjFont.plist@bf985",
+    "value": {
+      "depends": [
+        "cf438b4c-f529-49ae-98d6-5dbd78a3b374",
+        "d8d1d23f-2183-4af1-9c84-9c7d33275131@6c48a"
+      ]
+    }
+  },
+  "f7af3cd5-fd3b-4204-a1ce-3924dbde3ee9": {
+    "url": "db://assets/image/sgj/sound/C4.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "674f3ebc-e9c0-4982-a14c-d57d7e053822": {
+    "url": "db://assets/image/sgj/sound/C5.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "0b6707de-6ebe-413b-b7c2-752d36b9b2ce": {
+    "url": "db://assets/image/sgj/sound/C6.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "126c09b2-cc80-44f3-aed8-8b5519f6ec8b": {
+    "url": "db://assets/image/sgj/sound/C7.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "c2770a54-8989-4cf9-8591-97877b24a247": {
+    "url": "db://assets/image/sgj/sound/C8.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "d58f8f7e-ec13-4543-b0b1-7476d4d81be6": {
+    "url": "db://assets/image/sgj/sound/C9.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "4366853b-d209-42bc-a6d4-0ad6a52eef7c": {
+    "url": "db://assets/image/sgj/sound/NUM_FAIL.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "01a87d40-f304-4607-b769-b8a8c6ddc9f7": {
+    "url": "db://assets/image/sgj/sound/NUM_WIN.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "465f479d-a9fb-49c2-b8a4-46f43e274061": {
+    "url": "db://assets/image/sgj/sound/UP_DOWN.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "11e44d31-e8fa-4ce1-af40-583fb544809d": {
+    "url": "db://assets/image/sgj/sound/Y001.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "d075f684-e05c-4456-a179-59c445bfe5f5": {
+    "url": "db://assets/image/sgj/sound/Y003.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "b5d6d850-ec0d-4207-8df6-2d7509a11b62": {
+    "url": "db://assets/image/sgj/sound/Y006.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "30a178c7-709f-415a-a632-169720f8244c": {
+    "url": "db://assets/image/sgj/sound/Y007.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "138712f0-48d6-46f6-88a7-78eff32d8700": {
+    "url": "db://assets/image/sgj/sound/Y008.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "ad6c10d3-d486-48bc-81d3-8fc47673d927": {
+    "url": "db://assets/image/sgj/sound/Y009.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "502e5cf1-fb19-46a4-bbf9-376ab75a8475": {
+    "url": "db://assets/image/sgj/sound/Y010.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "458f44e9-4fc5-4f12-b78b-ebb492d9e460": {
+    "url": "db://assets/image/sgj/sound/Y011.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "f107abe9-2838-4814-87ca-81425384ee0a": {
+    "url": "db://assets/image/sgj/sound/Y014.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "e21071a2-aa45-4ad5-9527-6933a22a127b": {
+    "url": "db://assets/image/sgj/sound/downscore.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "58ebbabd-cf20-40f3-aa80-02d3efa6fd9e": {
+    "url": "db://assets/image/sgj/sound/entergame.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "0eaee48b-8f31-4a1a-b0e2-4ce5b3818f95": {
+    "url": "db://assets/image/sgj/sound/getscore.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "ce03cc25-6eb0-4dcb-b9a4-8920bde6ca74": {
+    "url": "db://assets/image/sgj/sound/moveScroe.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "8edd7a2e-c808-43a6-91c0-629aa25b5a89": {
+    "url": "db://assets/image/sgj/sound/reset.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "f616995b-8d8c-4d06-85e4-4f712b48b1aa": {
+    "url": "db://assets/image/sgj/sound/run_1.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "932d40c1-cf3a-4273-84b9-aa44aa2aacfc": {
+    "url": "db://assets/image/sgj/sound/scorechagne.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "c38f00f3-997f-4bbb-ae63-4e1677dfa5be": {
+    "url": "db://assets/image/sgj/sound/sgj_bt1.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "beac8afc-d384-450e-a138-622a3ed98c27": {
+    "url": "db://assets/image/sgj/sound/sgj_bt2.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "e6aa7a5f-06fc-49e4-8508-752beafc8305": {
+    "url": "db://assets/image/sgj/sound/sgj_bt3.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "5032c390-82b3-460a-a351-639a291808a4": {
+    "url": "db://assets/image/sgj/sound/sgj_bt4.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "736da487-2fd4-4b5c-b46c-12347f1e8656": {
+    "url": "db://assets/image/sgj/sound/sgj_bt5.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "75287012-71f7-4ede-b9ec-668114b347d0": {
+    "url": "db://assets/image/sgj/sound/sgj_bt6.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "d93d4903-3af2-4e94-9db8-c4d2f99ccde0": {
+    "url": "db://assets/image/sgj/sound/sgj_bt7.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "b843038d-b5af-4e54-bd14-d97eda3e66f1": {
+    "url": "db://assets/image/sgj/sound/sgj_bt8.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "3e9f52c6-27eb-48d7-8384-21d021035d25": {
+    "url": "db://assets/image/sgj/sound/sgj_ding.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "71df473f-0bd4-48ef-aa9d-019f81e0eed0": {
+    "url": "db://assets/image/sgj/sound/sgj_dmg.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "d4401751-31e5-4225-9baf-397a2139c3a7": {
+    "url": "db://assets/image/sgj/sound/sgj_end.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "44929c20-39d0-40dd-8588-4dbf7c4d6c2b": {
+    "url": "db://assets/image/sgj/sound/sgj_gxzj.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "b42bea1f-1f27-42ea-9f8f-0d8c11e84140": {
+    "url": "db://assets/image/sgj/sound/sgj_s0.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "d4e31701-f986-42f3-9554-7a0d98b5e0b8": {
+    "url": "db://assets/image/sgj/sound/sgj_s1.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "da54360c-7117-4181-8527-3680bcb92e3a": {
+    "url": "db://assets/image/sgj/sound/sgj_s2.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "3f2d0e2a-c6b6-4f50-81f2-cae9cb7466d2": {
+    "url": "db://assets/image/sgj/sound/sgj_s3.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "de369e35-6f3e-4600-8e73-ab541d3c81d8": {
+    "url": "db://assets/image/sgj/sound/sgj_s4.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "bce1d99b-4e4f-45b6-b388-6bcc5d3108a5": {
+    "url": "db://assets/image/sgj/sound/sgj_s5.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "2b69b506-3690-439a-8233-024e849a3651": {
+    "url": "db://assets/image/sgj/sound/sgj_s6.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "38c599f0-642e-4cb8-a513-adb09a4502c0": {
+    "url": "db://assets/image/sgj/sound/turnstep1.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "df8b7a78-1556-4cc0-9f5c-8ef9dcbf74f5": {
+    "url": "db://assets/image/sgj/sound/turnstep1_new.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "0fc2a8f7-a0a0-4fbf-96d9-99afad1f38b6": {
+    "url": "db://assets/image/sgj/sound/turnstep2.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "64c0b883-ab6b-4abf-b05b-0f74ab2a343f": {
+    "url": "db://assets/image/sgj/sound/turnstep3.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "9f395c08-bd54-44e6-8b09-62c7a380f6b7": {
+    "url": "db://assets/image/sgj/sound/turnstep4.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "033e031e-e5ee-494a-a14f-ce6bad94f7b4": {
+    "url": "db://assets/image/sgj/animation",
+    "value": {}
+  },
+  "1d027031-0644-489b-86c7-68e4ca34d4e5": {
+    "url": "db://assets/image/sgj/animation/particle",
+    "value": {}
+  },
+  "737d8ef4-70e0-43c4-837b-dcab6063f2be": {
+    "url": "db://assets/image/sgj/animation/spine",
+    "value": {}
+  },
+  "d2ab950b-5c41-4be7-bb42-92348fc11b1b": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan",
+    "value": {}
+  },
+  "5ec02e36-670a-4c71-baad-922876aa9a0d": {
+    "url": "db://assets/image/sgj/animation/spine/jiu_lian_bao_deng",
+    "value": {}
+  },
+  "c2c40e28-e6b2-47f4-8a2e-54fe81544705": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_huxilight",
+    "value": {}
+  },
+  "62121ec3-1389-4420-b529-3441b66532fe": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liangceshanguang",
+    "value": {}
+  },
+  "73aebc9f-54b9-4aca-bbfb-e1f37ba8b00d": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_lightkuang",
+    "value": {}
+  },
+  "b205b323-bb30-4941-96f2-6b409cd93812": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liudonglight",
+    "value": {}
+  },
+  "8a93d809-33f0-473d-afa7-e7b44161efcc": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_logo",
+    "value": {}
+  },
+  "3bec6e90-2c0c-45e4-b981-70ecb8589848": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_numberkuang",
+    "value": {}
+  },
+  "df117c83-17cf-4a0b-b577-acb02658de33": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_quickstartlg",
+    "value": {}
+  },
+  "2ea6f5ea-562a-4edf-9c05-298556d26ab9": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_toplight",
+    "value": {}
+  },
+  "376c1939-bb03-4d9e-a5ef-81ee5c5b3d91": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_xuanchanglg",
+    "value": {}
+  },
+  "5b0cdaef-082a-4777-9933-852a89647036": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_zhsheffect",
+    "value": {}
+  },
+  "dad59410-3577-4076-8517-081e279f4d7a": {
+    "url": "db://assets/image/sgj/animation/spine/tian_long_ba_bu",
+    "value": {}
+  },
+  "159a2bc0-9467-43da-be60-b5d902d0e71f": {
+    "url": "db://assets/image/sgj/animation/spine/xian_nv_shan_hua",
+    "value": {}
+  },
+  "11470973-7926-4261-8558-bfd8cd9b9f27": {
+    "url": "db://assets/image/sgj/animation/particle/hhswxcbaoshilizi.plist",
+    "value": {}
+  },
+  "0def94ff-5f49-42d9-9341-f459ca2624ad": {
+    "url": "db://assets/image/sgj/animation/particle/hhswxuanchanggdlizi.plist",
+    "value": {}
+  },
+  "e48ba293-00b0-47a9-bea1-8149741e4c2f": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_baidianlizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "4b7fe3c2-ad25-4e37-bf38-8c07642245d3": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_kapplelizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "be82d646-f8bb-461d-bcdf-6d73513c815b": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_kstartlizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "d51e81fb-9d96-419b-bce3-4fb45de17701": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_mstartlizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "e37e1da3-3aa7-423a-a1df-02a6add3d055": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_youcelizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "34a5c339-3eb3-4717-a214-1d88e7b29f69": {
+    "url": "db://assets/image/sgj/animation/particle/ldgame_zuocelizi.plist",
+    "value": {
+      "depends": []
+    }
+  },
+  "e904c65d-852d-4f4f-963e-5d37af5a743a": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan/da_man_guan.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "aa050698-dd02-4150-ad55-f328306fe1f6": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan/da_man_guan.json",
+    "value": {
+      "depends": [
+        "a43339cf-3b21-4562-99bc-b407c3ce9043@6c48a"
+      ]
+    }
+  },
+  "a43339cf-3b21-4562-99bc-b407c3ce9043": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan/da_man_guan.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d3f499d6-f48e-4327-9155-fa63391ae33f": {
+    "url": "db://assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "65fc2a1e-0e6b-43a9-9b47-ffa8cf2e569e": {
+    "url": "db://assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.json",
+    "value": {
+      "depends": [
+        "43cb37da-e52d-43d4-92a5-56adb914a58e@6c48a"
+      ]
+    }
+  },
+  "43cb37da-e52d-43d4-92a5-56adb914a58e": {
+    "url": "db://assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a43339cf-3b21-4562-99bc-b407c3ce9043@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan/da_man_guan.png@6c48a",
+    "value": {
+      "depends": [
+        "a43339cf-3b21-4562-99bc-b407c3ce9043"
+      ]
+    }
+  },
+  "dfb13088-804a-4049-a8fe-6a457a8a63e7": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "c879d40e-ada5-4f39-a5f8-5f8ffbf933e4": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.json",
+    "value": {
+      "depends": [
+        "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650@6c48a"
+      ]
+    }
+  },
+  "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.png@6c48a",
+    "value": {
+      "depends": [
+        "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650"
+      ]
+    }
+  },
+  "1ff48b58-c57b-4771-8d71-5c688435265a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "bf2fe187-9eab-4af2-aaff-99684ccb859e": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.json",
+    "value": {
+      "depends": [
+        "2e418404-6d9b-4ce7-9981-929ffd6172fe@6c48a"
+      ]
+    }
+  },
+  "2e418404-6d9b-4ce7-9981-929ffd6172fe": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "43cb37da-e52d-43d4-92a5-56adb914a58e@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.png@6c48a",
+    "value": {
+      "depends": [
+        "43cb37da-e52d-43d4-92a5-56adb914a58e"
+      ]
+    }
+  },
+  "e8968621-fe74-42e9-a496-0ab06fc71203": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "2e418404-6d9b-4ce7-9981-929ffd6172fe@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.png@6c48a",
+    "value": {
+      "depends": [
+        "2e418404-6d9b-4ce7-9981-929ffd6172fe"
+      ]
+    }
+  },
+  "e2a6f28e-0f39-4e05-a726-e30ca9b6bcf7": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.json",
+    "value": {
+      "depends": [
+        "6d12d298-7fce-4f19-8475-b4878ece475c@6c48a"
+      ]
+    }
+  },
+  "6d12d298-7fce-4f19-8475-b4878ece475c": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "57fe097d-ba8c-489c-b183-dbcc080d2bd0": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "01ac3658-8233-4bfb-8b99-7bc5fd949f12": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.json",
+    "value": {
+      "depends": [
+        "eda26687-e8c4-4efb-835c-761713e96d58@6c48a"
+      ]
+    }
+  },
+  "eda26687-e8c4-4efb-835c-761713e96d58": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6d12d298-7fce-4f19-8475-b4878ece475c@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.png@6c48a",
+    "value": {
+      "depends": [
+        "6d12d298-7fce-4f19-8475-b4878ece475c"
+      ]
+    }
+  },
+  "f1f648a6-3e5a-4b9c-b50f-e0f38de63fae": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "0d853cd7-76d3-4da8-a19a-5c3e7cbb8cce": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.json",
+    "value": {
+      "depends": [
+        "24473a26-d026-4a39-8ffe-12f0229e1d66@6c48a"
+      ]
+    }
+  },
+  "24473a26-d026-4a39-8ffe-12f0229e1d66": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "eda26687-e8c4-4efb-835c-761713e96d58@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.png@6c48a",
+    "value": {
+      "depends": [
+        "eda26687-e8c4-4efb-835c-761713e96d58"
+      ]
+    }
+  },
+  "48d43e61-65a1-4d8b-8f0e-7333650ec50e": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "b0127c85-802d-46a7-8d05-41b83a552ce7": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.json",
+    "value": {
+      "depends": [
+        "e0a5da04-1a60-4187-87f7-554f1df38092@6c48a"
+      ]
+    }
+  },
+  "e0a5da04-1a60-4187-87f7-554f1df38092": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e0a5da04-1a60-4187-87f7-554f1df38092@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.png@6c48a",
+    "value": {
+      "depends": [
+        "e0a5da04-1a60-4187-87f7-554f1df38092"
+      ]
+    }
+  },
+  "8021f77f-40b2-46c9-bdcd-aba91a31621c": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "5bd14a2b-2b66-45dc-bbac-4d9709e76ae3": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.json",
+    "value": {
+      "depends": [
+        "f0ab2a24-2168-4562-8aea-4417ea88cbad@6c48a"
+      ]
+    }
+  },
+  "f0ab2a24-2168-4562-8aea-4417ea88cbad": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f0ab2a24-2168-4562-8aea-4417ea88cbad@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.png@6c48a",
+    "value": {
+      "depends": [
+        "f0ab2a24-2168-4562-8aea-4417ea88cbad"
+      ]
+    }
+  },
+  "112ab7a3-a2dd-4fb1-9a47-6fd08e1765ce": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "24473a26-d026-4a39-8ffe-12f0229e1d66@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.png@6c48a",
+    "value": {
+      "depends": [
+        "24473a26-d026-4a39-8ffe-12f0229e1d66"
+      ]
+    }
+  },
+  "e7c1077f-da95-417d-a38c-f4c7482b80d3": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.json",
+    "value": {
+      "depends": [
+        "72b99655-dc3b-4e48-99fb-31a911112275@6c48a"
+      ]
+    }
+  },
+  "72b99655-dc3b-4e48-99fb-31a911112275": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "aa718981-498c-4ac5-9b9c-1b7fbd6e9037": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "373f6627-a79a-4a7e-b7ea-3a04ad24bc02": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.json",
+    "value": {
+      "depends": [
+        "ceffa893-d0bb-4529-84e7-0ff464f30fbd@6c48a"
+      ]
+    }
+  },
+  "ceffa893-d0bb-4529-84e7-0ff464f30fbd": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "72b99655-dc3b-4e48-99fb-31a911112275@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.png@6c48a",
+    "value": {
+      "depends": [
+        "72b99655-dc3b-4e48-99fb-31a911112275"
+      ]
+    }
+  },
+  "3b52acdc-8275-4d54-810a-476b0d1d1789": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "69566376-6f02-4bc4-aff1-70e7cd2b7c6d": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.json",
+    "value": {
+      "depends": [
+        "f5192564-6d67-435b-89f1-ec0646a342ba@6c48a"
+      ]
+    }
+  },
+  "f5192564-6d67-435b-89f1-ec0646a342ba": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ceffa893-d0bb-4529-84e7-0ff464f30fbd@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.png@6c48a",
+    "value": {
+      "depends": [
+        "ceffa893-d0bb-4529-84e7-0ff464f30fbd"
+      ]
+    }
+  },
+  "91616ae9-618f-46c1-b6d7-59c09fd238dc": {
+    "url": "db://assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "c580c526-66b1-492f-8855-be6e4cc46df3": {
+    "url": "db://assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.json",
+    "value": {
+      "depends": [
+        "e52a791f-a8d6-4e12-94fb-94d08577add8@6c48a"
+      ]
+    }
+  },
+  "e52a791f-a8d6-4e12-94fb-94d08577add8": {
+    "url": "db://assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f5192564-6d67-435b-89f1-ec0646a342ba@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.png@6c48a",
+    "value": {
+      "depends": [
+        "f5192564-6d67-435b-89f1-ec0646a342ba"
+      ]
+    }
+  },
+  "82d677db-c5cd-4a75-8674-71bdb2a53a23": {
+    "url": "db://assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.atlas",
+    "value": {
+      "depends": []
+    }
+  },
+  "c05c85bc-8701-4f47-ba30-5f651a6197fd": {
+    "url": "db://assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.json",
+    "value": {
+      "depends": [
+        "f25d690e-9174-4c11-b4d6-20e4633c7046@6c48a"
+      ]
+    }
+  },
+  "f25d690e-9174-4c11-b4d6-20e4633c7046": {
+    "url": "db://assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e52a791f-a8d6-4e12-94fb-94d08577add8@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.png@6c48a",
+    "value": {
+      "depends": [
+        "e52a791f-a8d6-4e12-94fb-94d08577add8"
+      ]
+    }
+  },
+  "1c63df1b-d7f9-478b-b721-da9653947180": {
+    "url": "db://assets/image/sgj/ui",
+    "value": {}
+  },
+  "a968e438-46a0-40e7-bf07-61b08cd53cc9": {
+    "url": "db://assets/image/sgj/ui/bg",
+    "value": {}
+  },
+  "a562647a-d6c1-4763-9bb7-cfe2a2f8036d": {
+    "url": "db://assets/image/sgj/ui/btn",
+    "value": {}
+  },
+  "239e029d-b461-4b71-9da1-05bd718aa38f": {
+    "url": "db://assets/image/sgj/ui/common",
+    "value": {}
+  },
+  "b5a2b3a1-5a16-4a89-93f4-844d229036e5": {
+    "url": "db://assets/image/sgj/ui/particle",
+    "value": {}
+  },
+  "543abdb5-7fb6-4b5c-b3cf-9ab66e93b0e0": {
+    "url": "db://assets/image/sgj/ui/spines",
+    "value": {}
+  },
+  "e352d308-2253-422c-baae-47009470cffe": {
+    "url": "db://assets/image/sgj/ui/txt",
+    "value": {}
+  },
+  "17688d84-8c05-4cac-a4aa-34891d5ba674": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_bg.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "17688d84-8c05-4cac-a4aa-34891d5ba674@6c48a": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_bg.jpg@6c48a",
+    "value": {
+      "depends": [
+        "17688d84-8c05-4cac-a4aa-34891d5ba674"
+      ]
+    }
+  },
+  "61f6fb94-116a-4fa7-a615-c457def431d4": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_icon.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "61f6fb94-116a-4fa7-a615-c457def431d4@6c48a": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_icon.png@6c48a",
+    "value": {
+      "depends": [
+        "61f6fb94-116a-4fa7-a615-c457def431d4"
+      ]
+    }
+  },
+  "c034aa7c-cd4c-4166-a350-a97295b07bf4": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadingback.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "f25d690e-9174-4c11-b4d6-20e4633c7046@6c48a": {
+    "url": "db://assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.png@6c48a",
+    "value": {
+      "depends": [
+        "f25d690e-9174-4c11-b4d6-20e4633c7046"
+      ]
+    }
+  },
+  "26ba35e6-5176-403b-8771-c5ca0635e600": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadingback1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c034aa7c-cd4c-4166-a350-a97295b07bf4@6c48a": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadingback.jpg@6c48a",
+    "value": {
+      "depends": [
+        "c034aa7c-cd4c-4166-a350-a97295b07bf4"
+      ]
+    }
+  },
+  "fb50c538-23fc-42f8-9972-910985943445": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadinglogo.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fb50c538-23fc-42f8-9972-910985943445@6c48a": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadinglogo.png@6c48a",
+    "value": {
+      "depends": [
+        "fb50c538-23fc-42f8-9972-910985943445"
+      ]
+    }
+  },
+  "676d42ed-584a-42a5-aa9a-1762fc769b53": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_bank_btn_all.png",
+    "value": {}
+  },
+  "676d42ed-584a-42a5-aa9a-1762fc769b53@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_bank_btn_all.png@6c48a",
+    "value": {
+      "depends": [
+        "676d42ed-584a-42a5-aa9a-1762fc769b53"
+      ]
+    }
+  },
+  "67cfab3c-580c-473e-aa25-678f0b2eaef9": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_bank_btn_reset.png",
+    "value": {}
+  },
+  "67cfab3c-580c-473e-aa25-678f0b2eaef9@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_bank_btn_reset.png@6c48a",
+    "value": {
+      "depends": [
+        "67cfab3c-580c-473e-aa25-678f0b2eaef9"
+      ]
+    }
+  },
+  "08264db0-97bb-47c9-8ece-57c04002bc46": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_back.png",
+    "value": {}
+  },
+  "26ba35e6-5176-403b-8771-c5ca0635e600@6c48a": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_loadingback1.png@6c48a",
+    "value": {
+      "depends": [
+        "26ba35e6-5176-403b-8771-c5ca0635e600"
+      ]
+    }
+  },
+  "ffa904d9-4435-49d2-b82b-56ae75f17365": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_open_menu.png",
+    "value": {}
+  },
+  "08264db0-97bb-47c9-8ece-57c04002bc46@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_back.png@6c48a",
+    "value": {
+      "depends": [
+        "08264db0-97bb-47c9-8ece-57c04002bc46"
+      ]
+    }
+  },
+  "b985c365-072e-47d1-9216-500d1f3d96aa": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_popup_close.png",
+    "value": {}
+  },
+  "ffa904d9-4435-49d2-b82b-56ae75f17365@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_open_menu.png@6c48a",
+    "value": {
+      "depends": [
+        "ffa904d9-4435-49d2-b82b-56ae75f17365"
+      ]
+    }
+  },
+  "18265c94-6257-44a5-ba6a-cef8e4f966bd": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_room_1.png",
+    "value": {}
+  },
+  "b985c365-072e-47d1-9216-500d1f3d96aa@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_popup_close.png@6c48a",
+    "value": {
+      "depends": [
+        "b985c365-072e-47d1-9216-500d1f3d96aa"
+      ]
+    }
+  },
+  "b71ff911-8aa8-4ccd-91a3-b964f89dfd3d": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_room_2.png",
+    "value": {}
+  },
+  "18265c94-6257-44a5-ba6a-cef8e4f966bd@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_room_1.png@6c48a",
+    "value": {
+      "depends": [
+        "18265c94-6257-44a5-ba6a-cef8e4f966bd"
+      ]
+    }
+  },
+  "6673ddd1-0b67-4371-9e7f-350ef17c6216": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_closing_btn_ok.png",
+    "value": {}
+  },
+  "b71ff911-8aa8-4ccd-91a3-b964f89dfd3d@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_btn_room_2.png@6c48a",
+    "value": {
+      "depends": [
+        "b71ff911-8aa8-4ccd-91a3-b964f89dfd3d"
+      ]
+    }
+  },
+  "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4": {
+    "url": "db://assets/image/sgj/ui/btn/image_100.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6673ddd1-0b67-4371-9e7f-350ef17c6216@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/hhsw_closing_btn_ok.png@6c48a",
+    "value": {
+      "depends": [
+        "6673ddd1-0b67-4371-9e7f-350ef17c6216"
+      ]
+    }
+  },
+  "3c8a017e-492c-44df-a8e2-7a2cd3fd4344": {
+    "url": "db://assets/image/sgj/ui/btn/image_101.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_100.png@6c48a",
+    "value": {
+      "depends": [
+        "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4"
+      ]
+    }
+  },
+  "da987437-815a-41d8-a466-6ccd53764f45": {
+    "url": "db://assets/image/sgj/ui/btn/image_1018.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3c8a017e-492c-44df-a8e2-7a2cd3fd4344@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_101.png@6c48a",
+    "value": {
+      "depends": [
+        "3c8a017e-492c-44df-a8e2-7a2cd3fd4344"
+      ]
+    }
+  },
+  "e4bc6cff-7665-41b2-98bc-a8de9b77caa3": {
+    "url": "db://assets/image/sgj/ui/btn/image_102.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "da987437-815a-41d8-a466-6ccd53764f45@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_1018.png@6c48a",
+    "value": {
+      "depends": [
+        "da987437-815a-41d8-a466-6ccd53764f45"
+      ]
+    }
+  },
+  "b86c009d-8729-4c8f-9bae-ec09779be266": {
+    "url": "db://assets/image/sgj/ui/btn/image_105.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e4bc6cff-7665-41b2-98bc-a8de9b77caa3@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_102.png@6c48a",
+    "value": {
+      "depends": [
+        "e4bc6cff-7665-41b2-98bc-a8de9b77caa3"
+      ]
+    }
+  },
+  "ce0d1f2b-657e-4afe-b910-a06601f06034": {
+    "url": "db://assets/image/sgj/ui/btn/image_1051.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b86c009d-8729-4c8f-9bae-ec09779be266@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_105.png@6c48a",
+    "value": {
+      "depends": [
+        "b86c009d-8729-4c8f-9bae-ec09779be266"
+      ]
+    }
+  },
+  "2b2df973-be30-4283-b82e-69067d18b26d": {
+    "url": "db://assets/image/sgj/ui/btn/image_108.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ce0d1f2b-657e-4afe-b910-a06601f06034@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_1051.png@6c48a",
+    "value": {
+      "depends": [
+        "ce0d1f2b-657e-4afe-b910-a06601f06034"
+      ]
+    }
+  },
+  "90e936b6-e1c5-4a0a-b533-7dbf0810ea86": {
+    "url": "db://assets/image/sgj/ui/btn/image_110.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2b2df973-be30-4283-b82e-69067d18b26d@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_108.png@6c48a",
+    "value": {
+      "depends": [
+        "2b2df973-be30-4283-b82e-69067d18b26d"
+      ]
+    }
+  },
+  "799391f8-1ae2-4223-a925-833c2f04b019": {
+    "url": "db://assets/image/sgj/ui/btn/image_1110.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "90e936b6-e1c5-4a0a-b533-7dbf0810ea86@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_110.png@6c48a",
+    "value": {
+      "depends": [
+        "90e936b6-e1c5-4a0a-b533-7dbf0810ea86"
+      ]
+    }
+  },
+  "ce3446ee-18cc-478a-986f-cce0453367f0": {
+    "url": "db://assets/image/sgj/ui/btn/image_1112.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "799391f8-1ae2-4223-a925-833c2f04b019@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_1110.png@6c48a",
+    "value": {
+      "depends": [
+        "799391f8-1ae2-4223-a925-833c2f04b019"
+      ]
+    }
+  },
+  "a511e89b-8222-4529-bdf1-871555aa995e": {
+    "url": "db://assets/image/sgj/ui/btn/image_1114.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ce3446ee-18cc-478a-986f-cce0453367f0@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_1112.png@6c48a",
+    "value": {
+      "depends": [
+        "ce3446ee-18cc-478a-986f-cce0453367f0"
+      ]
+    }
+  },
+  "51824098-8f88-4f83-8c8d-31535d8b1443": {
+    "url": "db://assets/image/sgj/ui/btn/image_112.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a511e89b-8222-4529-bdf1-871555aa995e@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_1114.png@6c48a",
+    "value": {
+      "depends": [
+        "a511e89b-8222-4529-bdf1-871555aa995e"
+      ]
+    }
+  },
+  "3b854a08-b5f3-4dda-810f-ce86fcefe699": {
+    "url": "db://assets/image/sgj/ui/btn/image_114.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "51824098-8f88-4f83-8c8d-31535d8b1443@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_112.png@6c48a",
+    "value": {
+      "depends": [
+        "51824098-8f88-4f83-8c8d-31535d8b1443"
+      ]
+    }
+  },
+  "38671a38-bb4f-448b-851f-a0cf5c05123c": {
+    "url": "db://assets/image/sgj/ui/btn/image_121.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3b854a08-b5f3-4dda-810f-ce86fcefe699@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_114.png@6c48a",
+    "value": {
+      "depends": [
+        "3b854a08-b5f3-4dda-810f-ce86fcefe699"
+      ]
+    }
+  },
+  "fd1829da-9bb6-462c-8f10-592085909a2a": {
+    "url": "db://assets/image/sgj/ui/btn/image_122.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "38671a38-bb4f-448b-851f-a0cf5c05123c@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_121.png@6c48a",
+    "value": {
+      "depends": [
+        "38671a38-bb4f-448b-851f-a0cf5c05123c"
+      ]
+    }
+  },
+  "fe06f7fc-e5bd-4301-9603-fda9778b2b42": {
+    "url": "db://assets/image/sgj/ui/btn/image_123.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fd1829da-9bb6-462c-8f10-592085909a2a@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_122.png@6c48a",
+    "value": {
+      "depends": [
+        "fd1829da-9bb6-462c-8f10-592085909a2a"
+      ]
+    }
+  },
+  "3842cee6-2840-4769-8925-85810a787e1a": {
+    "url": "db://assets/image/sgj/ui/btn/image_124.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fe06f7fc-e5bd-4301-9603-fda9778b2b42@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_123.png@6c48a",
+    "value": {
+      "depends": [
+        "fe06f7fc-e5bd-4301-9603-fda9778b2b42"
+      ]
+    }
+  },
+  "43544a25-8216-495b-9aa1-eb5651723fc2": {
+    "url": "db://assets/image/sgj/ui/btn/image_125.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3842cee6-2840-4769-8925-85810a787e1a@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_124.png@6c48a",
+    "value": {
+      "depends": [
+        "3842cee6-2840-4769-8925-85810a787e1a"
+      ]
+    }
+  },
+  "f0638ffe-7465-4b26-a79e-0eac1878c440": {
+    "url": "db://assets/image/sgj/ui/btn/image_62.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "43544a25-8216-495b-9aa1-eb5651723fc2@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_125.png@6c48a",
+    "value": {
+      "depends": [
+        "43544a25-8216-495b-9aa1-eb5651723fc2"
+      ]
+    }
+  },
+  "c473696d-51b8-41dc-bd2e-beb87b1ca0cd": {
+    "url": "db://assets/image/sgj/ui/btn/image_621.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f0638ffe-7465-4b26-a79e-0eac1878c440@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_62.png@6c48a",
+    "value": {
+      "depends": [
+        "f0638ffe-7465-4b26-a79e-0eac1878c440"
+      ]
+    }
+  },
+  "64cab769-ddda-4996-9411-351d11591da8": {
+    "url": "db://assets/image/sgj/ui/btn/image_64.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c473696d-51b8-41dc-bd2e-beb87b1ca0cd@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_621.png@6c48a",
+    "value": {
+      "depends": [
+        "c473696d-51b8-41dc-bd2e-beb87b1ca0cd"
+      ]
+    }
+  },
+  "57d79fbe-7cb9-4663-adf2-acbb5203e088": {
+    "url": "db://assets/image/sgj/ui/btn/image_641.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "64cab769-ddda-4996-9411-351d11591da8@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_64.png@6c48a",
+    "value": {
+      "depends": [
+        "64cab769-ddda-4996-9411-351d11591da8"
+      ]
+    }
+  },
+  "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e": {
+    "url": "db://assets/image/sgj/ui/btn/image_66.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "57d79fbe-7cb9-4663-adf2-acbb5203e088@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_641.png@6c48a",
+    "value": {
+      "depends": [
+        "57d79fbe-7cb9-4663-adf2-acbb5203e088"
+      ]
+    }
+  },
+  "a9eeb1cb-59b3-409e-af4c-75dbf737f882": {
+    "url": "db://assets/image/sgj/ui/btn/image_661.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_66.png@6c48a",
+    "value": {
+      "depends": [
+        "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e"
+      ]
+    }
+  },
+  "6c1a747d-58b2-421e-85b6-731b6b2b60de": {
+    "url": "db://assets/image/sgj/ui/btn/image_69.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a9eeb1cb-59b3-409e-af4c-75dbf737f882@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_661.png@6c48a",
+    "value": {
+      "depends": [
+        "a9eeb1cb-59b3-409e-af4c-75dbf737f882"
+      ]
+    }
+  },
+  "47c44d8a-467c-4a5b-8f56-be3922d12760": {
+    "url": "db://assets/image/sgj/ui/btn/image_691.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6c1a747d-58b2-421e-85b6-731b6b2b60de@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_69.png@6c48a",
+    "value": {
+      "depends": [
+        "6c1a747d-58b2-421e-85b6-731b6b2b60de"
+      ]
+    }
+  },
+  "0256eee9-615d-4c93-a9be-92d074236144": {
+    "url": "db://assets/image/sgj/ui/btn/image_71.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "47c44d8a-467c-4a5b-8f56-be3922d12760@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_691.png@6c48a",
+    "value": {
+      "depends": [
+        "47c44d8a-467c-4a5b-8f56-be3922d12760"
+      ]
+    }
+  },
+  "044d861a-7642-47d4-8d46-86b236a4bb28": {
+    "url": "db://assets/image/sgj/ui/btn/image_711.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0256eee9-615d-4c93-a9be-92d074236144@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_71.png@6c48a",
+    "value": {
+      "depends": [
+        "0256eee9-615d-4c93-a9be-92d074236144"
+      ]
+    }
+  },
+  "ca882139-3f7b-4a24-b356-38fed13d8776": {
+    "url": "db://assets/image/sgj/ui/btn/image_74.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "044d861a-7642-47d4-8d46-86b236a4bb28@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_711.png@6c48a",
+    "value": {
+      "depends": [
+        "044d861a-7642-47d4-8d46-86b236a4bb28"
+      ]
+    }
+  },
+  "eeee0c44-b497-40c6-9970-efb13402c217": {
+    "url": "db://assets/image/sgj/ui/btn/image_741.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ca882139-3f7b-4a24-b356-38fed13d8776@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_74.png@6c48a",
+    "value": {
+      "depends": [
+        "ca882139-3f7b-4a24-b356-38fed13d8776"
+      ]
+    }
+  },
+  "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4": {
+    "url": "db://assets/image/sgj/ui/btn/image_76.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "eeee0c44-b497-40c6-9970-efb13402c217@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_741.png@6c48a",
+    "value": {
+      "depends": [
+        "eeee0c44-b497-40c6-9970-efb13402c217"
+      ]
+    }
+  },
+  "b2d56148-a034-422d-87c4-156cd444731c": {
+    "url": "db://assets/image/sgj/ui/btn/image_761.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_76.png@6c48a",
+    "value": {
+      "depends": [
+        "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4"
+      ]
+    }
+  },
+  "b8c5b966-562d-481d-beed-0d1d06b1db49": {
+    "url": "db://assets/image/sgj/ui/btn/image_78.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b2d56148-a034-422d-87c4-156cd444731c@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_761.png@6c48a",
+    "value": {
+      "depends": [
+        "b2d56148-a034-422d-87c4-156cd444731c"
+      ]
+    }
+  },
+  "52aa0121-e9f4-483b-8534-8eb93b447911": {
+    "url": "db://assets/image/sgj/ui/btn/image_781.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b8c5b966-562d-481d-beed-0d1d06b1db49@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_78.png@6c48a",
+    "value": {
+      "depends": [
+        "b8c5b966-562d-481d-beed-0d1d06b1db49"
+      ]
+    }
+  },
+  "b24fb3ab-6bb3-410f-af02-642cf89e3e62": {
+    "url": "db://assets/image/sgj/ui/btn/image_88.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "52aa0121-e9f4-483b-8534-8eb93b447911@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_781.png@6c48a",
+    "value": {
+      "depends": [
+        "52aa0121-e9f4-483b-8534-8eb93b447911"
+      ]
+    }
+  },
+  "b73bc21e-a4d6-4445-b9e5-417abe10ecd3": {
+    "url": "db://assets/image/sgj/ui/btn/image_89.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b24fb3ab-6bb3-410f-af02-642cf89e3e62@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_88.png@6c48a",
+    "value": {
+      "depends": [
+        "b24fb3ab-6bb3-410f-af02-642cf89e3e62"
+      ]
+    }
+  },
+  "76b8d44f-15e7-44eb-a67b-887626fcfb63": {
+    "url": "db://assets/image/sgj/ui/btn/image_90.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b73bc21e-a4d6-4445-b9e5-417abe10ecd3@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_89.png@6c48a",
+    "value": {
+      "depends": [
+        "b73bc21e-a4d6-4445-b9e5-417abe10ecd3"
+      ]
+    }
+  },
+  "0ba8d7dc-71a9-4888-9dc8-d544f49be009": {
+    "url": "db://assets/image/sgj/ui/btn/image_91.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "76b8d44f-15e7-44eb-a67b-887626fcfb63@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_90.png@6c48a",
+    "value": {
+      "depends": [
+        "76b8d44f-15e7-44eb-a67b-887626fcfb63"
+      ]
+    }
+  },
+  "ef00d0e9-e5b9-456a-89d8-861bad4863f0": {
+    "url": "db://assets/image/sgj/ui/btn/image_92.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0ba8d7dc-71a9-4888-9dc8-d544f49be009@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_91.png@6c48a",
+    "value": {
+      "depends": [
+        "0ba8d7dc-71a9-4888-9dc8-d544f49be009"
+      ]
+    }
+  },
+  "98f68a52-cf44-4c69-8f86-b689b23baa38": {
+    "url": "db://assets/image/sgj/ui/btn/image_93.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ef00d0e9-e5b9-456a-89d8-861bad4863f0@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_92.png@6c48a",
+    "value": {
+      "depends": [
+        "ef00d0e9-e5b9-456a-89d8-861bad4863f0"
+      ]
+    }
+  },
+  "9f4f7199-9b99-4c3c-9193-8568095d575e": {
+    "url": "db://assets/image/sgj/ui/btn/image_94.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "98f68a52-cf44-4c69-8f86-b689b23baa38@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_93.png@6c48a",
+    "value": {
+      "depends": [
+        "98f68a52-cf44-4c69-8f86-b689b23baa38"
+      ]
+    }
+  },
+  "4da3935f-099e-43a0-a456-ff7b80f1c87a": {
+    "url": "db://assets/image/sgj/ui/btn/image_95.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9f4f7199-9b99-4c3c-9193-8568095d575e@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_94.png@6c48a",
+    "value": {
+      "depends": [
+        "9f4f7199-9b99-4c3c-9193-8568095d575e"
+      ]
+    }
+  },
+  "72464f85-6443-4345-85ba-1e0f38a38383": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_btn_ksks.png",
+    "value": {}
+  },
+  "4da3935f-099e-43a0-a456-ff7b80f1c87a@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/image_95.png@6c48a",
+    "value": {
+      "depends": [
+        "4da3935f-099e-43a0-a456-ff7b80f1c87a"
+      ]
+    }
+  },
+  "01137bef-8d1a-4007-bb74-89cfe2ed72ce": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "72464f85-6443-4345-85ba-1e0f38a38383@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_btn_ksks.png@6c48a",
+    "value": {
+      "depends": [
+        "72464f85-6443-4345-85ba-1e0f38a38383"
+      ]
+    }
+  },
+  "4853f847-449b-444b-aaf1-3c83eba8c7dc": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "01137bef-8d1a-4007-bb74-89cfe2ed72ce@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto.png@6c48a",
+    "value": {
+      "depends": [
+        "01137bef-8d1a-4007-bb74-89cfe2ed72ce"
+      ]
+    }
+  },
+  "1d68f718-815c-46a6-af2a-3fca24d7540c": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4853f847-449b-444b-aaf1-3c83eba8c7dc@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto1.png@6c48a",
+    "value": {
+      "depends": [
+        "4853f847-449b-444b-aaf1-3c83eba8c7dc"
+      ]
+    }
+  },
+  "c2a82eac-98f7-475f-923c-a5982af03492": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_getmoney.png",
+    "value": {}
+  },
+  "1d68f718-815c-46a6-af2a-3fca24d7540c@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto2.png@6c48a",
+    "value": {
+      "depends": [
+        "1d68f718-815c-46a6-af2a-3fca24d7540c"
+      ]
+    }
+  },
+  "bb6c8abc-a109-432a-9ba6-84331bba5317": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_getmoneymax.png",
+    "value": {}
+  },
+  "c2a82eac-98f7-475f-923c-a5982af03492@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_getmoney.png@6c48a",
+    "value": {
+      "depends": [
+        "c2a82eac-98f7-475f-923c-a5982af03492"
+      ]
+    }
+  },
+  "5972bb4e-bb8a-4952-913a-3a77275658f1": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_menudown.png",
+    "value": {}
+  },
+  "bb6c8abc-a109-432a-9ba6-84331bba5317@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_getmoneymax.png@6c48a",
+    "value": {
+      "depends": [
+        "bb6c8abc-a109-432a-9ba6-84331bba5317"
+      ]
+    }
+  },
+  "0e7d765c-97ea-47cb-8dff-57638cfbae59": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_menuup.png",
+    "value": {}
+  },
+  "5972bb4e-bb8a-4952-913a-3a77275658f1@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_menudown.png@6c48a",
+    "value": {
+      "depends": [
+        "5972bb4e-bb8a-4952-913a-3a77275658f1"
+      ]
+    }
+  },
+  "6689a759-0260-49f9-937c-1a36f3bc21e0": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_muneclose.png",
+    "value": {}
+  },
+  "0e7d765c-97ea-47cb-8dff-57638cfbae59@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_menuup.png@6c48a",
+    "value": {
+      "depends": [
+        "0e7d765c-97ea-47cb-8dff-57638cfbae59"
+      ]
+    }
+  },
+  "cefc7ffb-98de-4b20-b5c4-91090a8c343b": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_muneok.png",
+    "value": {}
+  },
+  "6689a759-0260-49f9-937c-1a36f3bc21e0@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_muneclose.png@6c48a",
+    "value": {
+      "depends": [
+        "6689a759-0260-49f9-937c-1a36f3bc21e0"
+      ]
+    }
+  },
+  "dc7a22e7-7afb-445c-8046-cda46ba940fb": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_cjc.png",
+    "value": {}
+  },
+  "cefc7ffb-98de-4b20-b5c4-91090a8c343b@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_muneok.png@6c48a",
+    "value": {
+      "depends": [
+        "cefc7ffb-98de-4b20-b5c4-91090a8c343b"
+      ]
+    }
+  },
+  "22bdd7b6-0fd0-481d-b5e7-b792e597118c": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_gjc.png",
+    "value": {}
+  },
+  "dc7a22e7-7afb-445c-8046-cda46ba940fb@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_cjc.png@6c48a",
+    "value": {
+      "depends": [
+        "dc7a22e7-7afb-445c-8046-cda46ba940fb"
+      ]
+    }
+  },
+  "b8facbdd-36a2-41fd-9e73-bef012f52bb8": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_hb.png",
+    "value": {}
+  },
+  "22bdd7b6-0fd0-481d-b5e7-b792e597118c@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_gjc.png@6c48a",
+    "value": {
+      "depends": [
+        "22bdd7b6-0fd0-481d-b5e7-b792e597118c"
+      ]
+    }
+  },
+  "b3844013-1e4a-46c7-a069-b41406a29764": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_kx.png",
+    "value": {}
+  },
+  "b8facbdd-36a2-41fd-9e73-bef012f52bb8@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_hb.png@6c48a",
+    "value": {
+      "depends": [
+        "b8facbdd-36a2-41fd-9e73-bef012f52bb8"
+      ]
+    }
+  },
+  "2dc08242-8242-457c-a559-966762ae3adb": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_mfty.png",
+    "value": {}
+  },
+  "b3844013-1e4a-46c7-a069-b41406a29764@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_kx.png@6c48a",
+    "value": {
+      "depends": [
+        "b3844013-1e4a-46c7-a069-b41406a29764"
+      ]
+    }
+  },
+  "f4dcf0f9-2161-4686-a01c-2d7131e9a4c8": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_ptc.png",
+    "value": {}
+  },
+  "2dc08242-8242-457c-a559-966762ae3adb@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_mfty.png@6c48a",
+    "value": {
+      "depends": [
+        "2dc08242-8242-457c-a559-966762ae3adb"
+      ]
+    }
+  },
+  "9c7edb7e-a31a-4c02-bc09-42b457288c60": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_tyf.png",
+    "value": {}
+  },
+  "f4dcf0f9-2161-4686-a01c-2d7131e9a4c8@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_ptc.png@6c48a",
+    "value": {
+      "depends": [
+        "f4dcf0f9-2161-4686-a01c-2d7131e9a4c8"
+      ]
+    }
+  },
+  "d7ee941b-e961-400a-b9a4-af823cd176d3": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_yj.png",
+    "value": {}
+  },
+  "9c7edb7e-a31a-4c02-bc09-42b457288c60@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_tyf.png@6c48a",
+    "value": {
+      "depends": [
+        "9c7edb7e-a31a-4c02-bc09-42b457288c60"
+      ]
+    }
+  },
+  "f6990c8e-aada-4907-8fd4-283430a0e536": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_zjc.png",
+    "value": {}
+  },
+  "d7ee941b-e961-400a-b9a4-af823cd176d3@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_yj.png@6c48a",
+    "value": {
+      "depends": [
+        "d7ee941b-e961-400a-b9a4-af823cd176d3"
+      ]
+    }
+  },
+  "f06211e7-e131-46e1-93b8-3d98af3f8a39": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomback.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f06211e7-e131-46e1-93b8-3d98af3f8a39@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomback.png@6c48a",
+    "value": {
+      "depends": [
+        "f06211e7-e131-46e1-93b8-3d98af3f8a39"
+      ]
+    }
+  },
+  "f85e3a97-1a7d-43f6-a674-f4252f07d4fd": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomrulebtn.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f6990c8e-aada-4907-8fd4-283430a0e536@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_room_zjc.png@6c48a",
+    "value": {
+      "depends": [
+        "f6990c8e-aada-4907-8fd4-283430a0e536"
+      ]
+    }
+  },
+  "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65": {
+    "url": "db://assets/image/sgj/ui/btn/tc_53.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f85e3a97-1a7d-43f6-a674-f4252f07d4fd@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomrulebtn.png@6c48a",
+    "value": {
+      "depends": [
+        "f85e3a97-1a7d-43f6-a674-f4252f07d4fd"
+      ]
+    }
+  },
+  "029406b7-3fa1-4cc2-9657-2f60c0c1fce7": {
+    "url": "db://assets/image/sgj/ui/common/image_12.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/tc_53.png@6c48a",
+    "value": {
+      "depends": [
+        "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65"
+      ]
+    }
+  },
+  "ffb71a28-3e3d-4155-a959-27dd9c54d839": {
+    "url": "db://assets/image/sgj/ui/common/image_14.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_12.png@6c48a",
+    "value": {
+      "depends": [
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7"
+      ]
+    }
+  },
+  "6d456885-4e7f-48da-8f46-05bceedf3c98": {
+    "url": "db://assets/image/sgj/ui/common/image_26.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ffb71a28-3e3d-4155-a959-27dd9c54d839@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_14.png@6c48a",
+    "value": {
+      "depends": [
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839"
+      ]
+    }
+  },
+  "a83ec927-e37b-43e3-98b5-5ce5f02b7291": {
+    "url": "db://assets/image/sgj/ui/common/image_30.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6d456885-4e7f-48da-8f46-05bceedf3c98@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_26.png@6c48a",
+    "value": {
+      "depends": [
+        "6d456885-4e7f-48da-8f46-05bceedf3c98"
+      ]
+    }
+  },
+  "9aa1153b-49b5-4187-8e66-f3f90dca0ddd": {
+    "url": "db://assets/image/sgj/ui/common/image_32.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a83ec927-e37b-43e3-98b5-5ce5f02b7291@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_30.png@6c48a",
+    "value": {
+      "depends": [
+        "a83ec927-e37b-43e3-98b5-5ce5f02b7291"
+      ]
+    }
+  },
+  "24897dcc-8731-42bf-8a92-0455a4720f78": {
+    "url": "db://assets/image/sgj/ui/common/image_34.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9aa1153b-49b5-4187-8e66-f3f90dca0ddd@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_32.png@6c48a",
+    "value": {
+      "depends": [
+        "9aa1153b-49b5-4187-8e66-f3f90dca0ddd"
+      ]
+    }
+  },
+  "bbd8135d-0286-4b64-9f59-967091144031": {
+    "url": "db://assets/image/sgj/ui/common/image_36.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "24897dcc-8731-42bf-8a92-0455a4720f78@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_34.png@6c48a",
+    "value": {
+      "depends": [
+        "24897dcc-8731-42bf-8a92-0455a4720f78"
+      ]
+    }
+  },
+  "bd258788-f8aa-41d0-ac30-e55e634e163f": {
+    "url": "db://assets/image/sgj/ui/common/image_38.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bbd8135d-0286-4b64-9f59-967091144031@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_36.png@6c48a",
+    "value": {
+      "depends": [
+        "bbd8135d-0286-4b64-9f59-967091144031"
+      ]
+    }
+  },
+  "a71d64d0-7622-422e-bb74-122b69cc7645": {
+    "url": "db://assets/image/sgj/ui/common/image_40.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bd258788-f8aa-41d0-ac30-e55e634e163f@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_38.png@6c48a",
+    "value": {
+      "depends": [
+        "bd258788-f8aa-41d0-ac30-e55e634e163f"
+      ]
+    }
+  },
+  "9b7e2a9c-9c61-493b-a652-197df0ee7dd5": {
+    "url": "db://assets/image/sgj/ui/common/image_48.png",
+    "value": {}
+  },
+  "a71d64d0-7622-422e-bb74-122b69cc7645@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_40.png@6c48a",
+    "value": {
+      "depends": [
+        "a71d64d0-7622-422e-bb74-122b69cc7645"
+      ]
+    }
+  },
+  "0e05c183-12bc-4bc3-b4f1-a11f90277987": {
+    "url": "db://assets/image/sgj/ui/common/image_49.png",
+    "value": {}
+  },
+  "9b7e2a9c-9c61-493b-a652-197df0ee7dd5@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_48.png@6c48a",
+    "value": {
+      "depends": [
+        "9b7e2a9c-9c61-493b-a652-197df0ee7dd5"
+      ]
+    }
+  },
+  "03cd36e2-d8cf-4b0e-8b6e-366fd90de617": {
+    "url": "db://assets/image/sgj/ui/common/image_50.png",
+    "value": {}
+  },
+  "0e05c183-12bc-4bc3-b4f1-a11f90277987@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_49.png@6c48a",
+    "value": {
+      "depends": [
+        "0e05c183-12bc-4bc3-b4f1-a11f90277987"
+      ]
+    }
+  },
+  "727c6c93-9eec-48c4-a8b5-5d3970823ef5": {
+    "url": "db://assets/image/sgj/ui/common/image_51.png",
+    "value": {}
+  },
+  "03cd36e2-d8cf-4b0e-8b6e-366fd90de617@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_50.png@6c48a",
+    "value": {
+      "depends": [
+        "03cd36e2-d8cf-4b0e-8b6e-366fd90de617"
+      ]
+    }
+  },
+  "063fe9c6-34de-4221-9bf4-083b02d187c7": {
+    "url": "db://assets/image/sgj/ui/common/image_52.png",
+    "value": {}
+  },
+  "727c6c93-9eec-48c4-a8b5-5d3970823ef5@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_51.png@6c48a",
+    "value": {
+      "depends": [
+        "727c6c93-9eec-48c4-a8b5-5d3970823ef5"
+      ]
+    }
+  },
+  "d34795bf-90b3-4953-b72c-9b64c608a95a": {
+    "url": "db://assets/image/sgj/ui/common/image_53.png",
+    "value": {}
+  },
+  "063fe9c6-34de-4221-9bf4-083b02d187c7@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_52.png@6c48a",
+    "value": {
+      "depends": [
+        "063fe9c6-34de-4221-9bf4-083b02d187c7"
+      ]
+    }
+  },
+  "8cdcf83f-1980-4248-8e12-7dd975ce3a61": {
+    "url": "db://assets/image/sgj/ui/common/image_coin.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d34795bf-90b3-4953-b72c-9b64c608a95a@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_53.png@6c48a",
+    "value": {
+      "depends": [
+        "d34795bf-90b3-4953-b72c-9b64c608a95a"
+      ]
+    }
+  },
+  "1b444e0b-f9aa-479e-bad7-528b77bba593": {
+    "url": "db://assets/image/sgj/ui/common/qukuang_74.png",
+    "value": {}
+  },
+  "8cdcf83f-1980-4248-8e12-7dd975ce3a61@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/image_coin.png@6c48a",
+    "value": {
+      "depends": [
+        "8cdcf83f-1980-4248-8e12-7dd975ce3a61"
+      ]
+    }
+  },
+  "2989deca-8600-49fc-ae16-8344d409a079": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Menu.png",
+    "value": {}
+  },
+  "1b444e0b-f9aa-479e-bad7-528b77bba593@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/qukuang_74.png@6c48a",
+    "value": {
+      "depends": [
+        "1b444e0b-f9aa-479e-bad7-528b77bba593"
+      ]
+    }
+  },
+  "adc8b4c1-6262-4fa0-85fd-eb47d4a2d4f6": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Room_Head_Bg_Boy.png",
+    "value": {}
+  },
+  "adc8b4c1-6262-4fa0-85fd-eb47d4a2d4f6@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Room_Head_Bg_Boy.png@6c48a",
+    "value": {
+      "depends": [
+        "adc8b4c1-6262-4fa0-85fd-eb47d4a2d4f6"
+      ]
+    }
+  },
+  "4dd779e8-f540-42af-b4fd-12aff2082f40": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Room_Head_Bg_Girl.png",
+    "value": {}
+  },
+  "2989deca-8600-49fc-ae16-8344d409a079@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Menu.png@6c48a",
+    "value": {
+      "depends": [
+        "2989deca-8600-49fc-ae16-8344d409a079"
+      ]
+    }
+  },
+  "ed65e638-3d6f-4132-835a-3c8576b1cfc9": {
+    "url": "db://assets/image/sgj/ui/common/sgj_add.png",
+    "value": {}
+  },
+  "4dd779e8-f540-42af-b4fd-12aff2082f40@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_Room_Head_Bg_Girl.png@6c48a",
+    "value": {
+      "depends": [
+        "4dd779e8-f540-42af-b4fd-12aff2082f40"
+      ]
+    }
+  },
+  "8efc37a9-abf0-4f2f-9e14-b841f706d6ba": {
+    "url": "db://assets/image/sgj/ui/common/sgj_bdx.png",
+    "value": {}
+  },
+  "ed65e638-3d6f-4132-835a-3c8576b1cfc9@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_add.png@6c48a",
+    "value": {
+      "depends": [
+        "ed65e638-3d6f-4132-835a-3c8576b1cfc9"
+      ]
+    }
+  },
+  "66bcf121-ef57-4033-8755-75916b15dfd4": {
+    "url": "db://assets/image/sgj/ui/common/sgj_centerlback.png",
+    "value": {}
+  },
+  "8efc37a9-abf0-4f2f-9e14-b841f706d6ba@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_bdx.png@6c48a",
+    "value": {
+      "depends": [
+        "8efc37a9-abf0-4f2f-9e14-b841f706d6ba"
+      ]
+    }
+  },
+  "2a78e4b2-3c29-4d4f-9ec3-15546901a699": {
+    "url": "db://assets/image/sgj/ui/common/sgj_centerlt.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "66bcf121-ef57-4033-8755-75916b15dfd4@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_centerlback.png@6c48a",
+    "value": {
+      "depends": [
+        "66bcf121-ef57-4033-8755-75916b15dfd4"
+      ]
+    }
+  },
+  "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_0.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2a78e4b2-3c29-4d4f-9ec3-15546901a699@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_centerlt.png@6c48a",
+    "value": {
+      "depends": [
+        "2a78e4b2-3c29-4d4f-9ec3-15546901a699"
+      ]
+    }
+  },
+  "9eb1355b-1c2c-46fa-b454-f98212265b46": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_0.png@6c48a",
+    "value": {
+      "depends": [
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e"
+      ]
+    }
+  },
+  "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9eb1355b-1c2c-46fa-b454-f98212265b46@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_1.png@6c48a",
+    "value": {
+      "depends": [
+        "9eb1355b-1c2c-46fa-b454-f98212265b46"
+      ]
+    }
+  },
+  "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_2.png@6c48a",
+    "value": {
+      "depends": [
+        "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3"
+      ]
+    }
+  },
+  "736232cc-8d19-4543-9210-318eeb50aade": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_3.png@6c48a",
+    "value": {
+      "depends": [
+        "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9"
+      ]
+    }
+  },
+  "2d48c82a-b5ec-445d-b506-78b4cd10a61f": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "736232cc-8d19-4543-9210-318eeb50aade@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_4.png@6c48a",
+    "value": {
+      "depends": [
+        "736232cc-8d19-4543-9210-318eeb50aade"
+      ]
+    }
+  },
+  "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2d48c82a-b5ec-445d-b506-78b4cd10a61f@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_5.png@6c48a",
+    "value": {
+      "depends": [
+        "2d48c82a-b5ec-445d-b506-78b4cd10a61f"
+      ]
+    }
+  },
+  "ee938073-ef44-4b9e-9ac3-56c92e1592dd": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_6.png@6c48a",
+    "value": {
+      "depends": [
+        "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e"
+      ]
+    }
+  },
+  "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ee938073-ef44-4b9e-9ac3-56c92e1592dd@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_7.png@6c48a",
+    "value": {
+      "depends": [
+        "ee938073-ef44-4b9e-9ac3-56c92e1592dd"
+      ]
+    }
+  },
+  "f452df51-a640-4c29-ab73-eb4fe255a17b": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_8.png@6c48a",
+    "value": {
+      "depends": [
+        "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2"
+      ]
+    }
+  },
+  "99320bdb-dd8a-4b13-a6eb-7c9221e92d87": {
+    "url": "db://assets/image/sgj/ui/common/sgj_headkuang.png",
+    "value": {}
+  },
+  "f452df51-a640-4c29-ab73-eb4fe255a17b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_9.png@6c48a",
+    "value": {
+      "depends": [
+        "f452df51-a640-4c29-ab73-eb4fe255a17b"
+      ]
+    }
+  },
+  "7799f7eb-9399-4942-b75a-b7d4210e0207": {
+    "url": "db://assets/image/sgj/ui/common/sgj_kedu.png",
+    "value": {}
+  },
+  "99320bdb-dd8a-4b13-a6eb-7c9221e92d87@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_headkuang.png@6c48a",
+    "value": {
+      "depends": [
+        "99320bdb-dd8a-4b13-a6eb-7c9221e92d87"
+      ]
+    }
+  },
+  "2ca5d656-562a-4b9b-bf7c-f78c5ce71225": {
+    "url": "db://assets/image/sgj/ui/common/sgj_moneyBack.png",
+    "value": {}
+  },
+  "7799f7eb-9399-4942-b75a-b7d4210e0207@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_kedu.png@6c48a",
+    "value": {
+      "depends": [
+        "7799f7eb-9399-4942-b75a-b7d4210e0207"
+      ]
+    }
+  },
+  "52c72bf7-e751-4612-8b53-bee53710c323": {
+    "url": "db://assets/image/sgj/ui/common/sgj_off.png",
+    "value": {}
+  },
+  "52c72bf7-e751-4612-8b53-bee53710c323@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_off.png@6c48a",
+    "value": {
+      "depends": [
+        "52c72bf7-e751-4612-8b53-bee53710c323"
+      ]
+    }
+  },
+  "0184ba51-6a53-4f28-bf12-3d34fe39ba2b": {
+    "url": "db://assets/image/sgj/ui/common/sgj_on.png",
+    "value": {}
+  },
+  "0184ba51-6a53-4f28-bf12-3d34fe39ba2b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_on.png@6c48a",
+    "value": {
+      "depends": [
+        "0184ba51-6a53-4f28-bf12-3d34fe39ba2b"
+      ]
+    }
+  },
+  "53a4cd8d-c358-43dd-a5a0-ae3e79db0d69": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_downback.png",
+    "value": {}
+  },
+  "53a4cd8d-c358-43dd-a5a0-ae3e79db0d69@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_downback.png@6c48a",
+    "value": {
+      "depends": [
+        "53a4cd8d-c358-43dd-a5a0-ae3e79db0d69"
+      ]
+    }
+  },
+  "3d37a021-9ac0-4fdb-8989-56c0e37dbf50": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gb1.png",
+    "value": {}
+  },
+  "2ca5d656-562a-4b9b-bf7c-f78c5ce71225@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_moneyBack.png@6c48a",
+    "value": {
+      "depends": [
+        "2ca5d656-562a-4b9b-bf7c-f78c5ce71225"
+      ]
+    }
+  },
+  "edf27da9-5168-4d4e-80c2-cf9897450a3a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gb1bg.png",
+    "value": {}
+  },
+  "3d37a021-9ac0-4fdb-8989-56c0e37dbf50@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gb1.png@6c48a",
+    "value": {
+      "depends": [
+        "3d37a021-9ac0-4fdb-8989-56c0e37dbf50"
+      ]
+    }
+  },
+  "1f010e13-e8c4-41e2-a8c8-05661015f3dc": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gold_bg.png",
+    "value": {}
+  },
+  "edf27da9-5168-4d4e-80c2-cf9897450a3a@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gb1bg.png@6c48a",
+    "value": {
+      "depends": [
+        "edf27da9-5168-4d4e-80c2-cf9897450a3a"
+      ]
+    }
+  },
+  "dc644298-1a9e-45a5-bc0b-6ff59a034941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_head_mask.png",
+    "value": {}
+  },
+  "1f010e13-e8c4-41e2-a8c8-05661015f3dc@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_gold_bg.png@6c48a",
+    "value": {
+      "depends": [
+        "1f010e13-e8c4-41e2-a8c8-05661015f3dc"
+      ]
+    }
+  },
+  "1a69ae7a-afa3-43af-8bd5-e0e6bc3ed258": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_0.png",
+    "value": {}
+  },
+  "dc644298-1a9e-45a5-bc0b-6ff59a034941@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_room_head_mask.png@6c48a",
+    "value": {
+      "depends": [
+        "dc644298-1a9e-45a5-bc0b-6ff59a034941"
+      ]
+    }
+  },
+  "fd42df82-d76f-4f88-a92b-c13085e30837": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_1.png",
+    "value": {}
+  },
+  "1a69ae7a-afa3-43af-8bd5-e0e6bc3ed258@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_0.png@6c48a",
+    "value": {
+      "depends": [
+        "1a69ae7a-afa3-43af-8bd5-e0e6bc3ed258"
+      ]
+    }
+  },
+  "fc65f4b4-e059-4d93-b433-be54652d1fe1": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_10.png",
+    "value": {}
+  },
+  "fd42df82-d76f-4f88-a92b-c13085e30837@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_1.png@6c48a",
+    "value": {
+      "depends": [
+        "fd42df82-d76f-4f88-a92b-c13085e30837"
+      ]
+    }
+  },
+  "47c98d56-d60b-4f04-9689-cb83e997ba55": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_11.png",
+    "value": {}
+  },
+  "fc65f4b4-e059-4d93-b433-be54652d1fe1@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_10.png@6c48a",
+    "value": {
+      "depends": [
+        "fc65f4b4-e059-4d93-b433-be54652d1fe1"
+      ]
+    }
+  },
+  "2201b034-b566-4040-b434-7cef3594f41c": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_12.png",
+    "value": {}
+  },
+  "47c98d56-d60b-4f04-9689-cb83e997ba55@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_11.png@6c48a",
+    "value": {
+      "depends": [
+        "47c98d56-d60b-4f04-9689-cb83e997ba55"
+      ]
+    }
+  },
+  "c46fffde-b7c5-4aea-b4a7-8b02b6a3e85e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_13.png",
+    "value": {}
+  },
+  "2201b034-b566-4040-b434-7cef3594f41c@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_12.png@6c48a",
+    "value": {
+      "depends": [
+        "2201b034-b566-4040-b434-7cef3594f41c"
+      ]
+    }
+  },
+  "596bd75e-b79e-4f8a-94e2-0175ff151bbf": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_2.png",
+    "value": {}
+  },
+  "c46fffde-b7c5-4aea-b4a7-8b02b6a3e85e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_13.png@6c48a",
+    "value": {
+      "depends": [
+        "c46fffde-b7c5-4aea-b4a7-8b02b6a3e85e"
+      ]
+    }
+  },
+  "bbe003e3-ac2e-4078-8098-490423aa2fef": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_3.png",
+    "value": {}
+  },
+  "596bd75e-b79e-4f8a-94e2-0175ff151bbf@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_2.png@6c48a",
+    "value": {
+      "depends": [
+        "596bd75e-b79e-4f8a-94e2-0175ff151bbf"
+      ]
+    }
+  },
+  "1780100e-145f-4d23-9976-dea0d4078ae8": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_4.png",
+    "value": {}
+  },
+  "bbe003e3-ac2e-4078-8098-490423aa2fef@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_3.png@6c48a",
+    "value": {
+      "depends": [
+        "bbe003e3-ac2e-4078-8098-490423aa2fef"
+      ]
+    }
+  },
+  "5e0509d9-c853-4ac6-bd97-e6f5095ad76e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_5.png",
+    "value": {}
+  },
+  "1780100e-145f-4d23-9976-dea0d4078ae8@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_4.png@6c48a",
+    "value": {
+      "depends": [
+        "1780100e-145f-4d23-9976-dea0d4078ae8"
+      ]
+    }
+  },
+  "72f26730-d18d-4109-9ec1-53d6acfc1eb7": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_6.png",
+    "value": {}
+  },
+  "5e0509d9-c853-4ac6-bd97-e6f5095ad76e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_5.png@6c48a",
+    "value": {
+      "depends": [
+        "5e0509d9-c853-4ac6-bd97-e6f5095ad76e"
+      ]
+    }
+  },
+  "341d46e5-7ab2-453d-bed0-6b208c24d76f": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_7.png",
+    "value": {}
+  },
+  "72f26730-d18d-4109-9ec1-53d6acfc1eb7@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_6.png@6c48a",
+    "value": {
+      "depends": [
+        "72f26730-d18d-4109-9ec1-53d6acfc1eb7"
+      ]
+    }
+  },
+  "f8209e60-5345-4a18-898b-977d0257c45d": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_8.png",
+    "value": {}
+  },
+  "341d46e5-7ab2-453d-bed0-6b208c24d76f@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_7.png@6c48a",
+    "value": {
+      "depends": [
+        "341d46e5-7ab2-453d-bed0-6b208c24d76f"
+      ]
+    }
+  },
+  "13c4bd38-557c-4e06-a140-acb864484786": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_9.png",
+    "value": {}
+  },
+  "f8209e60-5345-4a18-898b-977d0257c45d@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_8.png@6c48a",
+    "value": {
+      "depends": [
+        "f8209e60-5345-4a18-898b-977d0257c45d"
+      ]
+    }
+  },
+  "aa5843dc-b6af-43f2-ac8e-f35b57e43679": {
+    "url": "db://assets/image/sgj/ui/common/sgj_setingback.png",
+    "value": {}
+  },
+  "13c4bd38-557c-4e06-a140-acb864484786@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_9.png@6c48a",
+    "value": {
+      "depends": [
+        "13c4bd38-557c-4e06-a140-acb864484786"
+      ]
+    }
+  },
+  "d6070f60-ad22-48df-805d-b8443e39c91b": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switch.png",
+    "value": {}
+  },
+  "d6070f60-ad22-48df-805d-b8443e39c91b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switch.png@6c48a",
+    "value": {
+      "depends": [
+        "d6070f60-ad22-48df-805d-b8443e39c91b"
+      ]
+    }
+  },
+  "46b0df56-063d-4737-9032-7e7fe9818c8e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switchoff.png",
+    "value": {}
+  },
+  "46b0df56-063d-4737-9032-7e7fe9818c8e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switchoff.png@6c48a",
+    "value": {
+      "depends": [
+        "46b0df56-063d-4737-9032-7e7fe9818c8e"
+      ]
+    }
+  },
+  "404b759b-0235-4d36-9ae1-9eb9245472b6": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switchon.png",
+    "value": {}
+  },
+  "aa5843dc-b6af-43f2-ac8e-f35b57e43679@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_setingback.png@6c48a",
+    "value": {
+      "depends": [
+        "aa5843dc-b6af-43f2-ac8e-f35b57e43679"
+      ]
+    }
+  },
+  "39b2e3c3-2891-415f-8f7d-1b95ef66667d": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_0.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "404b759b-0235-4d36-9ae1-9eb9245472b6@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_switchon.png@6c48a",
+    "value": {
+      "depends": [
+        "404b759b-0235-4d36-9ae1-9eb9245472b6"
+      ]
+    }
+  },
+  "97803200-e7fc-44f9-8af8-13d778951d4d": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "39b2e3c3-2891-415f-8f7d-1b95ef66667d@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_0.png@6c48a",
+    "value": {
+      "depends": [
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d"
+      ]
+    }
+  },
+  "73351aa7-46af-44e4-ac1b-056e0273533b": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "97803200-e7fc-44f9-8af8-13d778951d4d@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_1.png@6c48a",
+    "value": {
+      "depends": [
+        "97803200-e7fc-44f9-8af8-13d778951d4d"
+      ]
+    }
+  },
+  "a9b3867d-6a31-4f1c-ae68-e0c390afd753": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "73351aa7-46af-44e4-ac1b-056e0273533b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_2.png@6c48a",
+    "value": {
+      "depends": [
+        "73351aa7-46af-44e4-ac1b-056e0273533b"
+      ]
+    }
+  },
+  "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a9b3867d-6a31-4f1c-ae68-e0c390afd753@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_3.png@6c48a",
+    "value": {
+      "depends": [
+        "a9b3867d-6a31-4f1c-ae68-e0c390afd753"
+      ]
+    }
+  },
+  "725490c0-a7de-478e-b65f-8551cb32396b": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_4.png@6c48a",
+    "value": {
+      "depends": [
+        "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e"
+      ]
+    }
+  },
+  "28136b5b-65a3-4942-92ff-f9fef78f93b4": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "725490c0-a7de-478e-b65f-8551cb32396b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_5.png@6c48a",
+    "value": {
+      "depends": [
+        "725490c0-a7de-478e-b65f-8551cb32396b"
+      ]
+    }
+  },
+  "72dabfd1-d7b4-49fd-a69d-95dc911fafdb": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "28136b5b-65a3-4942-92ff-f9fef78f93b4@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_6.png@6c48a",
+    "value": {
+      "depends": [
+        "28136b5b-65a3-4942-92ff-f9fef78f93b4"
+      ]
+    }
+  },
+  "05f64033-c209-47ca-84b7-8f5408e5d0e5": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "72dabfd1-d7b4-49fd-a69d-95dc911fafdb@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_7.png@6c48a",
+    "value": {
+      "depends": [
+        "72dabfd1-d7b4-49fd-a69d-95dc911fafdb"
+      ]
+    }
+  },
+  "1219e0f0-cc9b-45d8-86dd-a9f983330e6d": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "05f64033-c209-47ca-84b7-8f5408e5d0e5@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_8.png@6c48a",
+    "value": {
+      "depends": [
+        "05f64033-c209-47ca-84b7-8f5408e5d0e5"
+      ]
+    }
+  },
+  "0220f753-f67d-4564-a9b5-33c39b38b93b": {
+    "url": "db://assets/image/sgj/ui/common/tc_06.png",
+    "value": {}
+  },
+  "1219e0f0-cc9b-45d8-86dd-a9f983330e6d@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_9.png@6c48a",
+    "value": {
+      "depends": [
+        "1219e0f0-cc9b-45d8-86dd-a9f983330e6d"
+      ]
+    }
+  },
+  "8c093238-8e38-459d-8c0d-399313c32bd2": {
+    "url": "db://assets/image/sgj/ui/common/tc_28.png",
+    "value": {}
+  },
+  "8c093238-8e38-459d-8c0d-399313c32bd2@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_28.png@6c48a",
+    "value": {
+      "depends": [
+        "8c093238-8e38-459d-8c0d-399313c32bd2"
+      ]
+    }
+  },
+  "6bb003b5-1e88-43ed-8ec9-5261505abab4": {
+    "url": "db://assets/image/sgj/ui/common/tc_49.png",
+    "value": {}
+  },
+  "6bb003b5-1e88-43ed-8ec9-5261505abab4@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_49.png@6c48a",
+    "value": {
+      "depends": [
+        "6bb003b5-1e88-43ed-8ec9-5261505abab4"
+      ]
+    }
+  },
+  "dcb18a58-1278-4648-aa00-42229ada535d": {
+    "url": "db://assets/image/sgj/ui/common/tc_56.png",
+    "value": {}
+  },
+  "dcb18a58-1278-4648-aa00-42229ada535d@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_56.png@6c48a",
+    "value": {
+      "depends": [
+        "dcb18a58-1278-4648-aa00-42229ada535d"
+      ]
+    }
+  },
+  "b1573337-d50b-4e41-8a90-cc44d527acf9": {
+    "url": "db://assets/image/sgj/ui/common/tc_59.png",
+    "value": {}
+  },
+  "0220f753-f67d-4564-a9b5-33c39b38b93b@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_06.png@6c48a",
+    "value": {
+      "depends": [
+        "0220f753-f67d-4564-a9b5-33c39b38b93b"
+      ]
+    }
+  },
+  "32f8c364-340b-4dc8-8c84-9ee7344da52f": {
+    "url": "db://assets/image/sgj/ui/common/tc_64.png",
+    "value": {}
+  },
+  "b1573337-d50b-4e41-8a90-cc44d527acf9@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_59.png@6c48a",
+    "value": {
+      "depends": [
+        "b1573337-d50b-4e41-8a90-cc44d527acf9"
+      ]
+    }
+  },
+  "842c5850-23c5-4eb5-8e9a-240e6f36ab8f": {
+    "url": "db://assets/image/sgj/ui/particle/jxlw_firetipskuanglizi.plist",
+    "value": {}
+  },
+  "9f91fb9f-3dd6-4a35-8304-fd1114d4f64b": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.atlas",
+    "value": {}
+  },
+  "32f8c364-340b-4dc8-8c84-9ee7344da52f@6c48a": {
+    "url": "db://assets/image/sgj/ui/common/tc_64.png@6c48a",
+    "value": {
+      "depends": [
+        "32f8c364-340b-4dc8-8c84-9ee7344da52f"
+      ]
+    }
+  },
+  "ef8784f2-7d33-4a5c-9c36-d002547410ad": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.json",
+    "value": {
+      "depends": [
+        "de7fe3c5-cf97-4231-88a0-14bf45f241f3@6c48a"
+      ]
+    }
+  },
+  "de7fe3c5-cf97-4231-88a0-14bf45f241f3": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.png",
+    "value": {}
+  },
+  "48d42266-3a40-427f-9640-946748b4f761": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.atlas",
+    "value": {}
+  },
+  "fddeffe8-9810-44c8-b0a9-e9a7cb9d584b": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.json",
+    "value": {
+      "depends": [
+        "c2c78370-aa9b-4d9c-8c98-c82d33e3aa51@6c48a"
+      ]
+    }
+  },
+  "c2c78370-aa9b-4d9c-8c98-c82d33e3aa51": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.png",
+    "value": {}
+  },
+  "c2c78370-aa9b-4d9c-8c98-c82d33e3aa51@6c48a": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.png@6c48a",
+    "value": {
+      "depends": [
+        "c2c78370-aa9b-4d9c-8c98-c82d33e3aa51"
+      ]
+    }
+  },
+  "3c388162-11e8-4d49-8113-f84ceb24aa2d": {
+    "url": "db://assets/image/sgj/ui/txt/sg_sound.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3c388162-11e8-4d49-8113-f84ceb24aa2d@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sg_sound.png@6c48a",
+    "value": {
+      "depends": [
+        "3c388162-11e8-4d49-8113-f84ceb24aa2d"
+      ]
+    }
+  },
+  "f5d42b4e-7d71-41c0-8cc8-ea4c351bb91d": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_auto.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f5d42b4e-7d71-41c0-8cc8-ea4c351bb91d@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_auto.png@6c48a",
+    "value": {
+      "depends": [
+        "f5d42b4e-7d71-41c0-8cc8-ea4c351bb91d"
+      ]
+    }
+  },
+  "93924be1-292f-465e-89e8-b7b2cf880461": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_changjx.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "93924be1-292f-465e-89e8-b7b2cf880461@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_changjx.png@6c48a",
+    "value": {
+      "depends": [
+        "93924be1-292f-465e-89e8-b7b2cf880461"
+      ]
+    }
+  },
+  "dd8b7801-d800-4d3f-9e25-a1efb0943b24": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_day.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "de7fe3c5-cf97-4231-88a0-14bf45f241f3@6c48a": {
+    "url": "db://assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.png@6c48a",
+    "value": {
+      "depends": [
+        "de7fe3c5-cf97-4231-88a0-14bf45f241f3"
+      ]
+    }
+  },
+  "371aaad2-35a2-4a9f-b2b7-fe4d5cdbd436": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_getmoney.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "dd8b7801-d800-4d3f-9e25-a1efb0943b24@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_day.png@6c48a",
+    "value": {
+      "depends": [
+        "dd8b7801-d800-4d3f-9e25-a1efb0943b24"
+      ]
+    }
+  },
+  "897e753f-af1c-4f1e-96f8-a66e053c57cc": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_hld_bean.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "371aaad2-35a2-4a9f-b2b7-fe4d5cdbd436@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_getmoney.png@6c48a",
+    "value": {
+      "depends": [
+        "371aaad2-35a2-4a9f-b2b7-fe4d5cdbd436"
+      ]
+    }
+  },
+  "426c6741-8922-4646-a54c-a7f7fdcba1ce": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_mode.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "897e753f-af1c-4f1e-96f8-a66e053c57cc@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_hld_bean.png@6c48a",
+    "value": {
+      "depends": [
+        "897e753f-af1c-4f1e-96f8-a66e053c57cc"
+      ]
+    }
+  },
+  "89e0e715-594d-4dbc-b41b-a75c1ef330e2": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_mune_back.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "426c6741-8922-4646-a54c-a7f7fdcba1ce@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_mode.png@6c48a",
+    "value": {
+      "depends": [
+        "426c6741-8922-4646-a54c-a7f7fdcba1ce"
+      ]
+    }
+  },
+  "eea29451-d5d3-4156-a887-16152c42c1ef": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_music.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "89e0e715-594d-4dbc-b41b-a75c1ef330e2@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_mune_back.png@6c48a",
+    "value": {
+      "depends": [
+        "89e0e715-594d-4dbc-b41b-a75c1ef330e2"
+      ]
+    }
+  },
+  "0fab46ea-d7a5-46d9-9f77-316851c856f0": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_night.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "eea29451-d5d3-4156-a887-16152c42c1ef@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_music.png@6c48a",
+    "value": {
+      "depends": [
+        "eea29451-d5d3-4156-a887-16152c42c1ef"
+      ]
+    }
+  },
+  "5fa028d9-88e3-46d4-9632-0b972d098c01": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0fab46ea-d7a5-46d9-9f77-316851c856f0@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_night.png@6c48a",
+    "value": {
+      "depends": [
+        "0fab46ea-d7a5-46d9-9f77-316851c856f0"
+      ]
+    }
+  },
+  "987b165b-0890-4a27-a942-0edb6504c975": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5fa028d9-88e3-46d4-9632-0b972d098c01@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule.png@6c48a",
+    "value": {
+      "depends": [
+        "5fa028d9-88e3-46d4-9632-0b972d098c01"
+      ]
+    }
+  },
+  "292ac198-d98b-4546-ac24-bf9dd674e7b8": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "987b165b-0890-4a27-a942-0edb6504c975@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s1.png@6c48a",
+    "value": {
+      "depends": [
+        "987b165b-0890-4a27-a942-0edb6504c975"
+      ]
+    }
+  },
+  "7a8ca304-2d54-4286-a108-90b26bf86056": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "292ac198-d98b-4546-ac24-bf9dd674e7b8@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s2.png@6c48a",
+    "value": {
+      "depends": [
+        "292ac198-d98b-4546-ac24-bf9dd674e7b8"
+      ]
+    }
+  },
+  "d66d6390-5cfc-4dd1-a3f5-99a9877d6150": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7a8ca304-2d54-4286-a108-90b26bf86056@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s3.png@6c48a",
+    "value": {
+      "depends": [
+        "7a8ca304-2d54-4286-a108-90b26bf86056"
+      ]
+    }
+  },
+  "a52f8f1b-e5f9-4b14-8a51-39c8ea10de43": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d66d6390-5cfc-4dd1-a3f5-99a9877d6150@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s4.png@6c48a",
+    "value": {
+      "depends": [
+        "d66d6390-5cfc-4dd1-a3f5-99a9877d6150"
+      ]
+    }
+  },
+  "a8982fdb-cca4-4602-98e6-f07032a1069e": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a52f8f1b-e5f9-4b14-8a51-39c8ea10de43@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s5.png@6c48a",
+    "value": {
+      "depends": [
+        "a52f8f1b-e5f9-4b14-8a51-39c8ea10de43"
+      ]
+    }
+  },
+  "aaf61a64-7ecf-4105-bd48-34e46c1acaf5": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_ruletext.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a8982fdb-cca4-4602-98e6-f07032a1069e@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_rule_s6.png@6c48a",
+    "value": {
+      "depends": [
+        "a8982fdb-cca4-4602-98e6-f07032a1069e"
+      ]
+    }
+  },
+  "7ccd73fe-5f3b-4848-8c0c-7d88ea9afc58": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_seting.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7ccd73fe-5f3b-4848-8c0c-7d88ea9afc58@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_seting.png@6c48a",
+    "value": {
+      "depends": [
+        "7ccd73fe-5f3b-4848-8c0c-7d88ea9afc58"
+      ]
+    }
+  },
+  "ed334033-cd3e-431e-a00f-06a38a2bb56c": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_stopmusic.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ed334033-cd3e-431e-a00f-06a38a2bb56c@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_stopmusic.png@6c48a",
+    "value": {
+      "depends": [
+        "ed334033-cd3e-431e-a00f-06a38a2bb56c"
+      ]
+    }
+  },
+  "09e07bbe-301c-4468-a0c4-386e12eeff76": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_toscore_hld.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "09e07bbe-301c-4468-a0c4-386e12eeff76@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_toscore_hld.png@6c48a",
+    "value": {
+      "depends": [
+        "09e07bbe-301c-4468-a0c4-386e12eeff76"
+      ]
+    }
+  },
+  "304801b8-2271-40ad-96e9-b904e27878a5": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_toscore_text.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "304801b8-2271-40ad-96e9-b904e27878a5@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_toscore_text.png@6c48a",
+    "value": {
+      "depends": [
+        "304801b8-2271-40ad-96e9-b904e27878a5"
+      ]
+    }
+  },
+  "fef86cc1-85a1-40e5-870a-c3ee8d4ec6d2": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_zr.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fef86cc1-85a1-40e5-870a-c3ee8d4ec6d2@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_zr.png@6c48a",
+    "value": {
+      "depends": [
+        "fef86cc1-85a1-40e5-870a-c3ee8d4ec6d2"
+      ]
+    }
+  },
+  "05da2b7b-f078-4eb8-9cd8-93dc964a8c11": {
+    "url": "db://assets/image/sgj/ui/txt/wan.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "05da2b7b-f078-4eb8-9cd8-93dc964a8c11@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/wan.png@6c48a",
+    "value": {
+      "depends": [
+        "05da2b7b-f078-4eb8-9cd8-93dc964a8c11"
+      ]
+    }
+  },
+  "aaf61a64-7ecf-4105-bd48-34e46c1acaf5@6c48a": {
+    "url": "db://assets/image/sgj/ui/txt/sgj_ruletext.png@6c48a",
+    "value": {
+      "depends": [
+        "aaf61a64-7ecf-4105-bd48-34e46c1acaf5"
+      ]
+    }
+  },
+  "17688d84-8c05-4cac-a4aa-34891d5ba674@f9941": {
+    "url": "db://assets/image/sgj/ui/bg/sgj_bg.jpg@f9941",
+    "value": {
+      "depends": [
+        "17688d84-8c05-4cac-a4aa-34891d5ba674@6c48a"
+      ]
+    }
+  },
+  "f06211e7-e131-46e1-93b8-3d98af3f8a39@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomback.png@f9941",
+    "value": {
+      "depends": [
+        "f06211e7-e131-46e1-93b8-3d98af3f8a39@6c48a"
+      ]
+    }
+  },
+  "f85e3a97-1a7d-43f6-a674-f4252f07d4fd@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_roomrulebtn.png@f9941",
+    "value": {
+      "depends": [
+        "f85e3a97-1a7d-43f6-a674-f4252f07d4fd@6c48a"
+      ]
+    }
+  },
+  "4853f847-449b-444b-aaf1-3c83eba8c7dc@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto1.png@f9941",
+    "value": {
+      "depends": [
+        "4853f847-449b-444b-aaf1-3c83eba8c7dc@6c48a"
+      ]
+    }
+  },
+  "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/tc_53.png@f9941",
+    "value": {
+      "depends": [
+        "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65@6c48a"
+      ]
+    }
+  },
+  "1d68f718-815c-46a6-af2a-3fca24d7540c@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto2.png@f9941",
+    "value": {
+      "depends": [
+        "1d68f718-815c-46a6-af2a-3fca24d7540c@6c48a"
+      ]
+    }
+  },
+  "a511e89b-8222-4529-bdf1-871555aa995e@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_1114.png@f9941",
+    "value": {
+      "depends": [
+        "a511e89b-8222-4529-bdf1-871555aa995e@6c48a"
+      ]
+    }
+  },
+  "01137bef-8d1a-4007-bb74-89cfe2ed72ce@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/sgj_cancleauto.png@f9941",
+    "value": {
+      "depends": [
+        "01137bef-8d1a-4007-bb74-89cfe2ed72ce@6c48a"
+      ]
+    }
+  },
+  "ce3446ee-18cc-478a-986f-cce0453367f0@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_1112.png@f9941",
+    "value": {
+      "depends": [
+        "ce3446ee-18cc-478a-986f-cce0453367f0@6c48a"
+      ]
+    }
+  },
+  "799391f8-1ae2-4223-a925-833c2f04b019@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_1110.png@f9941",
+    "value": {
+      "depends": [
+        "799391f8-1ae2-4223-a925-833c2f04b019@6c48a"
+      ]
+    }
+  },
+  "ce0d1f2b-657e-4afe-b910-a06601f06034@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_1051.png@f9941",
+    "value": {
+      "depends": [
+        "ce0d1f2b-657e-4afe-b910-a06601f06034@6c48a"
+      ]
+    }
+  },
+  "da987437-815a-41d8-a466-6ccd53764f45@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_1018.png@f9941",
+    "value": {
+      "depends": [
+        "da987437-815a-41d8-a466-6ccd53764f45@6c48a"
+      ]
+    }
+  },
+  "52aa0121-e9f4-483b-8534-8eb93b447911@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_781.png@f9941",
+    "value": {
+      "depends": [
+        "52aa0121-e9f4-483b-8534-8eb93b447911@6c48a"
+      ]
+    }
+  },
+  "eeee0c44-b497-40c6-9970-efb13402c217@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_741.png@f9941",
+    "value": {
+      "depends": [
+        "eeee0c44-b497-40c6-9970-efb13402c217@6c48a"
+      ]
+    }
+  },
+  "b2d56148-a034-422d-87c4-156cd444731c@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_761.png@f9941",
+    "value": {
+      "depends": [
+        "b2d56148-a034-422d-87c4-156cd444731c@6c48a"
+      ]
+    }
+  },
+  "044d861a-7642-47d4-8d46-86b236a4bb28@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_711.png@f9941",
+    "value": {
+      "depends": [
+        "044d861a-7642-47d4-8d46-86b236a4bb28@6c48a"
+      ]
+    }
+  },
+  "47c44d8a-467c-4a5b-8f56-be3922d12760@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_691.png@f9941",
+    "value": {
+      "depends": [
+        "47c44d8a-467c-4a5b-8f56-be3922d12760@6c48a"
+      ]
+    }
+  },
+  "a9eeb1cb-59b3-409e-af4c-75dbf737f882@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_661.png@f9941",
+    "value": {
+      "depends": [
+        "a9eeb1cb-59b3-409e-af4c-75dbf737f882@6c48a"
+      ]
+    }
+  },
+  "c473696d-51b8-41dc-bd2e-beb87b1ca0cd@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_621.png@f9941",
+    "value": {
+      "depends": [
+        "c473696d-51b8-41dc-bd2e-beb87b1ca0cd@6c48a"
+      ]
+    }
+  },
+  "57d79fbe-7cb9-4663-adf2-acbb5203e088@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_641.png@f9941",
+    "value": {
+      "depends": [
+        "57d79fbe-7cb9-4663-adf2-acbb5203e088@6c48a"
+      ]
+    }
+  },
+  "43544a25-8216-495b-9aa1-eb5651723fc2@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_125.png@f9941",
+    "value": {
+      "depends": [
+        "43544a25-8216-495b-9aa1-eb5651723fc2@6c48a"
+      ]
+    }
+  },
+  "fe06f7fc-e5bd-4301-9603-fda9778b2b42@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_123.png@f9941",
+    "value": {
+      "depends": [
+        "fe06f7fc-e5bd-4301-9603-fda9778b2b42@6c48a"
+      ]
+    }
+  },
+  "3842cee6-2840-4769-8925-85810a787e1a@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_124.png@f9941",
+    "value": {
+      "depends": [
+        "3842cee6-2840-4769-8925-85810a787e1a@6c48a"
+      ]
+    }
+  },
+  "fd1829da-9bb6-462c-8f10-592085909a2a@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_122.png@f9941",
+    "value": {
+      "depends": [
+        "fd1829da-9bb6-462c-8f10-592085909a2a@6c48a"
+      ]
+    }
+  },
+  "38671a38-bb4f-448b-851f-a0cf5c05123c@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_121.png@f9941",
+    "value": {
+      "depends": [
+        "38671a38-bb4f-448b-851f-a0cf5c05123c@6c48a"
+      ]
+    }
+  },
+  "3b854a08-b5f3-4dda-810f-ce86fcefe699@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_114.png@f9941",
+    "value": {
+      "depends": [
+        "3b854a08-b5f3-4dda-810f-ce86fcefe699@6c48a"
+      ]
+    }
+  },
+  "51824098-8f88-4f83-8c8d-31535d8b1443@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_112.png@f9941",
+    "value": {
+      "depends": [
+        "51824098-8f88-4f83-8c8d-31535d8b1443@6c48a"
+      ]
+    }
+  },
+  "90e936b6-e1c5-4a0a-b533-7dbf0810ea86@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_110.png@f9941",
+    "value": {
+      "depends": [
+        "90e936b6-e1c5-4a0a-b533-7dbf0810ea86@6c48a"
+      ]
+    }
+  },
+  "2b2df973-be30-4283-b82e-69067d18b26d@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_108.png@f9941",
+    "value": {
+      "depends": [
+        "2b2df973-be30-4283-b82e-69067d18b26d@6c48a"
+      ]
+    }
+  },
+  "e4bc6cff-7665-41b2-98bc-a8de9b77caa3@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_102.png@f9941",
+    "value": {
+      "depends": [
+        "e4bc6cff-7665-41b2-98bc-a8de9b77caa3@6c48a"
+      ]
+    }
+  },
+  "3c8a017e-492c-44df-a8e2-7a2cd3fd4344@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_101.png@f9941",
+    "value": {
+      "depends": [
+        "3c8a017e-492c-44df-a8e2-7a2cd3fd4344@6c48a"
+      ]
+    }
+  },
+  "b86c009d-8729-4c8f-9bae-ec09779be266@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_105.png@f9941",
+    "value": {
+      "depends": [
+        "b86c009d-8729-4c8f-9bae-ec09779be266@6c48a"
+      ]
+    }
+  },
+  "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_100.png@f9941",
+    "value": {
+      "depends": [
+        "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4@6c48a"
+      ]
+    }
+  },
+  "4da3935f-099e-43a0-a456-ff7b80f1c87a@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_95.png@f9941",
+    "value": {
+      "depends": [
+        "4da3935f-099e-43a0-a456-ff7b80f1c87a@6c48a"
+      ]
+    }
+  },
+  "9f4f7199-9b99-4c3c-9193-8568095d575e@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_94.png@f9941",
+    "value": {
+      "depends": [
+        "9f4f7199-9b99-4c3c-9193-8568095d575e@6c48a"
+      ]
+    }
+  },
+  "ef00d0e9-e5b9-456a-89d8-861bad4863f0@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_92.png@f9941",
+    "value": {
+      "depends": [
+        "ef00d0e9-e5b9-456a-89d8-861bad4863f0@6c48a"
+      ]
+    }
+  },
+  "98f68a52-cf44-4c69-8f86-b689b23baa38@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_93.png@f9941",
+    "value": {
+      "depends": [
+        "98f68a52-cf44-4c69-8f86-b689b23baa38@6c48a"
+      ]
+    }
+  },
+  "0ba8d7dc-71a9-4888-9dc8-d544f49be009@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_91.png@f9941",
+    "value": {
+      "depends": [
+        "0ba8d7dc-71a9-4888-9dc8-d544f49be009@6c48a"
+      ]
+    }
+  },
+  "76b8d44f-15e7-44eb-a67b-887626fcfb63@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_90.png@f9941",
+    "value": {
+      "depends": [
+        "76b8d44f-15e7-44eb-a67b-887626fcfb63@6c48a"
+      ]
+    }
+  },
+  "b73bc21e-a4d6-4445-b9e5-417abe10ecd3@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_89.png@f9941",
+    "value": {
+      "depends": [
+        "b73bc21e-a4d6-4445-b9e5-417abe10ecd3@6c48a"
+      ]
+    }
+  },
+  "b24fb3ab-6bb3-410f-af02-642cf89e3e62@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_88.png@f9941",
+    "value": {
+      "depends": [
+        "b24fb3ab-6bb3-410f-af02-642cf89e3e62@6c48a"
+      ]
+    }
+  },
+  "b8c5b966-562d-481d-beed-0d1d06b1db49@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_78.png@f9941",
+    "value": {
+      "depends": [
+        "b8c5b966-562d-481d-beed-0d1d06b1db49@6c48a"
+      ]
+    }
+  },
+  "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_76.png@f9941",
+    "value": {
+      "depends": [
+        "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4@6c48a"
+      ]
+    }
+  },
+  "ca882139-3f7b-4a24-b356-38fed13d8776@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_74.png@f9941",
+    "value": {
+      "depends": [
+        "ca882139-3f7b-4a24-b356-38fed13d8776@6c48a"
+      ]
+    }
+  },
+  "0256eee9-615d-4c93-a9be-92d074236144@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_71.png@f9941",
+    "value": {
+      "depends": [
+        "0256eee9-615d-4c93-a9be-92d074236144@6c48a"
+      ]
+    }
+  },
+  "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_66.png@f9941",
+    "value": {
+      "depends": [
+        "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e@6c48a"
+      ]
+    }
+  },
+  "6c1a747d-58b2-421e-85b6-731b6b2b60de@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_69.png@f9941",
+    "value": {
+      "depends": [
+        "6c1a747d-58b2-421e-85b6-731b6b2b60de@6c48a"
+      ]
+    }
+  },
+  "64cab769-ddda-4996-9411-351d11591da8@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_64.png@f9941",
+    "value": {
+      "depends": [
+        "64cab769-ddda-4996-9411-351d11591da8@6c48a"
+      ]
+    }
+  },
+  "f0638ffe-7465-4b26-a79e-0eac1878c440@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/image_62.png@f9941",
+    "value": {
+      "depends": [
+        "f0638ffe-7465-4b26-a79e-0eac1878c440@6c48a"
+      ]
+    }
+  },
+  "dbb64d13-57f6-4409-8365-5443cc8e546a": {
+    "url": "db://assets/scene/sgj_scene-001.scene",
+    "value": {}
+  },
+  "f193b697-b3cb-4c08-9b0c-3b9e99e07780": {
+    "url": "db://assets/image/sgj/ui/btn/all1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f193b697-b3cb-4c08-9b0c-3b9e99e07780@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/all1.png@6c48a",
+    "value": {
+      "depends": [
+        "f193b697-b3cb-4c08-9b0c-3b9e99e07780"
+      ]
+    }
+  },
+  "e046be1c-731d-480e-ab7f-34cbef86d479": {
+    "url": "db://assets/image/sgj/ui/btn/all11.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e046be1c-731d-480e-ab7f-34cbef86d479@6c48a": {
+    "url": "db://assets/image/sgj/ui/btn/all11.png@6c48a",
+    "value": {
+      "depends": [
+        "e046be1c-731d-480e-ab7f-34cbef86d479"
+      ]
+    }
+  },
+  "f193b697-b3cb-4c08-9b0c-3b9e99e07780@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/all1.png@f9941",
+    "value": {
+      "depends": [
+        "f193b697-b3cb-4c08-9b0c-3b9e99e07780@6c48a"
+      ]
+    }
+  },
+  "e046be1c-731d-480e-ab7f-34cbef86d479@f9941": {
+    "url": "db://assets/image/sgj/ui/btn/all11.png@f9941",
+    "value": {
+      "depends": [
+        "e046be1c-731d-480e-ab7f-34cbef86d479@6c48a"
+      ]
+    }
+  },
+  "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_0.png@f9941",
+    "value": {
+      "depends": [
+        "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e@6c48a"
+      ]
+    }
+  },
+  "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_3.png@f9941",
+    "value": {
+      "depends": [
+        "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9@6c48a"
+      ]
+    }
+  },
+  "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_2.png@f9941",
+    "value": {
+      "depends": [
+        "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3@6c48a"
+      ]
+    }
+  },
+  "9eb1355b-1c2c-46fa-b454-f98212265b46@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_1.png@f9941",
+    "value": {
+      "depends": [
+        "9eb1355b-1c2c-46fa-b454-f98212265b46@6c48a"
+      ]
+    }
+  },
+  "736232cc-8d19-4543-9210-318eeb50aade@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_4.png@f9941",
+    "value": {
+      "depends": [
+        "736232cc-8d19-4543-9210-318eeb50aade@6c48a"
+      ]
+    }
+  },
+  "2d48c82a-b5ec-445d-b506-78b4cd10a61f@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_5.png@f9941",
+    "value": {
+      "depends": [
+        "2d48c82a-b5ec-445d-b506-78b4cd10a61f@6c48a"
+      ]
+    }
+  },
+  "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_8.png@f9941",
+    "value": {
+      "depends": [
+        "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2@6c48a"
+      ]
+    }
+  },
+  "ee938073-ef44-4b9e-9ac3-56c92e1592dd@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_7.png@f9941",
+    "value": {
+      "depends": [
+        "ee938073-ef44-4b9e-9ac3-56c92e1592dd@6c48a"
+      ]
+    }
+  },
+  "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_6.png@f9941",
+    "value": {
+      "depends": [
+        "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e@6c48a"
+      ]
+    }
+  },
+  "f452df51-a640-4c29-ab73-eb4fe255a17b@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_down_9.png@f9941",
+    "value": {
+      "depends": [
+        "f452df51-a640-4c29-ab73-eb4fe255a17b@6c48a"
+      ]
+    }
+  },
+  "bbd8135d-0286-4b64-9f59-967091144031@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_36.png@f9941",
+    "value": {
+      "depends": [
+        "bbd8135d-0286-4b64-9f59-967091144031@6c48a"
+      ]
+    }
+  },
+  "9aa1153b-49b5-4187-8e66-f3f90dca0ddd@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_32.png@f9941",
+    "value": {
+      "depends": [
+        "9aa1153b-49b5-4187-8e66-f3f90dca0ddd@6c48a"
+      ]
+    }
+  },
+  "24897dcc-8731-42bf-8a92-0455a4720f78@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_34.png@f9941",
+    "value": {
+      "depends": [
+        "24897dcc-8731-42bf-8a92-0455a4720f78@6c48a"
+      ]
+    }
+  },
+  "bd258788-f8aa-41d0-ac30-e55e634e163f@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_38.png@f9941",
+    "value": {
+      "depends": [
+        "bd258788-f8aa-41d0-ac30-e55e634e163f@6c48a"
+      ]
+    }
+  },
+  "a83ec927-e37b-43e3-98b5-5ce5f02b7291@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_30.png@f9941",
+    "value": {
+      "depends": [
+        "a83ec927-e37b-43e3-98b5-5ce5f02b7291@6c48a"
+      ]
+    }
+  },
+  "a71d64d0-7622-422e-bb74-122b69cc7645@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_40.png@f9941",
+    "value": {
+      "depends": [
+        "a71d64d0-7622-422e-bb74-122b69cc7645@6c48a"
+      ]
+    }
+  },
+  "1a69ae7a-afa3-43af-8bd5-e0e6bc3ed258@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_sb_0.png@f9941",
+    "value": {
+      "depends": [
+        "1a69ae7a-afa3-43af-8bd5-e0e6bc3ed258@6c48a"
+      ]
+    }
+  },
+  "39b2e3c3-2891-415f-8f7d-1b95ef66667d@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_0.png@f9941",
+    "value": {
+      "depends": [
+        "39b2e3c3-2891-415f-8f7d-1b95ef66667d@6c48a"
+      ]
+    }
+  },
+  "97803200-e7fc-44f9-8af8-13d778951d4d@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_1.png@f9941",
+    "value": {
+      "depends": [
+        "97803200-e7fc-44f9-8af8-13d778951d4d@6c48a"
+      ]
+    }
+  },
+  "73351aa7-46af-44e4-ac1b-056e0273533b@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_2.png@f9941",
+    "value": {
+      "depends": [
+        "73351aa7-46af-44e4-ac1b-056e0273533b@6c48a"
+      ]
+    }
+  },
+  "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_4.png@f9941",
+    "value": {
+      "depends": [
+        "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e@6c48a"
+      ]
+    }
+  },
+  "a9b3867d-6a31-4f1c-ae68-e0c390afd753@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_3.png@f9941",
+    "value": {
+      "depends": [
+        "a9b3867d-6a31-4f1c-ae68-e0c390afd753@6c48a"
+      ]
+    }
+  },
+  "725490c0-a7de-478e-b65f-8551cb32396b@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_5.png@f9941",
+    "value": {
+      "depends": [
+        "725490c0-a7de-478e-b65f-8551cb32396b@6c48a"
+      ]
+    }
+  },
+  "72dabfd1-d7b4-49fd-a69d-95dc911fafdb@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_7.png@f9941",
+    "value": {
+      "depends": [
+        "72dabfd1-d7b4-49fd-a69d-95dc911fafdb@6c48a"
+      ]
+    }
+  },
+  "28136b5b-65a3-4942-92ff-f9fef78f93b4@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_6.png@f9941",
+    "value": {
+      "depends": [
+        "28136b5b-65a3-4942-92ff-f9fef78f93b4@6c48a"
+      ]
+    }
+  },
+  "1219e0f0-cc9b-45d8-86dd-a9f983330e6d@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_9.png@f9941",
+    "value": {
+      "depends": [
+        "1219e0f0-cc9b-45d8-86dd-a9f983330e6d@6c48a"
+      ]
+    }
+  },
+  "05f64033-c209-47ca-84b7-8f5408e5d0e5@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_up_8.png@f9941",
+    "value": {
+      "depends": [
+        "05f64033-c209-47ca-84b7-8f5408e5d0e5@6c48a"
+      ]
+    }
+  },
+  "6d456885-4e7f-48da-8f46-05bceedf3c98@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_26.png@f9941",
+    "value": {
+      "depends": [
+        "6d456885-4e7f-48da-8f46-05bceedf3c98@6c48a"
+      ]
+    }
+  },
+  "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_12.png@f9941",
+    "value": {
+      "depends": [
+        "029406b7-3fa1-4cc2-9657-2f60c0c1fce7@6c48a"
+      ]
+    }
+  },
+  "ffb71a28-3e3d-4155-a959-27dd9c54d839@f9941": {
+    "url": "db://assets/image/sgj/ui/common/image_14.png@f9941",
+    "value": {
+      "depends": [
+        "ffb71a28-3e3d-4155-a959-27dd9c54d839@6c48a"
+      ]
+    }
+  },
+  "a43339cf-3b21-4562-99bc-b407c3ce9043@f9941": {
+    "url": "db://assets/image/sgj/animation/spine/da_man_guan/da_man_guan.png@f9941",
+    "value": {
+      "depends": [
+        "a43339cf-3b21-4562-99bc-b407c3ce9043@6c48a"
+      ]
+    }
+  },
+  "2a78e4b2-3c29-4d4f-9ec3-15546901a699@f9941": {
+    "url": "db://assets/image/sgj/ui/common/sgj_centerlt.png@f9941",
+    "value": {
+      "depends": [
+        "2a78e4b2-3c29-4d4f-9ec3-15546901a699@6c48a"
+      ]
+    }
+  },
+  "342eed35-d409-4d69-867c-c3255d9f4dde": {
+    "url": "db://assets/script/sgj/sgj_btn.ts",
+    "value": {}
+  },
+  "1863a750-9925-4358-8544-ba77b7d58ceb": {
+    "url": "db://assets/script/sgj/sgj_sprite.ts",
+    "value": {}
+  },
+  "c4efbba6-046c-431c-b934-99b32d891066": {
+    "url": "db://assets/script/sgj/sgj_view.ts",
+    "value": {}
+  },
+  "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9": {
+    "url": "db://assets/script/sgj/sgj_run.ts",
+    "value": {}
+  },
+  "0e776c58-508d-48bf-bdac-b46385bf533c": {
+    "url": "db://assets/script/sgj/sgj_normal.ts",
+    "value": {}
   }
 }

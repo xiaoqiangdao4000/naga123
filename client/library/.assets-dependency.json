@@ -1,0 +1,102 @@
+{
+  "path": {
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.atlas"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/da_man_guan/da_man_guan.json": [
+      "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/da_man_guan/da_man_guan.atlas"
+    ]
+  },
+  "uuid": {
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/da_man_guan/da_man_guan.json": [
+      "a43339cf-3b21-4562-99bc-b407c3ce9043@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/jiu_lian_bao_deng/jiu_lian_bao_deng.json": [
+      "43cb37da-e52d-43d4-92a5-56adb914a58e@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_huxilight/ldgame_huxilight.json": [
+      "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liangceshanguang/ldgame_liangceshanguang.json": [
+      "2e418404-6d9b-4ce7-9981-929ffd6172fe@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_lightkuang/ldgame_lightkuang.json": [
+      "6d12d298-7fce-4f19-8475-b4878ece475c@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_liudonglight/ldgame_liudonglight.json": [
+      "eda26687-e8c4-4efb-835c-761713e96d58@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_logo/ldgame_logo.json": [
+      "24473a26-d026-4a39-8ffe-12f0229e1d66@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_numberkuang/ldgame_numberkuang.json": [
+      "e0a5da04-1a60-4187-87f7-554f1df38092@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_quickstartlg/ldgame_quickstartlg.json": [
+      "f0ab2a24-2168-4562-8aea-4417ea88cbad@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_toplight/ldgame_toplight.json": [
+      "72b99655-dc3b-4e48-99fb-31a911112275@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_xuanchanglg/ldgame_xuanchanglg.json": [
+      "ceffa893-d0bb-4529-84e7-0ff464f30fbd@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/ldgame_zhsheffect/ldgame_zhsheffect.json": [
+      "f5192564-6d67-435b-89f1-ec0646a342ba@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/tian_long_ba_bu/tian_long_ba_bu.json": [
+      "e52a791f-a8d6-4e12-94fb-94d08577add8@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/animation/spine/xian_nv_shan_hua/xian_nv_shan_hua.json": [
+      "f25d690e-9174-4c11-b4d6-20e4633c7046@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffecta.json": [
+      "de7fe3c5-cf97-4231-88a0-14bf45f241f3@6c48a"
+    ],
+    "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/spines/jxlw_firetioskuangeffectb.json": [
+      "c2c78370-aa9b-4d9c-8c98-c82d33e3aa51@6c48a"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+
+ldgame_liangceshanguang.png
+size: 440,102
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ldgame_kuang
+  rotate: false
+  xy: 352, 14
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+ldgame_red
+  rotate: false
+  xy: 2, 2
+  size: 173, 98
+  orig: 173, 98
+  offset: 0, 0
+  index: -1
+ldgame_yellow
+  rotate: false
+  xy: 177, 3
+  size: 173, 97
+  orig: 173, 97
+  offset: 0, 0
+  index: -1

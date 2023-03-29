@@ -1,0 +1,2372 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ldgame_huxilight",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "rOiCpuIZ7LU0CPdaD4NezIIrvcI",
+      "spine": "3.6.37",
+      "width": 930.68,
+      "height": 1200.25,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "hip",
+        "parent": "root",
+        "x": -2.18,
+        "y": -23.43
+      },
+      {
+        "name": "LG2",
+        "parent": "hip",
+        "x": 2.18,
+        "y": 23.43,
+        "scaleX": -1
+      },
+      {
+        "name": "LG3",
+        "parent": "hip",
+        "x": 2.18,
+        "y": 23.43
+      },
+      {
+        "name": "g25",
+        "parent": "LG2"
+      },
+      {
+        "name": "g26",
+        "parent": "LG2"
+      },
+      {
+        "name": "g27",
+        "parent": "LG2"
+      },
+      {
+        "name": "g28",
+        "parent": "LG2"
+      },
+      {
+        "name": "g29",
+        "parent": "LG2"
+      },
+      {
+        "name": "g30",
+        "parent": "LG2"
+      },
+      {
+        "name": "g31",
+        "parent": "LG2"
+      },
+      {
+        "name": "g32",
+        "parent": "LG2"
+      },
+      {
+        "name": "g33",
+        "parent": "LG2"
+      },
+      {
+        "name": "g34",
+        "parent": "LG2"
+      },
+      {
+        "name": "g35",
+        "parent": "LG2"
+      },
+      {
+        "name": "g36",
+        "parent": "LG2"
+      },
+      {
+        "name": "g37",
+        "parent": "LG2"
+      },
+      {
+        "name": "g38",
+        "parent": "LG2"
+      },
+      {
+        "name": "g39",
+        "parent": "LG2"
+      },
+      {
+        "name": "g40",
+        "parent": "LG2"
+      },
+      {
+        "name": "g41",
+        "parent": "LG2"
+      },
+      {
+        "name": "g42",
+        "parent": "LG2"
+      },
+      {
+        "name": "g43",
+        "parent": "LG2"
+      },
+      {
+        "name": "g44",
+        "parent": "LG2"
+      },
+      {
+        "name": "g45",
+        "parent": "LG2"
+      },
+      {
+        "name": "g46",
+        "parent": "LG2"
+      },
+      {
+        "name": "g47",
+        "parent": "LG2"
+      },
+      {
+        "name": "g48",
+        "parent": "LG2"
+      },
+      {
+        "name": "g49",
+        "parent": "LG3"
+      },
+      {
+        "name": "g50",
+        "parent": "LG3"
+      },
+      {
+        "name": "g51",
+        "parent": "LG3"
+      },
+      {
+        "name": "g52",
+        "parent": "LG3"
+      },
+      {
+        "name": "g53",
+        "parent": "LG3"
+      },
+      {
+        "name": "g54",
+        "parent": "LG3"
+      },
+      {
+        "name": "g55",
+        "parent": "LG3"
+      },
+      {
+        "name": "g56",
+        "parent": "LG3"
+      },
+      {
+        "name": "g57",
+        "parent": "LG3"
+      },
+      {
+        "name": "g58",
+        "parent": "LG3"
+      },
+      {
+        "name": "g59",
+        "parent": "LG3"
+      },
+      {
+        "name": "g60",
+        "parent": "LG3"
+      },
+      {
+        "name": "g61",
+        "parent": "LG3"
+      },
+      {
+        "name": "g62",
+        "parent": "LG3"
+      },
+      {
+        "name": "g63",
+        "parent": "LG3"
+      },
+      {
+        "name": "g64",
+        "parent": "LG3"
+      },
+      {
+        "name": "g65",
+        "parent": "LG3"
+      },
+      {
+        "name": "g66",
+        "parent": "LG3"
+      },
+      {
+        "name": "g67",
+        "parent": "LG3"
+      },
+      {
+        "name": "g68",
+        "parent": "LG3"
+      },
+      {
+        "name": "g69",
+        "parent": "LG3"
+      },
+      {
+        "name": "g70",
+        "parent": "LG3"
+      },
+      {
+        "name": "g71",
+        "parent": "LG3"
+      },
+      {
+        "name": "g72",
+        "parent": "LG3"
+      }
+    ],
+    "slots": [
+      {
+        "name": "LG2",
+        "bone": "LG2",
+        "attachment": "LG"
+      },
+      {
+        "name": "LG3",
+        "bone": "LG3",
+        "attachment": "LG"
+      },
+      {
+        "name": "ldgame_g25",
+        "bone": "g25",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g49",
+        "bone": "g49",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g26",
+        "bone": "g26",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g50",
+        "bone": "g50",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g27",
+        "bone": "g27",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g51",
+        "bone": "g51",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g28",
+        "bone": "g28",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g52",
+        "bone": "g52",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g29",
+        "bone": "g29",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g53",
+        "bone": "g53",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g30",
+        "bone": "g30",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g54",
+        "bone": "g54",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g31",
+        "bone": "g31",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g55",
+        "bone": "g55",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g32",
+        "bone": "g32",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g56",
+        "bone": "g56",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g33",
+        "bone": "g33",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g57",
+        "bone": "g57",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g34",
+        "bone": "g34",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g58",
+        "bone": "g58",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g35",
+        "bone": "g35",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g59",
+        "bone": "g59",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g36",
+        "bone": "g36",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g60",
+        "bone": "g60",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g37",
+        "bone": "g37",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g61",
+        "bone": "g61",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g38",
+        "bone": "g38",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g62",
+        "bone": "g62",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g39",
+        "bone": "g39",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g63",
+        "bone": "g63",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g40",
+        "bone": "g40",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g64",
+        "bone": "g64",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g41",
+        "bone": "g41",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g65",
+        "bone": "g65",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g42",
+        "bone": "g42",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g66",
+        "bone": "g66",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g43",
+        "bone": "g43",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g67",
+        "bone": "g67",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g44",
+        "bone": "g44",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g68",
+        "bone": "g68",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g45",
+        "bone": "g45",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g69",
+        "bone": "g69",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g46",
+        "bone": "g46",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g70",
+        "bone": "g70",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g47",
+        "bone": "g47",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g71",
+        "bone": "g71",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g48",
+        "bone": "g48",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      },
+      {
+        "name": "ldgame_g72",
+        "bone": "g72",
+        "attachment": "ldgame_g",
+        "blend": "additive"
+      }
+    ],
+    "path": [
+      {
+        "name": "you",
+        "order": 0,
+        "bones": [
+          "g25",
+          "g26",
+          "g27",
+          "g28",
+          "g29",
+          "g30",
+          "g31",
+          "g32",
+          "g33",
+          "g34",
+          "g35",
+          "g36",
+          "g37",
+          "g38",
+          "g39",
+          "g40",
+          "g41",
+          "g42",
+          "g43",
+          "g44",
+          "g45",
+          "g46",
+          "g47",
+          "g48"
+        ],
+        "target": "LG2",
+        "positionMode": "fixed",
+        "spacingMode": "fixed",
+        "spacing": 50
+      },
+      {
+        "name": "zuo",
+        "order": 1,
+        "bones": [
+          "g49",
+          "g50",
+          "g51",
+          "g52",
+          "g53",
+          "g54",
+          "g55",
+          "g56",
+          "g57",
+          "g58",
+          "g59",
+          "g60",
+          "g61",
+          "g62",
+          "g63",
+          "g64",
+          "g65",
+          "g66",
+          "g67",
+          "g68",
+          "g69",
+          "g70",
+          "g71",
+          "g72"
+        ],
+        "target": "LG3",
+        "positionMode": "fixed",
+        "spacingMode": "fixed",
+        "spacing": 50
+      }
+    ],
+    "skins": {
+      "default": {
+        "LG2": {
+          "LG": {
+            "type": "path",
+            "lengths": [
+              81.77,
+              131.61,
+              209.52,
+              927.12,
+              980.3,
+              1121.11,
+              2250.47
+            ],
+            "vertexCount": 21,
+            "vertices": [
+              -436.53,
+              -434.58,
+              -414.76,
+              -394.73,
+              -412.06,
+              -389.15,
+              -393.59,
+              -357.79,
+              -376.01,
+              -322.73,
+              -371.23,
+              -313.25,
+              -363.96,
+              -296.21,
+              -356.81,
+              -276.76,
+              -348.29,
+              -253.56,
+              -339.56,
+              -226.66,
+              -339.65,
+              -201.15,
+              -339.95,
+              -108.7,
+              -339.53,
+              439.29,
+              -339.47,
+              516.45,
+              -339.45,
+              542.67,
+              -338.79,
+              560.27,
+              -342.08,
+              569.41,
+              -353.15,
+              598.68,
+              -389.88,
+              664.12,
+              -407.21,
+              694.17,
+              -424.39,
+              723.4
+            ]
+          }
+        },
+        "LG3": {
+          "LG": {
+            "type": "path",
+            "lengths": [
+              81.77,
+              131.61,
+              209.52,
+              927.12,
+              980.3,
+              1121.11,
+              2250.47
+            ],
+            "vertexCount": 21,
+            "vertices": [
+              -436.53,
+              -434.58,
+              -414.76,
+              -394.73,
+              -412.06,
+              -389.15,
+              -393.59,
+              -357.79,
+              -376.01,
+              -322.73,
+              -371.23,
+              -313.25,
+              -363.96,
+              -296.21,
+              -356.81,
+              -276.76,
+              -348.29,
+              -253.56,
+              -339.56,
+              -226.66,
+              -339.65,
+              -201.15,
+              -339.95,
+              -108.7,
+              -339.53,
+              439.29,
+              -339.47,
+              516.45,
+              -339.45,
+              542.67,
+              -338.79,
+              560.27,
+              -342.08,
+              569.41,
+              -353.15,
+              598.68,
+              -389.88,
+              664.12,
+              -407.21,
+              694.17,
+              -424.39,
+              723.4
+            ]
+          }
+        },
+        "ldgame_g25": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g26": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g27": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g28": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g29": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g30": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g31": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g32": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g33": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g34": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g35": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g36": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g37": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g38": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g39": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g40": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g41": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g42": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g43": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g44": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g45": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g46": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g47": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g48": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g49": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g50": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g51": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g52": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g53": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g54": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g55": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g56": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g57": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g58": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g59": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g60": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g61": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g62": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g63": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g64": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g65": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g66": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g67": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g68": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g69": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g70": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g71": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        },
+        "ldgame_g72": {
+          "ldgame_g": {
+            "width": 64,
+            "height": 64
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "ldgame_g25": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g26": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g27": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g28": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g29": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g30": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g31": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g32": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g33": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g34": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g35": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g36": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g37": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g38": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g39": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g40": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g41": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g42": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g43": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g44": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g45": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g46": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g47": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g48": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g49": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g50": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g51": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g52": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g53": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g54": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g55": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g56": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g57": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g58": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g59": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g60": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g61": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g62": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g63": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g64": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g65": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g66": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g67": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g68": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g69": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g70": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          },
+          "ldgame_g71": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "ldgame_g72": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffffffe",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff64",
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "fffffffe"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "ldgame_huxilight.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nldgame_huxilight.png\nsize: 68,68\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nldgame_g\n  rotate: false\n  xy: 2, 2\n  size: 64, 64\n  orig: 64, 64\n  offset: 0, 0\n  index: -1\n"
+}

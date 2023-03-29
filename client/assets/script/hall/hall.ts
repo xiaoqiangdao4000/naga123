@@ -90,15 +90,16 @@ export class hall extends Component {
                     //director.loadScene('loginScene');
                     break;
                 }
-            case 'jxlw':
+            case 'sgj':
                 {
-                    console.log('九线拉王');
-                    let game = globalThis.userMgr.getGameInfo('jxlw');
+                    console.log('水果机');
+                    let game = globalThis.userMgr.getGameInfo('sgj');
                     if (game == null) {
                         globalThis.eventTargets.emit('hall_popTips', '游戏服务器没有开放，请稍后！');
                         break;
                     }
                     websocket.getInstance().connectServer(game.clientip, game.clientport);
+                    director.loadScene('sgj_scene');
                     break;
                 }
             case 'brnn':
@@ -112,10 +113,10 @@ export class hall extends Component {
                     websocket.getInstance().connectServer(game.clientip, game.clientport);
                     break;
                 }
-            case 'sgj':
+            case 'jxlw':
                 {
-                    console.log('水果机');
-                    let game = globalThis.userMgr.getGameInfo('sgj');
+                    console.log('九线拉王');
+                    let game = globalThis.userMgr.getGameInfo('jxlw');
                     if (game == null) {
                         globalThis.eventTargets.emit('hall_popTips', '游戏服务器没有开放，请稍后！');
                         break;

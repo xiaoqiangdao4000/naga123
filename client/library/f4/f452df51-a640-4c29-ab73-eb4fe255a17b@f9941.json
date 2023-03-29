@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sgj_down_9",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 19,
+      "height": 28
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 20,
+      "height": 28
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -9.5,
+        -14,
+        0,
+        9.5,
+        -14,
+        0,
+        -9.5,
+        14,
+        0,
+        9.5,
+        14,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        1,
+        28,
+        20,
+        28,
+        1,
+        0,
+        20,
+        0
+      ],
+      "nuv": [
+        0.05,
+        0,
+        1,
+        0,
+        0.05,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -9.5,
+        "y": -14,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 9.5,
+        "y": 14,
+        "z": 0
+      }
+    },
+    "texture": "f452df51-a640-4c29-ab73-eb4fe255a17b@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
