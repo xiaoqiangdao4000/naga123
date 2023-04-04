@@ -46,6 +46,12 @@ export class websocket extends Component {
     }
 
     onMessage(type, data) {
+
+        if (globalThis.curgame) {
+            globalThis.curgame.onMessage(type, data);
+            return;
+        }
+
         switch (type) {
             case 'guestLogin':
                 {

@@ -52,6 +52,14 @@ export class game_sgj extends Component {
     @property(Sprite)
     bet8_score_spr: Sprite[] = [];
 
+    //跑马灯-mask
+    @property(Node)
+    mask_node: Node[] = [];
+
+    //跑马灯-light
+    @property(Node)
+    light_node: Node[] = [];
+
     //提示框
     @property(Node)
     tips_node: Node;

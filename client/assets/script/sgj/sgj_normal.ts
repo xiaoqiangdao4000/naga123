@@ -9,6 +9,7 @@ export class sgj_normal extends Component {
     cur_schedule = null;
 
     start() {
+        globalThis.sgj_normal = this;
         this.play();
     }
 
@@ -26,14 +27,14 @@ export class sgj_normal extends Component {
         else this.curIndex = 1;
         for (let i = 0; i < 24; i++) {
             if (i % 7 == this.curIndex) {
-                globalThis.sgj_run.mask_node[i].active = true;
-                globalThis.sgj_run.light_node[i].active = true;
-                globalThis.sgj_run.mask_node[i - 1].active = true;
-                globalThis.sgj_run.light_node[i - 1].active = true;
+                globalThis.sgj_view.mask_node[i].active = true;
+                globalThis.sgj_view.light_node[i].active = true;
+                globalThis.sgj_view.mask_node[i - 1].active = true;
+                globalThis.sgj_view.light_node[i - 1].active = true;
             }
             else {
-                globalThis.sgj_run.mask_node[i].active = false;
-                globalThis.sgj_run.light_node[i].active = false;
+                globalThis.sgj_view.mask_node[i].active = false;
+                globalThis.sgj_view.light_node[i].active = false;
             }
         }
     }

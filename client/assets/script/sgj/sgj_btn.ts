@@ -150,6 +150,11 @@ export class sgj_btn extends Component {
                     globalThis.sgj_view.addAllBetScore();
                     break;
                 }
+            case 'go':
+                {
+                    globalThis.sgj_normal.stop();
+                    break;
+                }
         }
     }
 
