@@ -582,5 +582,5 @@
     "ldgame_numberkuang.png"
   ],
   "scale": 1,
-  "_atlasText": "\nldgame_numberkuang.png\nsize: 240,168\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguangtiao\n  rotate: true\n  xy: 191, 38\n  size: 128, 47\n  orig: 128, 47\n  offset: 0, 0\n  index: -1\nldgame_numberkuang1\n  rotate: false\n  xy: 2, 2\n  size: 187, 164\n  orig: 187, 164\n  offset: 0, 0\n  index: -1\n"
+  "_atlasText": "\r\nldgame_numberkuang.png\r\nsize: 240,168\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nguangtiao\r\n  rotate: true\r\n  xy: 191, 38\r\n  size: 128, 47\r\n  orig: 128, 47\r\n  offset: 0, 0\r\n  index: -1\r\nldgame_numberkuang1\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 187, 164\r\n  orig: 187, 164\r\n  offset: 0, 0\r\n  index: -1\r\n"
 }

@@ -297,5 +297,5 @@
     "ldgame_toplight.png"
   ],
   "scale": 1,
-  "_atlasText": "\nldgame_toplight.png\nsize: 283,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nldgame_dengtou\n  rotate: false\n  xy: 2, 2\n  size: 239, 75\n  orig: 239, 75\n  offset: 0, 0\n  index: -1\nldgame_dengtoufg\n  rotate: false\n  xy: 2, 79\n  size: 279, 47\n  orig: 279, 47\n  offset: 0, 0\n  index: -1\n"
+  "_atlasText": "\r\nldgame_toplight.png\r\nsize: 283,128\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nldgame_dengtou\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 239, 75\r\n  orig: 239, 75\r\n  offset: 0, 0\r\n  index: -1\r\nldgame_dengtoufg\r\n  rotate: false\r\n  xy: 2, 79\r\n  size: 279, 47\r\n  orig: 279, 47\r\n  offset: 0, 0\r\n  index: -1\r\n"
 }

@@ -2075,7 +2075,7 @@
     "value": {}
   },
   "63f4cdd9-8cab-45ac-bc97-d3e9bcbe943f": {
-    "url": "db://assets/image/sgj/sound/C1.mp3",
+    "url": "db://assets/resources/sound/sgj/C1.mp3",
     "value": {
       "depends": []
     }
@@ -2234,7 +2234,7 @@
     }
   },
   "d0334414-def2-48d4-8bc6-9c1ff6290f45": {
-    "url": "db://assets/image/sgj/sound/C10.mp3",
+    "url": "db://assets/resources/sound/sgj/C10.mp3",
     "value": {
       "depends": []
     }
@@ -2303,7 +2303,7 @@
     }
   },
   "58ee704e-e5c3-4708-815f-1e68a6aaf63f": {
-    "url": "db://assets/image/sgj/sound/C2.mp3",
+    "url": "db://assets/resources/sound/sgj/C2.mp3",
     "value": {
       "depends": []
     }
@@ -2354,7 +2354,7 @@
     }
   },
   "2a84299b-a025-48b3-9db9-503baf12447d": {
-    "url": "db://assets/image/sgj/sound/C3.mp3",
+    "url": "db://assets/resources/sound/sgj/C3.mp3",
     "value": {
       "depends": []
     }
@@ -2387,295 +2387,295 @@
     }
   },
   "f7af3cd5-fd3b-4204-a1ce-3924dbde3ee9": {
-    "url": "db://assets/image/sgj/sound/C4.mp3",
+    "url": "db://assets/resources/sound/sgj/C4.mp3",
     "value": {
       "depends": []
     }
   },
   "674f3ebc-e9c0-4982-a14c-d57d7e053822": {
-    "url": "db://assets/image/sgj/sound/C5.mp3",
+    "url": "db://assets/resources/sound/sgj/C5.mp3",
     "value": {
       "depends": []
     }
   },
   "0b6707de-6ebe-413b-b7c2-752d36b9b2ce": {
-    "url": "db://assets/image/sgj/sound/C6.mp3",
+    "url": "db://assets/resources/sound/sgj/C6.mp3",
     "value": {
       "depends": []
     }
   },
   "126c09b2-cc80-44f3-aed8-8b5519f6ec8b": {
-    "url": "db://assets/image/sgj/sound/C7.mp3",
+    "url": "db://assets/resources/sound/sgj/C7.mp3",
     "value": {
       "depends": []
     }
   },
   "c2770a54-8989-4cf9-8591-97877b24a247": {
-    "url": "db://assets/image/sgj/sound/C8.mp3",
+    "url": "db://assets/resources/sound/sgj/C8.mp3",
     "value": {
       "depends": []
     }
   },
   "d58f8f7e-ec13-4543-b0b1-7476d4d81be6": {
-    "url": "db://assets/image/sgj/sound/C9.mp3",
+    "url": "db://assets/resources/sound/sgj/C9.mp3",
     "value": {
       "depends": []
     }
   },
   "4366853b-d209-42bc-a6d4-0ad6a52eef7c": {
-    "url": "db://assets/image/sgj/sound/NUM_FAIL.mp3",
+    "url": "db://assets/resources/sound/sgj/NUM_FAIL.mp3",
     "value": {
       "depends": []
     }
   },
   "01a87d40-f304-4607-b769-b8a8c6ddc9f7": {
-    "url": "db://assets/image/sgj/sound/NUM_WIN.mp3",
+    "url": "db://assets/resources/sound/sgj/NUM_WIN.mp3",
     "value": {
       "depends": []
     }
   },
   "465f479d-a9fb-49c2-b8a4-46f43e274061": {
-    "url": "db://assets/image/sgj/sound/UP_DOWN.mp3",
+    "url": "db://assets/resources/sound/sgj/UP_DOWN.mp3",
     "value": {
       "depends": []
     }
   },
   "11e44d31-e8fa-4ce1-af40-583fb544809d": {
-    "url": "db://assets/image/sgj/sound/Y001.mp3",
+    "url": "db://assets/resources/sound/sgj/Y001.mp3",
     "value": {
       "depends": []
     }
   },
   "d075f684-e05c-4456-a179-59c445bfe5f5": {
-    "url": "db://assets/image/sgj/sound/Y003.mp3",
+    "url": "db://assets/resources/sound/sgj/Y003.mp3",
     "value": {
       "depends": []
     }
   },
   "b5d6d850-ec0d-4207-8df6-2d7509a11b62": {
-    "url": "db://assets/image/sgj/sound/Y006.mp3",
+    "url": "db://assets/resources/sound/sgj/Y006.mp3",
     "value": {
       "depends": []
     }
   },
   "30a178c7-709f-415a-a632-169720f8244c": {
-    "url": "db://assets/image/sgj/sound/Y007.mp3",
+    "url": "db://assets/resources/sound/sgj/Y007.mp3",
     "value": {
       "depends": []
     }
   },
   "138712f0-48d6-46f6-88a7-78eff32d8700": {
-    "url": "db://assets/image/sgj/sound/Y008.mp3",
+    "url": "db://assets/resources/sound/sgj/Y008.mp3",
     "value": {
       "depends": []
     }
   },
   "ad6c10d3-d486-48bc-81d3-8fc47673d927": {
-    "url": "db://assets/image/sgj/sound/Y009.mp3",
+    "url": "db://assets/resources/sound/sgj/Y009.mp3",
     "value": {
       "depends": []
     }
   },
   "502e5cf1-fb19-46a4-bbf9-376ab75a8475": {
-    "url": "db://assets/image/sgj/sound/Y010.mp3",
+    "url": "db://assets/resources/sound/sgj/Y010.mp3",
     "value": {
       "depends": []
     }
   },
   "458f44e9-4fc5-4f12-b78b-ebb492d9e460": {
-    "url": "db://assets/image/sgj/sound/Y011.mp3",
+    "url": "db://assets/resources/sound/sgj/Y011.mp3",
     "value": {
       "depends": []
     }
   },
   "f107abe9-2838-4814-87ca-81425384ee0a": {
-    "url": "db://assets/image/sgj/sound/Y014.mp3",
+    "url": "db://assets/resources/sound/sgj/Y014.mp3",
     "value": {
       "depends": []
     }
   },
   "e21071a2-aa45-4ad5-9527-6933a22a127b": {
-    "url": "db://assets/image/sgj/sound/downscore.mp3",
+    "url": "db://assets/resources/sound/sgj/downscore.mp3",
     "value": {
       "depends": []
     }
   },
   "58ebbabd-cf20-40f3-aa80-02d3efa6fd9e": {
-    "url": "db://assets/image/sgj/sound/entergame.mp3",
+    "url": "db://assets/resources/sound/sgj/entergame.mp3",
     "value": {
       "depends": []
     }
   },
   "0eaee48b-8f31-4a1a-b0e2-4ce5b3818f95": {
-    "url": "db://assets/image/sgj/sound/getscore.mp3",
+    "url": "db://assets/resources/sound/sgj/getscore.mp3",
     "value": {
       "depends": []
     }
   },
   "ce03cc25-6eb0-4dcb-b9a4-8920bde6ca74": {
-    "url": "db://assets/image/sgj/sound/moveScroe.mp3",
+    "url": "db://assets/resources/sound/sgj/moveScroe.mp3",
     "value": {
       "depends": []
     }
   },
   "8edd7a2e-c808-43a6-91c0-629aa25b5a89": {
-    "url": "db://assets/image/sgj/sound/reset.mp3",
+    "url": "db://assets/resources/sound/sgj/reset.mp3",
     "value": {
       "depends": []
     }
   },
   "f616995b-8d8c-4d06-85e4-4f712b48b1aa": {
-    "url": "db://assets/image/sgj/sound/run_1.mp3",
+    "url": "db://assets/resources/sound/sgj/run_1.mp3",
     "value": {
       "depends": []
     }
   },
   "932d40c1-cf3a-4273-84b9-aa44aa2aacfc": {
-    "url": "db://assets/image/sgj/sound/scorechagne.mp3",
+    "url": "db://assets/resources/sound/sgj/scorechagne.mp3",
     "value": {
       "depends": []
     }
   },
   "c38f00f3-997f-4bbb-ae63-4e1677dfa5be": {
-    "url": "db://assets/image/sgj/sound/sgj_bt1.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt1.mp3",
     "value": {
       "depends": []
     }
   },
   "beac8afc-d384-450e-a138-622a3ed98c27": {
-    "url": "db://assets/image/sgj/sound/sgj_bt2.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt2.mp3",
     "value": {
       "depends": []
     }
   },
   "e6aa7a5f-06fc-49e4-8508-752beafc8305": {
-    "url": "db://assets/image/sgj/sound/sgj_bt3.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt3.mp3",
     "value": {
       "depends": []
     }
   },
   "5032c390-82b3-460a-a351-639a291808a4": {
-    "url": "db://assets/image/sgj/sound/sgj_bt4.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt4.mp3",
     "value": {
       "depends": []
     }
   },
   "736da487-2fd4-4b5c-b46c-12347f1e8656": {
-    "url": "db://assets/image/sgj/sound/sgj_bt5.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt5.mp3",
     "value": {
       "depends": []
     }
   },
   "75287012-71f7-4ede-b9ec-668114b347d0": {
-    "url": "db://assets/image/sgj/sound/sgj_bt6.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt6.mp3",
     "value": {
       "depends": []
     }
   },
   "d93d4903-3af2-4e94-9db8-c4d2f99ccde0": {
-    "url": "db://assets/image/sgj/sound/sgj_bt7.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt7.mp3",
     "value": {
       "depends": []
     }
   },
   "b843038d-b5af-4e54-bd14-d97eda3e66f1": {
-    "url": "db://assets/image/sgj/sound/sgj_bt8.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_bt8.mp3",
     "value": {
       "depends": []
     }
   },
   "3e9f52c6-27eb-48d7-8384-21d021035d25": {
-    "url": "db://assets/image/sgj/sound/sgj_ding.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_ding.mp3",
     "value": {
       "depends": []
     }
   },
   "71df473f-0bd4-48ef-aa9d-019f81e0eed0": {
-    "url": "db://assets/image/sgj/sound/sgj_dmg.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_dmg.mp3",
     "value": {
       "depends": []
     }
   },
   "d4401751-31e5-4225-9baf-397a2139c3a7": {
-    "url": "db://assets/image/sgj/sound/sgj_end.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_end.mp3",
     "value": {
       "depends": []
     }
   },
   "44929c20-39d0-40dd-8588-4dbf7c4d6c2b": {
-    "url": "db://assets/image/sgj/sound/sgj_gxzj.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_gxzj.mp3",
     "value": {
       "depends": []
     }
   },
   "b42bea1f-1f27-42ea-9f8f-0d8c11e84140": {
-    "url": "db://assets/image/sgj/sound/sgj_s0.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s0.mp3",
     "value": {
       "depends": []
     }
   },
   "d4e31701-f986-42f3-9554-7a0d98b5e0b8": {
-    "url": "db://assets/image/sgj/sound/sgj_s1.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s1.mp3",
     "value": {
       "depends": []
     }
   },
   "da54360c-7117-4181-8527-3680bcb92e3a": {
-    "url": "db://assets/image/sgj/sound/sgj_s2.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s2.mp3",
     "value": {
       "depends": []
     }
   },
   "3f2d0e2a-c6b6-4f50-81f2-cae9cb7466d2": {
-    "url": "db://assets/image/sgj/sound/sgj_s3.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s3.mp3",
     "value": {
       "depends": []
     }
   },
   "de369e35-6f3e-4600-8e73-ab541d3c81d8": {
-    "url": "db://assets/image/sgj/sound/sgj_s4.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s4.mp3",
     "value": {
       "depends": []
     }
   },
   "bce1d99b-4e4f-45b6-b388-6bcc5d3108a5": {
-    "url": "db://assets/image/sgj/sound/sgj_s5.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s5.mp3",
     "value": {
       "depends": []
     }
   },
   "2b69b506-3690-439a-8233-024e849a3651": {
-    "url": "db://assets/image/sgj/sound/sgj_s6.mp3",
+    "url": "db://assets/resources/sound/sgj/sgj_s6.mp3",
     "value": {
       "depends": []
     }
   },
   "38c599f0-642e-4cb8-a513-adb09a4502c0": {
-    "url": "db://assets/image/sgj/sound/turnstep1.mp3",
+    "url": "db://assets/resources/sound/sgj/turnstep1.mp3",
     "value": {
       "depends": []
     }
   },
   "df8b7a78-1556-4cc0-9f5c-8ef9dcbf74f5": {
-    "url": "db://assets/image/sgj/sound/turnstep1_new.mp3",
+    "url": "db://assets/resources/sound/sgj/turnstep1_new.mp3",
     "value": {
       "depends": []
     }
   },
   "0fc2a8f7-a0a0-4fbf-96d9-99afad1f38b6": {
-    "url": "db://assets/image/sgj/sound/turnstep2.mp3",
+    "url": "db://assets/resources/sound/sgj/turnstep2.mp3",
     "value": {
       "depends": []
     }
   },
   "64c0b883-ab6b-4abf-b05b-0f74ab2a343f": {
-    "url": "db://assets/image/sgj/sound/turnstep3.mp3",
+    "url": "db://assets/resources/sound/sgj/turnstep3.mp3",
     "value": {
       "depends": []
     }
   },
   "9f395c08-bd54-44e6-8b09-62c7a380f6b7": {
-    "url": "db://assets/image/sgj/sound/turnstep4.mp3",
+    "url": "db://assets/resources/sound/sgj/turnstep4.mp3",
     "value": {
       "depends": []
     }
@@ -6342,6 +6342,26 @@
   },
   "0e776c58-508d-48bf-bdac-b46385bf533c": {
     "url": "db://assets/script/sgj/sgj_normal.ts",
+    "value": {}
+  },
+  "cc5d3682-bb98-4631-9af4-3d062e64f2c2": {
+    "url": "db://assets/resources/image",
+    "value": {}
+  },
+  "f71c29f4-f895-45f8-94b0-2ba9a9c75580": {
+    "url": "db://assets/resources/image/jxlw",
+    "value": {}
+  },
+  "dbb9ae6b-8cd1-4618-96c6-340fab0f744a": {
+    "url": "db://assets/script/utils/AudioMgr.ts",
+    "value": {}
+  },
+  "1e8ddc5f-61f7-4aba-8f29-1b1dca693f06": {
+    "url": "db://assets/resources/sound",
+    "value": {}
+  },
+  "ec0387b0-268d-40cd-8b3c-08ba350bd4e7": {
+    "url": "db://assets/resources/sound/sgj",
     "value": {}
   }
 }

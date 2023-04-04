@@ -918,5 +918,5 @@
     "ldgame_liangceshanguang.png"
   ],
   "scale": 1,
-  "_atlasText": "\nldgame_liangceshanguang.png\nsize: 440,102\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nldgame_kuang\n  rotate: false\n  xy: 352, 14\n  size: 86, 86\n  orig: 86, 86\n  offset: 0, 0\n  index: -1\nldgame_red\n  rotate: false\n  xy: 2, 2\n  size: 173, 98\n  orig: 173, 98\n  offset: 0, 0\n  index: -1\nldgame_yellow\n  rotate: false\n  xy: 177, 3\n  size: 173, 97\n  orig: 173, 97\n  offset: 0, 0\n  index: -1\n"
+  "_atlasText": "\r\nldgame_liangceshanguang.png\r\nsize: 440,102\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nldgame_kuang\r\n  rotate: false\r\n  xy: 352, 14\r\n  size: 86, 86\r\n  orig: 86, 86\r\n  offset: 0, 0\r\n  index: -1\r\nldgame_red\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 173, 98\r\n  orig: 173, 98\r\n  offset: 0, 0\r\n  index: -1\r\nldgame_yellow\r\n  rotate: false\r\n  xy: 177, 3\r\n  size: 173, 97\r\n  orig: 173, 97\r\n  offset: 0, 0\r\n  index: -1\r\n"
 }

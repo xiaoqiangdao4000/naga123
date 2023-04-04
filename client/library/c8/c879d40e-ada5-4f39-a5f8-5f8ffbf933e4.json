@@ -2368,5 +2368,5 @@
     "ldgame_huxilight.png"
   ],
   "scale": 1,
-  "_atlasText": "\nldgame_huxilight.png\nsize: 68,68\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nldgame_g\n  rotate: false\n  xy: 2, 2\n  size: 64, 64\n  orig: 64, 64\n  offset: 0, 0\n  index: -1\n"
+  "_atlasText": "\r\nldgame_huxilight.png\r\nsize: 68,68\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nldgame_g\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 64, 64\r\n  orig: 64, 64\r\n  offset: 0, 0\r\n  index: -1\r\n"
 }

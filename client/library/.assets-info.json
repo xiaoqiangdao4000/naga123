@@ -96,23 +96,23 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources": {
-    "time": 1678802152018.3684,
+    "time": 1680621555232.3987,
     "uuid": "7232cace-27c2-4337-a092-7ad9d461fb16",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene": {
-    "time": 1679495291381.9294,
+    "time": 1680619492967.916,
     "uuid": "85f13cd2-5d5b-44ec-81e2-ea20422e7a67",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script": {
-    "time": 1678716577157.3687,
+    "time": 1680205793466.788,
     "uuid": "79da60a6-9dc5-4b8c-88cd-71294e684c53",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image": {
-    "time": 1679413187615.974,
-    "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
+    "time": 1680619644131.9626,
+    "uuid": "cc5d3682-bb98-4631-9af4-3d062e64f2c2",
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login": {
@@ -121,7 +121,7 @@
     "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils": {
-    "time": 1679508463581.3892,
+    "time": 1680621168551.2478,
     "uuid": "c3abdf94-9ffd-408e-87d6-96d16aaff81c",
     "missing": false
   },
@@ -150,7 +150,7 @@
     "time": 1678286499759.475
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image.meta": {
-    "time": 1678286499790.7173
+    "time": 1680619644348.435
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\login.meta": {
     "time": 1678286499947.5156
@@ -168,7 +168,7 @@
     "time": 1678288451347.9053
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\hallScene.scene": {
-    "time": 1679508010633.906,
+    "time": 1680205793461.8032,
     "uuid": "47c5810d-f119-4a39-82bd-8f7595fa752f",
     "missing": false
   },
@@ -195,7 +195,7 @@
     "time": 1678370360506.151
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall": {
-    "time": 1679495291387.946,
+    "time": 1680205793465.7905,
     "uuid": "48539681-ca40-4831-8f58-745151da171b",
     "missing": false
   },
@@ -563,7 +563,7 @@
     "time": 1678547787467.2395
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\hall\\hall.ts": {
-    "time": 1679510010568.242,
+    "time": 1680207704600.8564,
     "uuid": "0c5cf730-05ad-4d0f-a576-b3490de9f0eb",
     "missing": false
   },
@@ -840,18 +840,18 @@
     "time": 1679379034690.3633
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw.meta": {
-    "time": 1679413187625.9517
+    "time": 1680619644357.4119
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\image\\jxlw": {
-    "time": 1679413187613.9795,
-    "uuid": "ec5d815a-3bc7-405c-8bd0-effd8e1038a3",
-    "missing": true
+    "time": 1680205772555.9407,
+    "uuid": "f71c29f4-f895-45f8-94b0-2ba9a9c75580",
+    "missing": false
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\websocket.ts.meta": {
     "time": 1679508463591.3704
   },
   "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\websocket.ts": {
-    "time": 1679509652995.343,
+    "time": 1680619492974.8977,
     "uuid": "1e854ac3-5073-42ac-bf23-48df0cd7b6e3",
     "missing": false
   },
@@ -3085,6 +3085,2246 @@
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts": {
     "time": 1680614628133.7275,
     "uuid": "0e776c58-508d-48bf-bdac-b46385bf533c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image": {
+    "time": 1680205792953.162,
+    "uuid": "4a9ac2a7-ba90-4145-a8ae-7c151761e7bf",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common": {
+    "time": 1680205792716.4097,
+    "uuid": "8915f1c9-689c-482d-8d34-667cd5e30766",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall": {
+    "time": 1680205792930.4277,
+    "uuid": "cec2b25e-890b-4a88-9e07-6ed366287126",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\login": {
+    "time": 1680205792952.1646,
+    "uuid": "d449c8f5-e50b-4e96-9b7e-c04a1f0b7935",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj": {
+    "time": 1680621593417.005,
+    "uuid": "cca50c62-144c-4f60-8baa-e9bb57d02cd8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj": {
+    "time": 1680619492973.9004,
+    "uuid": "90b1bf5e-8147-4ad0-b67e-40982e32ace8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation": {
+    "time": 1680205792962.141,
+    "uuid": "033e031e-e5ee-494a-a14f-ce6bad94f7b4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui": {
+    "time": 1680205793416.9338,
+    "uuid": "1c63df1b-d7f9-478b-b721-da9653947180",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle": {
+    "time": 1680619473985.4966,
+    "uuid": "1d027031-0644-489b-86c7-68e4ca34d4e5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine": {
+    "time": 1680205793163.6013,
+    "uuid": "737d8ef4-70e0-43c4-837b-dcab6063f2be",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg": {
+    "time": 1680205793311.2046,
+    "uuid": "a968e438-46a0-40e7-bf07-61b08cd53cc9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn": {
+    "time": 1680205793380.0342,
+    "uuid": "a562647a-d6c1-4763-9bb7-cfe2a2f8036d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common": {
+    "time": 1680205793415.9243,
+    "uuid": "239e029d-b461-4b71-9da1-05bd718aa38f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt": {
+    "time": 1680205793459.8066,
+    "uuid": "e352d308-2253-422c-baae-47009470cffe",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan": {
+    "time": 1680205792969.1196,
+    "uuid": "d2ab950b-5c41-4be7-bb42-92348fc11b1b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng": {
+    "time": 1680205792979.0925,
+    "uuid": "5ec02e36-670a-4c71-baad-922876aa9a0d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight": {
+    "time": 1680205792983.087,
+    "uuid": "c2c40e28-e6b2-47f4-8a2e-54fe81544705",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang": {
+    "time": 1680205792988.0708,
+    "uuid": "62121ec3-1389-4420-b529-3441b66532fe",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang": {
+    "time": 1680205792992.0586,
+    "uuid": "73aebc9f-54b9-4aca-bbfb-e1f37ba8b00d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight": {
+    "time": 1680205792996.0474,
+    "uuid": "b205b323-bb30-4941-96f2-6b409cd93812",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo": {
+    "time": 1680205793005.0242,
+    "uuid": "8a93d809-33f0-473d-afa7-e7b44161efcc",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang": {
+    "time": 1680205793128.6948,
+    "uuid": "3bec6e90-2c0c-45e4-b981-70ecb8589848",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg": {
+    "time": 1680205793134.691,
+    "uuid": "df117c83-17cf-4a0b-b577-acb02658de33",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight": {
+    "time": 1680205793140.6606,
+    "uuid": "2ea6f5ea-562a-4edf-9c05-298556d26ab9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg": {
+    "time": 1680205793147.6416,
+    "uuid": "376c1939-bb03-4d9e-a5ef-81ee5c5b3d91",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect": {
+    "time": 1680205793155.6333,
+    "uuid": "5b0cdaef-082a-4777-9933-852a89647036",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu": {
+    "time": 1680205793162.6038,
+    "uuid": "dad59410-3577-4076-8517-081e279f4d7a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua": {
+    "time": 1680205793170.582,
+    "uuid": "159a2bc0-9467-43da-be60-b5d902d0e71f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\game_sgj.ts": {
+    "time": 1680621758736.6743,
+    "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_btn.ts": {
+    "time": 1680622081573.0452,
+    "uuid": "342eed35-d409-4d69-867c-c3255d9f4dde",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_normal.ts": {
+    "time": 1680619492972.9028,
+    "uuid": "0e776c58-508d-48bf-bdac-b46385bf533c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_run.ts": {
+    "time": 1680619492973.9004,
+    "uuid": "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_view.ts": {
+    "time": 1680619492974.8977,
+    "uuid": "c4efbba6-046c-431c-b934-99b32d891066",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image.meta": {
+    "time": 1680205792595.7642
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common.meta": {
+    "time": 1680205792597.7275
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall.meta": {
+    "time": 1680205792717.407
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\login.meta": {
+    "time": 1680205792936.4307
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj.meta": {
+    "time": 1680205792953.162
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj.meta": {
+    "time": 1680205793466.788
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation.meta": {
+    "time": 1680205792953.162
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui.meta": {
+    "time": 1680205793296.2444
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle.meta": {
+    "time": 1680205792954.16
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine.meta": {
+    "time": 1680205792961.1516
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg.meta": {
+    "time": 1680205793296.2444
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn.meta": {
+    "time": 1680205793311.2046
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common.meta": {
+    "time": 1680205793380.0342
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt.meta": {
+    "time": 1680205793416.9338
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan.meta": {
+    "time": 1680205792962.141
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng.meta": {
+    "time": 1680205792970.1167
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight.meta": {
+    "time": 1680205792980.095
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang.meta": {
+    "time": 1680205792984.081
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang.meta": {
+    "time": 1680205792989.0667
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight.meta": {
+    "time": 1680205792993.0564
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo.meta": {
+    "time": 1680205792996.0474
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang.meta": {
+    "time": 1680205793006.0222
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg.meta": {
+    "time": 1680205793129.692
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight.meta": {
+    "time": 1680205793135.6738
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg.meta": {
+    "time": 1680205793140.6606
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect.meta": {
+    "time": 1680205793147.6416
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu.meta": {
+    "time": 1680205793156.6194
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua.meta": {
+    "time": 1680205793163.6013
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\game_sgj.ts.meta": {
+    "time": 1680205793467.7852
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_btn.ts.meta": {
+    "time": 1680205793468.7827
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_normal.ts.meta": {
+    "time": 1680205793469.7795
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_run.ts.meta": {
+    "time": 1680205793470.7778
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\sgj\\sgj_view.ts.meta": {
+    "time": 1680205793471.7751
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\sgj_scene.scene": {
+    "time": 1680619492967.916,
+    "uuid": "83cd3398-9700-486c-8a83-6e5c9b215096",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\board_4.png": {
+    "time": 1680205792611.7158,
+    "uuid": "0ac80040-6b41-471d-99bb-cd044c5da025",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\btn_close.png": {
+    "time": 1680205792618.67,
+    "uuid": "56144dc6-053b-4f6b-88ca-14da074e2c45",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_btn.png": {
+    "time": 1680205792636.6223,
+    "uuid": "17ffba45-a6e2-4d92-ad7c-c8861df6135f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_headbg.png": {
+    "time": 1680205792637.62,
+    "uuid": "d7fe66eb-ca70-4bd3-a21a-81de36563121",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_titlebg.png": {
+    "time": 1680205792639.6145,
+    "uuid": "2c84d170-0f60-4117-a253-42b440be6442",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_edit_bg.png": {
+    "time": 1680205792627.6458,
+    "uuid": "c2173766-5545-4f63-8474-78bbac08556b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_gonggao_di.png": {
+    "time": 1680205792634.628,
+    "uuid": "71ec9ea5-04c4-47a4-8e10-e5d12381ea1d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_head1.png": {
+    "time": 1680205792635.6245,
+    "uuid": "469505ca-e7c2-4911-a9f1-ef84796dc3ca",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_Head_mask.png": {
+    "time": 1680205792620.6694,
+    "uuid": "f9cae322-2ba2-4a0e-919e-68af76d4ba9e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\dating_guangbo.png": {
+    "time": 1680205792640.6118,
+    "uuid": "f49b65e6-66cd-481d-a554-cf1bc4e7ab78",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\Entrance_01_34.png": {
+    "time": 1680205792605.7053,
+    "uuid": "728eab92-c9a2-4aca-a73c-f32ac983735a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\jinbi.png": {
+    "time": 1680205792647.607,
+    "uuid": "59d8fbe8-2e70-416c-87d4-372fd0630453",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\more_03.png": {
+    "time": 1680205792666.5442,
+    "uuid": "0f6fe9ea-d305-4b88-9f99-b7afc6e1bae4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\more_09.png": {
+    "time": 1680205792680.5046,
+    "uuid": "73d0725f-b274-4cbd-8eb4-19c13cc3da00",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\pop_frame.png": {
+    "time": 1680205792694.47,
+    "uuid": "dc6f9c9c-66b6-46a2-a5fb-7f2f928eeb3e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_bg.png": {
+    "time": 1680205792702.4463,
+    "uuid": "d6011ec3-03c8-4196-b0e6-dcc0c862b604",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_eidtbg.png": {
+    "time": 1680205792703.4434,
+    "uuid": "3feed150-bf6f-4808-b92b-2f3125f69527",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_mask.png": {
+    "time": 1680205792705.4395,
+    "uuid": "6e4a753c-8e62-4491-b7b5-22b6ff0bf9d9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\waiting.png": {
+    "time": 1680205792714.4143,
+    "uuid": "bb90cfd0-7e47-4d39-b622-21232f4442df",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\yydb_btn_1.png": {
+    "time": 1680205792715.413,
+    "uuid": "0c7fe597-b309-4df7-a643-1ee0e1c5e189",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\dating_di.png": {
+    "time": 1680205792718.4043,
+    "uuid": "47fc97f9-b604-4deb-9e94-9dd6cc070066",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\hall_bg.jpg": {
+    "time": 1680205792734.3606,
+    "uuid": "49196178-48ae-40d7-8f57-e483397d329e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg1.png": {
+    "time": 1680205792749.3472,
+    "uuid": "7f7fd075-b89d-4339-99b7-84f0eadc6e7a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg1_nn.png": {
+    "time": 1680205792769.267,
+    "uuid": "720815fc-6ae7-4f65-abfe-493cd2f9d757",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg2.png": {
+    "time": 1680205792788.2468,
+    "uuid": "db96521b-2950-4aa7-a505-8c8a2fae94d1",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg2_nn.png": {
+    "time": 1680205792807.9678,
+    "uuid": "cd28f7cc-4b7d-4750-a8ef-362444163d8c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg3.png": {
+    "time": 1680205792826.0276,
+    "uuid": "b67b1ae1-575f-41a1-bddf-9633fa51ed20",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg3_nn.png": {
+    "time": 1680205792845.0862,
+    "uuid": "3a5b12ff-edeb-4ca5-a684-ddb678396fde",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg4.png": {
+    "time": 1680205792865.24,
+    "uuid": "369250e5-9287-40f1-8a74-f024373d3c68",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg4_nn.png": {
+    "time": 1680205792883.2534,
+    "uuid": "7b1b210d-b0ff-4c18-b909-1a3b8aaabad2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\renwu.png": {
+    "time": 1680205792923.4658,
+    "uuid": "a5fd1ce6-e348-45fc-b410-35127596eb8b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\login\\BG_dating.png": {
+    "time": 1680205792951.1672,
+    "uuid": "78a1d86a-0759-4398-aa0f-40b7a4d4ad23",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_baidianlizi.plist": {
+    "time": 1680205792955.1575,
+    "uuid": "e48ba293-00b0-47a9-bea1-8149741e4c2f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_kapplelizi.plist": {
+    "time": 1680205792957.1519,
+    "uuid": "4b7fe3c2-ad25-4e37-bf38-8c07642245d3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_kstartlizi.plist": {
+    "time": 1680205792958.149,
+    "uuid": "be82d646-f8bb-461d-bcdf-6d73513c815b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_mstartlizi.plist": {
+    "time": 1680205792958.149,
+    "uuid": "d51e81fb-9d96-419b-bce3-4fb45de17701",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_youcelizi.plist": {
+    "time": 1680205792959.1472,
+    "uuid": "e37e1da3-3aa7-423a-a1df-02a6add3d055",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_zuocelizi.plist": {
+    "time": 1680205792960.1438,
+    "uuid": "34a5c339-3eb3-4717-a214-1d88e7b29f69",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_bg.jpg": {
+    "time": 1680205793300.2334,
+    "uuid": "17688d84-8c05-4cac-a4aa-34891d5ba674",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_icon.png": {
+    "time": 1680205793302.229,
+    "uuid": "61f6fb94-116a-4fa7-a615-c457def431d4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadingback.jpg": {
+    "time": 1680205793305.2212,
+    "uuid": "c034aa7c-cd4c-4166-a350-a97295b07bf4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadingback1.png": {
+    "time": 1680205793309.2107,
+    "uuid": "26ba35e6-5176-403b-8771-c5ca0635e600",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadinglogo.png": {
+    "time": 1680205793310.2083,
+    "uuid": "fb50c538-23fc-42f8-9972-910985943445",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\all1.png": {
+    "time": 1680205793312.2026,
+    "uuid": "f193b697-b3cb-4c08-9b0c-3b9e99e07780",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\all11.png": {
+    "time": 1680205793313.2004,
+    "uuid": "e046be1c-731d-480e-ab7f-34cbef86d479",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_100.png": {
+    "time": 1680205793315.1953,
+    "uuid": "2ed58e40-853e-4038-b5b3-e8e8b68fc4f4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_101.png": {
+    "time": 1680205793316.192,
+    "uuid": "3c8a017e-492c-44df-a8e2-7a2cd3fd4344",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1018.png": {
+    "time": 1680205793317.1897,
+    "uuid": "da987437-815a-41d8-a466-6ccd53764f45",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_102.png": {
+    "time": 1680205793318.1875,
+    "uuid": "e4bc6cff-7665-41b2-98bc-a8de9b77caa3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_105.png": {
+    "time": 1680205793320.1816,
+    "uuid": "b86c009d-8729-4c8f-9bae-ec09779be266",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1051.png": {
+    "time": 1680205793322.1787,
+    "uuid": "ce0d1f2b-657e-4afe-b910-a06601f06034",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_108.png": {
+    "time": 1680205793324.172,
+    "uuid": "2b2df973-be30-4283-b82e-69067d18b26d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_110.png": {
+    "time": 1680205793326.1643,
+    "uuid": "90e936b6-e1c5-4a0a-b533-7dbf0810ea86",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1110.png": {
+    "time": 1680205793327.162,
+    "uuid": "799391f8-1ae2-4223-a925-833c2f04b019",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1112.png": {
+    "time": 1680205793328.1602,
+    "uuid": "ce3446ee-18cc-478a-986f-cce0453367f0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1114.png": {
+    "time": 1680205793330.1538,
+    "uuid": "a511e89b-8222-4529-bdf1-871555aa995e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_112.png": {
+    "time": 1680205793331.1516,
+    "uuid": "51824098-8f88-4f83-8c8d-31535d8b1443",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_114.png": {
+    "time": 1680205793332.1487,
+    "uuid": "3b854a08-b5f3-4dda-810f-ce86fcefe699",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_121.png": {
+    "time": 1680205793333.1462,
+    "uuid": "38671a38-bb4f-448b-851f-a0cf5c05123c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_122.png": {
+    "time": 1680205793335.1404,
+    "uuid": "fd1829da-9bb6-462c-8f10-592085909a2a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_123.png": {
+    "time": 1680205793337.136,
+    "uuid": "fe06f7fc-e5bd-4301-9603-fda9778b2b42",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_124.png": {
+    "time": 1680205793338.1338,
+    "uuid": "3842cee6-2840-4769-8925-85810a787e1a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_125.png": {
+    "time": 1680205793340.1274,
+    "uuid": "43544a25-8216-495b-9aa1-eb5651723fc2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_62.png": {
+    "time": 1680205793341.125,
+    "uuid": "f0638ffe-7465-4b26-a79e-0eac1878c440",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_621.png": {
+    "time": 1680205793342.1218,
+    "uuid": "c473696d-51b8-41dc-bd2e-beb87b1ca0cd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_64.png": {
+    "time": 1680205793343.1199,
+    "uuid": "64cab769-ddda-4996-9411-351d11591da8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_641.png": {
+    "time": 1680205793345.114,
+    "uuid": "57d79fbe-7cb9-4663-adf2-acbb5203e088",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_66.png": {
+    "time": 1680205793346.1113,
+    "uuid": "a8d8cbeb-a251-49b9-b07e-d8b683b07c0e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_661.png": {
+    "time": 1680205793347.1096,
+    "uuid": "a9eeb1cb-59b3-409e-af4c-75dbf737f882",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_69.png": {
+    "time": 1680205793348.1099,
+    "uuid": "6c1a747d-58b2-421e-85b6-731b6b2b60de",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_691.png": {
+    "time": 1680205793349.104,
+    "uuid": "47c44d8a-467c-4a5b-8f56-be3922d12760",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_71.png": {
+    "time": 1680205793351.098,
+    "uuid": "0256eee9-615d-4c93-a9be-92d074236144",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_711.png": {
+    "time": 1680205793352.0952,
+    "uuid": "044d861a-7642-47d4-8d46-86b236a4bb28",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_74.png": {
+    "time": 1680205793354.0906,
+    "uuid": "ca882139-3f7b-4a24-b356-38fed13d8776",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_741.png": {
+    "time": 1680205793356.0857,
+    "uuid": "eeee0c44-b497-40c6-9970-efb13402c217",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_76.png": {
+    "time": 1680205793358.08,
+    "uuid": "bacf46ac-7d4b-45d5-8a1b-f4f107ac77c4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_761.png": {
+    "time": 1680205793359.0767,
+    "uuid": "b2d56148-a034-422d-87c4-156cd444731c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_78.png": {
+    "time": 1680205793360.079,
+    "uuid": "b8c5b966-562d-481d-beed-0d1d06b1db49",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_781.png": {
+    "time": 1680205793361.071,
+    "uuid": "52aa0121-e9f4-483b-8534-8eb93b447911",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_88.png": {
+    "time": 1680205793362.0688,
+    "uuid": "b24fb3ab-6bb3-410f-af02-642cf89e3e62",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_89.png": {
+    "time": 1680205793363.0657,
+    "uuid": "b73bc21e-a4d6-4445-b9e5-417abe10ecd3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_90.png": {
+    "time": 1680205793365.0608,
+    "uuid": "76b8d44f-15e7-44eb-a67b-887626fcfb63",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_91.png": {
+    "time": 1680205793366.0583,
+    "uuid": "0ba8d7dc-71a9-4888-9dc8-d544f49be009",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_92.png": {
+    "time": 1680205793367.056,
+    "uuid": "ef00d0e9-e5b9-456a-89d8-861bad4863f0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_93.png": {
+    "time": 1680205793368.0535,
+    "uuid": "98f68a52-cf44-4c69-8f86-b689b23baa38",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_94.png": {
+    "time": 1680205793369.0498,
+    "uuid": "9f4f7199-9b99-4c3c-9193-8568095d575e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_95.png": {
+    "time": 1680205793371.0461,
+    "uuid": "4da3935f-099e-43a0-a456-ff7b80f1c87a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto.png": {
+    "time": 1680205793373.0447,
+    "uuid": "01137bef-8d1a-4007-bb74-89cfe2ed72ce",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto1.png": {
+    "time": 1680205793374.037,
+    "uuid": "4853f847-449b-444b-aaf1-3c83eba8c7dc",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto2.png": {
+    "time": 1680205793376.031,
+    "uuid": "1d68f718-815c-46a6-af2a-3fca24d7540c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_roomback.png": {
+    "time": 1680205793377.0396,
+    "uuid": "f06211e7-e131-46e1-93b8-3d98af3f8a39",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_roomrulebtn.png": {
+    "time": 1680205793378.0266,
+    "uuid": "f85e3a97-1a7d-43f6-a674-f4252f07d4fd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\tc_53.png": {
+    "time": 1680205793379.026,
+    "uuid": "5cc7c8a2-595c-49de-88e0-2acc9fe4ae65",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_12.png": {
+    "time": 1680205793382.0151,
+    "uuid": "029406b7-3fa1-4cc2-9657-2f60c0c1fce7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_14.png": {
+    "time": 1680205793383.0132,
+    "uuid": "ffb71a28-3e3d-4155-a959-27dd9c54d839",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_26.png": {
+    "time": 1680205793384.011,
+    "uuid": "6d456885-4e7f-48da-8f46-05bceedf3c98",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_30.png": {
+    "time": 1680205793386.0046,
+    "uuid": "a83ec927-e37b-43e3-98b5-5ce5f02b7291",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_32.png": {
+    "time": 1680205793387.0022,
+    "uuid": "9aa1153b-49b5-4187-8e66-f3f90dca0ddd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_34.png": {
+    "time": 1680205793388.9983,
+    "uuid": "24897dcc-8731-42bf-8a92-0455a4720f78",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_36.png": {
+    "time": 1680205793389.9946,
+    "uuid": "bbd8135d-0286-4b64-9f59-967091144031",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_38.png": {
+    "time": 1680205793390.9917,
+    "uuid": "bd258788-f8aa-41d0-ac30-e55e634e163f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_40.png": {
+    "time": 1680205793391.9888,
+    "uuid": "a71d64d0-7622-422e-bb74-122b69cc7645",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_coin.png": {
+    "time": 1680205793392.986,
+    "uuid": "8cdcf83f-1980-4248-8e12-7dd975ce3a61",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_centerlt.png": {
+    "time": 1680205793393.9832,
+    "uuid": "2a78e4b2-3c29-4d4f-9ec3-15546901a699",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_0.png": {
+    "time": 1680205793394.9805,
+    "uuid": "9c8e1cd7-4d87-4480-9d7f-10d32165ac4e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_1.png": {
+    "time": 1680205793396.9756,
+    "uuid": "9eb1355b-1c2c-46fa-b454-f98212265b46",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_2.png": {
+    "time": 1680205793397.975,
+    "uuid": "3eef7aa8-0226-4afa-8d8f-d65ecdb259b3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_3.png": {
+    "time": 1680205793398.9707,
+    "uuid": "4eeca2bf-4080-44d6-a40a-2a3e9fd23cc9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_4.png": {
+    "time": 1680205793399.9746,
+    "uuid": "736232cc-8d19-4543-9210-318eeb50aade",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_5.png": {
+    "time": 1680205793400.964,
+    "uuid": "2d48c82a-b5ec-445d-b506-78b4cd10a61f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_6.png": {
+    "time": 1680205793401.9617,
+    "uuid": "4ad66f4c-0cc6-4faf-b61b-0a89cbcf6f1e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_7.png": {
+    "time": 1680205793402.9587,
+    "uuid": "ee938073-ef44-4b9e-9ac3-56c92e1592dd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_8.png": {
+    "time": 1680205793403.9568,
+    "uuid": "0e575a3a-519a-4e38-a5e4-5dd9312fe4c2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_9.png": {
+    "time": 1680205793405.9514,
+    "uuid": "f452df51-a640-4c29-ab73-eb4fe255a17b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_0.png": {
+    "time": 1680205793406.9482,
+    "uuid": "39b2e3c3-2891-415f-8f7d-1b95ef66667d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_1.png": {
+    "time": 1680205793407.947,
+    "uuid": "97803200-e7fc-44f9-8af8-13d778951d4d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_2.png": {
+    "time": 1680205793408.9429,
+    "uuid": "73351aa7-46af-44e4-ac1b-056e0273533b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_3.png": {
+    "time": 1680205793409.9402,
+    "uuid": "a9b3867d-6a31-4f1c-ae68-e0c390afd753",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_4.png": {
+    "time": 1680205793410.9375,
+    "uuid": "b8b413a9-6c37-4dfb-a81b-f3dad8f87e1e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_5.png": {
+    "time": 1680205793410.9375,
+    "uuid": "725490c0-a7de-478e-b65f-8551cb32396b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_6.png": {
+    "time": 1680205793412.9326,
+    "uuid": "28136b5b-65a3-4942-92ff-f9fef78f93b4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_7.png": {
+    "time": 1680205793413.9297,
+    "uuid": "72dabfd1-d7b4-49fd-a69d-95dc911fafdb",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_8.png": {
+    "time": 1680205793414.927,
+    "uuid": "05f64033-c209-47ca-84b7-8f5408e5d0e5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_9.png": {
+    "time": 1680205793415.9243,
+    "uuid": "1219e0f0-cc9b-45d8-86dd-a9f983330e6d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_auto.png": {
+    "time": 1680205793418.9165,
+    "uuid": "f5d42b4e-7d71-41c0-8cc8-ea4c351bb91d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_changjx.png": {
+    "time": 1680205793419.9133,
+    "uuid": "93924be1-292f-465e-89e8-b7b2cf880461",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_day.png": {
+    "time": 1680205793420.9124,
+    "uuid": "dd8b7801-d800-4d3f-9e25-a1efb0943b24",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_getmoney.png": {
+    "time": 1680205793422.9138,
+    "uuid": "371aaad2-35a2-4a9f-b2b7-fe4d5cdbd436",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_hld_bean.png": {
+    "time": 1680205793423.9048,
+    "uuid": "897e753f-af1c-4f1e-96f8-a66e053c57cc",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_mode.png": {
+    "time": 1680205793424.916,
+    "uuid": "426c6741-8922-4646-a54c-a7f7fdcba1ce",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_mune_back.png": {
+    "time": 1680205793425.8977,
+    "uuid": "89e0e715-594d-4dbc-b41b-a75c1ef330e2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_music.png": {
+    "time": 1680205793426.895,
+    "uuid": "eea29451-d5d3-4156-a887-16152c42c1ef",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_night.png": {
+    "time": 1680205793428.8972,
+    "uuid": "0fab46ea-d7a5-46d9-9f77-316851c856f0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule.png": {
+    "time": 1680205793429.8877,
+    "uuid": "5fa028d9-88e3-46d4-9632-0b972d098c01",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_ruletext.png": {
+    "time": 1680205793451.8276,
+    "uuid": "aaf61a64-7ecf-4105-bd48-34e46c1acaf5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s1.png": {
+    "time": 1680205793431.8826,
+    "uuid": "987b165b-0890-4a27-a942-0edb6504c975",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s2.png": {
+    "time": 1680205793434.8872,
+    "uuid": "292ac198-d98b-4546-ac24-bf9dd674e7b8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s3.png": {
+    "time": 1680205793436.8684,
+    "uuid": "7a8ca304-2d54-4286-a108-90b26bf86056",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s4.png": {
+    "time": 1680205793438.8643,
+    "uuid": "d66d6390-5cfc-4dd1-a3f5-99a9877d6150",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s5.png": {
+    "time": 1680205793439.8618,
+    "uuid": "a52f8f1b-e5f9-4b14-8a51-39c8ea10de43",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s6.png": {
+    "time": 1680205793441.8635,
+    "uuid": "a8982fdb-cca4-4602-98e6-f07032a1069e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_seting.png": {
+    "time": 1680205793452.8252,
+    "uuid": "7ccd73fe-5f3b-4848-8c0c-7d88ea9afc58",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_stopmusic.png": {
+    "time": 1680205793453.8245,
+    "uuid": "ed334033-cd3e-431e-a00f-06a38a2bb56c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_toscore_hld.png": {
+    "time": 1680205793455.8186,
+    "uuid": "09e07bbe-301c-4468-a0c4-386e12eeff76",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_toscore_text.png": {
+    "time": 1680205793456.8147,
+    "uuid": "304801b8-2271-40ad-96e9-b904e27878a5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_zr.png": {
+    "time": 1680205793457.8123,
+    "uuid": "fef86cc1-85a1-40e5-870a-c3ee8d4ec6d2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sg_sound.png": {
+    "time": 1680205793417.919,
+    "uuid": "3c388162-11e8-4d49-8113-f84ceb24aa2d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\wan.png": {
+    "time": 1680205793458.8093,
+    "uuid": "05da2b7b-f078-4eb8-9cd8-93dc964a8c11",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.atlas": {
+    "time": 1680205792963.1355,
+    "uuid": "e904c65d-852d-4f4f-963e-5d37af5a743a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.json": {
+    "time": 1680205792965.133,
+    "uuid": "aa050698-dd02-4150-ad55-f328306fe1f6",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.png": {
+    "time": 1680205792969.1196,
+    "uuid": "a43339cf-3b21-4562-99bc-b407c3ce9043",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.atlas": {
+    "time": 1680205792971.1147,
+    "uuid": "d3f499d6-f48e-4327-9155-fa63391ae33f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.json": {
+    "time": 1680205792973.1096,
+    "uuid": "65fc2a1e-0e6b-43a9-9b47-ffa8cf2e569e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.png": {
+    "time": 1680205792979.0925,
+    "uuid": "43cb37da-e52d-43d4-92a5-56adb914a58e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.atlas": {
+    "time": 1680205792981.0886,
+    "uuid": "dfb13088-804a-4049-a8fe-6a457a8a63e7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.json": {
+    "time": 1680205792982.0847,
+    "uuid": "c879d40e-ada5-4f39-a5f8-5f8ffbf933e4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.png": {
+    "time": 1680205792983.087,
+    "uuid": "2b1a4bb6-8b47-4717-9fb5-8f6dc203b650",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.atlas": {
+    "time": 1680205792985.0774,
+    "uuid": "1ff48b58-c57b-4771-8d71-5c688435265a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.json": {
+    "time": 1680205792986.0742,
+    "uuid": "bf2fe187-9eab-4af2-aaff-99684ccb859e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.png": {
+    "time": 1680205792987.072,
+    "uuid": "2e418404-6d9b-4ce7-9981-929ffd6172fe",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.atlas": {
+    "time": 1680205792990.0637,
+    "uuid": "e8968621-fe74-42e9-a496-0ab06fc71203",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.json": {
+    "time": 1680205792991.0615,
+    "uuid": "e2a6f28e-0f39-4e05-a726-e30ca9b6bcf7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.png": {
+    "time": 1680205792992.0586,
+    "uuid": "6d12d298-7fce-4f19-8475-b4878ece475c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.atlas": {
+    "time": 1680205792993.0564,
+    "uuid": "57fe097d-ba8c-489c-b183-dbcc080d2bd0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.json": {
+    "time": 1680205792995.05,
+    "uuid": "01ac3658-8233-4bfb-8b99-7bc5fd949f12",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.png": {
+    "time": 1680205792995.05,
+    "uuid": "eda26687-e8c4-4efb-835c-761713e96d58",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.atlas": {
+    "time": 1680205792997.0447,
+    "uuid": "f1f648a6-3e5a-4b9c-b50f-e0f38de63fae",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.json": {
+    "time": 1680205792998.0422,
+    "uuid": "0d853cd7-76d3-4da8-a19a-5c3e7cbb8cce",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.png": {
+    "time": 1680205793004.0286,
+    "uuid": "24473a26-d026-4a39-8ffe-12f0229e1d66",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.atlas": {
+    "time": 1680205793125.7002,
+    "uuid": "48d43e61-65a1-4d8b-8f0e-7333650ec50e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.json": {
+    "time": 1680205793126.7092,
+    "uuid": "b0127c85-802d-46a7-8d05-41b83a552ce7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.png": {
+    "time": 1680205793128.6948,
+    "uuid": "e0a5da04-1a60-4187-87f7-554f1df38092",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.atlas": {
+    "time": 1680205793130.6921,
+    "uuid": "8021f77f-40b2-46c9-bdcd-aba91a31621c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.json": {
+    "time": 1680205793131.686,
+    "uuid": "5bd14a2b-2b66-45dc-bbac-4d9709e76ae3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.png": {
+    "time": 1680205793134.691,
+    "uuid": "f0ab2a24-2168-4562-8aea-4417ea88cbad",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.atlas": {
+    "time": 1680205793136.671,
+    "uuid": "112ab7a3-a2dd-4fb1-9a47-6fd08e1765ce",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.json": {
+    "time": 1680205793137.6692,
+    "uuid": "e7c1077f-da95-417d-a38c-f4c7482b80d3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.png": {
+    "time": 1680205793139.669,
+    "uuid": "72b99655-dc3b-4e48-99fb-31a911112275",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.atlas": {
+    "time": 1680205793141.6577,
+    "uuid": "aa718981-498c-4ac5-9b9c-1b7fbd6e9037",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.json": {
+    "time": 1680205793142.6553,
+    "uuid": "373f6627-a79a-4a7e-b7ea-3a04ad24bc02",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.png": {
+    "time": 1680205793146.655,
+    "uuid": "ceffa893-d0bb-4529-84e7-0ff464f30fbd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.atlas": {
+    "time": 1680205793149.6365,
+    "uuid": "3b52acdc-8275-4d54-810a-476b0d1d1789",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.json": {
+    "time": 1680205793151.6328,
+    "uuid": "69566376-6f02-4bc4-aff1-70e7cd2b7c6d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.png": {
+    "time": 1680205793155.6333,
+    "uuid": "f5192564-6d67-435b-89f1-ec0646a342ba",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.atlas": {
+    "time": 1680205793157.615,
+    "uuid": "91616ae9-618f-46c1-b6d7-59c09fd238dc",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.json": {
+    "time": 1680205793159.61,
+    "uuid": "c580c526-66b1-492f-8855-be6e4cc46df3",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.png": {
+    "time": 1680205793162.6038,
+    "uuid": "e52a791f-a8d6-4e12-94fb-94d08577add8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.atlas": {
+    "time": 1680205793164.6128,
+    "uuid": "82d677db-c5cd-4a75-8674-71bdb2a53a23",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.json": {
+    "time": 1680205793165.5962,
+    "uuid": "c05c85bc-8701-4f47-ba30-5f651a6197fd",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.png": {
+    "time": 1680205793170.582,
+    "uuid": "f25d690e-9174-4c11-b4d6-20e4633c7046",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\scene\\sgj_scene.scene.meta": {
+    "time": 1680205793464.7935
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\board_4.png.meta": {
+    "time": 1680205792618.67
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_btn.png.meta": {
+    "time": 1680205792637.62
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\btn_close.png.meta": {
+    "time": 1680205792619.6672
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_headbg.png.meta": {
+    "time": 1680205792638.6172
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\common_titlebg.png.meta": {
+    "time": 1680205792640.6118
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_gonggao_di.png.meta": {
+    "time": 1680205792634.628
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_head1.png.meta": {
+    "time": 1680205792635.6245
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\dating_guangbo.png.meta": {
+    "time": 1680205792641.616
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_Head_mask.png.meta": {
+    "time": 1680205792620.6694
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\c_edit_bg.png.meta": {
+    "time": 1680205792633.63
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\Entrance_01_34.png.meta": {
+    "time": 1680205792606.7026
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\more_09.png.meta": {
+    "time": 1680205792687.4895
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\more_03.png.meta": {
+    "time": 1680205792673.5261
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\jinbi.png.meta": {
+    "time": 1680205792660.5583
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_eidtbg.png.meta": {
+    "time": 1680205792704.4495
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_mask.png.meta": {
+    "time": 1680205792705.4395
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\pop_frame.png.meta": {
+    "time": 1680205792699.4854
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\regist_bg.png.meta": {
+    "time": 1680205792702.4463
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\waiting.png.meta": {
+    "time": 1680205792714.4143
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\common\\yydb_btn_1.png.meta": {
+    "time": 1680205792716.4097
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\dating_di.png.meta": {
+    "time": 1680205792719.4011
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\hall_bg.jpg.meta": {
+    "time": 1680205792735.3577
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg1_nn.png.meta": {
+    "time": 1680205792776.2485
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg1.png.meta": {
+    "time": 1680205792756.302
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg2.png.meta": {
+    "time": 1680205792794.2302
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg2_nn.png.meta": {
+    "time": 1680205792812.8142
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg3.png.meta": {
+    "time": 1680205792832.028
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg3_nn.png.meta": {
+    "time": 1680205792850.073
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg4.png.meta": {
+    "time": 1680205792870.2266
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\renwu.png.meta": {
+    "time": 1680205792930.4277
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\login\\BG_dating.png.meta": {
+    "time": 1680205792952.1646
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\hall\\item_bg4_nn.png.meta": {
+    "time": 1680205792890.965
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_kapplelizi.plist.meta": {
+    "time": 1680619661080.6836
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_baidianlizi.plist.meta": {
+    "time": 1680619661086.6675
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_kstartlizi.plist.meta": {
+    "time": 1680619661119.58
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_mstartlizi.plist.meta": {
+    "time": 1680619661123.569
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_youcelizi.plist.meta": {
+    "time": 1680619661125.5632
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\particle\\ldgame_zuocelizi.plist.meta": {
+    "time": 1680619661143.5154
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_bg.jpg.meta": {
+    "time": 1680205793300.2334
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadingback.jpg.meta": {
+    "time": 1680205793305.2212
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_icon.png.meta": {
+    "time": 1680205793303.2258
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadingback1.png.meta": {
+    "time": 1680205793309.2107
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\all1.png.meta": {
+    "time": 1680205793313.2004
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\all11.png.meta": {
+    "time": 1680205793314.1965
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_100.png.meta": {
+    "time": 1680205793315.1953
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\bg\\sgj_loadinglogo.png.meta": {
+    "time": 1680205793311.2046
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_101.png.meta": {
+    "time": 1680205793317.1897
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1018.png.meta": {
+    "time": 1680205793318.1875
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_102.png.meta": {
+    "time": 1680205793319.184
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_105.png.meta": {
+    "time": 1680205793321.1787
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1051.png.meta": {
+    "time": 1680205793323.1936
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_110.png.meta": {
+    "time": 1680205793326.1643
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_108.png.meta": {
+    "time": 1680205793325.1682
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1110.png.meta": {
+    "time": 1680205793328.1602
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1112.png.meta": {
+    "time": 1680205793329.1565
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_1114.png.meta": {
+    "time": 1680205793330.1538
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_114.png.meta": {
+    "time": 1680205793333.1462
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_112.png.meta": {
+    "time": 1680205793331.1516
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_121.png.meta": {
+    "time": 1680205793334.1433
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_122.png.meta": {
+    "time": 1680205793336.1377
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_123.png.meta": {
+    "time": 1680205793338.1338
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_124.png.meta": {
+    "time": 1680205793339.1309
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_125.png.meta": {
+    "time": 1680205793341.125
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_621.png.meta": {
+    "time": 1680205793343.1199
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_62.png.meta": {
+    "time": 1680205793342.1218
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_64.png.meta": {
+    "time": 1680205793344.1172
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_641.png.meta": {
+    "time": 1680205793345.114
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_69.png.meta": {
+    "time": 1680205793349.104
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_66.png.meta": {
+    "time": 1680205793346.1113
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_661.png.meta": {
+    "time": 1680205793347.1096
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_691.png.meta": {
+    "time": 1680205793350.1006
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_71.png.meta": {
+    "time": 1680205793351.098
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_711.png.meta": {
+    "time": 1680205793353.0925
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_74.png.meta": {
+    "time": 1680205793355.088
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_741.png.meta": {
+    "time": 1680205793357.0972
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_76.png.meta": {
+    "time": 1680205793358.08
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_761.png.meta": {
+    "time": 1680205793359.0767
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_781.png.meta": {
+    "time": 1680205793362.0688
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_78.png.meta": {
+    "time": 1680205793360.079
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_88.png.meta": {
+    "time": 1680205793363.0657
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_89.png.meta": {
+    "time": 1680205793364.063
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_90.png.meta": {
+    "time": 1680205793365.0608
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_92.png.meta": {
+    "time": 1680205793368.0535
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_93.png.meta": {
+    "time": 1680205793369.0498
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_91.png.meta": {
+    "time": 1680205793367.056
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_94.png.meta": {
+    "time": 1680205793370.047
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\image_95.png.meta": {
+    "time": 1680205793372.0425
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto.png.meta": {
+    "time": 1680205793374.037
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto1.png.meta": {
+    "time": 1680205793375.034
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_cancleauto2.png.meta": {
+    "time": 1680205793376.031
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_roomback.png.meta": {
+    "time": 1680205793377.0396
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\sgj_roomrulebtn.png.meta": {
+    "time": 1680205793379.026
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\btn\\tc_53.png.meta": {
+    "time": 1680205793380.0342
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_12.png.meta": {
+    "time": 1680205793382.0151
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_14.png.meta": {
+    "time": 1680205793384.011
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_26.png.meta": {
+    "time": 1680205793385.007
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_30.png.meta": {
+    "time": 1680205793387.0022
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_32.png.meta": {
+    "time": 1680205793387.9993
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_34.png.meta": {
+    "time": 1680205793389.9946
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_36.png.meta": {
+    "time": 1680205793390.9917
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_40.png.meta": {
+    "time": 1680205793392.986
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_38.png.meta": {
+    "time": 1680205793391.9888
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\image_coin.png.meta": {
+    "time": 1680205793393.9832
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_centerlt.png.meta": {
+    "time": 1680205793394.9805
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_0.png.meta": {
+    "time": 1680205793395.9775
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_1.png.meta": {
+    "time": 1680205793396.9756
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_2.png.meta": {
+    "time": 1680205793397.975
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_3.png.meta": {
+    "time": 1680205793398.9707
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_4.png.meta": {
+    "time": 1680205793399.9746
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_5.png.meta": {
+    "time": 1680205793400.964
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_6.png.meta": {
+    "time": 1680205793402.9587
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_7.png.meta": {
+    "time": 1680205793403.9568
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_8.png.meta": {
+    "time": 1680205793404.9546
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_down_9.png.meta": {
+    "time": 1680205793405.9514
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_0.png.meta": {
+    "time": 1680205793406.9482
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_1.png.meta": {
+    "time": 1680205793407.947
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_2.png.meta": {
+    "time": 1680205793408.9429
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_3.png.meta": {
+    "time": 1680205793409.9402
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_4.png.meta": {
+    "time": 1680205793410.9375
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_5.png.meta": {
+    "time": 1680205793411.9348
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_6.png.meta": {
+    "time": 1680205793412.9326
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_7.png.meta": {
+    "time": 1680205793413.9297
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_9.png.meta": {
+    "time": 1680205793415.9243
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\common\\sgj_up_8.png.meta": {
+    "time": 1680205793414.927
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_auto.png.meta": {
+    "time": 1680205793418.9165
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_changjx.png.meta": {
+    "time": 1680205793420.9124
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_day.png.meta": {
+    "time": 1680205793421.9102
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_getmoney.png.meta": {
+    "time": 1680205793423.9048
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_hld_bean.png.meta": {
+    "time": 1680205793424.916
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_mode.png.meta": {
+    "time": 1680205793425.8977
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_music.png.meta": {
+    "time": 1680205793427.892
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_mune_back.png.meta": {
+    "time": 1680205793426.895
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_night.png.meta": {
+    "time": 1680205793428.8972
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule.png.meta": {
+    "time": 1680205793430.8867
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s1.png.meta": {
+    "time": 1680205793432.879
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s2.png.meta": {
+    "time": 1680205793434.8872
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s4.png.meta": {
+    "time": 1680205793438.8643
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s3.png.meta": {
+    "time": 1680205793436.8684
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_seting.png.meta": {
+    "time": 1680205793453.8245
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s5.png.meta": {
+    "time": 1680205793439.8618
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_stopmusic.png.meta": {
+    "time": 1680205793454.821
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_rule_s6.png.meta": {
+    "time": 1680205793441.8635
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_zr.png.meta": {
+    "time": 1680205793458.8093
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_toscore_text.png.meta": {
+    "time": 1680205793457.8123
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_toscore_hld.png.meta": {
+    "time": 1680205793455.8186
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sgj_ruletext.png.meta": {
+    "time": 1680205793452.8252
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.atlas.meta": {
+    "time": 1680205792963.1355
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\sg_sound.png.meta": {
+    "time": 1680205793418.9165
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.json.meta": {
+    "time": 1680205792965.133
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\ui\\txt\\wan.png.meta": {
+    "time": 1680205793459.8066
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.json.meta": {
+    "time": 1680205792974.1067
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.atlas.meta": {
+    "time": 1680205792981.0886
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.atlas.meta": {
+    "time": 1680205792972.112
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.json.meta": {
+    "time": 1680205792983.087
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.atlas.meta": {
+    "time": 1680205792985.0774
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.json.meta": {
+    "time": 1680205792986.0742
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_huxilight\\ldgame_huxilight.png.meta": {
+    "time": 1680205792984.081
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\da_man_guan\\da_man_guan.png.meta": {
+    "time": 1680205792969.1196
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\jiu_lian_bao_deng\\jiu_lian_bao_deng.png.meta": {
+    "time": 1680205792980.095
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.atlas.meta": {
+    "time": 1680205792990.0637
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.json.meta": {
+    "time": 1680205792991.0615
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liangceshanguang\\ldgame_liangceshanguang.png.meta": {
+    "time": 1680205792988.0708
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_lightkuang\\ldgame_lightkuang.png.meta": {
+    "time": 1680205792992.0586
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.atlas.meta": {
+    "time": 1680205792994.0525
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.json.meta": {
+    "time": 1680205792995.05
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.json.meta": {
+    "time": 1680205792999.0444
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.atlas.meta": {
+    "time": 1680205792998.0422
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_liudonglight\\ldgame_liudonglight.png.meta": {
+    "time": 1680205792996.0474
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.atlas.meta": {
+    "time": 1680205793125.7002
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.json.meta": {
+    "time": 1680205793127.695
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.atlas.meta": {
+    "time": 1680205793130.6921
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.json.meta": {
+    "time": 1680205793132.682
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_numberkuang\\ldgame_numberkuang.png.meta": {
+    "time": 1680205793128.6948
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.json.meta": {
+    "time": 1680205793138.668
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.atlas.meta": {
+    "time": 1680205793136.671
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_logo\\ldgame_logo.png.meta": {
+    "time": 1680205793005.0242
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.atlas.meta": {
+    "time": 1680205793142.6553
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.json.meta": {
+    "time": 1680205793143.6523
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_quickstartlg\\ldgame_quickstartlg.png.meta": {
+    "time": 1680205793134.691
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_toplight\\ldgame_toplight.png.meta": {
+    "time": 1680205793140.6606
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.atlas.meta": {
+    "time": 1680205793149.6365
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.json.meta": {
+    "time": 1680205793151.6328
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_xuanchanglg\\ldgame_xuanchanglg.png.meta": {
+    "time": 1680205793147.6416
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.atlas.meta": {
+    "time": 1680205793158.6125
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.json.meta": {
+    "time": 1680205793159.61
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.atlas.meta": {
+    "time": 1680205793164.6128
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.json.meta": {
+    "time": 1680205793166.593
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\ldgame_zhsheffect\\ldgame_zhsheffect.png.meta": {
+    "time": 1680205793156.6194
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\tian_long_ba_bu\\tian_long_ba_bu.png.meta": {
+    "time": 1680205793162.6038
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\image\\sgj\\animation\\spine\\xian_nv_shan_hua\\xian_nv_shan_hua.png.meta": {
+    "time": 1680205793170.582
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\AudioMgr.ts.meta": {
+    "time": 1680621168561.2078
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\script\\utils\\AudioMgr.ts": {
+    "time": 1680620255246.0105,
+    "uuid": "dbb9ae6b-8cd1-4618-96c6-340fab0f744a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound.meta": {
+    "time": 1680621555240.4038
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound": {
+    "time": 1680621564801.9492,
+    "uuid": "1e8ddc5f-61f7-4aba-8f29-1b1dca693f06",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj.meta": {
+    "time": 1680621564810.9265
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj": {
+    "time": 1680621582713.5076,
+    "uuid": "ec0387b0-268d-40cd-8b3c-08ba350bd4e7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C3.mp3.meta": {
+    "time": 1680205793197.5083
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C3.mp3": {
+    "time": 1680205793196.5376,
+    "uuid": "2a84299b-a025-48b3-9db9-503baf12447d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C1.mp3.meta": {
+    "time": 1680205793176.5647
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C1.mp3": {
+    "time": 1680205793175.5698,
+    "uuid": "63f4cdd9-8cab-45ac-bc97-d3e9bcbe943f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C2.mp3.meta": {
+    "time": 1680205793193.5215
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C2.mp3": {
+    "time": 1680205793192.522,
+    "uuid": "58ee704e-e5c3-4708-815f-1e68a6aaf63f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C4.mp3.meta": {
+    "time": 1680205793205.4897
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C4.mp3": {
+    "time": 1680205793204.4915,
+    "uuid": "f7af3cd5-fd3b-4204-a1ce-3924dbde3ee9",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C5.mp3.meta": {
+    "time": 1680205793211.4731
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C5.mp3": {
+    "time": 1680205793210.475,
+    "uuid": "674f3ebc-e9c0-4982-a14c-d57d7e053822",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C6.mp3.meta": {
+    "time": 1680205793214.463
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C6.mp3": {
+    "time": 1680205793214.463,
+    "uuid": "0b6707de-6ebe-413b-b7c2-752d36b9b2ce",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C9.mp3.meta": {
+    "time": 1680205793229.433
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C9.mp3": {
+    "time": 1680205793229.433,
+    "uuid": "d58f8f7e-ec13-4543-b0b1-7476d4d81be6",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C8.mp3.meta": {
+    "time": 1680205793224.436
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C8.mp3": {
+    "time": 1680205793224.436,
+    "uuid": "c2770a54-8989-4cf9-8591-97877b24a247",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C7.mp3.meta": {
+    "time": 1680205793219.4495
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C7.mp3": {
+    "time": 1680205793218.4524,
+    "uuid": "126c09b2-cc80-44f3-aed8-8b5519f6ec8b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C10.mp3.meta": {
+    "time": 1680205793185.5403
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\C10.mp3": {
+    "time": 1680205793185.5403,
+    "uuid": "d0334414-def2-48d4-8bc6-9c1ff6290f45",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\getscore.mp3.meta": {
+    "time": 1680205793249.3694
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\getscore.mp3": {
+    "time": 1680205793249.3694,
+    "uuid": "0eaee48b-8f31-4a1a-b0e2-4ce5b3818f95",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\downscore.mp3.meta": {
+    "time": 1680205793246.3777
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\downscore.mp3": {
+    "time": 1680205793246.3777,
+    "uuid": "e21071a2-aa45-4ad5-9527-6933a22a127b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\entergame.mp3.meta": {
+    "time": 1680205793248.3723
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\entergame.mp3": {
+    "time": 1680205793248.3723,
+    "uuid": "58ebbabd-cf20-40f3-aa80-02d3efa6fd9e",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\moveScroe.mp3.meta": {
+    "time": 1680205793250.3674
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\moveScroe.mp3": {
+    "time": 1680205793250.3674,
+    "uuid": "ce03cc25-6eb0-4dcb-b9a4-8920bde6ca74",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\NUM_FAIL.mp3.meta": {
+    "time": 1680205793230.4207
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\NUM_FAIL.mp3": {
+    "time": 1680205793230.4207,
+    "uuid": "4366853b-d209-42bc-a6d4-0ad6a52eef7c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt1.mp3.meta": {
+    "time": 1680205793257.3494
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt1.mp3": {
+    "time": 1680205793256.353,
+    "uuid": "c38f00f3-997f-4bbb-ae63-4e1677dfa5be",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\run_1.mp3.meta": {
+    "time": 1680205793253.3591
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\run_1.mp3": {
+    "time": 1680205793252.3623,
+    "uuid": "f616995b-8d8c-4d06-85e4-4f712b48b1aa",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\reset.mp3.meta": {
+    "time": 1680205793251.3647
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\reset.mp3": {
+    "time": 1680205793251.3647,
+    "uuid": "8edd7a2e-c808-43a6-91c0-629aa25b5a89",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt2.mp3.meta": {
+    "time": 1680205793258.348
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt2.mp3": {
+    "time": 1680205793257.3494,
+    "uuid": "beac8afc-d384-450e-a138-622a3ed98c27",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\scorechagne.mp3.meta": {
+    "time": 1680205793255.3547
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\scorechagne.mp3": {
+    "time": 1680205793254.357,
+    "uuid": "932d40c1-cf3a-4273-84b9-aa44aa2aacfc",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\NUM_WIN.mp3.meta": {
+    "time": 1680205793231.4187
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\NUM_WIN.mp3": {
+    "time": 1680205793231.4187,
+    "uuid": "01a87d40-f304-4607-b769-b8a8c6ddc9f7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt5.mp3.meta": {
+    "time": 1680205793263.3333
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt5.mp3": {
+    "time": 1680205793262.3352,
+    "uuid": "736da487-2fd4-4b5c-b46c-12347f1e8656",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt3.mp3.meta": {
+    "time": 1680205793259.3433
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt3.mp3": {
+    "time": 1680205793259.3433,
+    "uuid": "e6aa7a5f-06fc-49e4-8508-752beafc8305",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_ding.mp3.meta": {
+    "time": 1680205793269.3286
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_ding.mp3": {
+    "time": 1680205793268.3196,
+    "uuid": "3e9f52c6-27eb-48d7-8384-21d021035d25",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt6.mp3.meta": {
+    "time": 1680205793264.3303
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt6.mp3": {
+    "time": 1680205793263.3333,
+    "uuid": "75287012-71f7-4ede-b9ec-668114b347d0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt4.mp3.meta": {
+    "time": 1680205793261.338
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt4.mp3": {
+    "time": 1680205793260.3408,
+    "uuid": "5032c390-82b3-460a-a351-639a291808a4",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt8.mp3.meta": {
+    "time": 1680205793267.3308
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt8.mp3": {
+    "time": 1680205793267.3308,
+    "uuid": "b843038d-b5af-4e54-bd14-d97eda3e66f1",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_gxzj.mp3.meta": {
+    "time": 1680205793276.2986
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_gxzj.mp3": {
+    "time": 1680205793276.2986,
+    "uuid": "44929c20-39d0-40dd-8588-4dbf7c4d6c2b",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt7.mp3.meta": {
+    "time": 1680205793266.325
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_bt7.mp3": {
+    "time": 1680205793265.328,
+    "uuid": "d93d4903-3af2-4e94-9db8-c4d2f99ccde0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_dmg.mp3.meta": {
+    "time": 1680205793273.308
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_dmg.mp3": {
+    "time": 1680205793270.3157,
+    "uuid": "71df473f-0bd4-48ef-aa9d-019f81e0eed0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s0.mp3.meta": {
+    "time": 1680205793278.2925
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s0.mp3": {
+    "time": 1680205793278.2925,
+    "uuid": "b42bea1f-1f27-42ea-9f8f-0d8c11e84140",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s3.mp3.meta": {
+    "time": 1680205793283.2795
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s3.mp3": {
+    "time": 1680205793282.2827,
+    "uuid": "3f2d0e2a-c6b6-4f50-81f2-cae9cb7466d2",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s6.mp3.meta": {
+    "time": 1680205793287.2698
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s6.mp3": {
+    "time": 1680205793287.2698,
+    "uuid": "2b69b506-3690-439a-8233-024e849a3651",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_end.mp3.meta": {
+    "time": 1680205793275.3008
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_end.mp3": {
+    "time": 1680205793274.3047,
+    "uuid": "d4401751-31e5-4225-9baf-397a2139c3a7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s5.mp3.meta": {
+    "time": 1680205793286.273
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s5.mp3": {
+    "time": 1680205793285.2747,
+    "uuid": "bce1d99b-4e4f-45b6-b388-6bcc5d3108a5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s1.mp3.meta": {
+    "time": 1680205793280.2874
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s1.mp3": {
+    "time": 1680205793279.29,
+    "uuid": "d4e31701-f986-42f3-9554-7a0d98b5e0b8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s4.mp3.meta": {
+    "time": 1680205793284.2766
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s4.mp3": {
+    "time": 1680205793283.2795,
+    "uuid": "de369e35-6f3e-4600-8e73-ab541d3c81d8",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep4.mp3.meta": {
+    "time": 1680205793295.2483
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep4.mp3": {
+    "time": 1680205793295.2483,
+    "uuid": "9f395c08-bd54-44e6-8b09-62c7a380f6b7",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s2.mp3.meta": {
+    "time": 1680205793281.2856
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\sgj_s2.mp3": {
+    "time": 1680205793280.2874,
+    "uuid": "da54360c-7117-4181-8527-3680bcb92e3a",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep2.mp3.meta": {
+    "time": 1680205793292.2576
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep2.mp3": {
+    "time": 1680205793292.2576,
+    "uuid": "0fc2a8f7-a0a0-4fbf-96d9-99afad1f38b6",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y001.mp3.meta": {
+    "time": 1680205793234.4097
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y001.mp3": {
+    "time": 1680205793233.4124,
+    "uuid": "11e44d31-e8fa-4ce1-af40-583fb544809d",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep3.mp3.meta": {
+    "time": 1680205793294.2505
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep3.mp3": {
+    "time": 1680205793293.2668,
+    "uuid": "64c0b883-ab6b-4abf-b05b-0f74ab2a343f",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep1.mp3.meta": {
+    "time": 1680205793289.265
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep1.mp3": {
+    "time": 1680205793289.265,
+    "uuid": "38c599f0-642e-4cb8-a513-adb09a4502c0",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep1_new.mp3.meta": {
+    "time": 1680205793291.2583
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\turnstep1_new.mp3": {
+    "time": 1680205793291.2583,
+    "uuid": "df8b7a78-1556-4cc0-9f5c-8ef9dcbf74f5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\UP_DOWN.mp3.meta": {
+    "time": 1680205793233.4124
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\UP_DOWN.mp3": {
+    "time": 1680205793232.4148,
+    "uuid": "465f479d-a9fb-49c2-b8a4-46f43e274061",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y008.mp3.meta": {
+    "time": 1680205793240.3967
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y008.mp3": {
+    "time": 1680205793239.3982,
+    "uuid": "138712f0-48d6-46f6-88a7-78eff32d8700",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y003.mp3.meta": {
+    "time": 1680205793235.4072
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y003.mp3": {
+    "time": 1680205793234.4097,
+    "uuid": "d075f684-e05c-4456-a179-59c445bfe5f5",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y009.mp3.meta": {
+    "time": 1680205793241.406
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y009.mp3": {
+    "time": 1680205793240.3967,
+    "uuid": "ad6c10d3-d486-48bc-81d3-8fc47673d927",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y011.mp3.meta": {
+    "time": 1680205793243.3857
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y011.mp3": {
+    "time": 1680205793243.3857,
+    "uuid": "458f44e9-4fc5-4f12-b78b-ebb492d9e460",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y010.mp3.meta": {
+    "time": 1680205793242.3894
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y010.mp3": {
+    "time": 1680205793242.3894,
+    "uuid": "502e5cf1-fb19-46a4-bbf9-376ab75a8475",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y007.mp3.meta": {
+    "time": 1680205793238.4011
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y007.mp3": {
+    "time": 1680205793237.4026,
+    "uuid": "30a178c7-709f-415a-a632-169720f8244c",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y006.mp3.meta": {
+    "time": 1680205793236.4045
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y006.mp3": {
+    "time": 1680205793235.4072,
+    "uuid": "b5d6d850-ec0d-4207-8df6-2d7509a11b62",
+    "missing": false
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y014.mp3.meta": {
+    "time": 1680205793245.3806
+  },
+  "C:\\Users\\zzx\\Desktop\\naga123\\client\\assets\\resources\\sound\\sgj\\Y014.mp3": {
+    "time": 1680205793244.3833,
+    "uuid": "f107abe9-2838-4814-87ca-81425384ee0a",
     "missing": false
   }
 }

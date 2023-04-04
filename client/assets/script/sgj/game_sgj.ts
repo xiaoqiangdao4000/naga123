@@ -1,5 +1,7 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate } from 'cc';
 import HTTP from '../utils/HTTP';
+import { AudioMgr } from '../utils/audioMgr';
+
 const { ccclass, property } = _decorator;
 
 @ccclass('game_sgj')
@@ -48,8 +50,10 @@ export class game_sgj extends Component {
             event_score: 0,      //当前赢分,数组[24]
         }
 
+    
     start() {
         globalThis.curgame = this;
+       // AudioMgr.inst.play('sound/sgj/C1')
     }
 
     update(deltaTime: number) {

@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, EventHandler, EventTouch, Sprite } from 'cc';
+import { AudioMgr } from '../utils/audioMgr';
 
 const { ccclass, property } = _decorator;
 
@@ -107,41 +108,49 @@ export class sgj_btn extends Component {
         switch (customEventData) {
             case 'b1':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt1')
                     globalThis.sgj_view.addBetScore(1);
                     break;
                 }
             case 'b2':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt2')
                     globalThis.sgj_view.addBetScore(2);
                     break;
                 }
             case 'b3':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt3')
                     globalThis.sgj_view.addBetScore(3);
                     break;
                 }
             case 'b4':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt4')
                     globalThis.sgj_view.addBetScore(4);
                     break;
                 }
             case 'b5':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt5')
                     globalThis.sgj_view.addBetScore(5);
                     break;
                 }
             case 'b6':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt6')
                     globalThis.sgj_view.addBetScore(6);
                     break;
                 }
             case 'b7':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt7')
                     globalThis.sgj_view.addBetScore(7);
                     break;
                 }
             case 'b8':
                 {
+                    AudioMgr.inst.play('sound/sgj/sgj_bt8')
                     globalThis.sgj_view.addBetScore(8);
                     break;
                 }
