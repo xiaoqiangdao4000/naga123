@@ -1,8 +1,10 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate } from 'cc';
+import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate, EventTarget } from 'cc';
 import HTTP from '../utils/HTTP';
-import { AudioMgr } from '../utils/audioMgr';
+import { AudioMgr } from '../utils/AudioMgr';
 
 const { ccclass, property } = _decorator;
+
+globalThis.sgjEvent = new EventTarget();
 
 @ccclass('game_sgj')
 export class game_sgj extends Component {
@@ -50,14 +52,27 @@ export class game_sgj extends Component {
             event_score: 0,      //当前赢分,数组[24]
         }
 
-    
+
     start() {
         globalThis.curgame = this;
-       // AudioMgr.inst.play('sound/sgj/C1')
+        globalThis.sgj_normal.play()
+        // AudioMgr.inst.play('sound/sgj/C1')
     }
 
     update(deltaTime: number) {
 
+    }
+
+    onEnable() {
+        globalThis.sgjEvent.on('sgj_callback', this.sgjCallBack, this);
+    }
+
+    onDisable() {
+        globalThis.sgjEvent.off('sgj_callback', this.sgjCallBack, this);
+    }
+
+    sgjCallBack(arg1: string) {
+        console.log('水果机回调函数:', arg1);
     }
 
     //接受消息

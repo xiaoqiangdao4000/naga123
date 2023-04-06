@@ -1,5 +1,5 @@
-import { _decorator, Component, Node, EventHandler, EventTouch, Sprite } from 'cc';
-import { AudioMgr } from '../utils/audioMgr';
+import { _decorator, Component, Node, EventHandler, EventTouch, Sprite, math, randomRangeInt } from 'cc';
+import { AudioMgr } from '../utils/AudioMgr';
 
 const { ccclass, property } = _decorator;
 
@@ -162,6 +162,7 @@ export class sgj_btn extends Component {
             case 'go':
                 {
                     globalThis.sgj_normal.stop();
+                    globalThis.sgj_run.play(randomRangeInt(1, 25));
                     break;
                 }
         }

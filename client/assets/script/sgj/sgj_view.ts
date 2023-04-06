@@ -84,6 +84,14 @@ export class game_sgj extends Component {
 
     }
 
+    //重置界面
+    resetMask() {
+        for (let i = 0; i < 24; i++) {
+            this.mask_node[i].active = false;
+            this.light_node[i].active = false;
+        }
+    }
+
     //设置赢分
     setWinScore(score: number) {
         let str = score.toString();

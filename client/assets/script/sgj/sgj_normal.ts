@@ -6,20 +6,26 @@ const { ccclass, property } = _decorator;
 export class sgj_normal extends Component {
 
     curIndex = 0;
-    cur_schedule = null;
 
     start() {
         globalThis.sgj_normal = this;
-        this.play();
+        // this.play();
     }
 
     play() {
-        this.cur_schedule = this.updateMask;
         this.schedule(this.updateMask, 0.6);
     }
 
     stop() {
-        this.unschedule(this.cur_schedule);
+        this.resetMask();
+        this.unschedule(this.updateMask);
+    }
+
+    resetMask() {
+        for (let i = 0; i < 24; i++) {
+            globalThis.sgj_view.mask_node[i].active = false;
+            globalThis.sgj_view.light_node[i].active = false;
+        }
     }
 
     updateMask() {

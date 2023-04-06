@@ -1,101 +1,177 @@
-2023-04-04T14:46:50.123Z - verbose: Arguments:
-2023-04-04T14:46:50.124Z - verbose:   C:\ProgramData\cocos\editors\3.7.1\CocosCreator.exe: true
-2023-04-04T14:46:50.124Z - verbose:   project: C:\Users\zzx\Desktop\naga123\client
-2023-04-04T14:46:50.124Z - verbose:   dev: false
-2023-04-04T14:46:50.124Z - verbose:   home: C:\Users\zzx\.CocosCreator
-2023-04-04T14:46:50.124Z - verbose:  
-2023-04-04T14:46:54.455Z - verbose: [Package] menu@1.0.0 enable
-2023-04-04T14:46:54.459Z - verbose: [Package] profile@1.0.0 enable
-2023-04-04T14:46:54.473Z - verbose: [Package] project@1.0.4 enable
-2023-04-04T14:46:54.482Z - verbose: [Package] messages@1.0.0 enable
-2023-04-04T14:46:54.528Z - verbose: [Package] program@1.0.3 enable
-2023-04-04T14:46:54.537Z - verbose: [Package] tester@1.0.0 enable
-2023-04-04T14:46:54.541Z - verbose: [Package] information@1.0.0 enable
-2023-04-04T14:46:54.550Z - verbose: [Package] preferences@1.0.0 enable
-2023-04-04T14:46:58.348Z - log: Load engine in C:\ProgramData\cocos\editors\3.7.1\resources\resources\3d\engine
-2023-04-04T14:47:00.592Z - log: Register native engine in C:\ProgramData\cocos\editors\3.7.1\resources\resources\3d\engine\native
-2023-04-04T14:47:00.595Z - verbose: [Package] engine@1.0.7 enable
-2023-04-04T14:47:02.261Z - verbose: [Package] programming@1.0.0 enable
-2023-04-04T14:47:02.276Z - verbose: [Package] device@1.0.1 enable
-2023-04-04T14:47:02.288Z - verbose: [Package] ui-kit@1.0.1 enable
-2023-04-04T14:47:02.632Z - verbose: [Package] asset-db@1.0.0 enable
-2023-04-04T14:47:02.687Z - verbose: [Package] scene@1.0.0 enable
-2023-04-04T14:47:02.865Z - verbose: [Package] server@1.0.0 enable
-2023-04-04T14:47:02.957Z - verbose: [Package] utils@1.0.0 enable
-2023-04-04T14:47:26.598Z - verbose: [Package] preview@1.0.1 enable
-2023-04-04T14:47:26.637Z - verbose: [Package] animator@1.0.0 enable
-2023-04-04T14:47:26.907Z - verbose: [Build-plugin] register pkg scene: 1ms
-2023-04-04T14:47:26.908Z - verbose: Builder PluginManager init: 3ms
-2023-04-04T14:47:26.963Z - verbose: [Package] builder@1.3.4 enable
-2023-04-04T14:47:27.004Z - verbose: [Package] shortcuts@1.0.1 enable
-2023-04-04T14:47:27.041Z - verbose: [Package] animation-graph@1.0.0 enable
-2023-04-04T14:47:27.073Z - verbose: [Package] about@1.0.0 enable
-2023-04-04T14:47:27.105Z - verbose: [Package] assets@1.0.0 enable
-2023-04-04T14:47:27.141Z - verbose: [Package] console@1.0.0 enable
-2023-04-04T14:47:27.638Z - verbose: [Package] crash-reporter@1.0.0 enable
-2023-04-04T14:47:28.097Z - verbose: [Package] extension@3.1.0 enable
-2023-04-04T14:47:28.142Z - verbose: [Package] hierarchy@1.0.0 enable
-2023-04-04T14:47:28.188Z - verbose: [Package] inspector@1.0.0 enable
-2023-04-04T14:47:28.226Z - verbose: [Package] light-probe@1.0.4 enable
-2023-04-04T14:47:28.268Z - verbose: [Package] lightmap@1.0.4 enable
-2023-04-04T14:47:28.304Z - verbose: [Package] node-library@1.0.1 enable
-2023-04-04T14:47:28.334Z - verbose: [Package] package-asset@1.0.1 enable
-2023-04-04T14:47:28.373Z - verbose: [Package] process@1.0.0 enable
-2023-04-04T14:47:28.413Z - verbose: [Package] reference-image@1.0.0 enable
-2023-04-04T14:47:28.449Z - verbose: [Package] reflection-probe@1.0.4 enable
-2023-04-04T14:47:28.475Z - verbose: [Package] engine-extends@1.0.0 enable
-2023-04-04T14:47:28.499Z - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-04-04T14:47:28.524Z - verbose: [Package] android@1.0.1 enable
-2023-04-04T14:47:28.598Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-04-04T14:47:28.626Z - verbose: [Package] certificate@1.0.0 enable
-2023-04-04T14:47:28.651Z - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-04-04T14:47:28.676Z - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-04-04T14:47:28.705Z - verbose: [Package] huawei-agc@1.0.0 enable
-2023-04-04T14:47:28.734Z - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-04-04T14:47:28.768Z - verbose: [Package] ios@1.0.0 enable
-2023-04-04T14:47:28.794Z - verbose: [Package] linux@1.0.0 enable
-2023-04-04T14:47:28.819Z - verbose: [Package] mac@1.0.0 enable
-2023-04-04T14:47:28.929Z - verbose: [Package] native@1.0.2 enable
-2023-04-04T14:47:29.030Z - verbose: [Build-plugin] register pkg native: 101ms
-2023-04-04T14:47:29.034Z - verbose: [Package] ohos@1.0.0 enable
-2023-04-04T14:47:29.062Z - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-04-04T14:47:29.085Z - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-04-04T14:47:29.115Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-04-04T14:47:29.122Z - verbose: [Build-plugin] register pkg fb-instant-games: 446ms
-2023-04-04T14:47:29.138Z - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-04-04T14:47:29.168Z - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-04-04T14:47:29.226Z - verbose: [Package] web-desktop@1.0.1 enable
-2023-04-04T14:47:29.269Z - verbose: [Package] web-mobile@1.0.1 enable
-2023-04-04T14:47:29.306Z - verbose: [Package] wechatgame@1.0.2 enable
-2023-04-04T14:47:29.317Z - verbose: [Build-plugin] register pkg huawei-agc: 611ms
-2023-04-04T14:47:29.322Z - verbose: [Build-plugin] register pkg huawei-quick-game: 587ms
-2023-04-04T14:47:29.335Z - verbose: [Package] windows@1.0.1 enable
-2023-04-04T14:47:29.362Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-04-04T14:47:34.033Z - verbose: [Package] cocos-service@3.0.6 enable
-2023-04-04T14:47:34.154Z - verbose: [Build-plugin] register pkg cocos-service: 104ms
-2023-04-04T14:47:34.167Z - verbose: [Build-plugin] register pkg android: 5643ms
-2023-04-04T14:47:34.171Z - verbose: [Build-plugin] register pkg mac: 5352ms
-2023-04-04T14:47:34.172Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 5574ms
-2023-04-04T14:47:34.176Z - verbose: [Build-plugin] register pkg web-mobile: 4907ms
-2023-04-04T14:47:34.444Z - verbose: [Package] im-plugin@3.0.10 enable
-2023-04-04T14:47:34.457Z - verbose: [Build-plugin] register pkg oppo-mini-game: 5372ms
-2023-04-04T14:47:34.472Z - verbose: [Package] placeholder@1.0.0 enable
-2023-04-04T14:47:34.528Z - verbose: [Build-plugin] register pkg ohos: 5494ms
-2023-04-04T14:47:34.608Z - verbose: [Build-plugin] register pkg taobao-creative-app: 5470ms
-2023-04-04T14:47:34.668Z - verbose: [Build-plugin] register pkg vivo-mini-game: 5500ms
-2023-04-04T14:47:34.710Z - verbose: [Build-plugin] register pkg wechatgame: 5404ms
-2023-04-04T14:47:34.724Z - verbose: [Build-plugin] register pkg ios: 5956ms
-2023-04-04T14:47:34.734Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 5371ms
-2023-04-04T14:47:34.802Z - verbose: [Build-plugin] register pkg windows: 5467ms
-2023-04-04T14:47:34.900Z - verbose: [Build-plugin] register pkg web-desktop: 5674ms
-2023-04-04T14:47:43.501Z - verbose: asset-db is ready!
-2023-04-04T14:47:45.744Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-04-04T14:47:45.758Z - info: [Scene] [PHYSICS]: using builtin.
-2023-04-04T14:47:46.717Z - log: [Scene] Cocos Creator v3.7.1
-2023-04-04T14:47:46.718Z - info: [Scene] Forward render pipeline initialized.
-2023-04-04T14:47:47.038Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-04-04T14:47:47.099Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-04-04T14:54:49.092Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-2023-04-04T14:54:49.092Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
-https://github.com/highlightjs/highlight.js/issues/2277
-2023-04-04T15:32:52.349Z - warn: Metrics: no valid info
+2023-04-06T06:59:46.823Z - verbose: Arguments:
+2023-04-06T06:59:46.823Z - verbose:   /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/MacOS/CocosCreator: true
+2023-04-06T06:59:46.823Z - verbose:   project: /Users/zzx/Desktop/naga123/client
+2023-04-06T06:59:46.824Z - verbose:   dev: false
+2023-04-06T06:59:46.824Z - verbose:   home: /Users/zzx/.CocosCreator
+2023-04-06T06:59:46.824Z - verbose:  
+2023-04-06T06:59:51.814Z - verbose: [Package] menu@1.0.0 enable
+2023-04-06T06:59:51.817Z - verbose: [Package] profile@1.0.0 enable
+2023-04-06T06:59:51.829Z - verbose: [Package] project@1.0.4 enable
+2023-04-06T06:59:51.835Z - verbose: [Package] messages@1.0.0 enable
+2023-04-06T06:59:51.865Z - verbose: [Package] program@1.0.3 enable
+2023-04-06T06:59:51.871Z - verbose: [Package] tester@1.0.0 enable
+2023-04-06T06:59:51.873Z - verbose: [Package] information@1.0.0 enable
+2023-04-06T06:59:51.880Z - verbose: [Package] preferences@1.0.0 enable
+2023-04-06T06:59:55.816Z - log: Load engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+2023-04-06T06:59:56.314Z - log: Register native engine in /Applications/CocosCreator/Creator/3.7.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2023-04-06T06:59:56.317Z - verbose: [Package] engine@1.0.7 enable
+2023-04-06T06:59:57.108Z - verbose: [Package] programming@1.0.0 enable
+2023-04-06T06:59:57.116Z - verbose: [Package] device@1.0.1 enable
+2023-04-06T06:59:57.124Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-04-06T06:59:57.250Z - verbose: [Package] asset-db@1.0.0 enable
+2023-04-06T06:59:57.292Z - verbose: [Package] scene@1.0.0 enable
+2023-04-06T06:59:57.464Z - verbose: [Package] server@1.0.0 enable
+2023-04-06T06:59:57.495Z - verbose: [Package] utils@1.0.0 enable
+2023-04-06T07:00:02.972Z - verbose: [Package] preview@1.0.1 enable
+2023-04-06T07:00:03.005Z - verbose: [Package] animator@1.0.0 enable
+2023-04-06T07:00:03.243Z - verbose: [Build-plugin] register pkg scene: 2ms
+2023-04-06T07:00:03.243Z - verbose: Builder PluginManager init: 2ms
+2023-04-06T07:00:03.250Z - verbose: [Package] builder@1.3.4 enable
+2023-04-06T07:00:03.289Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-04-06T07:00:03.319Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-04-06T07:00:03.346Z - verbose: [Package] about@1.0.0 enable
+2023-04-06T07:00:03.377Z - verbose: [Package] assets@1.0.0 enable
+2023-04-06T07:00:03.405Z - verbose: [Package] console@1.0.0 enable
+2023-04-06T07:00:03.651Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-04-06T07:00:03.945Z - verbose: [Package] extension@3.1.0 enable
+2023-04-06T07:00:03.980Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-04-06T07:00:04.010Z - verbose: [Package] inspector@1.0.0 enable
+2023-04-06T07:00:04.037Z - verbose: [Package] light-probe@1.0.4 enable
+2023-04-06T07:00:04.069Z - verbose: [Package] lightmap@1.0.4 enable
+2023-04-06T07:00:04.098Z - verbose: [Package] node-library@1.0.1 enable
+2023-04-06T07:00:04.123Z - verbose: [Package] package-asset@1.0.1 enable
+2023-04-06T07:00:04.155Z - verbose: [Package] process@1.0.0 enable
+2023-04-06T07:00:04.182Z - verbose: [Package] reference-image@1.0.0 enable
+2023-04-06T07:00:04.209Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-04-06T07:00:04.232Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-04-06T07:00:04.255Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-04-06T07:00:04.279Z - verbose: [Package] android@1.0.1 enable
+2023-04-06T07:00:04.350Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-04-06T07:00:04.376Z - verbose: [Package] certificate@1.0.0 enable
+2023-04-06T07:00:04.398Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-04-06T07:00:04.420Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-04-06T07:00:04.445Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-04-06T07:00:04.471Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-04-06T07:00:04.932Z - verbose: [Package] ios@1.0.0 enable
+2023-04-06T07:00:04.961Z - verbose: [Package] linux@1.0.0 enable
+2023-04-06T07:00:04.988Z - verbose: [Package] mac@1.0.0 enable
+2023-04-06T07:00:05.094Z - verbose: [Package] native@1.0.2 enable
+2023-04-06T07:00:05.152Z - verbose: [Build-plugin] register pkg native: 58ms
+2023-04-06T07:00:05.157Z - verbose: [Package] ohos@1.0.0 enable
+2023-04-06T07:00:05.183Z - verbose: [Build-plugin] register pkg fb-instant-games: 763ms
+2023-04-06T07:00:05.185Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-04-06T07:00:05.206Z - verbose: [Build-plugin] register pkg android: 927ms
+2023-04-06T07:00:05.208Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-04-06T07:00:05.212Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 862ms
+2023-04-06T07:00:05.233Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-04-06T07:00:05.517Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-04-06T07:00:05.572Z - verbose: [Build-plugin] register pkg cocos-service: 53ms
+2023-04-06T07:00:05.573Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-04-06T07:00:05.580Z - verbose: [Build-plugin] register pkg huawei-agc: 1135ms
+2023-04-06T07:00:05.583Z - verbose: [Build-plugin] register pkg mac: 595ms
+2023-04-06T07:00:05.585Z - verbose: [Build-plugin] register pkg ios: 652ms
+2023-04-06T07:00:05.605Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-04-06T07:00:05.651Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-04-06T07:00:05.684Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-04-06T07:00:05.715Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-04-06T07:00:05.741Z - verbose: [Package] windows@1.0.1 enable
+2023-04-06T07:00:05.766Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-04-06T07:00:05.774Z - verbose: [Build-plugin] register pkg huawei-quick-game: 1303ms
+2023-04-06T07:00:05.781Z - verbose: [Build-plugin] register pkg ohos: 624ms
+2023-04-06T07:00:06.056Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-04-06T07:00:06.059Z - verbose: [Build-plugin] register pkg taobao-creative-app: 485ms
+2023-04-06T07:00:06.063Z - verbose: [Build-plugin] register pkg oppo-mini-game: 855ms
+2023-04-06T07:00:06.103Z - verbose: [Package] placeholder@1.0.0 enable
+2023-04-06T07:00:06.109Z - verbose: [Build-plugin] register pkg web-mobile: 425ms
+2023-04-06T07:00:06.186Z - verbose: [Build-plugin] register pkg wechatgame: 471ms
+2023-04-06T07:00:06.200Z - verbose: [Build-plugin] register pkg vivo-mini-game: 595ms
+2023-04-06T07:00:06.290Z - verbose: [Build-plugin] register pkg windows: 549ms
+2023-04-06T07:00:06.309Z - verbose: [Build-plugin] register pkg web-desktop: 658ms
+2023-04-06T07:00:06.475Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 709ms
+2023-04-06T07:00:06.740Z - verbose: asset-db is ready!
+2023-04-06T07:00:09.620Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-04-06T07:00:09.629Z - info: [Scene] [PHYSICS]: using builtin.
+2023-04-06T07:00:09.750Z - log: [Scene] Cocos Creator v3.7.1
+2023-04-06T07:00:09.750Z - info: [Scene] Forward render pipeline initialized.
+2023-04-06T07:00:09.889Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-04-06T07:00:09.932Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-04-06T07:02:45.459Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T07:58:18.067Z - error: [Preview]null is not an object (evaluating 'effect.shaders')errorInfo.stack ? '/n initDefault@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:137196:32
+setProperties@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135790:36
+onComplete@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133069:24
+dispatch@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135239:32
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:134142:30
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133008:11
+cb@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135864:21
+onComplete@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:132993:13
+dispatch@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135239:32
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:134130:28
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133174:15
+finale@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:132012:27
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135714:21
+done@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:131977:23
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:131578:19' : ''
+2023-04-06T07:58:22.684Z - error: [Preview]globalThis.eventTargets.on is not a function. (In 'globalThis.eventTargets.on('sgj_callback', this.sgjCallBack, this)', 'globalThis.eventTargets.on' is undefined)errorInfo.stack ? '/n onEnable@http://localhost:7456/scripting/x/chunks/f8/f8941e4c87b2489bfc7e02e349e787ea0c0144c8.js:93:37
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39371:26
+invoke@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39241:23
+activateNode@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:41255:33
+_activate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:49407:56
+runSceneImmediate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:9673:26
+@http://localhost:7456/preview-app/main.js:1:3491
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:127752:23
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135989:11
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:171664:17' : ''
+2023-04-06T07:59:47.908Z - error: [Preview]globalThis.eventTargets.on is not a function. (In 'globalThis.eventTargets.on('sgj_callback', this.sgjCallBack, this)', 'globalThis.eventTargets.on' is undefined)errorInfo.stack ? '/n onEnable@http://localhost:7456/scripting/x/chunks/f8/f8941e4c87b2489bfc7e02e349e787ea0c0144c8.js:93:37
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39371:26
+invoke@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39241:23
+activateNode@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:41255:33
+_activate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:49407:56
+runSceneImmediate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:9673:26
+@http://localhost:7456/preview-app/main.js:1:3491
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:127752:23
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135989:11
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:171664:17' : ''
+2023-04-06T08:01:23.468Z - error: [Preview]globalThis.sgjEvent.on is not a function. (In 'globalThis.sgjEvent.on('sgj_callback', this.sgjCallBack, this)', 'globalThis.sgjEvent.on' is undefined)errorInfo.stack ? '/n onEnable@http://localhost:7456/scripting/x/chunks/0f/0f28e672b206aaca0af43c11fda6eff4ebcb5086.js:93:33
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39371:26
+invoke@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39241:23
+activateNode@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:41255:33
+_activate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:49407:56
+runSceneImmediate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:9673:26
+@http://localhost:7456/preview-app/main.js:1:3491
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:127752:23
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135989:11
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:171664:17' : ''
+2023-04-06T08:01:56.568Z - error: [Preview]globalThis.sgjEvent.on is not a function. (In 'globalThis.sgjEvent.on('sgj_callback', this.sgjCallBack, this)', 'globalThis.sgjEvent.on' is undefined)errorInfo.stack ? '/n onEnable@http://localhost:7456/scripting/x/chunks/0f/0f28e672b206aaca0af43c11fda6eff4ebcb5086.js:93:33
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39371:26
+invoke@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:39241:23
+activateNode@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:41255:33
+_activate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:49407:56
+runSceneImmediate@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:9673:26
+@http://localhost:7456/preview-app/main.js:1:3491
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:127752:23
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:135989:11
+@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:171664:17' : ''
+2023-04-06T09:45:00.159Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.170Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.171Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.172Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.173Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.173Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.174Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.175Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.175Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-06T09:45:00.176Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/7a/7a3d5acff401615a4ec05fc974f0ee360320c198.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.176Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/ee/ee4d24aea6984e9fb44bf901a6d61555b44d12dd.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.177Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/ee/ee4d24aea6984e9fb44bf901a6d61555b44d12dd.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.178Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/79/79a0d3d62c875b401b1012d07b4a19366616462e.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.178Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.179Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.179Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.180Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.181Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.181Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/b9/b9af9bb4284207dc62a83f2e1cf7661792311ad5.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.182Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.183Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/80/80308d38cb6e656f84c139794f10cafc9e6b84b1.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.183Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/1e/1ed1d2a4ae28f078d20d56cfddbe502709ee811c.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:45:00.184Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js from http://localhost:7456/scripting/x/chunks/c6/c647b27fbc0e92e1b206abb59a1ced4aefd3fd83.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-06T09:47:54.005Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''

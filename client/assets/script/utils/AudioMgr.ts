@@ -5,7 +5,7 @@ import { Node, AudioSource, AudioClip, resources, director } from 'cc';
  * this is a sington class for audio play, can be easily called from anywhere in you project.
  * @zh
  * 这是一个用于播放音频的单件类，可以很方便地在项目的任何地方调用。
- */ 
+ */
 export class AudioMgr {
     private static _inst: AudioMgr;
     public static get inst(): AudioMgr {
@@ -108,7 +108,7 @@ export class AudioMgr {
     /**
      * resume the audio play
      */
-    resume(){
+    resume() {
         this._audioSource.play();
     }
 }
