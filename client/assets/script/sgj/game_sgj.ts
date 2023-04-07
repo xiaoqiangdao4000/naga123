@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate, EventTarget } from 'cc';
+import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate, EventTarget, randomRangeInt } from 'cc';
 import HTTP from '../utils/HTTP';
 import { AudioMgr } from '../utils/AudioMgr';
 
@@ -52,11 +52,58 @@ export class game_sgj extends Component {
             event_score: 0,      //当前赢分,数组[24]
         }
 
+    //倍率
+    times = [5, 10, 15, 20, 30, 40, 100];
+
+    //0苹果、1橙子、2木瓜、3铃铛、4西瓜、5双星、677、7bar,8lucky
+    //倍率：5,10,15,20,30,40,100
+
+    serverStepName = ['橙子', '铃铛', '小bar', 'bar', '苹果', '小苹果', '木瓜', '西瓜', '小西瓜', 'lucky', '苹果', '小橙子', '橙子', '铃铛', '小77', '77', '苹果', '小木瓜', '木瓜',
+        '双星', '小双星', 'lucky', '苹果', '小铃铛'];
+    serverStep = [1, 3, 17, 7, 0, 10, 2, 4, 14, 8, 0, 11, 1, 3, 16, 6, 0, 12, 2, 5, 15, 8, 0, 13];
 
     start() {
         globalThis.curgame = this;
         globalThis.sgj_normal.play()
-        // AudioMgr.inst.play('sound/sgj/C1')
+    }
+
+    //模拟服务器数据
+    getServerData() {
+
+        //获取随机中奖格子
+        let t_step = randomRangeInt(1, 25);
+        this.cmd_s_gameEnd.step = t_step;
+
+        //倍数
+        let bs = randomRangeInt(0, 8);
+        this.cmd_s_gameEnd.tiems = this.times[bs];
+
+        //获取玩家下注总和
+        let mybetscore = 0;
+        for (let i = 0; i < 8; i++) {
+            mybetscore += globalThis.sgj_view.bet_score[i];
+        }
+
+        //获取中奖区域
+        let t_area = this.serverStep[t_step];
+        if (t_area > 9) t_area = t_area - 10;
+        this.cmd_s_gameEnd.area = t_area;
+
+        //判断玩家是否中奖
+        if (t_area == 8) //中lucky、随机1到99倍、送灯
+        {
+            this.cmd_s_gameEnd.wins_core = mybetscore * randomRangeInt(1, 99);
+        }
+        else if (globalThis.sgj_view.bet_score[t_area] > 0)  //普通中奖 下注*倍数
+        {
+            this.cmd_s_gameEnd.wins_core = globalThis.sgj_view.bet_score[t_area] * this.cmd_s_gameEnd.tiems;
+        }
+        else    //不中奖
+        {
+            this.cmd_s_gameEnd.wins_core = 0;
+        }
+
+        return this.cmd_s_gameEnd;
     }
 
     update(deltaTime: number) {
@@ -64,15 +111,29 @@ export class game_sgj extends Component {
     }
 
     onEnable() {
-        globalThis.sgjEvent.on('sgj_callback', this.sgjCallBack, this);
+        globalThis.sgjEvent.on('sgj_runcallback', this.runCallBack, this);
     }
 
     onDisable() {
-        globalThis.sgjEvent.off('sgj_callback', this.sgjCallBack, this);
+        globalThis.sgjEvent.off('sgj_runcallback', this.runCallBack, this);
     }
 
-    sgjCallBack(arg1: string) {
+    runCallBack(arg1: string) {
         console.log('水果机回调函数:', arg1);
+
+        //特殊中奖
+        if (this.cmd_s_gameEnd.eventid > 0) {
+            return;
+        }
+
+        //普通中奖、闪灯
+        if (this.cmd_s_gameEnd.wins_core > 0) {
+            globalThis.sgj_view.setWinScore(this.cmd_s_gameEnd.wins_core);
+            return;
+        }
+
+        //没有中奖
+
     }
 
     //接受消息

@@ -82,14 +82,14 @@ export class userMgr extends Component {
             globalThis.userMgr.bindaccount = data.bindaccount;
             globalThis.userMgr.saveAccount(data.nickname, data.password);
             globalThis.userMgr.serverMap = [];
-            for(var s in data.serverMap){
+            for (var s in data.serverMap) {
                 var info = data.serverMap[s];
                 globalThis.userMgr.serverMap.push(info)
-            }	
+            }
             // globalThis.userMgr.hallip = data.hallip;
             // globalThis.userMgr.hallport = data.hallport;
             // HTTP.getInstance().setUrl(data.hallip, data.hallport);
-            
+
             globalThis.eventTargets.emit('login_poploading', 'hide', '游客登完毕!');
             console.log('游客登陆成功!服务器返回:' + data.userid + ' ,' + data.nickname + ' ,' + data.score + ' ,' + data.password + ' ,' + data.roomid + ' ,' + data.bindaccount);
             console.log('---开始切换场景---');
@@ -110,10 +110,10 @@ export class userMgr extends Component {
         globalThis.userMgr.roomid = data.roomid;
         globalThis.userMgr.bindaccount = data.bindaccount;
         globalThis.userMgr.serverMap = [];
-        for(var s in data.serverMap){
+        for (var s in data.serverMap) {
             var info = data.serverMap[s];
             globalThis.userMgr.serverMap.push(info)
-        }	
+        }
         // globalThis.userMgr.hallip = data.hallip;
         // globalThis.userMgr.hallport = data.hallport;
         // HTTP.getInstance().setUrl(data.hallip, data.hallport);
@@ -141,12 +141,9 @@ export class userMgr extends Component {
     }
 
     //获取当前游戏的数据
-    getGameInfo(gamename)
-    {
-        for(let i = 0; i < globalThis.userMgr.serverMap.length; i++)
-        {
-            if(globalThis.userMgr.serverMap[i].name == gamename)
-            {
+    getGameInfo(gamename) {
+        for (let i = 0; i < globalThis.userMgr.serverMap.length; i++) {
+            if (globalThis.userMgr.serverMap[i].name == gamename) {
                 return globalThis.userMgr.serverMap[i];
             }
         }

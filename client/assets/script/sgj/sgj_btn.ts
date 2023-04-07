@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, EventHandler, EventTouch, Sprite, math, randomRangeInt } from 'cc';
+import { _decorator, Component, Node, EventHandler, EventTouch, Sprite, math, randomRangeInt, Button } from 'cc';
 import { AudioMgr } from '../utils/AudioMgr';
 
 const { ccclass, property } = _decorator;
@@ -29,9 +29,10 @@ export class sgj_btn extends Component {
 
     private _touchCounter: number = 0;
     private _isTouching: boolean = false;
+    myButton: Button;
 
     start() {
-
+        this.myButton = this.node.getComponent(Button);
     }
 
     update(deltaTime: number) {
@@ -51,6 +52,8 @@ export class sgj_btn extends Component {
     }
 
     private _onTouchStart(event: EventTouch) {
+
+        if (this.myButton.interactable == false) return;
 
         this._isTouching = true;
         // 第一次触摸立即回调一次
@@ -162,7 +165,11 @@ export class sgj_btn extends Component {
             case 'go':
                 {
                     globalThis.sgj_normal.stop();
-                    globalThis.sgj_run.play(randomRangeInt(1, 25));
+                    let temp = globalThis.curgame.getServerData()
+                    globalThis.sgj_run.play(temp.step);
+                    
+                    
+
                     break;
                 }
         }

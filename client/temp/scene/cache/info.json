@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
+        "version": "Darwin Kernel Version 22.3.0: Mon Jan 30 20:42:11 PST 2023; root:xnu-8792.81.3~2/RELEASE_X86_64"
+    },
+    "sceneListMap": {
+        "dbb64d13-57f6-4409-8365-5443cc8e546a": "/Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene-001.scene",
+        "83cd3398-9700-486c-8a83-6e5c9b215096": "/Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene"
+    },
+    "deviceMd5": "4bd1f0f5462dcb2d3b6e4063b033bae3"
+}

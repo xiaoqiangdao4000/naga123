@@ -83,7 +83,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": {
-    "time": 1679552748978.8042,
+    "time": 1680850863858.5486,
     "uuid": "e5c0b781-5133-4e67-bed1-33cf2159fe68",
     "missing": false
   },
@@ -1155,7 +1155,7 @@
     "time": 1679554861318.5828
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene": {
-    "time": 1680786056761.373,
+    "time": 1680854227543.4023,
     "uuid": "83cd3398-9700-486c-8a83-6e5c9b215096",
     "missing": false
   },
@@ -2464,7 +2464,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/btn": {
-    "time": 1679919906925.6343,
+    "time": 1680852699897.0278,
     "uuid": "a562647a-d6c1-4763-9bb7-cfe2a2f8036d",
     "missing": false
   },
@@ -3051,7 +3051,7 @@
     "time": 1679553686840.7698
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": {
-    "time": 1680769583058.682,
+    "time": 1680872144000.6423,
     "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38",
     "missing": false
   },
@@ -3059,7 +3059,7 @@
     "time": 1680072334961.4634
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": {
-    "time": 1680785280273.5356,
+    "time": 1680862749533.518,
     "uuid": "342eed35-d409-4d69-867c-c3255d9f4dde",
     "missing": false
   },
@@ -3067,7 +3067,7 @@
     "time": 1680079316575.2266
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": {
-    "time": 1680769473687.2986,
+    "time": 1680862133896.0159,
     "uuid": "c4efbba6-046c-431c-b934-99b32d891066",
     "missing": false
   },
@@ -3075,7 +3075,7 @@
     "time": 1680084783461.785
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": {
-    "time": 1680785655766.1062,
+    "time": 1680862257270.992,
     "uuid": "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9",
     "missing": false
   },
@@ -5782,5 +5782,13 @@
   },
   "/Users/zzx/Desktop/naga123/client/assets/resources/sound/sgj/turnstep4.mp3.meta": {
     "time": 1680764366454.7878
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/btn/all121.png.meta": {
+    "time": 1680852726605.3108
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/btn/all121.png": {
+    "time": 1680852699895.5928,
+    "uuid": "428b2138-3245-4836-a564-7903e8cc66da",
+    "missing": false
   }
 }

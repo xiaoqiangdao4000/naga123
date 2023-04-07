@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate } from 'cc';
+import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate, Button } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('game_view')
@@ -60,6 +60,38 @@ export class game_sgj extends Component {
     @property(Node)
     light_node: Node[] = [];
 
+    //all+1
+    @property(Button)
+    all_btn: Button
+
+    //left
+    @property(Button)
+    left_btn: Button
+
+    //right
+    @property(Button)
+    right_btn: Button
+
+    //small
+    @property(Button)
+    small_btn: Button
+
+    //big
+    @property(Button)
+    big_btn: Button
+
+    //go
+    @property(Button)
+    go_btn: Button
+
+    //cancel_go
+    @property(Node)
+    cancel_go_btn: Node
+
+    //bet
+    @property(Button)
+    bet_btn: Button[] = []
+
     //提示框
     @property(Node)
     tips_node: Node;
@@ -77,7 +109,20 @@ export class game_sgj extends Component {
         for (let i = 0; i < 8; i++) {
             this.bet_score[i] = 0;
         }
+        //重置分数
         this.restBetScore();
+
+        //重置按钮
+        this.all_btn.interactable = true;
+        this.left_btn.interactable = false;
+        this.right_btn.interactable = false;
+        this.big_btn.interactable = false;
+        this.small_btn.interactable = false;
+        this.go_btn.interactable = false;
+        this.cancel_go_btn.active = false;
+        for (let i = 0; i < 8; i++) {
+            this.bet_btn[i].interactable = true;
+        }
     }
 
     update(deltaTime: number) {
@@ -143,6 +188,7 @@ export class game_sgj extends Component {
                 }
             }
             this.setUserScore(globalThis.userMgr.score);
+            this.go_btn.interactable = true;
         }
         else {
             if (showtips) {

@@ -55,7 +55,7 @@ export class sgj_run extends Component {
             console.log('startindex格子 = ', Math.floor(this.startIndex));
             AudioMgr.inst.playOneShot('sound/sgj/turnstep4');
             this.unschedule(this.updateMask);
-            globalThis.sgjEvent.emit('sgj_callback', '中奖结束!');
+            globalThis.sgjEvent.emit('sgj_runcallback', '中奖结束!');
             return;
         }
 
