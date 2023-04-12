@@ -47,8 +47,8 @@ export class websocket extends Component {
 
     onMessage(type, data) {
 
-        if (globalThis.curgame) {
-            globalThis.curgame.onMessage(type, data);
+        if (globalThis.sjg_game) {
+            globalThis.sjg_game.onMessage(type, data);
             return;
         }
 

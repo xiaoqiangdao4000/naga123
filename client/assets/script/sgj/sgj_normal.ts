@@ -9,7 +9,6 @@ export class sgj_normal extends Component {
 
     start() {
         globalThis.sgj_normal = this;
-        // this.play();
     }
 
     play() {

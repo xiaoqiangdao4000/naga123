@@ -99,6 +99,9 @@ export class game_sgj extends Component {
     //下注分数
     bet_score = [8];
 
+    //赢分
+    wins_core = 0;
+
 
     start() {
         globalThis.sgj_view = this;
@@ -139,6 +142,7 @@ export class game_sgj extends Component {
 
     //设置赢分
     setWinScore(score: number) {
+        this.wins_core = score;
         let str = score.toString();
         let len = str.length;
         for (let i = 0; i < 10; i++) {
@@ -151,6 +155,11 @@ export class game_sgj extends Component {
                 this.win_score_spr[i].node.active = false;
             }
         }
+    }
+
+    //获取赢分
+    getWinScore() {
+        return this.wins_core;
     }
 
     //设置用户分数
@@ -169,7 +178,7 @@ export class game_sgj extends Component {
         }
     }
 
-    //增加下注分数
+    //增加下注分数+1
     addBetScore(btnIndex, showtips = true) {
         let bet_node = this.getBetNode(btnIndex)
         if (this.bet_score[btnIndex - 1] < 99 && globalThis.userMgr.score > 0) {

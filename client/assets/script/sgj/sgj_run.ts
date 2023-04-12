@@ -32,7 +32,7 @@ export class sgj_run extends Component {
         this.resetMask();
         AudioMgr.inst.playOneShot('sound/sgj/turnstep1');
         this.schedule(this.updateMask, 0.05);
-        console.log('播放中奖动画,中奖数 = ', endIndex);
+        console.log('播放中奖动画,中奖格子 = ', endIndex);
     }
 
     stop() {

@@ -856,7 +856,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts": {
-    "time": 1680602434666.3145,
+    "time": 1681305338180.5176,
     "uuid": "1e854ac3-5073-42ac-bf23-48df0cd7b6e3",
     "missing": false
   },
@@ -1155,7 +1155,7 @@
     "time": 1679554861318.5828
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene": {
-    "time": 1680854227543.4023,
+    "time": 1681305229917.043,
     "uuid": "83cd3398-9700-486c-8a83-6e5c9b215096",
     "missing": false
   },
@@ -3043,7 +3043,7 @@
     "time": 1679553635514.5627
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj": {
-    "time": 1680764366457.3464,
+    "time": 1681304223623.8809,
     "uuid": "90b1bf5e-8147-4ad0-b67e-40982e32ace8",
     "missing": false
   },
@@ -3051,7 +3051,7 @@
     "time": 1679553686840.7698
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": {
-    "time": 1680872144000.6423,
+    "time": 1681305664651.3823,
     "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38",
     "missing": false
   },
@@ -3059,7 +3059,7 @@
     "time": 1680072334961.4634
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": {
-    "time": 1680862749533.518,
+    "time": 1681305324479.153,
     "uuid": "342eed35-d409-4d69-867c-c3255d9f4dde",
     "missing": false
   },
@@ -3067,7 +3067,7 @@
     "time": 1680079316575.2266
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": {
-    "time": 1680862133896.0159,
+    "time": 1681285998617.2393,
     "uuid": "c4efbba6-046c-431c-b934-99b32d891066",
     "missing": false
   },
@@ -3075,7 +3075,7 @@
     "time": 1680084783461.785
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": {
-    "time": 1680862257270.992,
+    "time": 1681282412754.8406,
     "uuid": "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9",
     "missing": false
   },
@@ -3083,7 +3083,7 @@
     "time": 1680092377065.5046
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts": {
-    "time": 1680768577313.5837,
+    "time": 1681285253882.63,
     "uuid": "0e776c58-508d-48bf-bdac-b46385bf533c",
     "missing": false
   },
@@ -5789,6 +5789,30 @@
   "/Users/zzx/Desktop/naga123/client/assets/image/sgj/ui/btn/all121.png": {
     "time": 1680852699895.5928,
     "uuid": "428b2138-3245-4836-a564-7903e8cc66da",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.ts.meta": {
+    "time": 1681284970297.596
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.ts": {
+    "time": 1681288617199.1565,
+    "uuid": "f22a5560-29cd-427c-b0f0-e77d6aac31a3",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_runSingle.ts.meta": {
+    "time": 1681288733189.9954
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_runSingle.ts": {
+    "time": 1681289878738.578,
+    "uuid": "205850d9-710f-48ed-955f-374c2079bc45",
+    "missing": false
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_endFlash.ts.meta": {
+    "time": 1681304223624.8442
+  },
+  "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_endFlash.ts": {
+    "time": 1681305136633.5422,
+    "uuid": "05c0f334-5e1c-4f01-9753-e72b1c90b491",
     "missing": false
   }
 }

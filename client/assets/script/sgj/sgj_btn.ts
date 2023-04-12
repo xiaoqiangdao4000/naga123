@@ -164,11 +164,16 @@ export class sgj_btn extends Component {
                 }
             case 'go':
                 {
-                    globalThis.sgj_normal.stop();
-                    let temp = globalThis.curgame.getServerData()
-                    globalThis.sgj_run.play(temp.step);
-                    
-                    
+                    //判断当前状态
+                    if (globalThis.sjg_game.gameState == 0)   //下注状态--开始游戏
+                    {
+                        globalThis.sgj_normal.stop();
+                        globalThis.sjg_game.onGameEnd();
+                    }
+                    else if (globalThis.sjg_game.gameState == 1)//结束状态--可以收分
+                    {
+                        globalThis.sgj_moveScore.play();
+                    }
 
                     break;
                 }
