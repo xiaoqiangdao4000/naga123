@@ -9,17 +9,17 @@
     "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login.ts": "./chunks/1e/1e90abbbba9d3d4330c4d5b25e773487714d8b62.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/login/login_account.ts": "./chunks/5c/5cd50ed9716ada4a058fa749531d3dbf375e536d.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/HTTP.ts": "./chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/AudioMgr.ts": "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/userMgr.ts": "./chunks/80/80308d38cb6e656f84c139794f10cafc9e6b84b1.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": "./chunks/5a/5a23681ca0ade759ffd71b9e91aa69f744cd7c75.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_normal.ts": "./chunks/51/51837a50a1fde42e3223b4ff306a8fe46a07bf8e.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.ts": "./chunks/db/dbafc4a9726c1447ab13df902bb5e3269eb4ca92.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": "./chunks/27/273c4eb7b2f320fbde8101566624e25763fa6f1c.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_runSingle.ts": "./chunks/bf/bf6bb428601b872ee5ea2b92c429615210a9f9ac.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_endFlash.ts": "./chunks/d6/d6aa6f3085b9c81dbb79d1f3e5a6dad699226513.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": "./chunks/07/07f86b0d4c5baa8f50ba752142411a8c9d9d98de.js",
     "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/websocket.ts": "./chunks/af/afc32720f2c3530ff6d84cde41ab5e8647d7abdc.js",
-    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": "./chunks/c1/c1573f8cecf19cd77482a6db32ff9af1d31a8791.js"
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/utils/AudioMgr.ts": "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_endFlash.ts": "./chunks/9c/9c086f85ae3641274a87e9d9641fb61a1a716748.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": "./chunks/52/5280b16672138ec50c3c66c09fc5d668e11acfaf.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": "./chunks/fd/fd4584e89e8594d563d96246987938324b6e15f9.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": "./chunks/15/1548936d197b04b6fa2cffbd790b89b4b34d47a6.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": "./chunks/c2/c239bd21f191bc9bbcb70a68d51d076d0d426e00.js",
+    "file:///Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.ts": "./chunks/c1/c1e474833a40a42303b3ab0a90badbe30bc88739.js"
   },
   "scopes": {
     "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js": {
@@ -56,10 +56,10 @@
       "__unresolved_0": "./chunks/0e/0ed4fd051516198eacaeb7b0379acaa7d4f3a0af.js",
       "__unresolved_1": "./chunks/99/998c6f863812817ac2d07293a8289f8503be2e89.js",
       "__unresolved_10": "./chunks/51/51837a50a1fde42e3223b4ff306a8fe46a07bf8e.js",
-      "__unresolved_11": "./chunks/5a/5a23681ca0ade759ffd71b9e91aa69f744cd7c75.js",
+      "__unresolved_11": "./chunks/52/5280b16672138ec50c3c66c09fc5d668e11acfaf.js",
       "__unresolved_12": "./chunks/bf/bf6bb428601b872ee5ea2b92c429615210a9f9ac.js",
-      "__unresolved_13": "./chunks/27/273c4eb7b2f320fbde8101566624e25763fa6f1c.js",
-      "__unresolved_14": "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js",
+      "__unresolved_13": "./chunks/fd/fd4584e89e8594d563d96246987938324b6e15f9.js",
+      "__unresolved_14": "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js",
       "__unresolved_15": "./chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js",
       "__unresolved_16": "./chunks/80/80308d38cb6e656f84c139794f10cafc9e6b84b1.js",
       "__unresolved_17": "./chunks/af/afc32720f2c3530ff6d84cde41ab5e8647d7abdc.js",
@@ -67,28 +67,28 @@
       "__unresolved_3": "./chunks/67/6762e06c01e7d6ddf622f9b2b2a8bcd61a6c529c.js",
       "__unresolved_4": "./chunks/1e/1e90abbbba9d3d4330c4d5b25e773487714d8b62.js",
       "__unresolved_5": "./chunks/5c/5cd50ed9716ada4a058fa749531d3dbf375e536d.js",
-      "__unresolved_6": "./chunks/c1/c1573f8cecf19cd77482a6db32ff9af1d31a8791.js",
-      "__unresolved_7": "./chunks/07/07f86b0d4c5baa8f50ba752142411a8c9d9d98de.js",
-      "__unresolved_8": "./chunks/d6/d6aa6f3085b9c81dbb79d1f3e5a6dad699226513.js",
-      "__unresolved_9": "./chunks/db/dbafc4a9726c1447ab13df902bb5e3269eb4ca92.js"
+      "__unresolved_6": "./chunks/c2/c239bd21f191bc9bbcb70a68d51d076d0d426e00.js",
+      "__unresolved_7": "./chunks/15/1548936d197b04b6fa2cffbd790b89b4b34d47a6.js",
+      "__unresolved_8": "./chunks/9c/9c086f85ae3641274a87e9d9641fb61a1a716748.js",
+      "__unresolved_9": "./chunks/c1/c1e474833a40a42303b3ab0a90badbe30bc88739.js"
     },
-    "./chunks/db/dbafc4a9726c1447ab13df902bb5e3269eb4ca92.js": {
+    "./chunks/c1/c1e474833a40a42303b3ab0a90badbe30bc88739.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
-      "__unresolved_1": "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js",
+      "__unresolved_1": "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js",
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js": {
+    "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js": {
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/d6/d6aa6f3085b9c81dbb79d1f3e5a6dad699226513.js": {
+    "./chunks/9c/9c086f85ae3641274a87e9d9641fb61a1a716748.js": {
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/07/07f86b0d4c5baa8f50ba752142411a8c9d9d98de.js": {
+    "./chunks/15/1548936d197b04b6fa2cffbd790b89b4b34d47a6.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
-      "__unresolved_1": "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js",
+      "__unresolved_1": "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js",
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/c1/c1573f8cecf19cd77482a6db32ff9af1d31a8791.js": {
+    "./chunks/c2/c239bd21f191bc9bbcb70a68d51d076d0d426e00.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
       "__unresolved_1": "./chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js",
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
@@ -124,15 +124,15 @@
     "./chunks/af/afc32720f2c3530ff6d84cde41ab5e8647d7abdc.js": {
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/27/273c4eb7b2f320fbde8101566624e25763fa6f1c.js": {
+    "./chunks/fd/fd4584e89e8594d563d96246987938324b6e15f9.js": {
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
     "./chunks/bf/bf6bb428601b872ee5ea2b92c429615210a9f9ac.js": {
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
-    "./chunks/5a/5a23681ca0ade759ffd71b9e91aa69f744cd7c75.js": {
+    "./chunks/52/5280b16672138ec50c3c66c09fc5d668e11acfaf.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
-      "__unresolved_1": "./chunks/6c/6c28f3d8bfdedfe83de8c1460208a4958c037b55.js",
+      "__unresolved_1": "./chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js",
       "cc": "./chunks/86/86ea51a86e5d858891ef07385334b7b1017d7ca2.js"
     },
     "./chunks/51/51837a50a1fde42e3223b4ff306a8fe46a07bf8e.js": {

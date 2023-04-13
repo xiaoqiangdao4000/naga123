@@ -1552,3 +1552,45 @@ Class ID: "716e6yjPSNAIKngeGJDt5s4"
     at listOnTimeout (internal/timers.js:554:17)
 2023-04-11T12:18:47.068Z - error: getaddrinfo ENOTFOUND logstorage.cocos.comError: getaddrinfo ENOTFOUND logstorage.cocos.com
     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+2023-04-13T12:55:37.940Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.952Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.953Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.954Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.954Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.954Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.955Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.955Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.956Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.957Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.957Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.958Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.959Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.959Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.960Z - error: [Preview]undefinederrorInfo.stack ? '/n undefined' : ''
+2023-04-13T12:55:37.960Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/55/55b8cd4362e030d452344b5b64df7bb184f7204d.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.961Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.962Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.962Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/e4/e47b901a34e881829bdf3614022f55048a8179d6.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.962Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/af/afc32720f2c3530ff6d84cde41ab5e8647d7abdc.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.963Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/1e/1e90abbbba9d3d4330c4d5b25e773487714d8b62.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.963Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/5c/5cd50ed9716ada4a058fa749531d3dbf375e536d.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.964Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js from http://localhost:7456/scripting/x/chunks/80/80d423c5249628ad8fbfa36f6f4ca84741ca74f8.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.964Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/9c/9c086f85ae3641274a87e9d9641fb61a1a716748.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.965Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/2d/2d877c608a2d81747ea13516c9a4ee15504ca3e5.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.965Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/80/80308d38cb6e656f84c139794f10cafc9e6b84b1.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.966Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/bf/bf6bb428601b872ee5ea2b92c429615210a9f9ac.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.966Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/4b/4ba7b5ce6c418cb1286c72b612888b09ea7fcb6d.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.967Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/51/51837a50a1fde42e3223b4ff306a8fe46a07bf8e.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.967Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/db/dbafc4a9726c1447ab13df902bb5e3269eb4ca92.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.968Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/52/5280b16672138ec50c3c66c09fc5d668e11acfaf.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T12:55:37.969Z - error: [Preview]Error: Error loading http://localhost:7456/scripting/x/chunks/fd/fde02db8ea17dd667ecdcc94769b677d387fdcac.js from http://localhost:7456/scripting/x/chunks/e1/e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f.js (SystemJS Error#3 https://git.io/JvFET#3)errorInfo.stack ? '/n ' : ''
+2023-04-13T13:15:24.920Z - error: [Preview]globalThis.sgj_view.setWinScore is not a function. (In 'globalThis.sgj_view.setWinScore(this.cmd_s_gameEnd.wins_core[0])', 'globalThis.sgj_view.setWinScore' is undefined)errorInfo.stack ? '/n runCallBack@http://localhost:7456/scripting/x/chunks/33/3343b65ced2ed475a70385d4aa6e53898cd2a2db.js:158:44
+emit@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:149112:32
+updateMask@http://localhost:7456/scripting/x/chunks/52/5280b16672138ec50c3c66c09fc5d668e11acfaf.js:93:37
+trigger@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:7892:32
+update@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:7858:29
+update@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8096:40
+tick@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:9995:40
+_updateCallback@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:10910:26
+_updateCallback@[native code]
+updateCallback@http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:96653:30' : ''

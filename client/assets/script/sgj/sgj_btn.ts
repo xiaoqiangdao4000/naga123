@@ -112,71 +112,137 @@ export class sgj_btn extends Component {
             case 'b1':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt1')
-                    globalThis.sgj_view.addBetScore(1);
+                    this.addBetOneScore(0);
                     break;
                 }
             case 'b2':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt2')
-                    globalThis.sgj_view.addBetScore(2);
+                    this.addBetOneScore(1);
                     break;
                 }
             case 'b3':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt3')
-                    globalThis.sgj_view.addBetScore(3);
+                    this.addBetOneScore(2);
                     break;
                 }
             case 'b4':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt4')
-                    globalThis.sgj_view.addBetScore(4);
+                    this.addBetOneScore(3);
                     break;
                 }
             case 'b5':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt5')
-                    globalThis.sgj_view.addBetScore(5);
+                    this.addBetOneScore(4);
                     break;
                 }
             case 'b6':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt6')
-                    globalThis.sgj_view.addBetScore(6);
+                    this.addBetOneScore(5);
                     break;
                 }
             case 'b7':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt7')
-                    globalThis.sgj_view.addBetScore(7);
+                    this.addBetOneScore(6);
                     break;
                 }
             case 'b8':
                 {
                     AudioMgr.inst.play('sound/sgj/sgj_bt8')
-                    globalThis.sgj_view.addBetScore(8);
+                    this.addBetOneScore(7);
                     break;
                 }
             case 'all':
                 {
-                    globalThis.sgj_view.addAllBetScore();
+                    AudioMgr.inst.play('sound/sgj/sgj_bt1')
+                    this.addAllBetOneScore();
                     break;
                 }
             case 'go':
                 {
                     //判断当前状态
-                    if (globalThis.sjg_game.gameState == 0)   //下注状态--开始游戏
+                    if (globalThis.game_sgj.gameState == 0)   //下注状态--开始游戏
                     {
+                        //按钮状态begin-------
+                        globalThis.sgj_view.all_btn.interactable = false;
+                        globalThis.sgj_view.left_btn.interactable = false;
+                        globalThis.sgj_view.right_btn.interactable = false;
+                        globalThis.sgj_view.small_btn.interactable = false;
+                        globalThis.sgj_view.big_btn.interactable = false;
+                        globalThis.sgj_view.go_btn.interactable = false;
+                        globalThis.sgj_view.bet1_btn.interactable = false;
+                        globalThis.sgj_view.bet2_btn.interactable = false;
+                        globalThis.sgj_view.bet3_btn.interactable = false;
+                        globalThis.sgj_view.bet4_btn.interactable = false;
+                        globalThis.sgj_view.bet5_btn.interactable = false;
+                        globalThis.sgj_view.bet6_btn.interactable = false;
+                        globalThis.sgj_view.bet7_btn.interactable = false;
+                        globalThis.sgj_view.bet8_btn.interactable = false;
+                        //按钮状态end---------
+
                         globalThis.sgj_normal.stop();
-                        globalThis.sjg_game.onGameEnd();
+                        globalThis.game_sgj.onGameEnd();
                     }
-                    else if (globalThis.sjg_game.gameState == 1)//结束状态--可以收分
+                    else if (globalThis.game_sgj.gameState == 1)//结束状态--可以收分
                     {
                         globalThis.sgj_moveScore.play();
                     }
 
                     break;
                 }
+        }
+    }
+
+    //下注全部加1
+    addAllBetOneScore() {
+        if (globalThis.userMgr.score <= 0) {
+            globalThis.sgj_view.addTops('余额不足,请充值。。。');
+            return;
+        }
+        let t_game_sgj = globalThis.game_sgj;
+        if (t_game_sgj.bet_score[0] >= 99 &&
+            t_game_sgj.bet_score[1] >= 99 &&
+            t_game_sgj.bet_score[2] >= 99 &&
+            t_game_sgj.bet_score[3] >= 99 &&
+            t_game_sgj.bet_score[4] >= 99 &&
+            t_game_sgj.bet_score[5] >= 99 &&
+            t_game_sgj.bet_score[6] >= 99 &&
+            t_game_sgj.bet_score[7] >= 99) {
+            globalThis.sgj_view.addTops('已经是最大下注了，请点击开始游戏！');
+            return;
+        }
+        this.addBetOneScore(0, false);
+        this.addBetOneScore(1, false);
+        this.addBetOneScore(2, false);
+        this.addBetOneScore(3, false);
+        this.addBetOneScore(4, false);
+        this.addBetOneScore(5, false);
+        this.addBetOneScore(6, false);
+        this.addBetOneScore(7, false);
+    }
+
+    //下注+1
+    addBetOneScore(area: number, showtips: boolean = true) {
+        if (area < 0 || area > 7) return;
+        let t_game_sgj = globalThis.game_sgj;
+        if (globalThis.userMgr.score > 0 && t_game_sgj.bet_score[area] < 100) {
+            t_game_sgj.bet_score[area] += 1;
+            globalThis.userMgr.score -= 1;
+            //刷新下注、用户分数
+            t_game_sgj.setBetScore(area, t_game_sgj.bet_score[area]);
+            t_game_sgj.setUserScore(globalThis.userMgr.score);
+            //开启go按钮
+            globalThis.sgj_view.go_btn.interactable = true;
+        }
+        else {
+            if (showtips) {
+                globalThis.sgj_view.addTops('余额不足,请充值。。。');
+            }
         }
     }
 

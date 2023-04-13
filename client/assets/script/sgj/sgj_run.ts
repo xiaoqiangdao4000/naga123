@@ -48,11 +48,10 @@ export class sgj_run extends Component {
 
     updateMask() {
         //中奖结束回调
-        let curIndex = Math.floor(this.startIndex) % 24;
+        let curIndex = Math.floor(this.startIndex) % 24 + 1;
         //console.log('当前格子 = ', curIndex);
         if (Math.floor(this.startIndex) == this.endIndex) {
             console.log('中奖格子 = ', this.endIndex);
-            console.log('startindex格子 = ', Math.floor(this.startIndex));
             AudioMgr.inst.playOneShot('sound/sgj/turnstep4');
             this.unschedule(this.updateMask);
             globalThis.sgjEvent.emit('sgj_runcallback', '中奖结束!');
@@ -88,7 +87,13 @@ export class sgj_run extends Component {
         //音频控制2
         if (this.startIndex > 14 && this.startIndex < this.endIndex - 16 && this.sound2_time > 1) {
             this.sound2_time = 0
-            AudioMgr.inst.playOneShot('sound/sgj/turnstep2');
+            if (AudioMgr.inst.isPlaying()) {
+                console.log('正在播放中。。。。 = ', AudioMgr.inst.isPlaying());
+            }
+            else {
+                AudioMgr.inst.playOneShot('sound/sgj/turnstep2');
+                //console.log('正在播放中。。。。 = ', AudioMgr.inst.isPlaying());
+            }
         }
         else {
             this.sound2_time = this.sound2_time + 0.5

@@ -62,58 +62,69 @@ export class game_sgj extends Component {
 
     //all+1
     @property(Button)
-    all_btn: Button
+    all_btn: Button;
 
     //left
     @property(Button)
-    left_btn: Button
+    left_btn: Button;
 
     //right
     @property(Button)
-    right_btn: Button
+    right_btn: Button;
 
     //small
     @property(Button)
-    small_btn: Button
+    small_btn: Button;
 
     //big
     @property(Button)
-    big_btn: Button
+    big_btn: Button;
 
     //go
     @property(Button)
-    go_btn: Button
+    go_btn: Button;
 
     //cancel_go
     @property(Node)
-    cancel_go_btn: Node
+    cancel_go_btn: Node;
 
-    //bet
+    //bet1
     @property(Button)
-    bet_btn: Button[] = []
+    bet1_btn: Button;
+
+    @property(Button)
+    bet2_btn: Button;
+
+    @property(Button)
+    bet3_btn: Button;
+
+    @property(Button)
+    bet4_btn: Button;
+
+    @property(Button)
+    bet5_btn: Button;
+
+    @property(Button)
+    bet6_btn: Button;
+
+    @property(Button)
+    bet7_btn: Button;
+
+    @property(Button)
+    bet8_btn: Button;
 
     //提示框
     @property(Node)
     tips_node: Node;
 
-    //下注分数
-    bet_score = [8];
-
-    //赢分
-    wins_core = 0;
-
-
     start() {
         globalThis.sgj_view = this;
+
         //初始化分数
         globalThis.userMgr.score = 10000;
-        this.setUserScore(globalThis.userMgr.score);
-        this.setWinScore(0);
-        for (let i = 0; i < 8; i++) {
-            this.bet_score[i] = 0;
-        }
-        //重置分数
-        this.restBetScore();
+
+        this.setWinScoreView(0);
+        this.setUserScoreView(globalThis.userMgr.score);
 
         //重置按钮
         this.all_btn.interactable = true;
@@ -123,13 +134,17 @@ export class game_sgj extends Component {
         this.small_btn.interactable = false;
         this.go_btn.interactable = false;
         this.cancel_go_btn.active = false;
-        for (let i = 0; i < 8; i++) {
-            this.bet_btn[i].interactable = true;
-        }
+        this.bet1_btn.interactable = true;
+        this.bet2_btn.interactable = true;
+        this.bet3_btn.interactable = true;
+        this.bet4_btn.interactable = true;
+        this.bet5_btn.interactable = true;
+        this.bet6_btn.interactable = true;
+        this.bet7_btn.interactable = true;
+        this.bet8_btn.interactable = true;
     }
 
     update(deltaTime: number) {
-
     }
 
     //重置界面
@@ -140,9 +155,8 @@ export class game_sgj extends Component {
         }
     }
 
-    //设置赢分
-    setWinScore(score: number) {
-        this.wins_core = score;
+    //设置赢分界面
+    setWinScoreView(score: number) {
         let str = score.toString();
         let len = str.length;
         for (let i = 0; i < 10; i++) {
@@ -157,13 +171,8 @@ export class game_sgj extends Component {
         }
     }
 
-    //获取赢分
-    getWinScore() {
-        return this.wins_core;
-    }
-
-    //设置用户分数
-    setUserScore(score: number) {
+    //设置用户分数界面
+    setUserScoreView(score: number) {
         let str = score.toString();
         let len = str.length;
         for (let i = 0; i < 10; i++) {
@@ -178,66 +187,10 @@ export class game_sgj extends Component {
         }
     }
 
-    //增加下注分数+1
-    addBetScore(btnIndex, showtips = true) {
-        let bet_node = this.getBetNode(btnIndex)
-        if (this.bet_score[btnIndex - 1] < 99 && globalThis.userMgr.score > 0) {
-            this.bet_score[btnIndex - 1] += 1;
-            globalThis.userMgr.score -= 1;
-            let str = this.bet_score[btnIndex - 1].toString();
-            let len = str.length;
-            for (let i = 0; i < 2; i++) {
-                if (i < len) {
-                    let st = Number(str[len - i - 1]);
-                    bet_node[i].spriteFrame = this.up_number_spf[st];
-                    bet_node[i].node.active = true;
-                }
-                else {
-                    bet_node[i].node.active = false;
-                }
-            }
-            this.setUserScore(globalThis.userMgr.score);
-            this.go_btn.interactable = true;
-        }
-        else {
-            if (showtips) {
-                this.addTops('余额不足,请充值。。。');
-            }
-
-        }
-    }
-
-    //全部加1
-    addAllBetScore() {
-        if (globalThis.userMgr.score <= 0) {
-            this.addTops('余额不足,请充值。。。');
-            return;
-        }
-        if (this.bet_score[0] >= 99 &&
-            this.bet_score[1] >= 99 &&
-            this.bet_score[2] >= 99 &&
-            this.bet_score[3] >= 99 &&
-            this.bet_score[4] >= 99 &&
-            this.bet_score[5] >= 99 &&
-            this.bet_score[6] >= 99 &&
-            this.bet_score[7] >= 99) {
-            this.addTops('已经是最大下注了，请点击开始游戏！');
-            return;
-        }
-        this.addBetScore(1, false);
-        this.addBetScore(2, false);
-        this.addBetScore(3, false);
-        this.addBetScore(4, false);
-        this.addBetScore(5, false);
-        this.addBetScore(6, false);
-        this.addBetScore(7, false);
-        this.addBetScore(8, false);
-    }
-
-    //设置下注分数
-    setBetScore(btnIndex, score) {
-        let bet_node = this.getBetNode(btnIndex)
-        this.bet_score[btnIndex] = score;
+    //设置下注分数0,7
+    setBetScoreView(area, score) {
+        if (area < 0 || area > 7) return;
+        let bet_node = this.getBetNode(area);
         let str = score.toString();
         let len = str.length;
         for (let i = 0; i < 2; i++) {
@@ -254,43 +207,15 @@ export class game_sgj extends Component {
 
     //获取对应下注节点
     getBetNode(betIndex) {
-        if (betIndex == 1) return this.bet1_score_spr;
-        else if (betIndex == 2) return this.bet2_score_spr;
-        else if (betIndex == 3) return this.bet3_score_spr;
-        else if (betIndex == 4) return this.bet4_score_spr;
-        else if (betIndex == 5) return this.bet5_score_spr;
-        else if (betIndex == 6) return this.bet6_score_spr;
-        else if (betIndex == 7) return this.bet7_score_spr;
-        else if (betIndex == 8) return this.bet8_score_spr;
+        if (betIndex == 0) return this.bet1_score_spr;
+        else if (betIndex == 1) return this.bet2_score_spr;
+        else if (betIndex == 2) return this.bet3_score_spr;
+        else if (betIndex == 3) return this.bet4_score_spr;
+        else if (betIndex == 4) return this.bet5_score_spr;
+        else if (betIndex == 5) return this.bet6_score_spr;
+        else if (betIndex == 6) return this.bet7_score_spr;
+        else if (betIndex == 7) return this.bet8_score_spr;
         return null;
-    }
-
-    //重置下注分数
-    restBetScore() {
-        for (let i = 0; i < 8; i++) {
-            this.bet_score[i] = 0;
-            var bet_node = null;
-            if (i == 0) bet_node = this.bet1_score_spr;
-            else if (i == 1) bet_node = this.bet2_score_spr;
-            else if (i == 2) bet_node = this.bet3_score_spr;
-            else if (i == 3) bet_node = this.bet4_score_spr;
-            else if (i == 4) bet_node = this.bet5_score_spr;
-            else if (i == 5) bet_node = this.bet6_score_spr;
-            else if (i == 6) bet_node = this.bet7_score_spr;
-            else if (i == 7) bet_node = this.bet8_score_spr;
-            let str = this.bet_score[i].toString();
-            let len = str.length;
-            for (let j = 0; j < 2; j++) {
-                if (j < len) {
-                    let st = Number(str[len - j - 1]);
-                    bet_node[j].spriteFrame = this.up_number_spf[st];
-                    bet_node[j].node.active = true;
-                }
-                else {
-                    bet_node[j].node.active = false;
-                }
-            }
-        }
     }
 
     //arg1:弹窗内容

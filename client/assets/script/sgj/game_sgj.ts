@@ -60,12 +60,21 @@ export class game_sgj extends Component {
     //格子对应的中奖区域
     serverStepArea = [1, 3, 17, 7, 0, 10, 2, 4, 14, 8, 0, 11, 1, 3, 16, 6, 0, 12, 2, 5, 15, 8, 0, 13];
 
-    //游戏状态
-    gameState = 0; //0-初始-下注，1-结束，2-收分，3
 
+    //游戏数据---------begin------
+    gameState = 0;  //游戏状态:0-下注，1-收分，2-比大小
+    wins_core = 0;  //赢分
+    bet_score = [0, 0, 0, 0, 0, 0, 0, 0];  //下注分数
+
+
+    //游戏数据----------end-------
     start() {
-        globalThis.sjg_game = this;
+        globalThis.game_sgj = this;
         this.gameState = 0;
+        for (let i = 0; i < 8; i++) {
+            this.bet_score[i] = 0;
+        }
+
         globalThis.sgj_normal.play()
     }
 
@@ -73,32 +82,32 @@ export class game_sgj extends Component {
     getServerData() {
 
         //获取随机--中奖格子
-        let t_step = randomRangeInt(1, 25);
+        var t_step = randomRangeInt(0, 24);
 
         //倍数
-        let bs = randomRangeInt(0, 8);
+        var bs = randomRangeInt(0, 8);
 
         //获取玩家下注总和
-        let mybetscore = 0;
+        var mybetscore = 0;
         for (let i = 0; i < 8; i++) {
-            mybetscore += globalThis.sgj_view.bet_score[i];
+            mybetscore += this.bet_score[i];
         }
 
         //获取中奖区域
-        let t_area = this.serverStepArea[t_step];
+        var t_area = this.serverStepArea[t_step];
         if (t_area > 9) t_area = t_area - 10;
 
         //判断玩家是否中奖
-        let winscore = 0;
+        var winscore = 0;
 
         //lucky：2-灭灯，3-翻倍，4-大三元，5-小三元，6-大四喜，7-众横四海，8-仙女散花，9-天龙八部，10-九莲宝灯，11-大满贯
         if (t_area == 8) //中lucky、随机1到99倍、送灯
         {
             winscore = mybetscore * randomRangeInt(1, 99);
         }
-        else if (globalThis.sgj_view.bet_score[t_area] > 0)  //普通中奖 下注*倍数
+        else if (this.bet_score[t_area] > 0)  //普通中奖 下注*倍数
         {
-            winscore = globalThis.sgj_view.bet_score[t_area] * this.times[bs];
+            winscore = this.bet_score[t_area] * this.times[bs];
             this.cmd_s_gameEnd.eventid = 1;
             this.cmd_s_gameEnd.step.push(t_step);//中奖格子
             this.cmd_s_gameEnd.area.push(t_area);//中奖区域
@@ -127,30 +136,96 @@ export class game_sgj extends Component {
         console.log('水果机回调函数:', arg1);
         console.log('结束数据：', this.cmd_s_gameEnd)
 
+        //清理下注界面
+        this.clearBetToZero(1, 0);
+        //显示中奖下注区域
+        this.showEndArea(this.cmd_s_gameEnd.area[0]);
+
         //普通中奖、闪灯
         if (this.cmd_s_gameEnd.eventid == 1) {
-            globalThis.sgj_view.setWinScore(this.cmd_s_gameEnd.wins_core[0]);
+            this.setWinScore(this.cmd_s_gameEnd.wins_core[0]);
             this.gameState = 1;
             globalThis.sgj_endFlash.play(this.cmd_s_gameEnd.step);
+
+            //按钮状态
+            globalThis.sgj_view.all_btn.interactable = true;
+            globalThis.sgj_view.left_btn.interactable = true;
+            globalThis.sgj_view.right_btn.interactable = true;
+            globalThis.sgj_view.small_btn.interactable = true;
+            globalThis.sgj_view.big_btn.interactable = true;
+            globalThis.sgj_view.go_btn.interactable = true;
+            globalThis.sgj_view.bet1_btn.interactable = true;
+            globalThis.sgj_view.bet2_btn.interactable = true;
+            globalThis.sgj_view.bet3_btn.interactable = true;
+            globalThis.sgj_view.bet4_btn.interactable = true;
+            globalThis.sgj_view.bet5_btn.interactable = true;
+            globalThis.sgj_view.bet6_btn.interactable = true;
+            globalThis.sgj_view.bet7_btn.interactable = true;
+            globalThis.sgj_view.bet8_btn.interactable = true;
+
             return;
         }
-
         //没有中奖
         this.gameState = 0;
-
     }
 
-    update(deltaTime: number) {
-
+    //设置赢分: 数据，是否刷新界面
+    setWinScore(score: number, refresh: boolean = true) {
+        this.wins_core = score;
+        if (!refresh) return;
+        //刷新界面
+        globalThis.sgj_view.setWinScoreView(score);
     }
 
-    onEnable() {
-        globalThis.sgjEvent.on('sgj_runcallback', this.runCallBack, this);
+    //获取赢分
+    getWinScore()
+    {
+        return this.wins_core;
     }
 
-    onDisable() {
-        globalThis.sgjEvent.off('sgj_runcallback', this.runCallBack, this);
+    //设置用户分数:数据，是否刷新界面
+    setUserScore(score: number, refresh: boolean = true) {
+        globalThis.userMgr.score = score;
+        if (!refresh) return;
+        //刷新界面
+        globalThis.sgj_view.setUserScoreView(score);
     }
+
+    //设置下注分数:数据，是否刷新界面
+    setBetScore(area: number, score: number, refresh: boolean = true) {
+        if (area < 0 || area > 7) return;
+        this.bet_score[area] = score;
+        if (!refresh) return;
+        //刷新界面
+        globalThis.sgj_view.setBetScoreView(area, score);
+    }
+
+    //获取下注区域分数
+    getBetScore(area: number) {
+        if (area < 0 || area > 7) return;
+        return this.bet_score[area];
+    }
+
+    //清理下注为0 view界面、value值 0不清理，1清理
+    clearBetToZero(view: number, value: number) {
+        if (view == 1) {
+            for (let i = 0; i < 8; i++) {
+                globalThis.sgj_view.setBetScoreView(i, 0);
+            }
+        }
+        if (value == 1) {
+            for (let i = 0; i < 8; i++) {
+                this.bet_score[i] = 0;
+            }
+        }
+    }
+
+    //显示中奖下注区域
+    showEndArea(area: number) {
+        if (area < 0 || area > 7) return;
+        globalThis.sgj_view.setBetScoreView(area, this.bet_score[area]);
+    }
+
     //接受消息
     onMessage(type, data) {
         console.log('收到服务器消息：', data);
@@ -163,5 +238,17 @@ export class game_sgj extends Component {
             data: data,
         }
         HTTP.getInstance().send(JSON.stringify(msg));
+    }
+
+    update(deltaTime: number) {
+
+    }
+
+    onEnable() {
+        globalThis.sgjEvent.on('sgj_runcallback', this.runCallBack, this);
+    }
+
+    onDisable() {
+        globalThis.sgjEvent.off('sgj_runcallback', this.runCallBack, this);
     }
 }

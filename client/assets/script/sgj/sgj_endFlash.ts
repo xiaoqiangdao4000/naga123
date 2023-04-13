@@ -12,7 +12,7 @@ export class sgj_endFlash extends Component {
 
     play(step: []) {
         this.steps = step;
-        this.schedule(this.updateRun, 0.8);
+        this.schedule(this.updateRun, 0.5);
     }
 
     stop() {

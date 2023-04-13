@@ -111,4 +111,8 @@ export class AudioMgr {
     resume() {
         this._audioSource.play();
     }
+
+    isPlaying() {
+        return this._audioSource.playing;
+    }
 }

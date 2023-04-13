@@ -11,7 +11,7 @@ export class sgj_moveScore extends Component {
     }
 
     play() {
-        let win = globalThis.sgj_view.getWinScore();
+        let win = globalThis.game_sgj.getWinScore();
         this.scoretime_add = 1;
 
         // if (win < 50) {
@@ -36,7 +36,7 @@ export class sgj_moveScore extends Component {
         // else {
         //     this.scoretime_add = Math.floor(win / 40);
         // }
-        this.schedule(this.updateScore, 0.6);
+        this.schedule(this.updateScore, 0.05);
     }
 
     stop() {
@@ -44,16 +44,19 @@ export class sgj_moveScore extends Component {
         AudioMgr.inst.stop()
     }
 
+
+
     updateScore() {
-        let win = globalThis.sgj_view.getWinScore();
+        let t_game_sgj = globalThis.game_sgj;
+        let win = t_game_sgj.getWinScore();
         if (win > 0) {
-            globalThis.sgj_view.setWinScore(win - 1);
+            t_game_sgj.setWinScore(win - 1);
             globalThis.userMgr.score = globalThis.userMgr.score + 1;
-            globalThis.sgj_view.setUserScore(globalThis.userMgr.score);
-            AudioMgr.inst.playOneShot("getscroe");
+            t_game_sgj.setUserScore(globalThis.userMgr.score);
+            AudioMgr.inst.play('sound/sgj/getscore')
         }
         else {
-            this.stop();
+
         }
     }
 

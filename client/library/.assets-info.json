@@ -1155,7 +1155,7 @@
     "time": 1679554861318.5828
   },
   "/Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene": {
-    "time": 1681305229917.043,
+    "time": 1681390903375.5642,
     "uuid": "83cd3398-9700-486c-8a83-6e5c9b215096",
     "missing": false
   },
@@ -3051,7 +3051,7 @@
     "time": 1679553686840.7698
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/game_sgj.ts": {
-    "time": 1681305664651.3823,
+    "time": 1681392191638.1758,
     "uuid": "716e6ca3-3d23-4020-a9e0-786243b79b38",
     "missing": false
   },
@@ -3059,7 +3059,7 @@
     "time": 1680072334961.4634
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_btn.ts": {
-    "time": 1681305324479.153,
+    "time": 1681391610426.594,
     "uuid": "342eed35-d409-4d69-867c-c3255d9f4dde",
     "missing": false
   },
@@ -3067,7 +3067,7 @@
     "time": 1680079316575.2266
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_view.ts": {
-    "time": 1681285998617.2393,
+    "time": 1681390648698.093,
     "uuid": "c4efbba6-046c-431c-b934-99b32d891066",
     "missing": false
   },
@@ -3075,7 +3075,7 @@
     "time": 1680084783461.785
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_run.ts": {
-    "time": 1681282412754.8406,
+    "time": 1681378646055.962,
     "uuid": "fdc5c8e9-088e-46b8-bd3f-f53cb62804c9",
     "missing": false
   },
@@ -5343,7 +5343,7 @@
     "missing": false
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/utils/AudioMgr.ts": {
-    "time": 1680771562478.9985,
+    "time": 1681369932602.5364,
     "uuid": "dbb9ae6b-8cd1-4618-96c6-340fab0f744a",
     "missing": false
   },
@@ -5795,7 +5795,7 @@
     "time": 1681284970297.596
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.ts": {
-    "time": 1681288617199.1565,
+    "time": 1681392714534.9482,
     "uuid": "f22a5560-29cd-427c-b0f0-e77d6aac31a3",
     "missing": false
   },
@@ -5811,7 +5811,7 @@
     "time": 1681304223624.8442
   },
   "/Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_endFlash.ts": {
-    "time": 1681305136633.5422,
+    "time": 1681370736131.0852,
     "uuid": "05c0f334-5e1c-4f01-9753-e72b1c90b491",
     "missing": false
   }
