@@ -11,6 +11,7 @@ export class sgj_moveScore extends Component {
     }
 
     play() {
+        this.stop();
         let win = globalThis.game_sgj.getWinScore();
         this.scoretime_add = 1;
 
@@ -41,10 +42,7 @@ export class sgj_moveScore extends Component {
 
     stop() {
         this.unschedule(this.updateScore);
-        AudioMgr.inst.stop()
     }
-
-
 
     updateScore() {
         let t_game_sgj = globalThis.game_sgj;
@@ -56,7 +54,22 @@ export class sgj_moveScore extends Component {
             AudioMgr.inst.play('sound/sgj/getscore')
         }
         else {
-
+            this.stop();
+            globalThis.game_sgj.gameState = 0;
+            globalThis.sgj_view.all_btn.interactable = true;
+            globalThis.sgj_view.left_btn.interactable = false;
+            globalThis.sgj_view.right_btn.interactable = false;
+            globalThis.sgj_view.small_btn.interactable = false;
+            globalThis.sgj_view.big_btn.interactable = false;
+            globalThis.sgj_view.go_btn.interactable = true;
+            globalThis.sgj_view.bet1_btn.interactable = true;
+            globalThis.sgj_view.bet2_btn.interactable = true;
+            globalThis.sgj_view.bet3_btn.interactable = true;
+            globalThis.sgj_view.bet4_btn.interactable = true;
+            globalThis.sgj_view.bet5_btn.interactable = true;
+            globalThis.sgj_view.bet6_btn.interactable = true;
+            globalThis.sgj_view.bet7_btn.interactable = true;
+            globalThis.sgj_view.bet8_btn.interactable = true;
         }
     }
 
@@ -64,4 +77,3 @@ export class sgj_moveScore extends Component {
 
     }
 }
-

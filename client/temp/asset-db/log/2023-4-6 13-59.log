@@ -26554,3 +26554,11 @@
 2023-4-13 20:33:04-debug: asset-db:worker-effect-data-processing (119ms)
 2023-4-13 20:33:04-debug: refresh db assets success
 2023-4-13 20:33:04-debug: asset-db:refresh-all-database (193ms)
+2023-4-25 13:38:30-debug: refresh db internal success
+2023-4-25 13:38:30-debug: asset-db:worker-effect-data-processing (261ms)
+2023-4-25 13:38:30-debug: %cImport%c: /Users/zzx/Desktop/naga123/client/assets/script/sgj/sgj_moveScore.tsbackground: #aaff85; color: #000;color: #000;
+2023-4-25 13:38:30-debug: refresh db assets success
+2023-4-25 13:38:30-debug: asset-db:refresh-all-database (518ms)
+2023-4-25 13:38:32-debug: start refresh asset from /Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene...
+2023-4-25 13:38:32-debug: %cImport%c: /Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scenebackground: #aaff85; color: #000;color: #000;
+2023-4-25 13:38:32-debug: refresh asset /Users/zzx/Desktop/naga123/client/assets/scene/sgj_scene.scene success

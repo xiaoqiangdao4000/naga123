@@ -163,11 +163,40 @@ export class sgj_btn extends Component {
                     this.addAllBetOneScore();
                     break;
                 }
+            case 'big':
+                {
+                    break;
+                }
+            case 'small':
+                {
+                    break;
+                }
             case 'go':
                 {
                     //判断当前状态
                     if (globalThis.game_sgj.gameState == 0)   //下注状态--开始游戏
                     {
+                        //是否续投 0第一次，1续投
+                        if (globalThis.game_sgj.bet_start == 1) {
+                            let allbet = globalThis.game_sgj.getAllBetScore();
+                            let userscore = globalThis.globalThis.userMgr.score;
+                            if (userscore <= 0) {
+                                globalThis.game_sgj.addTops('下注分数不够!');
+                                return;
+                            }
+                            if (userscore < allbet) {
+                                globalThis.game_sgj.addTops('下注分数不够，请重新下注！');
+                                return;
+                            }
+
+                            //开始续投
+                            globalThis.userMgr.score = globalThis.userMgr.score - allbet;
+                            globalThis.sgj_view.setUserScoreView(globalThis.userMgr.score);
+                            for (let i = 0; i < 8; i++) {
+                                globalThis.game_sgj.setBetScore(i, globalThis.game_sgj.bet_score[i]);
+                            }
+
+                        }
                         //按钮状态begin-------
                         globalThis.sgj_view.all_btn.interactable = false;
                         globalThis.sgj_view.left_btn.interactable = false;
@@ -186,10 +215,25 @@ export class sgj_btn extends Component {
                         //按钮状态end---------
 
                         globalThis.sgj_normal.stop();
+                        globalThis.sgj_endFlash.stop();
                         globalThis.game_sgj.onGameEnd();
                     }
                     else if (globalThis.game_sgj.gameState == 1)//结束状态--可以收分
                     {
+                        globalThis.sgj_view.all_btn.interactable = false;
+                        globalThis.sgj_view.left_btn.interactable = false;
+                        globalThis.sgj_view.right_btn.interactable = false;
+                        globalThis.sgj_view.small_btn.interactable = false;
+                        globalThis.sgj_view.big_btn.interactable = false;
+                        globalThis.sgj_view.go_btn.interactable = false;
+                        globalThis.sgj_view.bet1_btn.interactable = false;
+                        globalThis.sgj_view.bet2_btn.interactable = false;
+                        globalThis.sgj_view.bet3_btn.interactable = false;
+                        globalThis.sgj_view.bet4_btn.interactable = false;
+                        globalThis.sgj_view.bet5_btn.interactable = false;
+                        globalThis.sgj_view.bet6_btn.interactable = false;
+                        globalThis.sgj_view.bet7_btn.interactable = false;
+                        globalThis.sgj_view.bet8_btn.interactable = false;
                         globalThis.sgj_moveScore.play();
                     }
 

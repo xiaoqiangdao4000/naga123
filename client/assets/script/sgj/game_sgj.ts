@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite, resources, Prefab, instantiate, EventTarget, randomRangeInt } from 'cc';
 import HTTP from '../utils/HTTP';
 import { AudioMgr } from '../utils/AudioMgr';
+import sgj_data from './sgj_data';
 
 const { ccclass, property } = _decorator;
 
@@ -34,8 +35,7 @@ export class game_sgj extends Component {
         }
 
     //服务端消息----开奖       
-    //--1 小lucky 2 大lucky 3 翻倍 4 送灯/灭灯 5 大三元 6 小三元  
-    //--7 大四喜 8 纵横四海 9 仙女散花 10 天龙八部 11 九莲宝灯 12 大满贯
+    //中奖类型：0-不中奖，1-普通中奖，lucky：2-灭灯，3-翻倍，4-大三元，5-小三元，6-大四喜，7-众横四海，8-仙女散花，9-天龙八部，10-九莲宝灯，11-大满贯
     cmd_s_gameEnd =
         {
             type: 'cmd_s_gameEnd',
@@ -43,7 +43,7 @@ export class game_sgj extends Component {
             step: [],    //开奖格子,数组[24]
             area: [],    //开奖区域,数组[24]
             tiems: [],   //倍数,数组[24]
-            wins_core: [], //当前赢分,数组[24]
+            win_score: [], //当前赢分,数组[24]
             user_score: 0,  //分数
             record: [0, 0, 0, 0, 0, 0, 0, 0],   //历史记录
         }
@@ -60,74 +60,28 @@ export class game_sgj extends Component {
     //格子对应的中奖区域
     serverStepArea = [1, 3, 17, 7, 0, 10, 2, 4, 14, 8, 0, 11, 1, 3, 16, 6, 0, 12, 2, 5, 15, 8, 0, 13];
 
-
-    //游戏数据---------begin------
+    //游戏数据--------begin------
     gameState = 0;  //游戏状态:0-下注，1-收分，2-比大小
     wins_core = 0;  //赢分
     bet_score = [0, 0, 0, 0, 0, 0, 0, 0];  //下注分数
-
+    bet_start = 0;  //续投
 
     //游戏数据----------end-------
     start() {
         globalThis.game_sgj = this;
         this.gameState = 0;
+        this.bet_start = 0;
         for (let i = 0; i < 8; i++) {
             this.bet_score[i] = 0;
         }
-
         globalThis.sgj_normal.play()
-    }
-
-    //模拟服务器数据
-    getServerData() {
-
-        //获取随机--中奖格子
-        var t_step = randomRangeInt(0, 24);
-
-        //倍数
-        var bs = randomRangeInt(0, 8);
-
-        //获取玩家下注总和
-        var mybetscore = 0;
-        for (let i = 0; i < 8; i++) {
-            mybetscore += this.bet_score[i];
-        }
-
-        //获取中奖区域
-        var t_area = this.serverStepArea[t_step];
-        if (t_area > 9) t_area = t_area - 10;
-
-        //判断玩家是否中奖
-        var winscore = 0;
-
-        //lucky：2-灭灯，3-翻倍，4-大三元，5-小三元，6-大四喜，7-众横四海，8-仙女散花，9-天龙八部，10-九莲宝灯，11-大满贯
-        if (t_area == 8) //中lucky、随机1到99倍、送灯
-        {
-            winscore = mybetscore * randomRangeInt(1, 99);
-        }
-        else if (this.bet_score[t_area] > 0)  //普通中奖 下注*倍数
-        {
-            winscore = this.bet_score[t_area] * this.times[bs];
-            this.cmd_s_gameEnd.eventid = 1;
-            this.cmd_s_gameEnd.step.push(t_step);//中奖格子
-            this.cmd_s_gameEnd.area.push(t_area);//中奖区域
-            this.cmd_s_gameEnd.tiems.push(this.times[bs]);//中奖倍数
-            this.cmd_s_gameEnd.wins_core.push(winscore);//中奖得分
-        }
-        else    //不中奖
-        {
-            winscore = 0;
-            this.cmd_s_gameEnd.eventid = 0;
-        }
-
-        return this.cmd_s_gameEnd;
     }
 
     //获取游戏结束数据，开始播放动画。
     onGameEnd() {
         //播放第一次动画
-        this.getServerData();
-        console.log('开始游戏:', this.cmd_s_gameEnd.step[0]);
+        this.cmd_s_gameEnd = sgj_data.getInstance().getEndData(this.bet_score);
+        console.log('开始游戏:', this.cmd_s_gameEnd);
         globalThis.sgj_run.play(this.cmd_s_gameEnd.step[0]);
     }
 
@@ -140,10 +94,12 @@ export class game_sgj extends Component {
         this.clearBetToZero(1, 0);
         //显示中奖下注区域
         this.showEndArea(this.cmd_s_gameEnd.area[0]);
+        //续投
+        this.bet_start = 1;
 
         //普通中奖、闪灯
         if (this.cmd_s_gameEnd.eventid == 1) {
-            this.setWinScore(this.cmd_s_gameEnd.wins_core[0]);
+            this.setWinScore(this.cmd_s_gameEnd.win_score[0]);
             this.gameState = 1;
             globalThis.sgj_endFlash.play(this.cmd_s_gameEnd.step);
 
@@ -178,8 +134,7 @@ export class game_sgj extends Component {
     }
 
     //获取赢分
-    getWinScore()
-    {
+    getWinScore() {
         return this.wins_core;
     }
 
@@ -204,6 +159,15 @@ export class game_sgj extends Component {
     getBetScore(area: number) {
         if (area < 0 || area > 7) return;
         return this.bet_score[area];
+    }
+
+    //获取下注区域总分数
+    getAllBetScore() {
+        let t_allbet = 0;
+        for (let i = 0; i < 8; i++) {
+            t_allbet += this.bet_score[i];
+        }
+        return t_allbet;
     }
 
     //清理下注为0 view界面、value值 0不清理，1清理

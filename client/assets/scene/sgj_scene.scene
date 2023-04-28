@@ -5059,7 +5059,7 @@
     "_enabled": true,
     "__prefab": null,
     "touchInterval": 0.2,
-    "isLongPress": true,
+    "isLongPress": false,
     "enableMultiTouching": false,
     "longTouchEvents": [
       {
@@ -5260,7 +5260,7 @@
     "_enabled": true,
     "__prefab": null,
     "touchInterval": 0.2,
-    "isLongPress": true,
+    "isLongPress": false,
     "enableMultiTouching": false,
     "longTouchEvents": [
       {
