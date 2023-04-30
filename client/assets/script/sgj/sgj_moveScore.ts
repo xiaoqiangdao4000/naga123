@@ -37,7 +37,15 @@ export class sgj_moveScore extends Component {
         // else {
         //     this.scoretime_add = Math.floor(win / 40);
         // }
-        this.schedule(this.updateScore, 0.05);
+        if(win > 50)
+        {
+            this.SocreMoveByAll();
+        }
+        else
+        {
+            this.schedule(this.updateScore, 0.05);
+        }
+        
     }
 
     stop() {
@@ -73,6 +81,31 @@ export class sgj_moveScore extends Component {
         }
     }
 
+    SocreMoveByAll()
+    {
+        let t_game_sgj = globalThis.game_sgj;
+        let win = t_game_sgj.getWinScore();
+        t_game_sgj.setWinScore(0);
+        globalThis.userMgr.score = globalThis.userMgr.score + win;
+        t_game_sgj.setUserScore(globalThis.userMgr.score);
+        AudioMgr.inst.play('sound/sgj/moveScroe');
+        globalThis.game_sgj.gameState = 0;
+        globalThis.sgj_view.all_btn.interactable = true;
+        globalThis.sgj_view.left_btn.interactable = false;
+        globalThis.sgj_view.right_btn.interactable = false;
+        globalThis.sgj_view.small_btn.interactable = false;
+        globalThis.sgj_view.big_btn.interactable = false;
+        globalThis.sgj_view.go_btn.interactable = true;
+        globalThis.sgj_view.bet1_btn.interactable = true;
+        globalThis.sgj_view.bet2_btn.interactable = true;
+        globalThis.sgj_view.bet3_btn.interactable = true;
+        globalThis.sgj_view.bet4_btn.interactable = true;
+        globalThis.sgj_view.bet5_btn.interactable = true;
+        globalThis.sgj_view.bet6_btn.interactable = true;
+        globalThis.sgj_view.bet7_btn.interactable = true;
+        globalThis.sgj_view.bet8_btn.interactable = true;        
+    }
+	
     update(deltaTime: number) {
 
     }

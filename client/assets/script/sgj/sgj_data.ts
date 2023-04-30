@@ -67,7 +67,7 @@ export default class sgj_data {
         //判断是否中奖--中奖类型：0-不中奖，1-普通中奖，lucky：2-灭灯，3-翻倍，4-大三元，5-小三元，6-大四喜，7-众横四海，8-仙女散花，9-天龙八部，10-九莲宝灯，11-大满贯
         if (t_area == 8 || (t_area < 8 && betscore[t_area] > 0)) //lucky
         {
-            endData.eventid = 1;//randomRangeInt(1,12);
+            endData.eventid = 2;//randomRangeInt(1,12);
             if (endData.eventid == 1) //1-普通中奖
             {
             }

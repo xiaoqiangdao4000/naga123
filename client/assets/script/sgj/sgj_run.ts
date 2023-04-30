@@ -23,7 +23,6 @@ export class sgj_run extends Component {
 
     //播放中奖动画 1到24
     play(endIndex) {
-        if (endIndex == 0) return;
         this.stop();
         this.startIndex = 0;
         this.sound2_time = 0;

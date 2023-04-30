@@ -102,27 +102,34 @@ export class game_sgj extends Component {
             this.setWinScore(this.cmd_s_gameEnd.win_score[0]);
             this.gameState = 1;
             globalThis.sgj_endFlash.play(this.cmd_s_gameEnd.step);
-
             //按钮状态
-            globalThis.sgj_view.all_btn.interactable = true;
-            globalThis.sgj_view.left_btn.interactable = true;
-            globalThis.sgj_view.right_btn.interactable = true;
-            globalThis.sgj_view.small_btn.interactable = true;
-            globalThis.sgj_view.big_btn.interactable = true;
-            globalThis.sgj_view.go_btn.interactable = true;
-            globalThis.sgj_view.bet1_btn.interactable = true;
-            globalThis.sgj_view.bet2_btn.interactable = true;
-            globalThis.sgj_view.bet3_btn.interactable = true;
-            globalThis.sgj_view.bet4_btn.interactable = true;
-            globalThis.sgj_view.bet5_btn.interactable = true;
-            globalThis.sgj_view.bet6_btn.interactable = true;
-            globalThis.sgj_view.bet7_btn.interactable = true;
-            globalThis.sgj_view.bet8_btn.interactable = true;
-
+            this.updateButton();
             return;
+        }
+        else if(this.cmd_s_gameEnd.eventid == 2)//2送灯--灭灯
+        {
+            
         }
         //没有中奖
         this.gameState = 0;
+    }
+
+    updateButton()
+    {
+        globalThis.sgj_view.all_btn.interactable = true;
+        globalThis.sgj_view.left_btn.interactable = true;
+        globalThis.sgj_view.right_btn.interactable = true;
+        globalThis.sgj_view.small_btn.interactable = true;
+        globalThis.sgj_view.big_btn.interactable = true;
+        globalThis.sgj_view.go_btn.interactable = true;
+        globalThis.sgj_view.bet1_btn.interactable = true;
+        globalThis.sgj_view.bet2_btn.interactable = true;
+        globalThis.sgj_view.bet3_btn.interactable = true;
+        globalThis.sgj_view.bet4_btn.interactable = true;
+        globalThis.sgj_view.bet5_btn.interactable = true;
+        globalThis.sgj_view.bet6_btn.interactable = true;
+        globalThis.sgj_view.bet7_btn.interactable = true;
+        globalThis.sgj_view.bet8_btn.interactable = true;
     }
 
     //设置赢分: 数据，是否刷新界面
